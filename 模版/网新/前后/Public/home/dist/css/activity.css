@@ -1,0 +1,17 @@
+.activity_box{
+    padding: 0 0.2rem;
+}
+.activity_box h2{
+    font-size:0.14rem;
+    text-align: center;
+    margin-top:0.2rem;
+    margin-bottom:0.2rem;
+}
+.activity_box .activity_text{
+    line-height: 0.2rem;
+    text-indent: 2em;
+    margin-bottom:0.1rem;
+}
+.activity_box .activity_text1{
+    margin-bottom:0.1rem;
+}

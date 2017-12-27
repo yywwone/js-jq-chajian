@@ -1,0 +1,46 @@
+<extend name="home@Public/index"/>
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+<block name="tit">
+    <title>热门视频</title>
+</block>
+
+
+<link href="__PUBLIC__/home/css/bootstrap.min.css" rel="stylesheet">
+<link href="__PUBLIC__/home/css/erji.css" rel="stylesheet" type="text/css">
+<link href="__PUBLIC__/home/css/nav.css" rel="stylesheet" type="text/css">
+
+
+</head>
+<body>
+<block name="con">
+
+<!--上方为电脑版导航-->
+
+<!--上方为手机版导航-->
+<div class="container" style="margin-top:2em">
+	<div class="row">
+	<div class="video_main">
+        <ul  class="video_main_u"> 
+      <volist name="list" id="v">
+       <a href="{:U('index/play',array('type'=>$v["id"],'typ'=>'2'))}">
+       <li style="width:32.5%">
+				<div class="video1"> 		
+				<img src="{$v['img']}" class="img-responsive pho">
+				</div>
+				<P>{$v['name']}</P>
+				
+		   </li>
+       </a>
+     </volist>
+  </ul>
+    </div>
+    </div>
+</div>
+<div class="page">
+	{$page}
+</div>
+</block>

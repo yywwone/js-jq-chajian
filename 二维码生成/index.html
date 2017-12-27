@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<style>
+		.a5{
+			width: 100px;
+			height:100px;
+		}
+		input,img{
+			float: left;
+			margin-right: 15px;
+		}
+		.img_box{
+			width: 100px;
+			height: 100px;
+			float: left;
+			margin-right: 15px;
+		}
+		.a4{
+			display: none;
+			
+		}
+		
+	</style>
+</head>
+<body>
+<script type="text/javascript" src="js/jquery-1.11.1.js" ></script>
+<script type="text/javascript" src="js/jquery.qrcode.js" ></script>
+<script type="text/javascript" src="js/utf.js" ></script>
+<input type="text" name="" placeholder="输入内容" class="a1"/>
+<input type="text" name="" placeholder="输入宽度" class="a2"/>
+<input type="text" name="" placeholder="输入高度" class="a3"/>
+<div class="img_box">
+	<input accept="image/*" type="file" style="display: none" name="" class="a4"/>
+	<img src="" alt="" class="a5">
+</div>
+
+<input type="submit" name="" value="生成" class="a11"/>
+<div id="qrcodeCanvas"></div>
+<script> 
+ $(function(){	
+	 var objUrl
+function qr(a1,a2,a3,a4){
+	$("canvas").remove();
+	$('#qrcodeCanvas').qrcode({
+	 render    : "canvas",
+	 text    :a1,
+	 width :a2,            			 //二维码的宽度
+	 height :a3,              		//二维码的高度
+	 background : "#ffffff",       //二维码的后景色
+	 foreground : "#000000",      //二维码的前景色
+	 src:  a4           	 	//二维码中间的图片
+	}); 
+}
+	$(".a11").click(function(){
+		var a1=$(".a1").val();
+		var a2=$(".a2").val();
+		var a3=$(".a3").val();
+		
+		qr(a1,a2,a3,objUrl)
+		
+	})
+	$(".a5").click(function () {
+		$(".a4").click(); //隐藏了input:file样式后，点击头像就可以本地上传
+		$(".a4").on("change",function(){
+			objUrl = getObjectURL(this.files[0]) ; //获取图片的路径，该路径不是图片在本地的路径
+			if (objUrl) {
+				$(".a5").attr("src", objUrl) ; //将图片路径存入src中，显示出图片
+			}
+		});
+	});
+});	
+//建立一個可存取到該file的url
+	function getObjectURL(file) {
+		var url = null ;
+		if (window.createObjectURL!=undefined) { // basic
+		url = window.createObjectURL(file) ;
+		} else if (window.URL!=undefined) { // mozilla(firefox)
+		url = window.URL.createObjectURL(file) ;
+		} else if (window.webkitURL!=undefined) { // webkit or chrome
+		url = window.webkitURL.createObjectURL(file) ;
+		}
+		return url ;
+	}
+	
+</script>
+</body>
+</html>

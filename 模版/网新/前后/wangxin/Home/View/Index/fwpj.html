@@ -1,0 +1,50 @@
+<extend name="public/base"/>
+<block name="distcss">
+<style>
+	*{padding: 0;margin: 0;text-decoration:none;list-style: none;font-family: 微软雅黑;outline: none;}
+
+	.wx_qt_tsjy_box{
+		width: 100%;
+		position: relative;
+		margin-top: 30px;
+	}
+	.wx_qt_tsjy{
+		width: 100%;
+		height: 300px;
+		resize: none;
+		box-sizing: border-box;
+		padding: 5px;
+	}
+	.wx_qt_sub{
+		width: 200px;
+		height: 30px;
+		border-radius: 5px;
+		border: 1px solid blue;
+		cursor: pointer;
+		background: blue;
+		color: #fff;
+		position: absolute;
+		left: 50%;
+		top: 330px;
+		margin-left: -100px;
+	}
+</style>
+</block>
+</head>
+<block name="content">
+	<div class="wx_qt_tsjy_box">
+		<form action="{:U('fwpj')}" method="post" class="wx_qt_tsjy_box_form">
+			<textarea class="wx_qt_tsjy" name="neirong"></textarea>
+			<input type="submit" class="wx_qt_sub" value="提交">	
+		</form>
+	</div>
+<!-- 底部栏显示标识 -->
+			<div class="wx_qt_dbgdl_active">3</div>
+</block>
+<block name="javascript">
+	<script type="text/javascript">
+            if(<?php echo I('get.alert');?>=='2'){
+            	alert('请刷新页面重新提交');
+            }
+		</script>
+</block>

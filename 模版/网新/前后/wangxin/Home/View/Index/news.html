@@ -1,0 +1,43 @@
+<extend name="home@Public/index"/>
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+<block name="tit">
+    <title>新闻资讯</title>
+</block>
+<link href="__PUBLIC__/home/css/bootstrap.min.css" rel="stylesheet">
+
+<link href="__PUBLIC__/home/css/nav.css" rel="stylesheet" type="text/css">
+<link href="__PUBLIC__/home/css/about.css" rel="stylesheet" type="text/css">
+<style>
+.new1{padding-top:1em; padding-bottom:1em; margin-bottom:1em; background-color:#F7F7F7;}	
+</style>
+</head>
+<body>
+<block name="con">
+
+<!--上方为电脑版导航-->
+
+<!--上方为手机版导航-->
+<div class="container">
+	<h3 style=" text-align:center; line-height:1.4em">新闻资讯</h3>
+    <volist name="list" id="v">
+	<div class="row new1" style="margin-bottom:15px;">
+		<div class="col-md-3 col-xs-12">
+			<a href="{:U('index/new_main')}"><img class="pho" src="{$v['img']}" style="width: 2rem;height: 1rem"></a>
+		</div>
+		<div class="col-md-7 col-xs-12">
+        
+    		<h4><a href="{:U('index/new_main')}" style="color: #000;">杭州宣传片公司</a></h4>
+            <p style="overflow: hidden;white-space: nowrap;text-overflow: ellipsis;"><a href="{:U('index/new_main')}" style="color: #000;">{$v['txt']}</a>
+			</p>
+    	</div>
+	</div>
+</volist>
+
+
+  
+</div>
+</block>

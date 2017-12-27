@@ -1,0 +1,94 @@
+.hello-personal-box{
+	height: 2.15rem;
+	width: 100%;
+	background:url(../images/header-bg_02.png) no-repeat;
+	background-size: 100%;
+	background-position:0 0;
+}
+.welcoming-speech{
+	font-size: 0.23rem;
+	color: #FFFFFF;
+	float:left;
+	width: 100%;
+	margin-top: 0.85rem;
+	text-align: center;
+}
+/*动画效果， 动画名字*/
+@keyframes welcoming{
+	100%{transform: translateY(0); opacity:1;}
+}
+/*动画效果 */
+.welcoming{
+	transform: translateY(-1.2rem); opacity: 0;
+	animation: 1.5s 0s welcoming;
+	/*执行某个动画.几秒执行完毕，0s代表延迟几秒种执行*/
+	animation-fill-mode: forwards;
+}
+.ur-name{
+	font-size: 0.12rem;
+	margin-top: 0.22rem;
+}
+.nav-bars>li{
+	font-size:0.16rem;
+	height: 0.5rem;
+	width: 96%;
+	margin: 0 auto;
+	border-bottom:solid 0.005rem #b1b8bf;
+	line-height: 0.5rem;
+}
+.icon{
+	float: left;
+	display: inline-block;
+	width: 0.23rem;
+	height:0.23rem;
+	margin-top: 0.13rem;
+	margin-right: 0.15rem;
+	margin-left: 0.15rem;
+}
+.icon-bridge{
+	background: url(../images/icon-bridge.png);
+	background-size: 100%;
+}
+.icon-indent{
+	background: url(../images/icon.png) no-repeat;
+	background-size: 100%;
+	background-position:0 0;
+}
+.icon-suggest{
+	background: url(../images/icon.png) no-repeat;
+	background-size: 100%;
+	background-position:0 -0.285rem;
+}
+.icon-reset{
+	background: url(../images/icon.png) no-repeat;
+	background-size: 100%;
+	background-position:0 -0.535rem;
+}
+.icon-alter{
+	background: url(../images/icon.png) no-repeat;
+	background-size: 100%;
+	background-position:0 -0.8rem;
+}
+.icon-clear{
+	background: url(../images/icon.png) no-repeat;
+	background-size: 100%;
+	background-position:0 -1.04rem;
+}
+.exit-box{
+	width: 3rem;
+	height: 0.4rem;
+	margin: 0 auto;
+	text-align:center;
+	border-radius: 0.05rem;
+	background-color: #233b83;
+	line-height: 0.4rem;
+	margin-top: 0.3rem;
+}
+.exit-box>a{
+	color: #FFFFFF;
+	font-size: 0.15rem;
+	
+}
+.wx_qt_foot_main_con p{
+	margin-top: 0.06rem;
+}

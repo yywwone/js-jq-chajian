@@ -1,0 +1,38 @@
+/* CSS Document */
+body{background: #F9F9F9}
+a{color: #000}
+.work_con_tit{height:45px;background:#FF6A6E}
+.work_con_return{line-height: 45px;margin-left: 15px;color: #fff;font-size: 2em}
+.work_con_h4{color: #fff;line-height: 30px;}
+.work_con_tit1{padding-top: 5px;padding-left: 15px;background: #fff;}
+.work_con_tit1_p1{font-size: 1.5em;margin-bottom: 0;}
+.work_con_sj{color: #A6A6A6;margin: 0;padding: 0;font-size: 0.8em;margin-top: 5px;margin-bottom:15px;}
+.work_con_con{margin-top: 5px;background: #fff;padding-top: 15px;padding-left: 15px;font-size: 0.8em;color: #AEA6B9;padding-right: 15px;}
+.work_con_text{color:#FC9D32}
+.work_con_text1{color: #000;}
+.work_con_con1{margin-top: 5px;background: #fff;padding-top: 15px;padding-left: 15px;font-size: 1.3em;position: relative;}
+.work_con_icon{width: 40px;height: 40px;border: 1px solid #FF6D4C;border-radius: 40px;text-align: center;line-height: 40px;position: absolute;bottom: 30px;}
+.work_con_icon span{font-size: 1em}
+.work_con_tel{right: 55px;border-color: #FF6744;}
+.work_con_sms{right: 10px;border-color:#FFA00B;}
+.work_con_text2{padding-right: 15px;margin-bottom: 15px;font-size: 0.8em}
+.work_con_con2{margin-top: 10px;background: #FFF8DE;padding-left: 15px;height: 50px;line-height: 50px;color: #6D6D6D}
+.work_con_text3{font-size: 0.6em;margin-bottom: 10px;}
+@media screen and (min-width: 375px){
+	.work_con_text3{font-size: 0.8em}
+}
+@media screen and (min-width: 425px){
+	.work_con_text3{font-size: 1em}
+}
+@media screen and (min-width: 768px){
+	.work_con_text3{font-size: 1.8em}
+}
+.work_con_con3{background: #fff;padding-top:15px;padding-left: 15px;border-bottom: 1px solid #E7E5E2}
+
+.work_con_foot{text-align: center;height: 47px;line-height: 47px;background:#F1564E;position:fixed;left:0;bottom:0;width: 100%;box-shadow:5px 5px 30px #F1564E}
+.work_con_foot a{color: #fff;}
+.work_con_icon1{border: 1px solid #ccc;padding:5px;float: left;margin-right: 5px;margin-bottom: 5px;}
+.work_con_icon1_color1{border-color: #52B039;color:#52B039;}
+.work_con_icon1_color2{border-color: #FDB600;color:#FDB600;}
+.work_con_icon1_color3{border-color: #F65549;color:#F65549;}
+

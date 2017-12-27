@@ -1,0 +1,57 @@
+/* CSS Document */
+/*重置*/
+*{padding: 0;margin: 0;text-decoration:none;list-style: none;font-family: 微软雅黑;font-size: 14px;color: #3D3D3D;outline: none}
+a:focus{outline: none;-moz-outline-style: none; }
+img{border:none}
+/*上部*/
+.bar-bg{width: 100%;height: 35px;background: #F9F9F9;}
+.bar-box{width: 1201px;height:35px;margin: 0 auto;}
+.bar-lt{float: left;width: 400px;height: 35px;}
+.bar-lt p{line-height: 35px;float: left}
+.bar-lt span{color: #898989;line-height: 35px;margin-left: 10px;margin-right: 19px;}
+.bar-rt{float: right}
+.bar-rt li{float: left;line-height: 35px;margin-right: 10px;}
+.bar-Login{display: inline-block;width: 60px;height: 20px;background:#4348f2;color: #fff;text-align: center;line-height: 20px;}
+/*导航栏*/
+.nav{width: 1201px;;height:43px;margin-top:20px;margin: 0 auto}
+.nav li{float: left;width: 110px;height: 43px;line-height: 43px;text-align: center;margin-right: 10px;margin-top: 20px;font-size:19px;font-weight:500}
+.nav li:hover{background: #4348f2;color: #fff;}
+.nav .nav-libg{background: #4348f2;color: #fff;}
+.nav-line{width: 100%;height: 2px;background: #4348f2;float: left;margin-bottom: 20px;}
+
+
+/*右侧广告*/
+.main-rg-ad{width: 258px;height: 326px;background:#fafafa;border: 1px solid #ccc;position: relative;position: fixed;right:5px;top: 350px;}
+.main-rg-ad-tit{font-size: 24px;text-align: center;margin-top: 15px;}
+.main-rg-ad form{margin-left: 35px;margin-top: 15px;}
+.main-rg-ad form select{width: 90px;height: 35px;margin-bottom: 15px;border-radius: 5px;}
+.main-rg-text{width: 176px;height: 35px;margin-bottom: 15px;padding-left: 10px;border-radius: 5px;border: 1px solid #ccc}
+.main-rg-text1{display: block;width: 188px;height: 37px;background: #4348f2;color: #fff;text-align: center;font-size: 18px;border: 1px solid #ccc;border-radius: 5px;line-height: 37px;}
+.main-left-con-num{width: 410px;height:30px;margin: 0 auto;margin-top: 40px;}
+.main-left-con-num a{display:inline-block;border: 1px solid #ccc;width: 18px;height: 18px;text-align: center;margin-right: 5px;}
+.main-left-con-num a:hover{background: #4384f2;color: #fff}
+.main-left-con-num2{background: #4384f2;color: #fff}
+.main-left-con-num .main-left-con-num1{width: 48px;}
+/*返回顶部*/
+#float-top{position:fixed;right:20px;bottom:50px; background: url(../img/top.png);width: 50px;height: 50px;display: none;}
+#float-top:hover{background: url(../img/top-hover.png);}
+.return:hover{color:#f2880b}
+
+/*本地资讯导航*/
+/*1-1*/
+.box{width: 1000px;margin: 0 auto;clear: both;}
+.nav2{margin-bottom: 10px;}
+.nav2 a{font-size: 14px;}
+/*内容*/
+.tit h1{font-size: 24px;text-align:center;margin-top: 20px;margin-bottom: 20px;}
+.tit p{margin-bottom: 10px;}
+.mn{margin-bottom: 30px;line-height: 30px;}
+.text{text-indent:2em;margin-top: 30px;}
+.text1{color:#39B93E;text-indent: 2em;}
+.text2{color:#39B93E;margin-left: 28px;float: left}
+
+/*1-2*/
+.con-tit{margin-left: 2em;margin-top: 20px;font-size: 16px;font-weight: bold;}
+.con-text p{font-size: 14px;text-indent: 2em;margin-top: 20px;}
+
+

@@ -1,0 +1,15 @@
+$.get('js/data.json').done(function (data) {
+			myChart.setOption({
+				legend: {
+				data:data
+				},
+				xAxis: {
+					data:[data.xAxis]
+				},
+				series: [{
+					name: 'ÏúÁ¿',
+					type: 'line',
+					data: data.series
+				}]
+			})
+		});

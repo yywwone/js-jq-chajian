@@ -1,0 +1,80 @@
+/* CSS Document */
+/*共工样式*/
+
+/*头部*/
+#header{width: 960px;height: 150px;margin: 0 auto;}
+#top{width: 958px;height: 24px;border: 1px solid #999;background: url(../images/dd_header_bg.gif);}
+/*top 左侧登录注册*/
+#top #top_text1{line-height: 24px;font-size: 12px;float: left;width: 280px;height: 24px;}
+#top_text1 span{margin-left: 10px;}
+#top_text1 a{color: #000;}
+#top_text1 a:hover{color: blue}
+
+/*top 右侧导航*/
+#top_text2{float: right;margin-right:10px;}
+#top_text2 li{float: left;line-height:30px;font-size:12px;margin-right:10px;}
+#top_text2 li a{color: #000;}
+#top_text2 li a:hover{color:blue}
+#top_text2 .top_text2_shop{margin-top: -5px;}
+/*我的当当二级菜单*/
+#top_text2 .top_text2_sub{position: relative;}
+#top_text2 .top_text2_sub ul{;position: absolute;left: -11px;top: 25px;border: 1px solid #b6b6b6;border-top: none;display: none;
+background-color: #efefee}
+#top_text2 .top_text2_sub ul li{width: 72px;height: 25px;margin-left: 5px;}
+
+/*头部 导航1*/
+#header_nav1{margin-top: 15px;overflow: hidden;}
+
+/*头部 导航1 左侧LOGO*/
+#header_nav1_logo{width:123px;height: 46px;float: left}
+
+/*头部导航1 中间*/
+#header_nav1_center{width:464px;height:27px;background: url(../images/dd_header_bg.gif) bottom;float:left;margin-top:20px;border: 1px solid #a1a1a1;border-radius:5px 5px;border-bottom: none;margin-left: 10px;}
+#header_nav1_center ul{float: left}
+#header_nav1_center ul li{float: left;line-height: 27px;font-size: 12px;margin-left: 7px;}
+#header_nav1_center a{color: #000;}
+#header_nav1_center a:hover{color: blue}
+
+/*头部 导航1 右侧*/
+#header_nav1_right{width: 310px;height: 28px;margin-left: 49px;float: left;margin-top: 20px;}
+#header_nav1_right ul li{float: left;margin-right: 5px;font-size: 12px;text-align: center;line-height: 28px;}
+#header_nav1_right ul li a{color: #9b2b0f;}
+#header_nav1_right ul li a:hover{color: blue}
+.header_nav1_right_box1{background:url(../images/dd_header_1_a.jpg) bottom center;height: 28px;width: 52px;}
+.header_nav1_right_box2{background:url(../images/dd_header_2_a.jpg) bottom center;height: 28px;width: 39px;}
+.header_nav1_right_box3{background:url(../images/dd_header_3_a.jpg) bottom center;height: 28px;width: 65px;}
+
+/*头部 导航2*/
+#header_nav2{width: 960px;height: 27px;float: left;}
+#header_nav2_box1{background: url(../images/header_nav2_box1.png) no-repeat;width: 4px;height: 27px;float: left}
+#header_nav2_box3{background: url(../images/header_nav2_box2.png) no-repeat;width: 4px; height: 27px;float: left}
+#header_nav2_box2{background: url(../images/header_nav2_box3.png);width:952px;height: 27px;float: left;}
+#header_nav2 ul{margin-left: 170px;}
+#header_nav2 ul li{float: left;margin-right: 7px;line-height: 27px;font-size: 12px;}
+#header_nav2 ul li a{color: #fff;}
+#header_nav2 a:hover{color: blue}
+
+/*头部 搜索栏*/
+#header_search{width: 958px;height: 33px;background: url(../images/dd_header_search_bg.png) center;float: left;border: 1px solid #d1d1d1;margin-top: 2px;border-radius: 5px;}
+.header_search_input1{margin-top: 7px;margin-left: 23px; width: 202px;height: 20px;border: 1px solid #abadb3;float: left}
+.header_search_input2{margin-top: 5px;margin-left: 10px;width: 93px;height: 19px;font-size: 12px;float: left}
+#header_search ul{float: left;margin-left: 10px;}
+#header_search ul li{float: left;line-height: 33px;margin-right: 10px;font-size: 12px;}
+.header_search_img{margin-top: 5px;float: left;margin-right: 10px;}
+#header_search ul li a{color: #000;}
+#header_search ul li a:hover{color: blue}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

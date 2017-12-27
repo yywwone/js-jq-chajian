@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>修改密码</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link href="css/reset.css" type="text/css" rel="stylesheet" />
+		<link href="css/alter.css" type="text/css" rel="stylesheet"/>
+	</head>
+	<body>
+		<!--旧密码盒子内容-->
+		<div class="alter-content-box">
+			<form name="oneform">
+				<div class="password-content">
+					<span class="icon-password"></span>
+					<input type="password" class="worn-password" placeholder="请输入旧密码"/>
+				</div>
+		</div>
+		<!--新密码盒子内容-->
+		<div class="alter-content-box">
+				<div class="password-content">
+					<span class="icon-password"></span>
+					<input type="password" class="worn-password worn-1" placeholder="请输入新密码"/>
+					<span class="icon-eye jicon-a"></span>
+				</div>
+		</div>
+		<!--新密码对比2次-->
+		<div class="alter-content-box">
+				<div class="password-content">
+					<span class="icon-password"></span>
+					<input type="password" class="worn-password worn-2" placeholder="请输入新密码"/>
+					<span class="icon-eye jicon-b"></span>
+				</div>
+		</div>
+		<!--提示框-->
+		<p class="tips"></p>
+		<!--提交-->
+				<input type="button" class="affirm" value="确认提交"/>
+		</form>
+		<script src="js/jquery-1.11.0.min.js"></script>
+		<script src="js/alter.js"></script>
+		<script src="js/mobblie.js"></script>
+	</body>
+</html>

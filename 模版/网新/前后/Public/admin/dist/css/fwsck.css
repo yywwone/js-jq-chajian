@@ -1,0 +1,39 @@
+/* CSS Document */
+*{padding: 0;margin: 0;text-decoration:none;list-style: none;font-family: 微软雅黑;outline: none;}
+.wx_ht_fwsck_main_tit_box{
+	overflow: hidden;
+	margin: 0 auto;
+}
+.wx_ht_fwsck_main_tit_con{
+	float: left;
+	border: 1px solid #ccc;
+	border-right: none;
+	/*border-bottom: none;*/
+	text-align: center;
+	width: 130px;
+}
+.wx_ht_fwsck_main_tit_con:last-child{
+	border-right: 1px solid #ccc;
+}
+.wx_ht_fwsck_main_tit_con{
+	
+}
+.wx_ht_fwsck_main_tit_con_0{
+	height: 30px;
+	line-height: 30px;
+}
+.wx_ht_fwsck_main_tit_con_1{
+	height: 80px;
+	line-height: 80px;
+}
+.wx_ht_fwsck_main_tit_con_dz{
+	line-height: 25px;
+}
+.wx_ht_fwsck_main_tit_con_dz1{
+	line-height: 25px;
+}
+.wx_ht_fwsck_main_tit_con::-webkit-scrollbar{  
+    width: 1px;  
+    height: 0px;   
+} 
+

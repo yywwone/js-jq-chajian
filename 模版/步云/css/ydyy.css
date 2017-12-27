@@ -1,0 +1,59 @@
+/* CSS Document */
+.by_ydyy_con{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top:10px;
+}
+
+.by_ydyy_con_tab{
+	overflow: hidden;
+	margin-top: 20px;
+	
+}
+.by_ydyy_con_tab_text_box{
+	width: 32%;
+	border: 1px solid #ccc;
+	height: 95px;
+	line-height: 95px;
+	text-align: center;
+	font-size:2em;
+	cursor: pointer;
+	float: left;
+}
+.by_ydyy_con_tab_text_box1{
+	background: #358EEC;
+	color: #fff;
+}
+.by_ydyy_con_tab_text_box:last-child{
+	border-left: none;
+}
+.by_ydyy_con_tab_icon{
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	display: inline-block;
+	background: #fff;
+	line-height: 52px;
+	color: #9b9b9b;
+}
+.by_ydyy_con_img img{
+	display: none;
+	width: 100%;
+	height: 319px;
+}
+@media only screen and (max-width:768px){	
+	.by_ydyy_con{
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+@media only screen and (max-width:425px){	
+	.by_ydyy_con_tab_text_box{
+		font-size:1.5em;
+	}
+}
+@media only screen and (max-width:3205px){	
+	.by_ydyy_con_tab_text_box{
+		font-size:1.1em;
+	}
+}

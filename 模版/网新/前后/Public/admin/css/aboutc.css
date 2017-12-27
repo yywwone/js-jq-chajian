@@ -1,0 +1,70 @@
+.box{
+    width: 500px;
+    margin:0 auto;
+}
+.xq_banner_img{
+    width:100%;
+    height:250px;
+}
+h2{
+    font-size:16px;
+    text-align: center;
+    margin-bottom:20px;
+    margin-top:15px;
+}
+.xq_main{
+    width: 400px;
+    margin: 0 auto
+}
+.xq_main p{
+    overflow: hidden;
+    height:40px;
+    line-height: 30px;
+    border-bottom: 2px solid #eaeaea;
+    padding-left:16px;
+}
+
+.xq_main_icon{
+    width: 30px;
+    height: 30px;
+    fill: currentColor;
+    overflow: hidden;
+    color:#6dc5f5;
+    vertical-align: middle;
+    float: left;
+
+}
+.xq_main span{
+    font-size:12px;
+    float: left;
+}
+.xa_main_span{
+    display: inline-block;
+    width:75px;
+    margin-left:10px;
+    float: left;
+}
+.xq_main .xa_main_span1{
+    font-size:18px;
+}
+.xq_main .xa_main_span2{
+    font-size:14px;
+}
+.xq_main_text{
+    padding:1px 25px;
+    word-wrap:break-word ;
+    text-indent:2em;
+    font-size:1px;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+

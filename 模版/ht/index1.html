@@ -1,0 +1,311 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>后台界面</title>
+<link href="css/rest.css" type="text/css" rel="stylesheet">
+<link href="css/index1.css" type="text/css" rel="stylesheet">
+<script src="js/jquery.min.js"></script>
+</head>
+<body>
+<div class="header-box">
+<header class="header" >
+	<div class="logo">
+    	<img src="images/logi_03.png">
+    </div>
+    <div class="title">
+    	<h1 class="header-title">网站后台管理系统</h1>
+    </div>
+    <div class="ind-t">
+    	<ul class="list">
+        	<li>
+            	<div class="img1-box">
+            		<img src="images/xing_03.png" >
+                </div>
+            	
+            	<a href="#">站点首页</a>
+            </li>
+            <li>
+            	<div class="img1-box">
+            		<img src="images/hhh.png">
+                </div>
+            	<a href="#">安全退出</a>
+            </li>
+        </ul>
+    </div>
+</header>
+</div>
+<div class="main-box">
+	<div class="main">
+        <div class="right-main">
+            		<div class="right-nav">
+		                <ul class="nav-content">
+		                    <li title="主页">
+		                        <img src="images/aaa.png" class="nav-img">
+		                    </li>
+		                    <li title="用户申请">
+		                        <img src="images/ccc.png" class="nav-img">
+		                    </li>
+		                    <li title="服务">
+		                        <img src="images/bbb.png" class="nav-img">
+		                    </li>
+		                    <li title="经销商">
+		                          <img src="images/ggg.png" class="nav-img">
+		                    </li>
+		                    <li title="订单">
+		                        <img src="images/eee.png" class="nav-img">
+		                    </li>
+		                    <li title="审核">
+		                      <img src="images/fff.png" class="nav-img">
+		                    </li>
+		                </ul>
+            		</div>
+                <div class="main-nav">
+                	<p class="nav-title">初始页</p>
+	                <ul class="list1">
+	                    <li>
+	                        <dl class="hahaha">
+	                            <dt>用户</dt>
+	                            <dd>用户列表</dd>
+	                        </dl>
+	                    </li>
+	                    <li>
+	                        <dl class="hahaha">
+	                            <dt>用户申请</dt>
+	                            <dd>保修信息</dd>
+	                            <dd>场地申请</dd>
+	                            <dd>车库申请</dd>
+	                        </dl>
+	                    </li>
+	                    <li>
+	                        <dl class="hahaha">
+	                            <dt>服务</dt>
+	                            <dd>服务列表</dd>
+	                        </dl>
+	                    </li>
+	                    <li>
+	                        <dl class="hahaha">
+	                            <dt>经销商</dt>
+	                            <dd>经销商类别</dd>
+	                        </dl>
+	                    </li>
+	                    <li>
+	                        <dl class="hahaha">
+	                            <dt>订单</dt>
+	                            <dd>订单列表</dd>
+	                        </dl>
+	                    </li>
+	                    <li>
+	                        <dl class="hahaha">
+	                            <dt>审核</dt>
+	                            <dd>待审核用户</dd>
+	                            <dd>待审核评论</dd>
+	                            <dd>待审核评论</dd>
+	                            <dd>待审核订单</dd>
+	                        </dl>
+	                    </li>
+	                </ul>
+	            </div>
+        </div>
+        <div class="left-main">
+            <div class="left-main-box">
+            	<div class="new-box">
+                	<ul class="new-id">
+                    	<li class="new-id1 audit-user">
+                        	<p class="new-title">等待审核用户：</p>
+                            <p class="number">1</p>
+                        </li>
+                        <li class="new-id1 audit-order">
+                        	<p class="new-title">等待审核订单：</p>
+                            <p class="number">1</p>
+                        </li>
+                        <li class="new-id1 audit-merchant">
+                        	<p class="new-title">等待审核经销商：</p>
+                            <p class="number">1</p>
+                        </li>
+                    </ul>
+                    <div class="tred">
+                    	<p class="tred-title">数据趋势</p>
+                        <div class="tred-main">
+                        	<span class="minute">时间：</span>
+                            <div style="display:inline-block;">
+                            	<span class="date">最近7天</span>
+                            	<span class="date">最近30天</span>
+                            </div>
+                            <p style="text-align:center; margin-top:5px;">累计新增量
+                            	<div>
+                                    <div class="xxx">
+                                    2145
+                                    </div>
+                                    <div class="xxx">
+                                    3331
+                                    </div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="echarts-box">
+                        <div class="minute-date">
+                            <span class="moo">月</span>
+                            <span class="mou">日</span>
+                        </div>
+                    <div id="main" style="width:96%; margin:0 auto; height:220px; margin-top:20px;">
+                    </div>
+                    
+                </div>
+                <div class="zeng">
+                	<h3 style="font-size:20px; margin-top:15px; margin-bottom:10px">新增明细</h3>
+                    <div class="table-box">
+                        <table class="mytable" cellspacing="1">
+                            <tr class="thh">
+                                <td>日期</td>
+                                <td>用户</td>
+                                <td>电话</td>
+                                <td>公司</td>
+                                <td>公司地址</td>
+                                <td>审核</td>
+                            </tr>
+                            <tr class="th1">
+                                <td>日期</td>
+                                <td>用户</td>
+                                <td>电话</td>
+                                <td>公司</td>
+                                <td>公司地址</td>
+                                <td>
+                                <span class="he1">通过</span>
+                                &nbsp;&nbsp;
+                                <span class="he1">拒绝</span>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="pcar">
+                    	<p class="pcar-title">车库申请占比</p>
+						<div class="p-box">
+                        	<ul class="xx1">
+                            	<li>日期</li>
+                            	<li>2017-8-25</li>
+                                <li>2017-8-25</li>
+                                <li>2017-8-25</li>
+                                <li>2017-8-25</li>
+                            </ul>
+                        	<ul class="xx2">
+                            	<li>楼号</li>
+                            	<li>1号楼</li>
+                                <li>2号楼</li>
+                                <li>3号楼</li>
+                                <li>4号楼</li>
+                            </ul>
+                            <ul class="xx3">
+                            	<li>占比</li>
+                            	<li><span class="spand">35%</span><span class="span1 spanx"></span></li>
+                                <li><span class="spand">45%</span><span class="span2 spanx"></span></li>
+                                <li><span class="spand">55%</span><span class="span3 spanx"></span></li>
+                                <li><span class="spand">55%</span><span class="span4 spanx"></span></li>
+                            </ul>
+                        </div>
+                        <div class="r-box">
+                        	<div id="byby" style="width:400px; height:300px;"></div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>   
+</div>
+<script src="js/echarts.js"></script>
+<script>
+	var myChart1 = echarts.init(document.getElementById('byby'));
+		/*option1 = {
+    	tooltip: {
+        trigger: 'item',
+        formatter: "{a} <br/>{b}: {c} ({d}%)"
+    },
+    legend: {
+        orient: 'vertical',
+        x: 'left',
+        data:['直接访问','邮件营销','联盟广告','视频广告','搜索引擎']
+    },
+    series: [
+        {
+            name:'访问来源',
+            type:'pie',
+            radius: ['50%', '70%'],
+            avoidLabelOverlap: false,
+            label: {
+                normal: {
+                    show: false,
+                    position: 'center'
+                },
+                emphasis: {
+                    show: true,
+                    textStyle: {
+                        fontSize: '30',
+                        fontWeight: 'bold'
+                    }
+                }
+            },
+            labelLine: {
+                normal: {
+                    show: false
+                }
+            },
+            data:[
+                {value:335, name:'直接访问'},
+                {value:310, name:'邮件营销'},
+                {value:234, name:'联盟广告'},
+                {value:135, name:'视频广告'},
+                {value:1548, name:'搜索引擎'}
+            ]
+        }
+    ]
+};
+        myChart1.setOption(option1);*/
+		$.get('js/data1.json').done(function (resule){
+			//console.log(resule.data)
+			myChart1.setOption({
+				tooltip: {
+        			trigger: 'item',
+        			formatter: "{a} <br/>{b}: {c} ({d}%)"
+    				},
+    			legend: {
+        			orient: 'vertical',
+        			x: 'left',
+        			data:['直接访问','邮件营销','联盟广告','视频广告','搜索引擎']
+    				},
+				    series: [
+        {
+            name:'访问来源',
+            type:'pie',
+            radius: ['50%', '70%'],
+            avoidLabelOverlap: false,
+            label: {
+                normal: {
+                    show: false,
+                    position: 'center'
+                },
+                emphasis: {
+                    show: true,
+                    textStyle: {
+                        fontSize: '30',
+                        fontWeight: 'bold'
+                    }
+                }
+            },
+            labelLine: {
+                normal: {
+                    show: false
+                }
+            },
+            data:resule.data
+        }
+    ]	
+				
+			})
+		})  
+</script>
+<script src="js/index1.js"></script>
+</body>
+</html>

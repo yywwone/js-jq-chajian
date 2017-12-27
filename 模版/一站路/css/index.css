@@ -1,0 +1,708 @@
+@charset "utf-8";
+.recommendation{
+	height: auto;
+	overflow: hidden;
+}
+/*所有的标题字*/
+.container .title{
+	font-size: 20px;
+    font-weight: bold;
+    color: #575757;
+    padding: 40px 0 20px;
+}
+.container .title span{
+	color: #8b8b8b;
+	font-size: 12px;
+	font-family: "宋体";
+	padding-left: 18px;
+	font-weight:normal;
+}
+
+.recommendation .con{
+	height: auto;
+	overflow: hidden;
+}
+.recommendation .con ul{
+	height: auto;
+	overflow: hidden;
+	padding-left: 2px;
+}
+.recommendation .con ul li{
+	width: 218px;
+	height: 310px;
+	text-align: center;
+	cursor: pointer;
+	margin-left: 23px;
+	float: left;
+}
+.recommendation .con ul li:first-child{
+	margin-left: 0;
+}
+.recommendation .con ul li a{
+	display: block;
+	width: 218px;
+	height: 300px;
+	color: #999999;
+	font-size: 12px;
+	background: #f4f4f4;
+	border: 1px solid transparent;
+	overflow: hidden;
+}
+.recommendation .con ul li img{
+	padding-top: 27px;
+	display: inline-block;
+}
+.recommendation .con ul li .tit{
+	padding-top: 15px;
+	font-size: 18px;
+	color: #333;
+	line-height: 30px;
+}
+.recommendation .con ul li .price{
+	color: #000000;
+	font-size: 14px;
+	margin-top: 42px;
+	height:24px;
+	line-height:24px;
+}
+.recommendation .con ul li .price span{
+	color: #ff7835;
+	font-size: 24px;
+}
+.recommendation .con ul li .line img{
+	padding: 0;
+}
+.recommendation .con ul li .btn{
+	padding-top: 40px;
+}
+.recommendation .con ul li .btn span{
+	display: inline-block;
+	width: 98px;
+	height: 28px;
+	color: #fd4746;
+	font-size: 12px;
+	line-height: 28px;
+	text-align: center;
+	border: 1px solid #ff7835;
+	border-radius: 2px;
+}
+.recommendation .con li a:hover .price,.recommendation .con li a:hover .btn{
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.recommendation .con ul li a:hover{
+	background:#fff;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#e0e0e0,direction=120,strength=3);/*ie*/
+	-moz-box-shadow: 6px 5px 10px #e0e0e0;/*firefox*/
+	-webkit-box-shadow: 6px 5px 10px #e0e0e0;/*safari或chrome*/
+	box-shadow:6px 5px 10px #e0e0e0;/*opera或ie9*/
+
+}
+.recommendation .con ul li a:hover .price{
+	margin-top: 10px;
+}
+.recommendation .con ul li a:hover .btn{
+	padding-top: 10px;
+}
+/*更多按钮*/
+.container .more{
+	display: inline-block;
+	width: 30px;
+	background: url("../img/r-arrow.png") right center no-repeat;
+	font-size: 14px;
+	color: #575757;
+	padding-right: 10px;
+	font-weight:normal;
+	cursor: pointer;
+}
+.list{
+	height: auto;
+	overflow: hidden;
+	margin-top: 40px;
+	border: 1px solid #eee;
+	height: 218px;
+	width: 1068px;
+	padding: 40px 60px;
+}
+/*此处删掉pro-con部分*/
+
+/*初创企业必备*/
+.necessary{
+	height: auto;
+	overflow: hidden;
+	margin-top: 10px;
+}
+.necessary .con{
+	height: auto;
+	overflow: hidden;
+	padding-bottom: 5px;
+}
+.necessary .con .index-img img{
+	width: 221px;
+	height: 337px;
+}
+.necessary .con .ness-list{
+	margin-right: 6px;
+}
+.necessary .con .ness-list a{
+	display: block;
+	color: #555555;
+}
+.ness-list .list1{
+	margin-right: 12px;
+}
+.necessary .con .ness-list .list1,.necessary .con .ness-list .list2{
+	width: 468px;
+}
+.necessary .ness-list .list1 .list1-top a{
+	width: 431px;
+	height: 145px;
+	background: #f4f4f4;
+	padding:20px 0 0 32px;
+	position: relative;
+}
+/*左-上部分*/
+.ness-list .list1 .list1-top img{
+	position: absolute;
+	right: 10px;
+	top: 23px;
+}
+.ness-list .tit{
+	font-size: 18px;
+
+}
+.ness-list .cont{
+	font-size: 12px;
+	color: #808080;
+	margin-top: 12px;
+}
+.ness-list .price{
+	font-size: 14px;
+	margin-top: 15px;
+}
+.ness-list .price span{
+	font-size: 18px;
+	color: #ff7835;
+	font-weight:700;
+}
+/*左-下部分*/
+.ness-list .list1 .list1-bot{
+	overflow: hidden;
+	margin-top: 17px;
+	padding-bottom: 10px;
+	padding-right: 5px;
+}
+.ness-list .list1 .list1-bot .bot1 a,.ness-list .list1 .list1-bot .bot2 a{
+	width: 192px;
+	height: 135px;
+	background: #f4f4f4;
+	padding:20px 0 0 32px;
+	position: relative;
+}
+.ness-list .list1 .list1-bot .bot1 img{
+	position: absolute;
+	right: 5px;
+	bottom: 3px;
+}
+.ness-list .list1 .list1-bot .bot2 img{
+	position: absolute;
+	right: 0;
+	bottom: 5px;
+}
+.necessary .ness-list .list2 .list2-top a{
+	width: 436px;
+	height: 145px;
+	background: #f4f4f4;
+	padding:20px 0 0 32px;
+	position: relative;
+}
+/*右上部分*/
+.ness-list .list2 .list2-top img{
+	position: absolute;
+	right: 20px;
+	top: 33px;
+}
+/*右下部分*/
+.necessary .ness-list .list2 .list2-bot a{
+	width: 436px;
+	height: 135px;
+	background: #f4f4f4;
+	padding:20px 0 0 32px;
+	position: relative;
+}
+.ness-list .list2 .list2-bot{
+	margin-top: 17px;
+}
+.ness-list .list2 .list2-bot img{
+	position: absolute;
+	right: 0;
+	top: 33px;
+}
+.necessary .con .ness-list a:hover{
+	background: #fff;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#e0e0e0,direction=120,strength=3);/*ie*/
+	-moz-box-shadow: 2px 5px 6px #e0e0e0;/*firefox*/
+	-webkit-box-shadow: 2px 5px 6px #e0e0e0;/*safari或chrome*/
+	box-shadow:2px 5px 6px #e0e0e0;/*opera或ie9*/
+}
+
+/*中间横幅*/
+.midBar{
+	display: block;
+	height: 100px;
+	background: url("../images/mid-bar.jpg") center no-repeat;
+	margin: 40px 0 15px 0;
+}
+
+/*精彩活动*/
+.activity{
+	height: auto;
+	overflow: hidden;
+}
+.activity .con{
+	height: auto;
+	overflow: hidden;
+}
+.activity  .con ul{
+	height: auto;
+	overflow: hidden;
+}
+.activity .con ul li{
+	width: 285px;
+	height: 330px;
+	overflow: hidden;
+	float: left;
+	margin-left: 20px;
+}
+.activity .con ul li:first-child{
+	margin-left: 0;
+}
+.activity .con ul li a{
+	display: block;
+	width: 275px;
+	height: auto;
+	overflow: hidden;
+	color: #777777;
+	font-size: 12px;
+	line-height: 24px;
+}
+.activity .con ul li a:hover .tit{
+	color: #f5a41a;
+}
+.activity .con ul li img.activityimg{
+	width: 285px;
+	height: 177px;
+}
+.activity .con ul li .tit{
+	font-size: 16px;
+    color: #333;
+    line-height: 30px;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.activity .con ul li  .state{
+	margin-top: 5px;
+}
+.activity .con ul li  .state .time{
+	display: inline-block;
+	color: #999999;
+	font-size: 13px;
+	float: right;
+	position: relative;
+	top: 2px;
+}
+.activity .con ul li  .state .newstate{
+	width: 89px;
+	height: 27px;
+	line-height: 27px;
+
+	display: inline-block;
+	color: #999999;
+	font-size: 14px;
+}
+/*在立即报名时候添加的类名，signup1和signup2*/
+.activity .con ul li  .state .signup1{
+	background: #f5a620;
+	color: #fff;
+	text-align: center;
+}
+.activity .con ul li  .state .signup2{
+	color: #f5a620;
+}
+.activity .con ul li  p.txt{
+	overflow: hidden;
+	line-height: 1.5;
+	height:54px;
+}
+
+/*四个块*/
+.block{
+	height: auto;
+	overflow: hidden;
+	padding: 40px 0 0;
+}
+.block ul{
+	height: auto;
+	overflow: hidden;
+}
+.block ul li{
+	float: left;
+	margin-left: 31px;
+}
+.block ul li:first-child{
+	margin-left: 0;
+}
+.block ul li a{
+	display: block;
+	width: 274px;
+	height: 80px;
+	background: url("../images/blockBg.png");
+	position: relative;
+}
+.block ul li a .img1{
+	position: absolute;
+	left: 20%;
+	top: 20%;
+}
+.block ul li a span{
+	position: absolute;
+	left: 125px;
+	top: 26px;
+	font-size: 22px;
+	color: #fff;
+	font-weight:bold;
+}
+/*企业百科*/
+.article{
+	height: auto;
+	overflow: hidden;
+}
+.article .con{
+	height:auto;
+	overflow: hidden;
+}
+.article .con .img{
+	position: relative;
+}
+.article .con  .articlelist{
+	height: auto;
+	overflow: hidden;
+	margin-left: 20px;
+}
+.article .con  .articlelist .article-con{
+	height: auto;
+	overflow: hidden;
+	width: 950px;
+	margin-left: -5px;
+	padding-right: 5px;
+
+}
+.article .con  .articlelist .article-con ul{
+	width: 1920px;
+	height: auto;
+	overflow: hidden;
+	padding-bottom: 10px;
+	padding-right: 5px;
+
+}
+.articlelist .article-con ul li{
+	overflow: hidden;
+	width: 225px;
+	height: 302px;
+	float: left;
+	margin-left: 15px;
+}
+.articlelist .article-con ul li:first-child{
+	margin-left: 5px;
+}
+.articlelist .article-con ul li a{
+	display: block;
+	width: 174px;
+	height: 269px;
+	padding: 28px 28px 5px 28px;
+	background: #f4f4f4;
+	position: relative;
+}
+.articlelist .article-con ul li a:hover{
+	background: #fff;
+}
+.articlelist .article-con ul li a img{
+	display: block;
+	width: 167px;
+	height: 150px;
+}
+.article-con .art-title{
+	color: #555555;
+	font-size: 15px;
+	margin-top: 20px;
+	overflow: hidden;
+	line-height: 24px;
+	height: 45px;
+}
+.article-con .look{
+	font-size: 12px;
+	color:#ffab20;
+}
+.article-con .art-txt{
+	font-size: 12px;
+	color: #666;
+	margin-top: 10px;
+	z-index: 99;
+	line-height: 16px;
+	    height: 32px;
+    overflow: hidden;
+}
+ .article-con ul li:hover{
+	 box-shadow: 3px 5px 8px #ccc;
+ }
+
+ /*名家专栏*/
+.famous{
+	height: auto;
+	overflow: hidden;
+}
+.famous .con{
+	height: auto;
+	overflow: hidden;
+	border-top:1px solid #eeeeee;
+	padding-top: 30px;
+}
+.famous .con .img img{
+	width: 219px;
+	height: 156px;
+}
+.famous .con .text{
+	height: auto;
+	overflow: hidden;
+	margin-left: 25px;
+	width: 413px;
+	padding-right: 53px;
+	font-size: 12px;
+	color: #808080;
+	line-height: 22px;
+}
+.famous .con .text  p.tit{
+	font-size: 18px;
+	color: #555555;
+}
+.famous .con .text p.tit:hover{
+	color: #f5a620;
+}
+.famous .con .text p.cont{
+	margin-top: 20px;
+	overflow: hidden;
+	color: #808080;
+}
+.famous .con .text p.cont span{
+	color: #f5a41a;
+	float: right;
+}
+.famous .con .text p.brief{
+	color: #555555;
+	margin-top: 25px;
+}
+.famList{
+	padding-left: 43px;
+	border-left:1px solid #e0e0e0;
+}
+.fam-list a{
+	font-size: 12px;
+	color: #808080;
+	display: block;
+	width: 440px;
+	overflow: hidden;
+}
+.fam-list a:hover .tit{
+	color: #f5a41a;
+}
+.famList .fam-list .tit{
+	font-size: 14px;
+	color: #555555;
+
+}
+.famList .fam-list .tit span{
+	margin-left: 5px;
+}
+.famList .fam-list .tit .iconf1{
+	width: 22px;
+	height: 22px;
+	background: url("../images/fIcon-01.png");
+	position: relative;
+	top: 4px;
+}
+.famList .fam-list .tit .iconf2{
+	width: 20px;
+	height: 23px;
+	background: url("../images/fIcon-02.png");
+	position: relative;
+	top: 4px;
+}
+.famList .fam-list .cont{
+	margin-top: 12px;
+	overflow: hidden;
+	line-height: 18px;
+}
+.famList .fam-list .cont span{
+	color: #f5a41a;
+	float: right;
+}
+/*最新动态*/
+.newActor{
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.newActor .con{
+	overflow: hidden;
+	border-top:1px solid #eeeeee;
+	padding-top: 30px;
+}
+.newActor .con .img img{
+	width: 310px;
+	height: 187px;
+}
+.newActor .con .text{
+	width: 350px;
+	padding: 15px 30px 0 20px;
+}
+.newActor .con .text .tit a{
+	font-size: 18px;
+	color: #555555;
+}
+.newActor .con .text .tit a:hover{
+	color: #ffab20;
+	text-decoration: underline;
+}
+.newActor .con .text .brief{
+	font-size: 13px;
+	color: #666666;
+	margin-top: 10px;
+	line-height: 20px;
+}
+.newlist{
+	height: auto;
+	overflow: hidden;
+	margin-top: 15px;
+	padding-left: 40px;
+	width: 440px;
+	border-left:1px solid #e0e0e0;
+}
+.newlist .new-list{
+	height: auto;
+	overflow: hidden;
+}
+.newlist .new-list a{
+	width: 310px;
+	font-size: 14px;
+	color: #666;
+	display:inline-block;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	line-height: 28px;
+}
+.newlist .new-list a:hover{
+	color: #ffab20;
+	text-decoration: underline;
+}
+.newlist .new-list span{
+	display: inline-block;
+	float: right;
+	font-size: 12px;
+	color: #666;
+	margin-top: 8px;
+}
+
+/*企业工具*/
+.tools{
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.tools .con{
+	height: auto;
+	overflow: hidden;
+	padding-top: 30px;
+}
+.tool-line{
+	width: 1190px;
+	border-top:1px solid #eeeeee;
+}
+.tools .con ul{
+	height: auto;
+	overflow: hidden;
+}
+.tools .con ul li{
+	width: 270px;
+	float: left;
+	color: #999;
+	font-size: 12px;
+	margin-right: 36px;
+	margin-bottom: 30px;
+}
+.tools .con ul li a{
+	font-size: 14px;
+	color: #555555;
+	display: block;
+}
+.tools .con ul li a.img{
+	margin: 15px 20px 0 0;
+}
+.tools .con ul li a:hover{
+	color: #f5a620;
+}
+.tools .con ul li p{
+	padding-top: 10px;
+	line-height: 26px;
+}
+.tools .con ul li p.more1{
+	padding: 0;
+	text-align: center;
+	line-height: 70px;
+	font-size: 14px;
+	color: #ccc;
+}
+
+
+.partner{
+	height: auto;
+	overflow: hidden;
+}
+.partner .title{
+	font-size: 20px;
+	font-weight: bold;
+	color: #575757;
+	padding: 40px 0 20px;
+}
+
+.partner .con{
+	height: auto;
+	overflow: hidden;
+	width: 1186px;
+	background-color: #fff;
+	border-top: 1px solid #ededed;
+}
+.partner .con ul{
+	height: auto;
+	overflow: hidden;
+	border-left: 1px solid #ededed;
+}
+.partner .con ul li{
+	float: left;
+	width: 236px;
+	height: 117px;
+	border-right: 1px solid #ededed;
+	border-bottom: 1px solid #ededed;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.partner .con ul li img{
+	width: 236px;
+	height: 117px;
+}
+

@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+<link rel="stylesheet" type="text/css" href="sj/datedropper.css">
+<link rel="stylesheet" type="text/css" href="sj/timedropper.min.css">
+<style>
+	.cw_zx_form table{margin: 0 auto}
+	.cw_zx_form input{width: 100%;height: 30px;margin: 0 auto;padding-left: 10px;margin-top: 15px;}
+	.cw_zx_form select{width: 100%;height: 40px;font-size: 16px;}
+</style>
+</head>
+
+<body>
+<form class="cw_zx_form">
+	<table>
+		<tr>
+			<td><input type="text" placeholder="请输入您的姓名" required></td>
+		</tr>
+		<tr>
+			<td><input type="text" placeholder="请输入您的手机号" required class="tel"></td>
+		</tr>
+		<tr>
+		<td>
+			<select class="cw_ckxz">
+				<option>请选择车库</option>
+				<option>地面停车场</option>
+				<option>地下停车场</option>
+			</select>
+		</td>
+		</tr>
+		<tr>
+			<td>
+				<p>请选择预约日期：<input type="text" class="input" id="pickdate" /></p>
+			</td>
+		</tr>
+		<tr>
+			<td><input type="submit"></td>
+		</tr>
+	</table>	
+</form>
+
+<script type="text/javascript" src="sj/jquery-1.12.3.min.js"></script>
+<script src="sj/datedropper.min.js"></script>
+<script src="sj/timedropper.min.js"></script>
+<script>
+$("#pickdate").dateDropper({
+	animate: false,
+	format: 'Y-m-d',
+	maxYear: '2020'
+});
+$("#picktime").timeDropper({
+	meridians: false,
+	format: 'HH:mm',
+});
+</script>
+<!--验证-->
+<script>
+	/*手机号验证*/
+	$(".tel").blur(function(){
+		var phone=$(this).val();
+		 if(phone.length!=11){
+			 alert("手机号长度不正确")
+			 $(".tel").val("")
+		 }else{
+			 if(!(/^1[3|4|5|8][0-9]\d{4,8}$/.test(phone))){
+				 alert("手机号码有误")
+				 $(".tel").val("")
+			 }
+		}
+	})	
+</script>
+</body>
+</html>

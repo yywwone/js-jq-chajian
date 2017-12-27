@@ -1,0 +1,7 @@
+#pic,#pic1{
+	width:100px;
+	height:100px;
+	cursor: pointer;
+	border: 1px solid #ccc;
+	border-radius: 50%;
+}

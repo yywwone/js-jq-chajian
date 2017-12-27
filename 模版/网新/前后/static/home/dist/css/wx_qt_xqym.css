@@ -1,0 +1,145 @@
+/* CSS Document */
+.wx_qt_xqym_header_img{
+	width:3.75rem;
+	height: 2.425rem;
+}
+.wx_qt_xqym_header_img img{
+	width:100%;
+	height:100%;
+}
+.wx_qt_xqym_tit_box{
+	width: 3.75rem;
+	height: 0.65rem;
+	border: 1px solid #1f2a67;
+	border-left: none;
+	border-right: none;
+}
+.wx_qt_xqym_tit{
+	float: left;
+	text-align: center;
+	width: 33%;
+}
+.wx_qt_xqym_tit img{
+	width: 0.35rem;
+	height: 0.35rem;
+	margin-top: 0.06rem;
+}
+.wx_qt_xqym_tit p{
+	color: #333;
+	font-size: 0.13rem;
+}
+.wx_qt_xqym_tit_icon_sx{
+	float: left;
+	width: 1px;
+	height:0.29rem;
+	margin-top: 0.22rem;
+}
+/*选项卡*/
+/*标题*/
+.wx_qt_xqym_tab_tit_box{
+	width: 100%;
+	height: 0.27rem;
+	background: #1f2a67;
+	margin: 0 auto;
+	margin-top: 0.11rem;
+}
+.wx_qt_xqym_tab_tit{
+	font-size: 0.11rem;
+	color: #fff;
+	float: left;
+	line-height: 0.27rem;
+	position: relative;
+	text-align: center;
+	width: 33%;
+}
+
+.wx_qt_xqym_tab_tit:after{
+	content: " ";
+	width: 50%;
+	height: 1px;
+	background: #fff;
+	position: absolute;
+	left:50%;
+	margin-left: -25%;
+	bottom: 2px;
+	transform: translateY(300%);
+	opacity: 0;
+}
+.wx_qt_xqym_tab_tit_hover:after{
+	transform: translateY(0);
+	opacity: 1;
+	transition: all 1s;
+}
+/*内容*/
+.wx_qt_xqym_tab_con{
+	display: none;
+	margin-top: 20px;
+}
+.wx_qt_xqym_tab_con_box{
+	padding: 0 0.3rem;
+	font-size: 0.11rem;
+	color: #8e8a87;
+}
+.wx_qt_xqym_tab_con_tit{
+	margin-top: 0.16rem;
+	margin-bottom: 0.13rem;
+}
+.wx_qt_xqym_tab_con_text{
+	line-height: 0.2rem;
+	width: 100%;
+}
+/*评价*/
+.wx_qt_xqym_tab_con_slider_box{
+	width:100%;
+	height: 4rem;
+	overflow: auto;
+}
+.wx_qt_xqym_tab_con_text{
+	width: 100%;
+	word-break:break-all;
+	box-sizing: border-box;
+}
+.wx_qt_xqym_tab_con_slider_box::-webkit-scrollbar  
+{  
+    width: 1px;  
+    height:0px;  
+}  
+/*底部栏*/
+.wx_qt_xqym_foot_zw{
+	height: 0.41rem;
+	margin-top: 0.65rem;
+}
+.wx_qt_xqym_foot_box{
+	width: 100%;
+	height: 0.41rem;
+	font-size: 0.14rem;
+	background: #1f2a67;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+.wx_qt_xqym_foot_main{
+	width: 49%;
+	height: 100%;
+	text-align: center;
+	margin-top: 0.12rem;
+	float: left;
+}
+.wx_qt_xqym_icon{
+	width: 0.25rem;
+	height: 0.18rem;
+	vertical-align: -0.15em;
+	fill: currentColor;
+	overflow: hidden;
+	color: #fff;
+}
+.wx_qt_xqym_foot_main span{
+	color: #fff;
+	font-size: 0.14rem;
+}
+.wx_qt_xqjm_foot_icon{
+	float: left;
+	width: 2px;
+	height: 0.27rem;
+	margin-top: 0.1rem;
+}

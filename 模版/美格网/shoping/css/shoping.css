@@ -1,0 +1,35 @@
+/* CSS Document */
+/*重置*/
+*{padding: 0;margin: 0;text-decoration:none;list-style: none;font-family: 微软雅黑;font-size: 14px;outline: none}
+a:focus{outline: none;-moz-outline-style: none; }
+img{border:none}
+/*上部*/
+.bar-bg{width: 100%;height: 35px;background: #F9F9F9;}
+.bar-box{width: 1201px;height:35px;margin: 0 auto;}
+.bar-lt{float: left;width: 400px;height: 35px;}
+.bar-lt p{line-height: 35px;float: left}
+.bar-lt span{color: #898989;line-height: 35px;margin-left: 10px;margin-right: 19px;}
+.bar-rt{float: right}
+.bar-rt li{float: left;line-height: 35px;margin-right: 10px;}
+.bar-Login{display: inline-block;width: 60px;height: 20px;background:#4348f2;color: #fff;text-align: center;line-height: 20px;}
+.bar-rt li input{border: 1px solid #ccc}
+/*导航栏*/
+.nav{width: 1201px;;height:43px;margin-top:20px;margin: 0 auto}
+.nav li{float: left;width: 110px;height: 43px;line-height: 43px;text-align: center;margin-right: 10px;margin-top: 20px;font-size:19px;font-weight:500}
+.nav li:hover{background: #4348f2;color: #fff;}
+.nav .nav-libg{background: #4348f2;color: #fff;}
+.nav-line{width: 100%;height: 2px;background: #4348f2;float: left;margin-bottom: 20px;}
+
+/*产品导航*/
+.nav2{width: 1201px;margin: 0 auto;height: 50px;clear: both}
+.nav2 ul li{float: left;width: 400px;height: 50px;text-align: center;line-height: 50px;}
+.nav2 ul li a{font-size: 18px;font-weight: bold;}
+.nav2 a:hover{color:#4348f2}
+
+
+/*返回顶部*/
+#float-top{position:fixed;right:20px;bottom:50px; background: url(../../img/top.png);width: 50px;height: 50px;display: none;}
+#float-top:hover{background: url(../../img/top-hover.png);}
+.return:hover{color:#f2880b}
+
+

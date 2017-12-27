@@ -1,0 +1,24 @@
+/* CSS Document */
+*{padding: 0;margin: 0;text-decoration:none;list-style: none;font-family: 微软雅黑;outline: none;}
+a{color: #000}
+.header_box{position: fixed;left: 0;top: 0;background: #fff;z-index: 500;width: 100%}
+.bx_qt_header{width: 1300px;height: 125px;margin: 0 auto;}
+.bx_qt_header img{float: left;}
+.bx_qt_header ul{float: right}
+.bx_qt_header ul li{float: left;width: 178px;height:69px;margin-top: 46px;text-align: center;font-size: 18px;position: relative}
+.bx_qt_header ul .active{border-bottom: 10px solid red;color: red}
+.bx_qt_header ul a{color: #000}
+.bx_qt_header ul li ul{position: absolute;top:37px;left: 0;display: none;z-index: 100}
+.bx_qt_header ul li ul li{height: 40px;margin-top:0;background: #f3f0f0;color: #000;line-height: 40px; }
+.bx_qt_header ul li ul li a{display: block;}
+.bx_qt_header ul li ul li a:hover{background: red;color: #fff;border-bottom: 0;}
+.bx_qt_work_img{width: 100%;height: 500px;margin-bottom:50px;}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,234 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>临时场地申请</title>
+<link rel="icon" href="" type="image/x-icon"/>
+<link href="css/bootstrap.css" rel="stylesheet">
+<style>
+body{font-family:微软雅黑; }
+*{list-style:none;}
+	input{padding-left: 5px;}
+.tit{line-height:1.8em; font-weight:300; }
+.btn{margin-top:0.2em; margin-bottom:0.2em;}
+.banner{
+	width:200%;
+	margin:0;
+	padding:0;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.banner li{
+	width:25%;
+	float:left;
+	padding:1em;
+	padding-bottom:0;
+	padding-top:0;
+}
+.banner-main{
+	
+	margin:0;
+	padding:0;
+}
+
+.title{text-align:center;}
+.price{text-align:center; color:#4e4e4e;}
+.inin{border:solid 1px #ccc; border-radius:3px;}
+.cla{margin-bottom:0.5em;}
+#bannerBox{position:relative;overflow:hidden}
+#next{position:absolute; top:45px; right:0; z-index:3;}
+#nextup{position:absolute; top:35%; left:0; z-index:3; background-color:#0C0;}
+.phone{position:absolute; right:2%; bottom:10%; width:30px; height:30px;
+background-color:#06F; color:#FFF; border:solid 1px #00c; border-radius:15px;
+text-align:center; line-height:30px;} 
+.next{position:absolute; right:0; top:25%; cursor:pointer;}
+.nextup{position:absolute; left:0; top:25%; cursor:pointer;}
+@media screen and (max-width:805px) {
+   
+		#bannerBox{position:relative;height:210px;}
+    }
+
+@media screen and (max-width: 320px) {
+   
+		#bannerBox{position:relative;height:180px;}
+    }
+</style>
+<link rel="stylesheet" type="text/css" href="css/datedropper.css">
+</head>
+<body>
+<form class="myform form-horizontal">
+	<div class="container-fluid" style="border-bottom:1px #CCC solid; padding-bottom:0.3em; margin-bottom:0.3em">	
+	<h4 class="pull-left tit">临时场地申请</h4>
+   <button type="submit" class="btn btn-primary btn-lg pull-right">提交</button>
+	</div>
+	<div class="container-fluid banner-main" id="banner-main">
+		<div id="bannerBox">
+			<ul class="banner">
+				<li>
+					<label>
+						<div class="img-box" for="optionsRadios1" checkbox>
+							<img src="img/690906463578807399.jpg" class="img-responsive">
+						</div>
+						<h5 class="title">办公室</h5>
+						<p class="price">5,1000元/月</p>
+						<div style="text-align:center;">
+							<input type="radio" name="danxuan" id="optionsRadios1" checkbox>
+						</div>
+					</label>  
+				</li>
+				<li>
+				 	<label>
+						<div class="img-box" for="optionsRadios2" checkbox>
+							<img src="img/690906463578807399.jpg" class="img-responsive">
+						</div>
+						<h5 class="title">会议室</h5>
+						<p class="price">100,500元/场</p>
+						<div style="text-align:center;">
+							<input type="radio" name="danxuan" id="optionsRadios2">
+						</div>
+					</label>  
+				</li>
+				<li>
+					<label>
+						<div class="img-box" for="optionsRadios3" checkbox>
+							<img src="img/690906463578807399.jpg" class="img-responsive">
+						</div>
+						<h5 class="title">活动室</h5>
+						<p class="price">50人,500元/场</p>
+						<div style="text-align:center;">
+							<input type="radio" name="danxuan" id="optionsRadios3">
+						</div> 
+					</label> 
+				</li>
+				<li>
+					<label>
+						<div class="img-box" for="optionsRadios4" checkbox>
+							<img src="img/690906463578807399.jpg" class="img-responsive">
+						</div>
+						<h5 class="title">接待厅</h5>
+						<p class="price">10,200元/场</p>
+						<div style="text-align:center;">
+							<input type="radio" name="danxuan" id="optionsRadios4">
+						</div>
+					</label>   	
+				</li>
+			</ul>
+			<a href="tel:135-5666-5666" class="phone" ><span class="glyphicon glyphicon-earphone"></span></a>
+			<div class="next"><span class="glyphicon glyphicon-chevron-right"></span></div>
+			<div class="nextup"><span class="glyphicon glyphicon-chevron-left"></span></div>     
+		</div>
+	</div>
+	<div class="container-fluid" style="padding-top:0.8em;">
+		<div class="row cla">
+			<div class="col-xs-3" style="text-align:center;">
+				<label for="exampleInputName2">姓名</label>
+			</div>
+			<div class="col-xs-9">
+			  <input type="text" style="width:90%" class="inin"  placeholder="您的名字" required>
+			</div>
+		</div>    
+		<div class="row cla">
+			<div class=" col-xs-3" style="text-align:center;">
+				<label for="exampleInputName2">公司名称</label>
+			</div>
+			<div class="col-xs-9">
+			  <input type="text" style="width:90%" class="inin"  placeholder="您的公司名字"  required>
+			</div>
+		</div>   
+		<div class="row cla">
+			<div class=" col-xs-3" style="text-align:center;">
+				<label for="exampleInputName2">联系方式</label>
+			</div>
+			<div class=" col-xs-9">
+			  <input type="text" style="width:90%" class="inin tel"  placeholder="联系人电话"  required >
+			</div>
+		</div>
+		<div class="row cla">
+			<div class=" col-xs-3" style="text-align:center;">
+				<label for="exampleInputName2">需求提及</label>
+			</div>
+			<div class=" col-xs-9">
+			  <input type="text" style="width:90%" class="inin"  placeholder="请输入您的需求"  required>
+			</div>
+		</div>
+		<div class="row cla">
+			<div class="col-xs-3" style="text-align:center;">
+				<label for="exampleInputName2">开始时间</label>
+			</div>
+			<div class="col-xs-9">
+			  <input type="text" style="width:90%" class="inin"  placeholder="您需要的时间" id="pickdate"  required>
+			</div>
+		</div>
+		<div class="row cla sj_js">
+			<div class="col-xs-3" style="text-align:center;">
+				<label for="exampleInputName2">结束时间</label>
+			</div>
+			<div class="col-xs-9">
+			  <input type="text" style="width:90%" class="inin"  placeholder="您需要的时间" id="pickdateend"  required>
+			</div>
+		</div>
+	</div>   
+</form>
+
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/cd.js"></script>
+<script src="js/datedropper.min.js"></script>
+<script src="js/hd.js"></script>
+<!--手指滑动-->
+<script>
+	$('.banner').swipeleft(function(){
+		$(".next").trigger("click")
+	});
+	$('.banner').swiperight(function(){
+		$(".nextup").trigger("click")
+		
+	});
+</script>
+<!--时间选择-->
+<script>
+$("#pickdate").dateDropper({
+	animate: false,
+	format: 'Y-m-d',
+	maxYear: '2020'
+});
+$("#pickdateend").dateDropper({
+	animate: false,
+	format: 'Y-m-d',
+	maxYear: '2020'
+});
+</script>
+<!--手机号检测-->
+<script>	
+	$(".tel").blur(function(){
+		var phone=$(this).val();
+		 if(phone.length!=11){
+			 alert("手机号长度不正确")
+			 $(".tel").val("")
+		 }else{
+			 if(!(/^1[3|4|5|8][0-9]\d{4,8}$/.test(phone))){
+				 alert("手机号码有误")
+				 $(".tel").val("")
+			 }
+		}
+	})
+</script>
+<!--场地选择-->
+<script>
+	$(".banner").on("click","li",function(){
+		var index=$(this).index()
+		if(index==0){
+			$(".sj_js").hide()
+		}else{
+			$(".sj_js").show()	
+		}
+		
+	})
+	
+</script>
+</body>
+</html>

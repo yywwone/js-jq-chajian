@@ -1,0 +1,67 @@
+ajax缺点是破坏了浏览器的前进后退，因为ajax的请求不会留在历史记录中。pjax就不一样了，pjax被解释成ajax+pushState的封装，因为它把ajax的请求写入历史记录，并反映在地址栏，这样用户就能愉快地使用前进后退了。pjax有好几个实现方法，这里使用最常用的Jquery库，使用jquery.pjax.js。演示代码的服务器端使用PHP脚本语言。
+　　Pjax用在那儿？就说百度云盘吧，这个大家肯定都用过。百度云盘PC端，在点击打开某个文件夹后会打开这个文件夹下的文件，其实显示文件的这个div就用到了pjax技术。地址栏变换，内容更换，但是却是一个ajax请求。等到后退的时候，不必重新请求上一层文件夹的内容，因为是存在在历史记录中的。而且，开发者还可以选择时候使用cache和storage缓存。
+DEMO1：
+客户端：
+复制代码
+<!DOCTYPE html>
+<html>
+<head>
+  <title>pjax</title>
+    <meta charset="utf-8">
+</head>
+<body>
+  <h1>My Site</h1>
+  <div>
+    Go to <a href="res1.php">第一页</a>.<a href="res2.php">第二页</a>
+  </div>
+  <div id="container"></div>    
+</body>
+<script src="../jquery-2.1.4.min.js"></script>
+<script src="../jquery.pjax.js"></script>
+<script type="text/javascript">
+$(document).pjax('a', '#container')
+</script>
+</html>
+复制代码
+服务器端：
+res1.php
+<?php 
+echo "<div style='background:red;'>第一页</div>";
+res2.php
+<?php 
+echo "<div style='background:red;'>第二页</div>";
+解释：$(document).pjax('a', '#container')其中a是触发元素，#container是装载pjax返回内容的容器，下面也是这样。
+DEMO2：
+客户端：
+复制代码
+<!DOCTYPE html>
+<html>
+<head>
+  <title>pjax</title>
+    <meta charset="utf-8">
+</head>
+<body>
+  <h1>My Site</h1>
+  <div>
+    <input type="button" id="clickMe" value="GO">
+  </div>
+  <div id="container"></div>    
+</body>
+<script src="../jquery-2.1.4.min.js"></script>
+<script src="../jquery.pjax.js"></script>
+<script type="text/javascript">
+$(function(){
+    $('#clickMe').click(function(){
+        $.pjax({
+            url: './res3.php',
+            container: '#container'
+        });
+    });
+});
+</script>
+</html>
+复制代码
+服务器端代码：
+res3.php:
+<?php 
+echo "<div style='background:red;'>第三页</div>";

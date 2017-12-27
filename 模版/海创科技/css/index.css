@@ -1,0 +1,161 @@
+
+.banner-box{
+	height: 460px;
+	width: 1200px;
+	margin: 0 auto;
+	background-color: #fcc;
+}
+.banner-main{
+	height: 430px;
+	width: 1200px;
+}
+.thred{
+	width: 1200px;
+	margin: 0 auto;
+	height: 360px;
+	position: relative;
+}
+.title{
+	text-align: center;
+	color: #333333;
+}
+.window{
+	width: 870px;
+	height: 242px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.content1-box{
+	width: 2610px;
+	margin: 0 auto;
+	position: absolute;
+}
+.content1-box li{
+	width: 870px;
+	height: 242px;
+	float: left;
+}
+.content1{
+	width: 430px;
+	float: right;
+	line-height: 28px;
+	font-size: 16px;
+	color: #666666;
+}
+.upup{
+	position: absolute;
+	right: 20px;
+	top: 150px;
+	cursor: pointer;
+}
+.momo{
+	position: absolute;
+	left: 20px;
+	top: 150px;
+	cursor: pointer;
+}
+.bannerone{
+	width: 1200px;
+	margin: 0 auto;
+}
+.title-1{
+	text-align: center;
+	color: #333333;
+	font-size: 28px;
+}
+.fubiaoti{
+	text-align: center;
+	color: #666666;
+}
+.bozx{
+	width:900px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.lolo li{
+	width: 300px;
+	height: 220px;
+	float: left;
+	text-align: center;
+}
+
+.footer{
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 30px;
+	height: 510px;
+}
+.fdf{
+	float: left;
+}
+.bcb{
+	float: left;
+	width: 3px;
+	height:410px;
+	background-color: #c9c9c9;
+	margin-top:60px;
+	margin-left: 30px;
+}
+.bcb1{
+	float: left;
+	margin-top: 40px;
+}
+.cxx{
+	
+	height: 72px;
+}
+.cxx li{
+	float: left;
+	margin-left: 72px;
+	font-size: 24px;
+	cursor: pointer;
+	color: #666666;
+}
+.haha{
+	margin-left: 72px;
+	width: 700px;
+	height: 308px;
+	
+}
+.minute{
+	height: 90px;
+	width: 104px;
+	border-right: solid 3px #c9c9c9;
+	padding-right: 100px;
+	position: relative;
+	float: left;
+
+}
+.sap1{
+	position: absolute;
+	font-size: 36px;
+	color: #333333;
+	right: 20px;
+	top: 10px;
+}
+.sap2{
+	position: absolute;
+	font-size: 16px;
+	color: #333333;
+	right: 20px;
+	bottom: 10px;
+	
+}
+.content-mian{
+	float: left;
+	margin-left:30px ;
+}
+.content-mian h4{
+	font-size: 20px;
+}
+.txt{
+	font-size: 16px;
+}
+.norme{
+	display: inline-block;
+	border: solid 1px #3D4444;
+	padding: 5px;
+	margin-left:72px;
+}
+.first{display: none;}

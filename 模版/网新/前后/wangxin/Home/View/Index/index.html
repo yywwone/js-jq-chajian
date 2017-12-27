@@ -1,0 +1,135 @@
+<extend name="public/base"/>
+<block name="distcss">
+<link href="__PUBLIC__/home/dist/css/wx_qt_index.css" rel="stylesheet">
+<link href="__PUBLIC__/home/dist/css/animate.min.css" rel="stylesheet">
+<style type="text/css">
+ .opt{
+ 	border:1px solid yellow;
+ 	width: 50px;
+ }
+</style>
+</block>
+</head>
+
+<block name="content">
+<!--轮播-->
+<div class="wx_qt_header">
+		<div class="wx_qt_index_ds">
+			<!--地址栏-->
+			<!-- <span class="wx_qt_index_ds_dz" style="margin-left:-0.2rem">
+				<select  class="opt">
+					<volist name="yuanqu" id="yuan">
+	                   <option>{$yuan['yuan']}</option>
+	               </volist>
+				</select>
+		    </span> -->
+			<!--搜索栏-->
+			<!-- <div class="wx_qt_index_ds_ss">
+				<form>
+					<input type="text" placeholder="请输入搜索内容" class="wx_qt_index_ds_ss_input">
+					<input type="image" src="__PUBLIC__/admin/dist/images/index_ss.png" class="wx_qt_index_ds_ss_input_img">
+				</form>
+			</div> -->
+			<!-- <a href="{:U('gslb/gslb')}"><img src="__PUBLIC__/admin/dist/images/index_yhzx.png" class="wx_qt_index_grzx_img"></a> -->
+		</div>
+		<!--轮播-->
+		<div class="wx_qt_index_slider_box">
+			<div class="wx_qt_index_slider_img">
+				<img src="__PUBLIC__/admin/uploads/{$xinxi.lb_img1}">
+				<img src="__PUBLIC__/admin/uploads/{$xinxi.lb_img2}">
+			</div>
+			<div class="wx_qt_index_slider_sx">
+				<div class="wx_qt_index_slider_sx_pre"></div>
+				<div class="wx_qt_index_slider_sx_next"></div>
+			</div>
+		</div>
+	</div>
+<div class="wx_qt_index_main_box">
+	<!--分类-->
+	<div class="wx_qt_fl_box_box">
+		<div class="wx_qt_fl_box">
+			<div class="wx_qt_fl_box_main"><a href="{:U('yqfc')}">
+				<img src="__PUBLIC__/admin/dist/images/index_fl4.png">
+				<p>园区风采</p>
+			</a></div>	
+			<div class="wx_qt_fl_box_main"><a href="{:U('zsyz')}">
+				<img src="__PUBLIC__/admin/dist/images/index_fl3.png">
+				<p>招商引资</p>
+			</a></div>
+			<div class="wx_qt_fl_box_main"><a href="{:U('qyfw','id='.$pagintor['4']['id'])}">
+				<img src="__PUBLIC__/admin/uploads/{$pagintor.4.img}">
+				<p>{$pagintor.4.name}</p>
+			</a></div>
+			<div class="wx_qt_fl_box_main"><a href="{:U('qyfw','id='.$pagintor['0']['id'])}">
+				<img src="__PUBLIC__/admin/uploads/{$pagintor.0.img}">
+				<p>{$pagintor.0.name}</p>
+			</a></div>
+			<div class="wx_qt_fl_box_main"><a href="{:U('qyfw','id='.$pagintor['1']['id'])}">
+				<img src="__PUBLIC__/admin/uploads/{$pagintor.1.img}">
+				<p>{$pagintor.1.name}</p>
+			</a></div>
+			<div class="wx_qt_fl_box_main"><a href="{:U('qyfw','id='.$pagintor['2']['id'])}">
+				<img src="__PUBLIC__/admin/uploads/{$pagintor.2.img}">
+				<p>{$pagintor.2.name}</p>
+			</a></div>
+			<div class="wx_qt_fl_box_main"><a href="{:U('qyfw','id='.$pagintor['3']['id'])}">
+				<img src="__PUBLIC__/admin/uploads/{$pagintor.3.img}">
+				<p>{$pagintor.3.name}</p>
+			</a></div>
+			
+			<div class="wx_qt_fl_box_main"><a href="{:U('qbfl')}">
+				<img src="__PUBLIC__/admin/dist/images/index_fl8.png">
+				<p>全部分类</p>
+			</a></div>	
+		</div>
+	</div>
+	<!--广播-->
+	<div class="guangbo">
+        <img src="__PUBLIC__/admin/dist/images/guangbo.png" alt="广播" class="pulse animated infinite">
+        <ul class="guangbo_text">
+            <ul class="guangbo_text_ul1">
+              <volist name="con" id="v">
+                <li><a href="{:U('index/activity','id='.$v['id'])}">{$v['title']}</a></li>
+            </volist>
+            </ul>
+            <ul class="guangbo_text_ul2"></ul>
+
+        </ul>
+
+	</div>
+	<!--入园企业风采-->
+	<div class="wx_qt_fc_box">
+		<h1><a href="{:U('gslb')}">入园企业风采</a></h1>
+		<div class="wx_qt_fc_box_main">
+			<volist name="pagintor1" id="item">
+			<div class="wx_qt_fc_box_main_con"><a href="{:U('aboutc','id='.$item['id'])}">
+				<img src="__PUBLIC__/admin/dist/uploads/{$item.img}">
+				<p>{$item.name}</p>
+			</a></div>
+			</volist>
+			<div class="wx_qt_fc_box_main_con"><a href="{:U('gslb')}">
+				<img src="__PUBLIC__/admin/dist/images/index_qyfc4.png">
+				<p>更多企业&gt;&gt;</p>
+			</a></div>
+		</div>
+	</div>
+</div>
+<!--底部banner-->
+<img src="__PUBLIC__/admin/uploads/{$xinxi.db_img}" class="wx_qt_index_banner_bt">
+<!-- 底部栏显示标识 -->
+<div class="wx_qt_dbgdl_active">0</div>
+</block>
+<block name="javascript">
+<script src="__PUBLIC__/admin/dist/js/index_slider.js"></script>
+<script src="__PUBLIC__/admin/dist/js/hd.js"></script>
+<script src="__PUBLIC__/admin/dist/js/hd_kz.js"></script>
+<script src="__PUBLIC__/admin/dist/js/wx_index_text.js"></script>
+<script type="text/javascript">
+	if(<?php echo I('get.alert');?>=='1'){
+	            	alert('提交成功');
+	            }
+	            if(<?php echo I('get.alert');?>=='2'){
+	            	alert('提交失败');
+	            }
+ </script>
+</block>

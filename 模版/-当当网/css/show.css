@@ -1,0 +1,65 @@
+/* CSS Document */
+#banner {width: 960px;margin: 0 auto;}
+/*当前位置*/
+#position{width: 960px;margin: 10px auto 14px;}
+#position a{color: #000;}
+#position a:hover{color:  blue}
+/*主体*/
+#main{width: 960px;margin: 0 auto;overflow: hidden;}
+
+/*主体 左侧盒子*/
+#main_left-box{width: 180px;height: 874px;float: left;}
+/*主体 左侧盒子 上部*/
+#main_left-box_top{width: 178px;height: 609px;border: 1px solid #d3d3d3;}
+/*主体 左侧盒子 上部 头部*/
+#main_left-box_top_header{width: 178px;height: 23px;background: url(../images/product_left_top_bg.gif);color: #fff;font-size: 14px;}
+#main_left-box_top_header p{margin-left: 10px;line-height: 23px;}
+/*主体 左侧盒子 上部 主体*/
+#main_left-box_top_body li{list-style:disc;margin-top: 11px;margin-left: 18px; font-size: 12px;}
+#main_left-box_top_body ul li a{color: blue}
+/*主体 左侧盒子 下部*/
+#main_left-box_bottom{width: 178px;height: 251px;border: 1px solid #d3d3d3;margin-top: 10px;}
+
+/*主体 右侧盒子*/
+#main_right-box{width: 770px;height: 836px;border: 1px solid #a1a1a1;float: right;}
+/*主体 右侧盒子 头部*/
+#main_right-box_header{height: 30px;width: 770px;background: #f9d8a9;border-bottom: 1px solid #a1a1a1;font-size: 12px;}
+/*主体 右侧盒子 头部 左侧*/
+#main_right-box_header_left{float: left}
+#main_right-box_header_left li{float: left;line-height: 30px;margin-left: 5px;}
+/*主体 右侧盒子 头部 右侧*/
+#main_right-box_header_right{float: right}
+#main_right-box_header_right li{float: left;line-height: 30px;margin-left: 5px;}
+#main_right-box_header ul li img{vertical-align: middle;cursor: pointer}
+/*主体 右侧盒子 内容*/
+#main_right-box_body{width:750px;height: 805px;margin: 0 auto}
+/*主体 右侧盒子 内容 主体*/
+.main_right-box_body_div{width: 750px;height: 190px;border-bottom: 1px solid #666;}
+.main_right-box_body_div_img{margin-top: 20px;float: left;}
+.main_right-box_body_div ul{float: left;width: 638px;margin-top: 20px;line-height: 20px;}
+.main_right-box_body_div ul li{float: left;width: 638px;font-size: 12px;}
+.main_right-box_body_div ul li a{color: blue}
+.main_right-box_body_div_li-first{border-bottom: 1px dashed #666;}
+.main_right-box_body_div_li-last_span1{text-decoration:line-through;margin-left: 200px;}
+.main_right-box_body_div_li-last_span2{color: #9b2b0f}
+.main_right-box_body_div_li-last{float: right}
+.main_right-box_body_div_li-last input{float: right}
+/*主体 右侧盒子 内容 结尾*/
+#main_right-box_body_ul{float: right;margin-top: 20px;font-size: 12px}
+#main_right-box_body_ul li{float: left;}
+.main_right-box_body_li-bg{background: #ffcc66;margin-right: 3px;width: 16px;height:15px;text-align: center}
+#main_right-box_body_ul li input{margin-left: 13px;margin-right: 9px;}
+.main_right-box_body_ul_input-text{width: 24px;height: 15px;text-align: center;outline:none;}
+
+/*尾部*/ 
+#foot{width: 960px;height: 47px; margin: 0 auto;font-size: 12px;}
+#foot ul{width: 377px;margin: 0 auto;}
+#foot ul li{float: left;line-height: 47px;}
+#foot ul li img{margin-left: 12px;margin-right: 11px;}
+#foot ul li a{color: #9b2b0f}
+#foot p{width: 600px;height: 48px;margin: 0 auto;clear: both;line-height: 48px;}
+#foot p img{vertical-align: middle}
+
+
+
+

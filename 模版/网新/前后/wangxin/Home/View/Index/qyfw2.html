@@ -1,0 +1,30 @@
+<extend name="public/base"/>
+<block name="distcss">
+<link href="__PUBLIC__/home/dist/css/wx_qt_qyfw.css" rel="stylesheet">
+</block>
+</head>
+
+<block name="content">
+<div class="wx_qyfw_header_img">
+	<img src="__PUBLIC__/admin/uploads/{$fu.image}">
+</div>
+<div class="wx_qyfw_box">
+	<div class="wx_qyfw_box_tit_box">
+		<span class="wx_qyfw_box_tit">{$fu.name}</span>
+	</div>
+	
+	<div class="wx_qyfw_main_box">
+		<volist name="pagintor" id="item">
+		<div class="wx_qyfw_main"><a href="{:U('xqym','id='.$item['id'])}">
+			<img src="__PUBLIC__/admin/uploads/{$item.img}">
+			<p>{$item.name}</p>
+		</a></div>
+		</volist>
+	</div>	
+</div>
+<!-- 底部栏显示标识 -->
+<div class="wx_qt_dbgdl_active">1</div>
+</block>
+<block name="javascript">
+<script src="__PUBLIC__/home/dist/js/flfw.js"></script>
+</block>

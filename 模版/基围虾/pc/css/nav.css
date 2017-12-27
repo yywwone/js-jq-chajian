@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+.navbar-default{
+	background-color:#4e4e4e;
+	border:none;
+	border-radius:0px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #e8e8e8;
+	text-align:center;
+}
+.navbar-default .navbar-nav>li>a:visited{color:#e8e8e8;}
+.navbar-default .navbar-nav>li>a:hover{color:#FFF;}
+.navbar-default .navbar-toggle {
+    border-color: #fcfcfc;
+}
+.navbar-default .navbar-toggle {
+  border-color: #ccc; 
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color:;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border:none;
+}
+.navbar-brand{
+	padding:0;
+	padding-top:0.5em;
+	padding-left:0.5em;
+}
+.search{
+	float:right;
+	padding:13px;	
+}
+.form-control {
+	width:100%;
+	float:left;
+	margin:0;
+}
+.myform{
+	padding-top:0.6em;
+	 position:relative;
+	 width:40%;
+	 float:left;
+	 margin-left:1.5em;
+}
+.tijiao {
+	position:absolute;
+	right:0.1em;
+	border:none;
+	margin-top:0.4em;
+	background-color:#FFF;
+}

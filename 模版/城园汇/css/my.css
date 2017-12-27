@@ -1,0 +1,41 @@
+/* CSS Document */
+/*维修报修*/
+.main{width: 1226px;margin: 0 auto;display: none; }
+.main h1{text-align: center;margin:25px 0;font-size: 36px;}
+.tit{width: 1226px;font-size: 16px;display: table;margin: 50px 0;}
+.tit li{float: left;display: table-cell;width: 33%;text-align: center;font-weight: bold;cursor: pointer;}
+.main table{font-size: 16px;width:100%;background: #eaeaea;background: url(../../../../../../../AppServ/www/新建文件夹/images/0502001787.jpg) no-repeat center middle}
+
+/*服务订单*/
+.main1{width: 1226px;margin: 0 auto;display: none;}
+.main1 h1{text-align: center;margin:25px 0;font-size: 36px;}
+.tit1{width: 1226px;font-size: 16px;display: table;margin: 50px 0;}
+.tit1 li{float: left;display: table-cell;width: 33%;text-align: center;font-weight: bold;cursor: pointer;}
+.main1 table{font-size: 16px;width:100%;background: #eaeaea;}
+
+/*投诉建议*/
+.main2{width: 1226px;margin: 0 auto;display: none;}
+.main2 h1{text-align: center;margin:25px 0;font-size: 36px;}
+.tit2{width: 1226px;font-size: 16px;display: table;margin: 50px 0;}
+.tit2 li{float: left;display: table-cell;width: 33%;text-align: center;font-weight: bold;cursor: pointer;}
+.main2 table{font-size: 16px;width:100%;background: #eaeaea;}
+
+/*设置*/
+/*修改密码*/
+.main3{width: 1226px;margin: 0 auto;display: none; }
+.tit3{width: 1226px;font-size: 16px;display: table;margin: 50px 0;}
+.tit3 li{float: left;display: table-cell;width: 48%;text-align:right;font-weight: bold;cursor: pointer;margin-right:1%;}
+.main3 form{margin: 0 auto;border: 1px solid #ccc;width:550px;height: 135px;border-radius: 5px;font-size: 18px;padding:50px 0 50px 50px;}
+.main3 input{width: 200px;height: 30px;font-size: 18px;padding-left: 15px;}
+.main3 .pad{border: 1px solid #ccc}
+.main3 .pad1{border: 1px solid #ccc}
+.main3 input:focus{outline: none;}
+.main3 form .tj{width:295px;cursor: pointer;height: 50px;display: block;margin-top: 10px;}
+.ts1{color: red;display: none;}
+/*修改地址*/
+select{width: 217px;height: 30px;}
+select:focus{outline: none;}
+.main3 form .tj1{width:313px;cursor: pointer;height: 50px;display: block;margin-top: 10px;}
+.dy{border: 1px solid #ccc}
+.srdz{display: none;color: red;}
+

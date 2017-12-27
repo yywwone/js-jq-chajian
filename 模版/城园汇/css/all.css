@@ -1,0 +1,10 @@
+/* CSS Document */
+*{transition: all 0.5s ease 0s;}
+.main{width: 1227px;margin: 50px auto;clear: both;}
+.main h1{margin-bottom: 20px;}
+.box{width:230px;height: 350px;border: 1px solid #ccc;float: left;margin-right: 10px;margin-bottom: 50px;}
+.box p{text-align: center;margin-top: 20px;}
+.box img{margin-left: 15px;}
+.main .text{font-size: 24px;}
+.con .box:last-child{margin-right: 0px;}
+.con .box:hover{box-shadow:5px 5px 50px #ccc,-5px 5px 50px #ccc;}

@@ -1,0 +1,5 @@
+/* CSS Document */
+/*返回顶部*/
+#float-top{position:fixed;right:20px;bottom:50px; background: url(../img/top.png);width: 50px;height: 50px;display: none;}
+#float-top:hover{background: url(../img/top-hover.png);}
+.return:hover{color:#f2880b}

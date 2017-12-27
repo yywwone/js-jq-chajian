@@ -1,0 +1,20 @@
+/* CSS Document */
+body{background: #F8F8F8}
+.my_wdjl_tit{border-radius: 13px;width: 200px;height: 26px;background:#DDDDDD;line-height: 26px;float: none;margin: 0 auto;overflow: hidden}
+.my_wdjl_tit span{display: inline-block;width: 49%;text-align: center;color: #A59D9F}
+.my_wdjl_tit .my_wdjl_active{background: #FF6600;color: #fff}
+.my_wdjl_con{padding: 10px;background:#fff;margin-bottom: 15px;}
+.my_wdjl_con p{border-bottom: 1px solid #F5F5F5;height: 41px;line-height:41px;margin-bottom: 0;font-size: 12px;color: #9F9F9F}
+.work_con_icon1{border: 1px solid #ccc;padding:5px;float: left;margin-right: 8px;margin-bottom: 5px;font-size: 12px;border-color:#FE686A;color:#FE686A;}
+.my_box{margin-top: 15px;float: right;text-align: right;width:140px;}
+.my_box1{margin-top: 15px;float: right;text-align: right;width:100px;}
+.my_wdjl_box{display: none;}
+.my_wsdd_box{margin-top: 15px;float: right;text-align: right;width: 100px;}
+
+
+
+
+
+
+
+

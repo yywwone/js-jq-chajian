@@ -1,0 +1,408 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script type="text/javascript" src="js/safe/aywmq_qt.js" ></script>
+		<script type="text/javascript" src="js/safe/da_opt.js" ></script>
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<link rel="stylesheet" href="css/safe/css.css" />
+		<link rel="stylesheet" href="css/safe/common.min.css" />
+		<link rel="stylesheet" href="css/safe/ms-style.min.css" />
+		<link rel="stylesheet" href="css/safe/personal_member.min.css" />
+		<link rel="stylesheet" href="css/safe/Snaddress.min.css" />
+		<style>
+			progress {
+    width: 300px;
+    border: 1px solid #ffffff;  
+    background-color:#e6e6e6;
+    color: #0064B4; /*IE10*/
+}
+progress::-moz-progress-bar { background: #FFFFFF; }
+progress::-webkit-progress-bar { background: #ccc; }
+progress::-webkit-progress-value  { background: #FF7700; }
+	</style>
+	</head>
+	<body class="ms-body">
+		<div id="" class="ng-top-banner"></div>
+		<div class="ng-toolbar">
+			<div class="ng-toolbar-con wrapper">
+				<div class="ng-toolbar-left">
+					<a  class="ng-bar-node ng-bar-node-backhome" id="ng-bar-node-backhome" style="display: block;">
+						<span><img src="img/Home.png" style="margin-right: 10px;"/>返回买啦首页</span>
+					</a>
+					<div class="ng-bar-node-box ng-site-nav-box">
+						<a href="" class="ng-bar-node ng-bar-node-site" >
+							<span><img src="img/daohang.png" style="margin-right: 5px;" />网站导航</span><em class="ng-iconfont down"></em>
+						</a>
+						<div class="ng-sn-site-nav ng-d-box site-nav-child" style="display:none;">
+							<dl class="sn-site-list lnb">
+								<dt>
+								    特色购物
+								 </dt>
+								<dd>
+									<p><a  target="_blank">###</a></p>
+									<p><a target="_blank">###</a></p>
+									<p><a  target="_blank">###</a></p>
+								</dd>
+							</dl>
+							<dl class="sn-site-list">
+								<dt>
+							    主题频道
+							   </dt>
+								<dd>
+									<p><a  target="_blank">###</a></p>
+									<p><a   target="_blank">###</a></p>
+									<p><a  target="_blank">###</a></p>
+									<p><a  target="_blank">###</a></p>
+									<p><a  target="_blank">###</a></p>
+									<p><a  target="_blank">###</a></p>
+								</dd>
+							</dl>
+							<dl class="sn-site-list">
+								<dt>
+					    生活助手
+					   </dt>
+								<dd>
+									<p><a  target="_blank">###<i class="hot"></i></a></p>
+									<p><a  target="_blank">###</a></p>
+									<p><a  target="_blank">###</a></p>
+									<p><a  target="_blank">###</a></p>
+									<p><a  target="_blank">###</a></p>
+									<p><a  target="_blank">###</a></p>
+								</dd>
+							</dl>
+							<dl class="sn-site-list">
+								<dt>
+					    会员服务
+					   </dt>
+								<dd>
+									<p><a  target="_blank">###<i class="hot"></i></a></p>
+									<p><a  target="_blank">###</a></p>
+									<p><a  target="_blank">###</a></p>
+									<p><a  target="_blank">###</a></p>
+								</dd>
+							</dl>
+							<a href="" class="ng-close" ><em class="ng-iconfont"></em></a>
+						</div>
+					</div>
+
+				</div>
+				<div class="ng-toolbar-right">
+					<a href="" class="ng-bar-node username-bar-node username-bar-node-showside" id="" rel="nofollow" style="display:none;">
+						<span id="">吉米小子</span>
+						<em class="hasmsg ng-iconfont"></em>
+					</a>
+					<div class="ng-bar-node-box username-handle" id="" style="display: block;">
+						<a href="" rel="nofollow" class="ng-bar-node username-bar-node username-bar-node-noside">
+							<span id="">吉米小子</span>
+							<em class="hasmsg ng-iconfont"></em>
+							<em class="ng-iconfont down"></em>
+						</a>
+						<div class="ng-d-box ng-down-box ng-username-slide" style="display:none;">
+							<a href="" class="ng-vip-union" target="_blank" rel="nofollow">账号管理</a>
+							<a href="" rel="nofollow">退出登录</a>
+						</div>
+					</div>
+					<div class="ng-bar-node reg-bar-node" id="reg-bar-node" style="display: none;">
+						<a href=""  rel="nofollow" class="login">登录</a>
+						<a href="" target="_blank" class="login reg-bbb" rel="nofollow" >注册</a>
+					</div>
+
+					<div class="ng-bar-node-box myorder-handle">
+						<a class="ng-bar-node ng-bar-node-fix touch-href ng-bar-node-pr5"><span>我的买啦</span><em class="ng-iconfont down"></em></a>
+						<div class="ng-down-box ng-d-box myorder-child" style="display:none;">
+							<a >待支付<em id="waitPayCounts"></em></a>
+							<a >待收货<em id="waitDeliveryCounts"></em></a>
+							<a >待评价<em id="waitEvaluation"></em></a>
+							<a >修改订单</a>
+						</div>
+					</div>
+					<a class="ng-bar-node ng-bar-node-mini-cart"  rel="nofollow" href="">
+						<span><img src="img/购物车.png" />购物车</span>
+					<span class="total-num-bg-box">
+						<em></em>
+						<i></i>
+					</span>
+						</span>
+					</a>
+					<div class="ng-bar-node-box mysuning-handle">
+						<a href="http://my.suning.com" rel="nofollow" name="" class="ng-bar-node ng-bar-node-fix touch-href ng-bar-node-pr5"><span>收藏夹</span><em class="ng-iconfont down"></em></a>
+						<div class="ng-down-box ng-d-box mysuning-child" style="display:none;">
+							<a href=""  rel="nofollow" target="_blank">###</a>
+							<a href="" rel="nofollow"  target="_blank">###</a>
+							<a href="" rel="nofollow" >###</a>
+							<a href="" rel="nofollow">###</a>
+							<a href="" rel="nofollow" >###</a>
+							<a href="" rel="nofollow" >###</a>
+							<a href="" class="ng-vip-union" target="_blank" rel="nofollow" >###<em class="ng-iconfont"></em></a>
+						</div>
+					</div>
+					
+
+					<div class="ng-bar-node-box app-down-box">
+						<a href="" target="_blank"  rel="nofollow" class="ng-bar-node mb-suning touch-href">
+							<span>关注买啦</span>
+						</a>
+						<div class="ng-mb-box ng-d-box mb-down-child" style="display:none;">
+							<div class="ng-code-box">
+								<p class="ng-tip">
+									<a href="" rel="nofollow"  target="_blank"></a>
+								</p>
+								<a  target="_blank">
+									<img src=""  height="80" width="80">
+								</a>
+							</div>
+							<div class="ng-app-box">
+								<div class="ng-app-list">
+									<a href="" target="_blank" rel="nofollow" class="ng-app">
+										<img src="" title="###"></a>
+									<a href="" target="_blank" rel="nofollow"  class="ng-app">
+										<img src="" title="###"></a>
+									<a  class="ng-app">
+										<img src="" title="###"></a>
+									<a href="" target="_blank" rel="nofollow"  class="ng-app">
+										<img src="" title="###"></a>
+								</div>
+							</div>
+							<a href="" target="_blank" rel="nofollow" >
+								<img src="" height="35" width="242">
+							</a>
+							<a href="javascript:void(0);"  class="ng-close" rel="nofollow"><em class="ng-iconfont"></em></a>
+						</div>
+					</div>
+
+					<a href="" class="ng-bar-node ng-bar-node-pr5"  target="_blank"><span>卖家中心</span><em class="ng-iconfont down"></em></a>
+					<div class="ng-bar-node-box service-handle">
+						<a href="javascript:void(0);" class="ng-bar-node ng-bar-node-service ng-bar-node-fix touch-href ng-bar-node-pr5" rel="nofollow" ><span>联系我们</span><em class="ng-iconfont down"></em>
+				    </a>
+						<div class="ng-down-box ng-d-box service-center-child ng-ser-list" style="display:none;">
+							<a >帮助中心</a>
+							<a >查找门店</a>
+							<a >退换货</a>
+							<a >帮客预约</a>
+							<a >建议反馈</a>
+							<a >在线咨询</a>
+						</div>
+					</div>
+				</div>
+				<div id="ng-minicart-slide-box"></div>
+			</div>
+		</div>
+		<header class="ms-header ms-header-inner ms-head-position">
+			<article class="ms-header-menu">
+				<style type="text/css">
+					.nav-manage .list-nav-manage {
+						position: absolute;
+						padding: 15px 4px 10px 15px;
+						left: 0;
+						top: -15px;
+						width: 90px;
+						background: #FFF;
+						box-shadow: 1px 1px 2px #e3e3e3, -1px 1px 2px #e3e3e3;
+						z-index: 10;
+					}
+					
+					.ms-nav li {
+						float: left;
+						position: relative;
+						padding: 0 20px;
+						height: 44px;
+						font: 14px/26px "Microsoft YaHei";
+						color: #FFF;
+						cursor: pointer;
+						z-index: 10;
+					}
+					.main-wrap h3 strong {
+    				font-size: 14px !important;
+					}
+				</style>
+				<div class="header-menu">
+					<div class="ms-logo">
+						<a class="ms-head-logo"  name="Myyigou_index_none_daohangLogo"><span style="font-size: 30px;color: #fff;font-weight: bold;    line-height: 28px;;">我的买啦</span></a>
+						
+					</div>
+					<nav class="ms-nav">
+						<ul>
+							<li class=""><a href="" data-url="" >首页</a><i class="nav-arrow"></i></li>
+							<li class="nav-manage selected">
+								<a href="" data-url="" >账号管理<em></em></a><i class="nav-arrow"></i>
+								<div class="list-nav-manage ">
+									<p class="nav-mge-hover">账号管理<em></em></p>
+									<p><a >个人资料</a></p>
+									<p><a >安全设置</a></p>
+									<p><a >账号绑定</a></p>
+									<p><a >地址管理</a></p>
+								</div>
+							</li>
+							<li class="ms-nav-msg"><a >消息</a><i class="nav-arrow"></i></li>
+						</ul>
+						<div class="ms-search">
+							<form >
+								<input id="" type="text" value="">
+									<a id="" href=""></a>
+							</form>
+						</div>
+					</nav>
+				</div>
+
+			</article>
+
+			<article class="ms-useinfo">
+				<div class="header-useinfo" id="">
+					<div class="ms-avatar">
+						<div class="useinfo-avatar">
+							<img src="img/头像.png">
+							<div class="edit-avatar"></div>
+							<a class="text-edit-avatar" >修改</a>
+						</div>
+						<a >sunshine</a>
+					</div>
+
+					<div class="ms-name-info">
+						<div class="link-myinfo">
+							<a >我的编号:99653</a>
+						</div>
+						<div class="info-member">
+							<span class="name-member member-1">
+        				 <i></i><a target="_blank" >注册会员</a></span>
+        				 <span style="margin-left: 20px;">
+        				 <a target="_blank" >我的资料</a></span>
+						</div>
+						<div class="info-safety">
+							<span class="safety-lv lv-3">
+        				<a >安全等级：<span>中</span></a>
+							</span>
+							<a class="bind-phone" >
+								<i style="background-image: url(img/修改手机.png);"></i>修改手机</a>
+							<a class="bind-email" >
+								<i style="background-image: url(img/绑定邮箱.png);"></i>修改邮箱</a>
+							<a  class="manage-addr" ><i style="background-image: url(img/地址管理.png);"></i>地址管理</a>
+						</div>
+					</div>
+				</div>
+
+			</article>
+		</header>
+		<div id="ms-center" class="personal-member">
+			<div class="cont">
+				<div class="cont-side">
+					<div class="side-neck">
+						<i></i>
+					</div>
+					<div class="ms-side">
+						<article class="side-menu side-menu-off">
+							<dl class="side-menu-tree">
+								<dt>账号管理</dt>
+								<dd>
+									<a><span ></span>我的资料</a>
+
+								</dd>
+								<dd>
+									<a  style="color:#f70"><span class="active"></span>安全设置</a>
+
+								</dd>
+								<dd>
+									<a ><span></span>账号绑定</a>
+
+								</dd>
+								<dd>
+									<a ><span></span>地址管理</a>
+
+								</dd>
+							</dl>
+
+							<a ison="on" class="switch-side-menu icon-up-side"><i></i></a>
+						</article>
+					</div>
+				</div>
+				<div class="cont-main">
+					<div class="main-wrap mt15">
+						<h3>
+	                        <strong style="font-size: 14px;">身份认证</strong>
+	                    </h3>
+						<div class="user-profile clearfix" style="margin-left: 0px;width: 100%;border: 0px;">
+							<div class="user-profile-wrap" style="background-color: #ECF8D3;width: 100%;height: 158px;">
+							    <div style="width: 30px;float: left;"><img src="img/smzr0.png"style="margin-top: 44px;margin-left: 57px;"  /></div>
+							    <div style="float: left;margin-top: 45px;">
+							    	<span style="margin-left: 70px;font-weight: bold;font-size: 18px;color: #3d3d3d;">已通过实名认证</span>
+							    	<span style="display:block;margin-top:5px;font-size: 16px;color: #333333;margin-left: 70px;">很高兴认识你,现在您可以享受更多的服务和保障</span>
+							    </div>
+								
+								
+							</div>
+						</div>
+						<div class="form-list tab-switch personal-wrap-show" style="margin-left: 30px;">
+							<form>
+								<div class="control-group clearfix">
+									<h2 style="margin-left: 70px;margin-top: -20px;font-size: 14px;" >您的身份信息:</h2>
+								</div>
+								<div class="control-group clearfix"style="margin-top: 18px;" >
+									<label style="margin-left: 105px;">认证渠道:</label>
+									<span style="margin-left: 5px;">北斗+企业实名认证（身份证已上传）</span>
+									<br />
+									<p style="margin-left: 81px;margin-top: 10px;">认证通过时间:<span style="margin-left: 10px;">2016-02-09</span></p>
+									<p style="margin-left: 128px;margin-top: 10px;">姓名:<span style="margin-left: 10px;">杨文正</span></p>
+									<p style="margin-left: 118px;margin-top: 10px;">杨文正:<span style="margin-left: 10px;">身份证:</span>1*************9</p>
+									<p style="margin-left: 80px;margin-top: 10px;">身份证有效期:<span style="margin-left: 10px;">2008年-2018年</span></p>
+								</div>
+								
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div class="ng-footer">
+
+			<textarea class="footer-dom" id="footer-dom-02">
+			</textarea>
+			<div class="ng-fix-bar"></div>
+		</div>
+		<style type="text/css">
+			.ng-footer {
+				height: 130px;
+				margin-top: 0;
+			}
+			
+			.ng-s-footer {
+				height: 130px;
+				background: none;
+				text-align: center;
+			}
+			
+			.ng-s-footer p.ng-url-list {
+				height: 25px;
+				line-height: 25px;
+			}
+			
+			.ng-s-footer p.ng-url-list a {
+				color: #666666;
+			}
+			
+			.ng-s-footer p.ng-url-list a:hover {
+				color: #f60;
+			}
+			
+			.ng-s-footer .ng-authentication {
+				float: none;
+				margin: 0 auto;
+				height: 25px;
+				width: 990px;
+				margin-top: 5px;
+			}
+			
+			.ng-s-footer p.ng-copyright {
+				float: none;
+				width: 100%;
+			}
+			
+			.root1200 .ng-s-footer p.ng-copyright {
+				width: 100%;
+			}
+		</style>
+		<script type="text/javascript" src="js/safe/ms_common.min.js" ></script>
+	</body>
+
+</html>

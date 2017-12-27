@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>HTML5实现拖拽操作</title>
+    <meta charset="utf-8"/>
+    <style>
+        .album
+        {
+            border: 3px dashed #ccc;
+            float: left;
+            margin: 10px;
+            min-height: 100px;
+            padding: 10px;
+            width: 220px;
+        }
+		.img{
+			width: 20px;
+			height: 20px;
+		}
+    </style>
+</head>
+<body>
+<div id="info">
+    <h2>温馨提示：可将照片直接拖到垃圾箱中</h2>
+</div>
+<div id="album" class="album">
+    <h2>相册</h2>
+    <img draggable="true" id="img1" src="1.png" />
+    <img draggable="true" id="img2" src="2.png" />
+    <img draggable="true" id="img3" src="3.png" />
+    <div id="div1" draggable="true">暗涌</div>
+</div>
+<div id="trash" class="album">
+    <h2>垃圾箱</h2>
+    <h1 id="h1" draggable="true">what</h1>
+</div>
+ 
+</body>
+ 
+<script>
+    console.log("start");
+    info = document.getElementById("info");
+    src = document.getElementById("album");
+    target = document.getElementById("trash");
+ 
+    function converse(){
+        target.ondragstart = function(e){
+            var dragid = e.target.id;
+            var divdraged = document.getElementById(dragid);
+            console.log(divdraged);
+ 
+            divdraged.ondragend = function(){
+                info.innerHTML = "<h2>温馨提示：可将照片直接拖到垃圾箱中</h2>";
+            }
+            e.dataTransfer.setData("div",dragid);
+        }
+        target.ondrag = function(){
+            info.innerHTML = "<h2>确认回收此垃圾</h2>"
+        }
+ 
+        src.ondrop = function(e){
+            var dragid = e.dataTransfer.getData("div");
+            console.log(dragid);
+            var dragobject = document.getElementById(dragid);
+            console.log(dragobject);
+            dragobject.parentNode.removeChild(dragobject);
+            info.innerHTML = "<h2>恢复成功！</h2>";
+            src.appendChild(dragobject);
+            e.preventDefault();
+        }
+        src.ondragenter = function(e){
+            e.preventDefault();
+        }
+        src.ondragover = function(e){
+            e.preventDefault();
+        }
+ 
+    }
+ 
+ 
+    function init(){
+ 
+        src.ondragstart = function (e) {
+            var dragImgId = e.target.id;
+            console.log(dragImgId);
+            var dragImg = document.getElementById(dragImgId);
+            dragImg.ondragend = function(e){
+                info.innerHTML="<h2>温馨提示：可将照片直接拖到垃圾箱中</h2>";
+            };
+            e.dataTransfer.setData("img",dragImgId);
+        };
+        src.ondrag = function(e){
+            info.innerHTML="<h2>--照片正在被拖动--</h2>";
+        }
+ 
+        target.ondragenter = function(e){
+            e.preventDefault();
+        }
+        target.ondragover = function(e){
+            e.preventDefault();
+        }
+ 
+ 
+        target.ondrop = function (e) {
+            var draggedID = e.dataTransfer.getData("img");
+            console.log(draggedID);
+            var oldElem = document.getElementById(draggedID);
+            oldElem.parentNode.removeChild(oldElem);
+            target.appendChild(oldElem);
+            info.innerHTML="<h2>温馨提示：可将照片直接拖到垃圾箱中</h2>";
+            e.preventDefault();
+        }
+    }
+ 
+ 
+    init();
+    converse();
+</script>
+</html>

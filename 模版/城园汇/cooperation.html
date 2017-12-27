@@ -1,0 +1,342 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+	<title>无标题文档</title>
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/header.css">
+<link rel="stylesheet" href="css/cooperation.css">
+<link rel="stylesheet" href="css/float-top.css">
+<link rel="stylesheet" href="css/foot.css">	
+<style type="text/css">    
+        
+        .demo_main { padding-top: 10px; width: 1200px;margin: 0 auto}    
+        .demo_title { padding: 10px; margin-bottom: 10px; background-color: #D3D8E0; border: solid 1px gray; }    
+        .demo_content { padding: 10px; margin-bottom: 10px; border: solid 1px gray; }    
+        fieldset { border: 1px solid gray; }    
+    </style>
+     <script src="http://www.w3school.com.cn/jquery/jquery.js" type="text/javascript"></script>  
+</head>
+
+<body>
+ <!--导航栏-->
+<img src="img/ad2.jpg" width="100%" height="180">
+<div class="header-navbar container">
+    <a href="index.html" class="logo fl">
+        <img class="logo" src="img/logo.png" alt="" style="margin-top: 10px;">
+    </a>
+    <div class="nav fl">
+        <ul class="clear nav-item">
+            <li class="fl ">
+            	<a class="link" href="index.html">
+            		<span class="text">首页</span>
+            	</a>
+            </li>
+            <li class="fl">
+            	<a class="link" href="cooperation.html">
+            		<span class="text">园区合作</span>
+            	</a>
+            </li>
+             <li class="fl">
+             	<a class="link" href="infor.html">
+             		<span class="text">资讯信息</span>
+             	</a>
+             </li>
+            <li class="fl">
+            	<a class="link" href="javascript:">
+            		<span class="text">政策引导</span>
+            	</a>
+            </li>
+            <li class="fl">
+            	<a class="link" href="javascript:">
+            		<span class="text">房屋租赁</span>
+            	</a>
+            </li>
+            <li class="fl">
+            	<a class="link" href="Partners.html">
+            		<span class="text">服务商加盟</span>
+            	</a>
+            </li>
+             <li class="fl">
+             	<a class="link" href="contact.html?id=2">
+             		<span class="text">联系我们</span>
+             	</a>
+             </li>      
+        </ul>
+  	</div>
+    <div class="fr clear nav-rt">
+		<a href="register.html">注册</a>
+		<span>丨</span>
+		<a href="login.html">登录</a>
+    </div>
+	<div class="fr clear nav-rt1 my">
+		<p href="javaScript:" class="name">
+			<a href="javaScript:" >
+				小灰灰
+				<span class="my-icon">▼</span>
+				<span class="my-icon1">▲</span>
+			</a>
+			<ul class="my-con">
+				<a href="my.html?id=0"><li>维修报修订单</li></a>
+				<a href="my.html?id=1"><li>服务订单</li></a>
+				<a href="my.html?id=2"><li>投诉建议</li></a>
+				<a href="my.html?id=3"><li>设置</li></a>
+			</ul>
+		</p>
+		
+	</div>
+     
+          	  
+   
+</div>
+    
+    <div class="demo_main">    
+        <fieldset class="demo_title">    
+            合作园区展示   
+        </fieldset>    
+        <fieldset class="demo_content">    
+            <div style="min-height:700px; width: 100%;" id="map">    
+            </div>    
+            <script type="text/javascript">    
+                var markerArr = [    
+                    { title: "名称：海智中心", point: "120.019708,30.292261", address: "余杭区余杭塘路2301号", tel: "13712345678" },    
+                    { title: "名称：杭师大科技园", point: "119.994532,30.281819", address: "杭州市余杭区仓前街道文一西路1378号", tel: "18500000000" },    
+                    { title: "名称：恒生电商园", point: "119.984845,30.286168", address: "杭州市仓前工业园区龙泉路22号", tel: "18500000000" }, 
+					{ title: "名称：海创科技中心", point: "120.003468,30.282313", address: "浙江省杭州市余杭区创景路与文一西路交叉口北150米", tel: "18500000000" }, 
+					{ title: "名称：杭州钓鱼实业科技园", point: "119.970785,30.277915", address: "科技大道8-5", tel: "18500000000" }, 
+					{ title: "名称：正航创业园", point: "119.968884,30.277566", address: "工业路与科技大道交叉口北50米", tel: "18500000000" }, 
+					{ title: "名称：新加坡杭州科技园", point: "120.374394,30.309838", address: "下沙六号大街十九号路口(近新加坡科技园)", tel: "18500000000" }, 
+					{ title: "名称：乐富海邦园", point: "120.015243,30.28911", address: "浙江省杭州市余杭区良睦路", tel: "18500000000" }, 
+					{ title: "名称：赛银科技园", point: "120.028387,30.279866", address: "高教路附近", tel: "18500000000" },
+					{ title: "名称：浙江财富金融中心", point: "120.216901,30.247926", address: "杭州市江干区解放东路37号", tel: "18500000000" }, 
+					 
+					 
+                ];    
+    
+                var map; //Map实例    
+                function map_init() {    
+                    map = new BMap.Map("map");    
+                    //第1步：设置地图中心点，广州市    
+                    var point = new BMap.Point(120.019708,30.292261);    
+                    //第2步：初始化地图,设置中心点坐标和地图级别。    
+                    map.centerAndZoom(point, 14);    
+                    //第3步：启用滚轮放大缩小    
+                    map.enableScrollWheelZoom(true);    
+                    //第4步：向地图中添加缩放控件    
+                    var ctrlNav = new window.BMap.NavigationControl({    
+                        anchor: BMAP_ANCHOR_TOP_LEFT,    
+                        type: BMAP_NAVIGATION_CONTROL_LARGE    
+                    });    
+                    map.addControl(ctrlNav);    
+                    //第5步：向地图中添加缩略图控件    
+                    var ctrlOve = new window.BMap.OverviewMapControl({    
+                        anchor: BMAP_ANCHOR_BOTTOM_RIGHT,    
+                        isOpen: 1    
+                    });    
+                    map.addControl(ctrlOve);    
+    
+                    //第6步：向地图中添加比例尺控件    
+                    var ctrlSca = new window.BMap.ScaleControl({    
+                        anchor: BMAP_ANCHOR_BOTTOM_LEFT    
+                    });    
+                    map.addControl(ctrlSca);    
+    
+                    //第7步：绘制点      
+                    for (var i = 0; i < markerArr.length; i++) {    
+                        var p0 = markerArr[i].point.split(",")[0];    
+                        var p1 = markerArr[i].point.split(",")[1];    
+                        var maker = addMarker(new window.BMap.Point(p0, p1), i);    
+                        addInfoWindow(maker, markerArr[i], i);     
+                    }    
+                }    
+    
+                // 添加标注    
+                function addMarker(point, index) {    
+                    var myIcon = new BMap.Icon("http://api.map.baidu.com/img/markers.png",    
+                        new BMap.Size(23, 25), {    
+                            offset: new BMap.Size(10, 25),    
+                            imageOffset: new BMap.Size(0, 0 - index * 25)    
+                        });    
+                    var marker = new BMap.Marker(point, { icon: myIcon });    
+                    map.addOverlay(marker);    
+                    return marker;    
+                }    
+    
+                // 添加信息窗口    
+                function addInfoWindow(marker, poi) {    
+                    //pop弹窗标题    
+                    var title = '<div style="font-weight:bold;color:#CE5521;font-size:14px">' + poi.title + '</div>';    
+                    //pop弹窗信息    
+                    var html = [];    
+                    html.push('<table cellspacing="0" style="table-layout:fixed;width:100%;font:12px arial,simsun,sans-serif"><tbody>');    
+                    html.push('<tr>');    
+                    html.push('<td style="vertical-align:top;line-height:16px;width:38px;white-space:nowrap;word-break:keep-all">地址:</td>');    
+                    html.push('<td style="vertical-align:top;line-height:16px">' + poi.address + ' </td>');    
+                    html.push('</tr>');    
+                    html.push('</tbody></table>');    
+                    var infoWindow = new BMap.InfoWindow(html.join(""), { title: title, width: 200 });    
+    
+                    var openInfoWinFun = function () {    
+                        marker.openInfoWindow(infoWindow);    
+                    };    
+                    marker.addEventListener("click", openInfoWinFun);    
+                    return openInfoWinFun;    
+                }    
+    
+                //异步调用百度js    
+                function map_load() {    
+                    var load = document.createElement("script");    
+                    load.src = "http://api.map.baidu.com/api?v=1.4&callback=map_init";    
+                    document.body.appendChild(load);    
+                }    
+                window.onload = map_load;    
+            </script>    
+        </fieldset>    
+    </div> 
+    <div class="show-box">
+    	<div class="show">
+    		<h1>海智中心</h1>
+    		<p>地址：余杭区余杭塘路2301号</p>
+    		<p>海智中心位居杭州未来城核心板块，毗邻淘宝城，与阿里巴巴商学院、杭州师范大学隔海曙路相望，依地铁5号线与主城区咫尺相连，是海创园一期六大项目之一，规划有企业总部基地、创业孵化基地、海外电商基地、C-WORK微空间、公共产业服务等业态。<br>
+			项目总建筑面积15.8万㎡，其中地下建筑面积约 4.2万㎡；地上建筑包括5幢写字楼与14席独栋花园办公楼，以及精品底商，总面积约11.6万㎡，拥有40-2000㎡可变办公空间，并配套1383个智能停车位。
+			位居产业园核心，坐拥淘宝城醇熟氛围</p>
+    		<img src="img/map/hzzx1.png">
+    		<img src="img/map/hzzx2.png">
+    		<img src="img/map/hzzx3.png">
+    		
+    	</div>
+    	<div class="show">
+    		<h1>杭师大科技园</h1>
+    		<p>地址：杭州市余杭区仓前街道文一西路1378号</p>
+    		<p>杭州师范大学科技园（以下简称杭师大科技园）位于杭州市余杭区仓前街道文一西路1378号，是在杭州市、余杭区二级党委政府的关心支持下创建起来的。占地面积50亩，总投资4亿元，总建筑面积10万平方米。<br>
+			杭师大科技园位于杭州市的西部，东南紧邻西溪国家湿地公园，大约6公里属于杭州“西溪硅谷”的核心区块。从大尺度上看,“三湖一带”即西湖——南湖——青山湖，是浙江省规划中“十二五”高新科技产业发展带，余杭“浙江海外高层次人才创新园（海创园）和临安浙江省科研机构创新基地（科技城）是“三湖一带”的核心，是省委和省政府在高新科技方面的大手笔，而杭师大科技园正好落在这一产业发展带，处在“三湖一带”的中心位置，区域优势得天独厚。从小尺度看，科技园东连“海创园”，北邻杭州大学城（杭州师范大学仓前新校区），东北邻浙江大学紫金港校区，南与小和山高教区接壤，丰富的高教资源和人才储备形成了多层次、立体型高教科研平台依托。园区与浙江大学国际大学科技园、“海创园”和“科技城”连成一线，互补发展，贯通融会，将成为杭州市乃至浙江省的高科技走廊上的一颗耀眼的明珠。</p>
+    		<img src="img/map/hsd1.png">
+    		<img src="img/map/hsd2.png">
+    		<img src="img/map/hsd3.png">
+    	</div>
+    	<div class="show">
+    		<h1>恒生电商园</h1>
+    		<p>地址：杭州市仓前工业园区龙泉路22号</p>
+    		<p>杭州恒生科技园由全球金融软件百强企业—恒生电子和中国最大的私募基金—鼎晖投资联袂投资打造，是恒生科技园全国分园网络中最成熟的园区。项目位于西溪国家湿地公园旁、国家级杭州未来科技城核心区域，毗邻阿里巴巴淘宝城，与杭州地铁5号线、BRT快速公交和多条市内交通公交无缝接驳，区位优越，交通便捷。项目总占地面积120余亩，总建筑面积20余万平米。一期、二期以花园独栋办公为特色的10余万米建筑已经全面投入运营使用，三期花园独栋和开敞平层相结合，规划建设10万平米，并自建1万平米配套商业，已经全面动工，预计于2016年盛大交付投入使用。</p>
+    		<img src="img/map/hsds1.png">
+    		<img src="img/map/hsds2.png">
+    		<img src="img/map/hsds3.png">
+    	</div>
+    	<div class="show">
+    		<h1>海创科技中心</h1>
+    		<p>地址：浙江省杭州市余杭区创景路与文一西路交叉口北150米</p>
+    		<p>杭州海创科技中心项目位于杭州未来科技城阿里巴巴集团周边板块；文一西路跟创景路交叉口*2016年7底精装修交付，总建筑面积12万方*本项目由四幢高层建筑围合而成，布局开阔，气势恢宏，项目共有机动车位965个（其中地面90个、地下875个）*依托国家“大众创业、万众创新”社会大潮*立足未来科技城---梦想小镇的政策高地，围绕互联网经济，以电子商务、信息科技、生物技术、高端智造等位主导产业*本项目内部配套*大型商务餐饮、银行公共配套、健身休闲等主力店进行招商预热，逐步扩大至便利店、药店、美容美发等基础生活配套设施设备的拓展引入</p>
+    		<img src="img/map/hckj1.png">
+    		<img src="img/map/hckj2.png">
+    		<img src="img/map/hckj3.png">
+    	</div>
+    	<div class="show">
+    		<h1>杭州钓鱼实业科技园</h1>
+    		<p>地址：科技大道8-5</p>
+    		<p>为方便入驻的企业员工能安心工作、生活，我们在前期规则园区的时候，也从不同的行业、企业，甚至工业园，进行了广泛的调研与摸底。在结合周边企业与目前市场的企业所需，通过与余杭设计研究院的设计师深入的研究、探讨，设计了不同楼层的标准厂房，以满足不同企业对工作场地的需求。 <br>
+    		园区配套：550㎡园区食堂：7号楼东面1楼，能同时容纳230人同时就餐，将为入驻企业员工提供必要的日常工作用餐服务。4000㎡的全新员工宿舍：9号宿舍楼，能完全为入驻企业的员工解决住宿问题，每个楼层各15个房间，按6-8人/间计算，可容纳540-720人。内部的空调、热水器、沐浴、洗漱台盆，将让每一个入住的员工，感觉到家的温暖。 </p>
+    		<img src="img/map/dykj1.png">
+    		<img src="img/map/dykj2.png">
+    		<img src="img/map/dykj3.png">
+    	</div>
+		<div class="show">
+			<h1>正航创业园</h1>
+			<p>地址：工业路与科技大道交叉口北50米</p>
+			<p>为方便入驻的企业员工能安心工作、生活，我们在前期规则园区的时候，也从不同的行业、企业，甚至工业园，进行了广泛的调研与摸底。在结合周边企业与目前市场的企业所需，通过与余杭设计研究院的设计师深入的研究、探讨，设计了不同楼层的标准厂房，以满足不同企业对工作场地的需求。 <br>
+			园区配套：550㎡园区食堂：7号楼东面1楼，能同时容纳230人同时就餐，将为入驻企业员工提供必要的日常工作用餐服务。4000㎡的全新员工宿舍：9号宿舍楼，能完全为入驻企业的员工解决住宿问题，每个楼层各15个房间，按6-8人/间计算，可容纳540-720人。内部的空调、热水器、沐浴、洗漱台盆，将让每一个入住的员工，感觉到家的温暖。 </p>
+			<img src="img/map/dykj1.png">
+			<img src="img/map/dykj2.png">
+			<img src="img/map/dykj3.png">
+    	</div>
+    	<div class="show">
+			<h1>新加坡杭州科技园</h1>
+			<p>地址：下沙六号大街十九号路口(近新加坡科技园)</p>
+			<p>新加坡杭州科技园位于杭州经济技术开发区的中心地带，占地48公顷，是新加坡腾飞集团和杭州经济技术开发区资产经营集团有限公司联手打造的杭州第一个现代化、国际化的综合科技园区。价值7亿新币的综合科技园区将分期开发建设，包括多租户大楼、定制设施以及休闲配套设施，规划中的商业设施有零售商店、会议中心以及服务式公寓等，建成后总建筑面积将达80万平方米，可容纳3万至5万来自业务流程外包、信息技术外包和研发等新兴服务行业的专业人员。</p>
+			<img src="img/map/xjp1.png">
+			<img src="img/map/xjp2.png">
+			<img src="img/map/xjp3.png">
+    	</div>
+    	<div class="show">
+			<h1>乐富海邦园</h1>
+			<p>地址：浙江省杭州市余杭区良睦路</p>
+			<p>    乐富海邦园总建筑面积13万平方米，其中地上建筑面积约9万平方米。园区规划8栋八至十二层的集成式商务建筑，8栋三至四层小独栋企业总部，及1栋展示中心，共配有近1200个机动车位。整个园区南低北高，充分体现了户型景观和采光的均好性，采用人车分流管理，德式建筑风格，园林景观规划整体简约大气。园区规划有约9300㎡的配套商业面积，入驻企业提供高品质的商务服务。</p>
+			<img src="img/map/lfhb1.png">
+			<img src="img/map/lfhb2.png">
+			<img src="img/map/lfhb3.png">
+    	</div>
+    	<div class="show">
+			<h1>赛银科技园</h1>
+			<p>地址：高教路附近</p>
+			<p> 赛银（杭州）科技园有限公司成立于2010年，注册在杭州未来科技城海创园，注册资金5000万美元，为国内知名的投资机构赛伯乐（中国）投资旗下的专注于商业、产业地产的公司。<br>
+			赛银国际占地面积66亩，由9幢国际5A甲级办公写字楼及5座多层商业街群组成，为13万方极具德国现代工业风格的建筑综合体。办公空间灵活，能满足企业的个性化需求，并构建了一套完整的企业生活和工作服务链体系。园区聚焦信息软件、电子商务、文化创意、休闲旅游、金融服务、节能环保等杭州市重点发展的十大产业，鼎力打造杭州乃至全省的产业标杆示范园</p>
+			<img src="img/map/sykj1.png">
+			<img src="img/map/sykj2.png">
+			<img src="img/map/sykj3.png">
+    	</div>
+    	<div class="show">
+			<h1>浙江财富金融中心</h1>
+			<p>地址：高教路附近</p>
+			<p>浙江财富金融中心位于杭州钱江新城CBD内，东临国际会议中心和杭州大剧院，北望市民中心，杭州的七星级酒店与高德置地广场相隔一条街。两个楼的塔顶均有约39米高的轻钢结构造型塔架最高点188m和258m，塔楼直冲云端，在此可俯瞰壮观的城市和钱塘江景色。从最顶层，甚至可以看到4.5公里以外的西湖旅游胜地。</p>
+			<img src="img/map/cfjr1.png">
+			<img src="img/map/cfjr2.png">
+			<img src="img/map/cfjr3.png">
+    	</div>
+    </div>
+                     
+					
+					
+		
+					
+					
+	<!--底部栏-->
+<div class="foot">
+	<div class="foot-con">
+		<div class="foot-left">
+				<img src="img/foot.png" width="100" height="100">
+			<div>
+				<p style="font-size:24px;">0571-86223315</p>
+				<p>全国服务热线</p>
+			</div>
+		</div>
+		<div class="foot-right">
+		<div>
+			<p>版权所有：杭州城园汇</p>		
+			<p>全国统一热线：0571-88005343</p>
+			<p>电话：88364445</p>
+		</div>
+		<div>
+			<p>公司地址：浙江省杭州市余杭区海智中心3栋305</p>
+			<p>邮箱：1527652399@qq.com</p>
+			
+		</div>
+		<div>
+			<p><a href="#">备案：</a></p>
+		</div>
+			
+		</div>
+	</div>
+</div>
+
+	<a href="#"><div id="float-top"></div></a>
+	<script src="JS/float-top.js"></script><!--返回顶部-->
+    <script src="js/jquery-1.11.1.min.js"></script>   
+    <script>
+		$(function(){
+			$(".demo_main").on("click",".BMap_Marker",function(){
+				var a=$(this).index();
+				$(".show").eq(a).show().siblings().hide();
+				
+				
+			})
+			
+		})
+	</script>
+</body>
+</html>
+
+
+
+
+

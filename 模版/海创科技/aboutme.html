@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>关于我们</title>
+		<link href="css/rest.css"  rel="stylesheet"  type="text/css"/>
+		<link href="css/header.css"  rel="stylesheet" type="text/css"/>
+		<link href="css/footer.css"  rel="stylesheet" type="text/css"/>
+		<link href="css/aboutme.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+	</head>
+	<body>
+		<header class="nav-box">
+			<div class="nav-main">
+				<div class="logo-box">
+					<img src="images/海创科技中心_03.png" class="logo">
+				</div>
+				<nav class="list-nav">
+					<ul class="list-nav-b">
+						<li><a href="index.html">首页</a></li>
+						<li><a href="about.html">园区介绍</a></li>
+						<li><a href="#">服务平台</a></li>
+						<li><a href="news.html">新闻资讯</a></li>
+						<li><a href="aboutme.html">关于我们</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<div class="content-box3" style="margin-bottom: 50px;">
+			<div class="banner3-box">
+				<img src="images/fff_02.png">
+			</div>
+			<div class="gps3">
+				<p class="txt3">当前位置&nbsp;>&nbsp;园区介绍</p>
+			</div>
+			<h3 class="name">海创科技中心</h3>
+			<p class="map">地址：浙江省杭州市文一西路1288号海创科技</p>
+			<p class="map">邮箱：454154418@sinas.com</p>
+			<p class="map">客服电话：0571-88670888</p>
+			<p class="map">邮编：310000</p>
+		</div>
+		<div style="width:1200px;height:470px;border:#ccc solid 1px; margin: 0 auto;" id="map"></div>
+		<footer class="di-l">
+		<div class="did">
+			<div class="left1">
+				<ul class="didis">
+					<li><a href="#">园区介绍</a></li>
+					<li><a href="#">服务平台</a></li>
+					<li><a href="#">资源平台</a></li>
+					<li><a href="#">新闻资讯</a></li>
+				</ul>
+			</div>
+			<div class="right1">
+				<p class="last">客服热线&nbsp;&nbsp;:&nbsp;&nbsp;<span>0571-88670888</span></p>
+				<p style="color: #fff; margin-top: 30px;">地址：杭州市文一西路1288号海创科技中心</p>
+			</div>
+		</div>
+	</footer>
+	  <script type="text/javascript">    
+                var markerArr = [    
+                    { title: "名称：海创科技中心", point: "120.003468,30.282313", address: "浙江省杭州市海创科技中心"} 
+                ];    
+    
+                var map; //Map实例    
+                function map_init() {    
+                    map = new BMap.Map("map");    
+                    //第1步：设置地图中心点
+                    var point = new BMap.Point(120.003468,30.282313);    
+                    //第2步：初始化地图,设置中心点坐标和地图级别。    
+                    map.centerAndZoom(point, 15);    
+                    //第3步：启用滚轮放大缩小    
+                    map.enableScrollWheelZoom(true);    
+                    //第4步：向地图中添加缩放控件    
+                    var ctrlNav = new window.BMap.NavigationControl({    
+                        anchor: BMAP_ANCHOR_TOP_LEFT,    
+                        type: BMAP_NAVIGATION_CONTROL_LARGE    
+                    });    
+                    map.addControl(ctrlNav);    
+                    //第5步：向地图中添加缩略图控件    
+                    var ctrlOve = new window.BMap.OverviewMapControl({    
+                        anchor: BMAP_ANCHOR_BOTTOM_RIGHT,    
+                        isOpen: 1    
+                    });    
+                    map.addControl(ctrlOve);    
+    
+                    //第6步：向地图中添加比例尺控件    
+                    var ctrlSca = new window.BMap.ScaleControl({    
+                        anchor: BMAP_ANCHOR_BOTTOM_LEFT    
+                    });    
+                    map.addControl(ctrlSca);    
+    
+                    //第7步：绘制点      
+                        var p0 = markerArr[0].point.split(",")[0];    
+                        var p1 = markerArr[0].point.split(",")[1];    
+                        var maker = addMarker(new window.BMap.Point(p0, p1), 0);    
+                        addInfoWindow(maker, markerArr[0], 0);     
+                       
+                }    
+                // 添加标注    
+                function addMarker(point, index) {    
+                    var myIcon = new BMap.Icon("http://api.map.baidu.com/img/markers.png",    
+                        new BMap.Size(23, 25), {    
+                            offset: new BMap.Size(10, 25),    
+                            imageOffset: new BMap.Size(0, 0 - index * 25)    
+                        });    
+                    var marker = new BMap.Marker(point, { icon: myIcon });    
+                    map.addOverlay(marker);    
+                    return marker;    
+                }    
+    
+                // 添加信息窗口    
+                function addInfoWindow(marker, poi) {    
+                    //pop弹窗标题    
+                    var title = '<div style="font-weight:bold;color:#CE5521;font-size:14px">' + poi.title + '</div>';    
+                    //pop弹窗信息    
+                    var html = [];    
+                    html.push('<table cellspacing="0" style="table-layout:fixed;width:100%;font:12px arial,simsun,sans-serif"><tbody>');    
+                    html.push('<tr>');    
+                    html.push('<td style="vertical-align:top;line-height:16px;width:38px;white-space:nowrap;word-break:keep-all">地址:</td>');    
+                    html.push('<td style="vertical-align:top;line-height:16px">' + poi.address + ' </td>');    
+                    html.push('</tr>');    
+                    html.push('</tbody></table>');    
+                    var infoWindow = new BMap.InfoWindow(html.join(""), { title: title, width: 200 });    
+    
+                    var openInfoWinFun = function () {    
+                        marker.openInfoWindow(infoWindow);    
+                    };    
+                    marker.addEventListener("click", openInfoWinFun);    
+                    return openInfoWinFun;    
+                }    
+    
+                //异步调用百度js    
+                function map_load() {    
+                    var load = document.createElement("script");    
+                    load.src = "http://api.map.baidu.com/api?v=1.4&callback=map_init";    
+                    document.body.appendChild(load);    
+                }    
+                window.onload = map_load;    
+            </script>    
+	</body>
+</html>

@@ -1,0 +1,40 @@
+{
+    "legend": {
+        "data": [
+            "访问人数"
+        ]
+    },
+    "series": {
+        "name": "访问人数",
+        "type": "line",
+        "stack": "总量",
+        "data": [
+            10,
+            30,
+            50,
+            0,
+            100,
+            230,
+            110
+        ]
+    },	
+    "xAxis": {
+        "boundaryGap": false,
+        "data": [
+            "周一",
+            "周二",
+            "周三",
+            "周四",
+            "周五",
+            "周六",
+            "周日"
+        ],
+        "itemStyle": {
+            "normal": {
+                "lineStyle": {
+                    "color": "blue"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+/* CSS Document */
+a{text-decoration:none;list-style: none;color: #000;}
+.index_h5{text-align:center;margin:0;padding:0;background: #FF6A6E;color: #fff;padding:10px 0!important}
+.index_top{margin-top:15px;}
+.index_top_p{text-align: center;width: 46px;height: 46px;margin: 0 auto;line-height: 46px;color: #fff;border-radius:17px;}
+.index_top_p_text{text-align: center;font-size: 0.8em;color: #999;}
+.index_con{margin-top: 5px;background: #fff;padding: 15px;}
+.index_con_text{color: #FB9031;}
+.index_con_text1{color: #9F9F9F;font-size: 12px!important}
+.index_col-xs-12_tj{font-size:12px;background:#f00;color:#fff;
+position:absolute; width:60px;text-align:center;-webkit-transform:rotateZ(45deg);
+right:-15px;top:-8px;}
+

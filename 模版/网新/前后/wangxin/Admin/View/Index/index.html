@@ -1,0 +1,124 @@
+<extend name="public:base"/>
+<block name="link">
+        <!-- <link href="__PUBLIC__/admin/css/bootstrap.min.css" rel="stylesheet" /> -->
+        <link rel="stylesheet" href="__PUBLIC__/admin/css/style.css"/>
+        <!-- <link rel="stylesheet" href="__PUBLIC__/admin/css/font-awesome.min.css" /> -->
+		<!-- <script src="__PUBLIC__/admin/js/html5shiv.js"></script> -->
+		<!-- <script src="__PUBLIC__/admin/js/respond.min.js"></script> -->
+		<style type="text/css">
+           .panel{
+           	width:30%; float: left;	text-align: center;border: 1px solid #fff;margin-right: 3%`
+           }
+           .panel .symbol{
+           		float: left;
+           }
+           .panel .value{
+           	width: 50%;
+           		float: left;
+           }
+	</style>
+</block>
+<block name="con">
+ <div class="state-overview clearfix">
+                  <div>
+                      <section class="panel">
+                      <a href="{:U('Index/tables')}" title="商城会员">
+                          <div class="symbol terques">
+                             <i class="icon-user"></i>
+                          </div>
+                          <div class="value">
+                              <h1>{$users}</h1>
+                              <p>商城用户</p>
+                          </div>
+                          </a>
+                      </section>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                      <section class="panel">
+                        <a href="{:U('Index/facilitator')}" title="商城服务商">
+                          <div class="symbol red">
+                              <i class="icon-tags"></i>
+                          </div>
+                          <div class="value">
+                              <h1>{$fuwushang}</h1>
+                              <p>商城服务商</p>
+                          </div>
+                          </a>
+                      </section>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                      <section class="panel">
+                        <a href="{:U('Index/widgets')}" title="商城订单">
+                          <div class="symbol yellow">
+                              <i class="icon-shopping-cart"></i>
+                          </div>
+                          <div class="value">
+                              <h1>{$dingdan}</h1>
+                              <p>商城订单</p>
+                          </div>
+                          </a>
+                      </section>
+                  </div>
+                 <!--  <div class="col-lg-3 col-sm-6">
+                      <section class="panel">
+                          <div class="symbol blue">
+                              <i class="icon-bar-chart"></i>
+                          </div>
+                          <div class="value">
+                              <h1>￥34,500</h1>
+                              <p>交易记录</p>
+                          </div>
+                      </section>
+                  </div> -->
+              </div>
+                 <div class="clearfix">
+             <div class="t_Record"  style=" width:100%;" >
+               <div id="main" style=" width:100%;overflow: hidden;overflow: auto" >
+  <div class="table_menu_list">
+       <table class="table table-striped table-bordered table-hover" id="sample-table">
+    <thead>
+    	
+     <tr>
+        <th width="80">编号</th>
+        <th width="100">用户名</th>
+        <th width="80">电话</th>
+        <th width="120">服务</th>
+        <th width="150">创建时间</th>
+        <th width="">状态</th>
+        <th width="180">服务商名字</th>
+        <th width="180">服务商联系电话</th>
+      </tr>
+    </thead>
+  <tbody>
+    <tr>
+      <volist name="con" id="v">
+          <td>{$v['id']}</td>
+          <td><u style="cursor:pointer" class="text-primary" onclick="member_show('张三','member-show.html','10001','500','400')">{$v['name']}</u></td>
+          <td>{$v['tel']}</td>
+          <td>{$v['fw_name']}</td>
+          <td>{$v['create_time']}</td>
+          <switch name="v['zhuangtai']">
+            <case value="0"> 
+              <td class="text-l">
+                <div style="width:100px;height:30px;border:1px solid #ccc; border-radius:5px;margin:0 auto;">
+                  <a href="{:U('Complain/fuwustate',array('id'=>$v['id']))}" title="点击通过" style="line-height:30px;margin-left:30%;">已下单</a>
+                </div>
+             </td>
+          </case>
+            <case value="1"> <td class="text-l" style="text-align:center">进行中</td></case>
+            <case value="2"> <td class="text-l" style="text-align:center">已完成</td></case>
+            <case value="3"> <td class="text-l" style="text-align:center">已评价</td></case>
+          </switch>
+          <td>{$v['fws_name']}</td>
+          <td>{$v['fws_tel']}</td>
+    </tr>
+</volist>       
+      </tbody>
+  </table>
+   </div>
+
+               </div>
+              </div>
+
+         </div>
+  </block>

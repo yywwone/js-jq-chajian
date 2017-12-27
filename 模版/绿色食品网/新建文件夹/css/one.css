@@ -1,0 +1,26 @@
+/* CSS Document */
+*{padding: 0;margin: 0;text-decoration:none;list-style: none;font-family: 宋体;}
+img{border: 0;}
+body{width: 100%;background:url(../images/body_bg.jpg) top center no-repeat;}
+#header{background: url(../images/logo.gif) no-repeat;width: 980px;height: 91px;margin:0 auto;margin-top:20px;margin-bottom: 9px;}
+#header span{float: right;margin-left: 10px;color:#000;font-weight: bold;font-size: 18px;}
+
+#nav{width: 980px;height:58px;margin: 0 auto;}
+#nav_left,#nav_left,#nav_center ul li{float: left}
+#nav_center ul li{background: url(../images/navBg.jpg);width: 105px; height: 58px; text-align: center;line-height: 37px;}
+#nav_center ul li img{float: left;margin-top: 5px;}
+#nav_center ul li a{color: #fff;}
+#nav_center ul li a:hover{color:blue;}
+
+#banner{width: 980px; margin: 0 auto}
+
+#botnav{width: 976px;height: 35px;margin:10px auto 0;background: url(../images/botnav_bg.png);border: 2px solid #e1e1e1}
+#botnav ul{display:table;width:589px;margin-left: 193px;color: #fff;font-size: 10px;}
+#botnav ul li{height: 35px; text-align: center;display: table-cell;line-height: 30px;}
+#botnav ul li a{color: #fff;}
+#botnav ul li a:hover{color: blue}
+
+#footer_bg{width: 100%;height: 91px;background:url(../images/footer_bg.png);}
+#footer{width: 980px;height: 91px;font-size: 11px;margin: 0 auto}
+#footer #ftnav{width:380px;margin-top: 27px;float: left}
+#footer #ftlogo{float: right;margin-top: 17px;}

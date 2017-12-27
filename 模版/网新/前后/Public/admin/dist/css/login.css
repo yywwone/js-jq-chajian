@@ -1,0 +1,124 @@
+.hello-login-box{
+	height: 2.15rem;
+	width: 100%;
+	background:url(../images/header-bg_02.png) no-repeat;
+	background-size: 100%;
+	background-position:0 0;
+}
+*{outline: none;}
+.welcoming-speech1{
+	font-size: 0.23rem;
+	color: #FFFFFF;
+	float:left;
+	width: 100%;
+	margin-top: 0.85rem;
+	text-align: center;
+}
+.login-content-box{
+	width: 80%;
+	margin:0 auto;
+}
+.worn-tel{
+	margin-top: 0.25rem;
+	height: 0.39rem;
+	width:2.37rem;
+	border: solid 1px #999999;
+	border-radius: 0.19rem;
+	outline: none;
+	padding-left: 0.5rem;
+	font-size: 0.12rem;
+}
+.tel-content{
+	position: relative;
+}
+.icon-man{
+	display: inline-block;
+	width: 0.16rem;
+	height:0.16rem;
+	background:url(../images/login-icon.png) no-repeat center center;
+	background-size: cover;
+	position: absolute;
+	top: 0.37rem;
+	left: 0.20rem;
+}
+.js-icon2{
+	background-position: 0 0;
+}
+.js-icon3{
+	background-position:0 -0.18rem;
+}
+.forget{
+	float: right;
+	margin-right:0.7rem;
+	margin-top: 0.08rem;
+	margin-bottom: 0.23rem;
+}
+.btn-sub{
+	height: 0.39rem;
+	width:2.87rem;
+	border: solid 1px #999999;
+	border-radius: 0.19rem;
+	background-color: #233B83;
+	color: #FFFFFF;
+	font-size: 0.16rem;
+}
+.login-new-id{
+	text-align:center;
+	font-size: 0.12rem;
+	width: 96%;
+	margin-top: 0.21rem;
+
+}
+.login-new-id>a{
+	color: #233B83;
+	font-weight:600;
+}
+.third-party-box{
+	position: relative;
+	width:2.68rem;
+	margin: 0 auto;
+	margin-right: 0.6rem;
+	margin-top: 0.46rem;
+}
+.third-party-box>.third-wire{
+	width: 100%;
+	border: solid 0.01rem #eee;
+	position: absolute;
+	top: 0.06rem;
+}
+.third-login-main{
+	width: 50%;
+	height: 0.2rem;
+	background-color: red;
+	position: absolute;
+	left:50%;
+	margin-left:-25% ;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+.icon-weacht{
+	width: 0.4rem;
+	height: 0.4rem;
+	display:block;
+	background:url(../images/images/wechat_03.png);
+	background-size: cover;
+	position: absolute;
+	left: 1.1rem;
+	top: 0.4rem;
+}
+.marsk-tips{
+	position: absolute;
+	width: 1.3rem;
+	height: 0.5rem;
+	text-align: center;
+	line-height: 0.5rem;
+	border-radius: 0.2rem;
+	color: #FFFFFF;
+	background-color: rgba(0,0,0,0.4);
+	top: 50%;
+	margin-top:-0.25rem;
+	left: 50%;
+	margin-left:-0.65rem;
+	z-index: 10;
+	display: none;
+}

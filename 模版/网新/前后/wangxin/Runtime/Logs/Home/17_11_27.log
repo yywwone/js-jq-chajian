@@ -1,0 +1,1201 @@
+[ 2017-11-27T16:08:23+08:00 ] 127.0.0.1 /index.php/home/index/personal/alert/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `wx_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0078s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-27T16:08:49+08:00 ] 127.0.0.1 /index.php/home/index/index/alert/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0078s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwu` LIMIT 1   [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0078s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwushang` WHERE `biaoshi` = 1 LIMIT 1   [ RunTime:0.0078s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php on line 16 and defined C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `fuwu` ORDER BY id asc LIMIT 0,6   [ RunTime:0.0078s ]
+SQL: SELECT * FROM `fuwushang` WHERE `biaoshi` = 1 ORDER BY id asc LIMIT 0,3   [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `wzxx` [ RunTime:0.0068s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php on line 25 and defined C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wzxx` LIMIT 1   [ RunTime:0.0068s ]
+NOTIC: [8] Undefined variable: page C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 26 行.
+NOTIC: [8] Undefined variable: pages C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000976s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2017-11-27T16:11:03+08:00 ] 127.0.0.1 /index.php/home/index/index/alert/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0078s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwu` LIMIT 1   [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0078s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwushang` WHERE `biaoshi` = 1 LIMIT 1   [ RunTime:0.0068s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php on line 16 and defined C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `fuwu` ORDER BY id asc LIMIT 0,6   [ RunTime:0.0068s ]
+SQL: SELECT * FROM `fuwushang` WHERE `biaoshi` = 1 ORDER BY id asc LIMIT 0,3   [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `wzxx` [ RunTime:0.0068s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php on line 25 and defined C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wzxx` LIMIT 1   [ RunTime:0.0068s ]
+NOTIC: [8] Undefined variable: page C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 26 行.
+NOTIC: [8] Undefined variable: pages C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-27T16:11:09+08:00 ] 127.0.0.1 /index.php/home/index/index/alert/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwu` LIMIT 1   [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwushang` WHERE `biaoshi` = 1 LIMIT 1   [ RunTime:0.0049s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php on line 16 and defined C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `fuwu` ORDER BY id asc LIMIT 0,6   [ RunTime:0.0049s ]
+SQL: SELECT * FROM `fuwushang` WHERE `biaoshi` = 1 ORDER BY id asc LIMIT 0,3   [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `wzxx` [ RunTime:0.0049s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php on line 25 and defined C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wzxx` LIMIT 1   [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: page C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 26 行.
+NOTIC: [8] Undefined variable: pages C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2017-11-27T16:11:39+08:00 ] 127.0.0.1 /index.php/home/index/order/alert/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-27T16:11:39+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0068s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwu` LIMIT 1   [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0078s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwushang` WHERE `biaoshi` = 1 LIMIT 1   [ RunTime:0.0068s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php on line 16 and defined C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `fuwu` ORDER BY id asc LIMIT 0,6   [ RunTime:0.0068s ]
+SQL: SELECT * FROM `fuwushang` WHERE `biaoshi` = 1 ORDER BY id asc LIMIT 0,3   [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `wzxx` [ RunTime:0.0068s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php on line 25 and defined C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wzxx` LIMIT 1   [ RunTime:0.0068s ]
+NOTIC: [8] Undefined variable: page C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 26 行.
+NOTIC: [8] Undefined variable: pages C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-27T16:12:03+08:00 ] 127.0.0.1 /index.php/home/index/order/alert/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-27T16:12:04+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0078s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwu` LIMIT 1   [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0078s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwushang` WHERE `biaoshi` = 1 LIMIT 1   [ RunTime:0.0068s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php on line 16 and defined C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `fuwu` ORDER BY id asc LIMIT 0,6   [ RunTime:0.0068s ]
+SQL: SELECT * FROM `fuwushang` WHERE `biaoshi` = 1 ORDER BY id asc LIMIT 0,3   [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `wzxx` [ RunTime:0.0068s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php on line 25 and defined C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wzxx` LIMIT 1   [ RunTime:0.0068s ]
+NOTIC: [8] Undefined variable: page C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 26 行.
+NOTIC: [8] Undefined variable: pages C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-27T16:13:25+08:00 ] 127.0.0.1 /index.php/home/index/evaluate/alert/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: user C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `dingdan` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `dingdan` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0049s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-27T16:13:33+08:00 ] 127.0.0.1 /index.php/home/index/evaluate/alert/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: user C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `dingdan` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `dingdan` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0049s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2017-11-27T16:13:59+08:00 ] 127.0.0.1 /index.php/home/index/personal/alert/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `wx_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0049s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-27T16:18:45+08:00 ] 127.0.0.1 /index.php/home/index/fwpj/alert/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-27T16:18:53+08:00 ] 127.0.0.1 /index.php/home/index/fwpj/alert/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-27T16:22:31+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0078s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwu` LIMIT 1   [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0078s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwushang` WHERE `biaoshi` = 1 LIMIT 1   [ RunTime:0.0078s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php on line 16 and defined C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `fuwu` ORDER BY id asc LIMIT 0,6   [ RunTime:0.0078s ]
+SQL: SELECT * FROM `fuwushang` WHERE `biaoshi` = 1 ORDER BY id asc LIMIT 0,3   [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `wzxx` [ RunTime:0.0068s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php on line 25 and defined C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wzxx` LIMIT 1   [ RunTime:0.0068s ]
+NOTIC: [8] Undefined variable: page C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 26 行.
+NOTIC: [8] Undefined variable: pages C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-27T16:26:19+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0059s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwu` LIMIT 1   [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0059s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwushang` WHERE `biaoshi` = 1 LIMIT 1   [ RunTime:0.0049s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php on line 16 and defined C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `fuwu` ORDER BY id asc LIMIT 0,6   [ RunTime:0.0059s ]
+SQL: SELECT * FROM `fuwushang` WHERE `biaoshi` = 1 ORDER BY id asc LIMIT 0,3   [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `wzxx` [ RunTime:0.0049s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php on line 25 and defined C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wzxx` LIMIT 1   [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: page C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 26 行.
+NOTIC: [8] Undefined variable: pages C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-27T16:26:27+08:00 ] 127.0.0.1 /index.php/Home/Index/index/alert/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwu` LIMIT 1   [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwushang` WHERE `biaoshi` = 1 LIMIT 1   [ RunTime:0.0039s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php on line 16 and defined C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `fuwu` ORDER BY id asc LIMIT 0,6   [ RunTime:0.0049s ]
+SQL: SELECT * FROM `fuwushang` WHERE `biaoshi` = 1 ORDER BY id asc LIMIT 0,3   [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `wzxx` [ RunTime:0.0039s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php on line 25 and defined C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wzxx` LIMIT 1   [ RunTime:0.0039s ]
+NOTIC: [8] Undefined variable: page C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 26 行.
+NOTIC: [8] Undefined variable: pages C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-27T16:26:34+08:00 ] 127.0.0.1 /index.php/Home/Index/index/alert/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwu` LIMIT 1   [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwushang` WHERE `biaoshi` = 1 LIMIT 1   [ RunTime:0.0049s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php on line 16 and defined C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `fuwu` ORDER BY id asc LIMIT 0,6   [ RunTime:0.0059s ]
+SQL: SELECT * FROM `fuwushang` WHERE `biaoshi` = 1 ORDER BY id asc LIMIT 0,3   [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `wzxx` [ RunTime:0.0049s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php on line 25 and defined C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wzxx` LIMIT 1   [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: page C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 26 行.
+NOTIC: [8] Undefined variable: pages C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-27T16:27:24+08:00 ] 127.0.0.1 /index.php/Home/Index/alter/alert/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `wx_user` WHERE ( openid ) LIMIT 1   [ RunTime:0.0049s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-27T16:29:37+08:00 ] 127.0.0.1 /index.php/Home/Index/alter/alert/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `wx_user` WHERE ( openid ) LIMIT 1   [ RunTime:0.0049s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-27T16:29:43+08:00 ] 127.0.0.1 /index.php/Home/Index/alter/alert/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `wx_user` WHERE ( openid ) LIMIT 1   [ RunTime:0.0078s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2017-11-27T16:30:05+08:00 ] 127.0.0.1 /index.php/Home/Index/personal/alert/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `wx_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0078s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000976s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-27T16:31:02+08:00 ] 127.0.0.1 /index.php/Home/Index/oder/alert/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `dingdan` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `dingdan` WHERE `name_id` = null  [ RunTime:0.0049s ]
+SQL: SELECT * FROM `dingdan` WHERE `name_id` = null AND `zhuangtai` = 1  [ RunTime:0.0049s ]
+SQL: SELECT * FROM `dingdan` WHERE `name_id` = null AND `zhuangtai` = 2  [ RunTime:0.0059s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-27T16:31:14+08:00 ] 127.0.0.1 /index.php/Home/Index/evaluate/alert/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined variable: user C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `dingdan` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `dingdan` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0078s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006835s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-27T16:31:29+08:00 ] 127.0.0.1 /index.php/Home/Index/fwpj/alert/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-27T16:31:44+08:00 ] 127.0.0.1 /index.php/Home/Index/xiadan/alert/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-27T16:31:44+08:00 ] 127.0.0.1 /index.php/Home/gslb/gslb/alert/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-27T16:32:23+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0059s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwu` LIMIT 1   [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0059s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwushang` WHERE `biaoshi` = 1 LIMIT 1   [ RunTime:0.0049s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php on line 16 and defined C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `fuwu` ORDER BY id asc LIMIT 0,6   [ RunTime:0.0059s ]
+SQL: SELECT * FROM `fuwushang` WHERE `biaoshi` = 1 ORDER BY id asc LIMIT 0,3   [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `wzxx` [ RunTime:0.0049s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php on line 25 and defined C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wzxx` LIMIT 1   [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: page C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 26 行.
+NOTIC: [8] Undefined variable: pages C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000976s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-27T16:47:49+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwu` LIMIT 1   [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwushang` WHERE `biaoshi` = 1 LIMIT 1   [ RunTime:0.0039s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php on line 16 and defined C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `fuwu` ORDER BY id asc LIMIT 0,6   [ RunTime:0.0049s ]
+SQL: SELECT * FROM `fuwushang` WHERE `biaoshi` = 1 ORDER BY id asc LIMIT 0,3   [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `wzxx` [ RunTime:0.0039s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php on line 25 and defined C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wzxx` LIMIT 1   [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0039s ]
+SQL: SELECT `id`,`yuan` FROM `users`  [ RunTime:0.0039s ]
+NOTIC: [8] Undefined variable: page C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined variable: pages C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000976s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-27T16:48:03+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0059s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwu` LIMIT 1   [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwushang` WHERE `biaoshi` = 1 LIMIT 1   [ RunTime:0.0039s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php on line 16 and defined C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `fuwu` ORDER BY id asc LIMIT 0,6   [ RunTime:0.0049s ]
+SQL: SELECT * FROM `fuwushang` WHERE `biaoshi` = 1 ORDER BY id asc LIMIT 0,3   [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `wzxx` [ RunTime:0.0049s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php on line 25 and defined C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wzxx` LIMIT 1   [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0049s ]
+SQL: SELECT `id`,`yuan` FROM `users`  [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: page C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined variable: pages C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-27T16:48:14+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwu` LIMIT 1   [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0059s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwushang` WHERE `biaoshi` = 1 LIMIT 1   [ RunTime:0.0049s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php on line 16 and defined C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `fuwu` ORDER BY id asc LIMIT 0,6   [ RunTime:0.0049s ]
+SQL: SELECT * FROM `fuwushang` WHERE `biaoshi` = 1 ORDER BY id asc LIMIT 0,3   [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `wzxx` [ RunTime:0.0049s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php on line 25 and defined C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wzxx` LIMIT 1   [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0049s ]
+SQL: SELECT `id`,`yuan` FROM `users`  [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: page C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined variable: pages C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-27T16:48:28+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0078s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwu` LIMIT 1   [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0078s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwushang` WHERE `biaoshi` = 1 LIMIT 1   [ RunTime:0.0078s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php on line 16 and defined C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `fuwu` ORDER BY id asc LIMIT 0,6   [ RunTime:0.0078s ]
+SQL: SELECT * FROM `fuwushang` WHERE `biaoshi` = 1 ORDER BY id asc LIMIT 0,3   [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `wzxx` [ RunTime:0.0068s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php on line 25 and defined C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wzxx` LIMIT 1   [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0068s ]
+SQL: SELECT `id`,`yuan` FROM `users`  [ RunTime:0.0078s ]
+NOTIC: [8] Undefined variable: page C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined variable: pages C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-27T16:49:28+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwu` LIMIT 1   [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwushang` WHERE `biaoshi` = 1 LIMIT 1   [ RunTime:0.0049s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php on line 16 and defined C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `fuwu` ORDER BY id asc LIMIT 0,6   [ RunTime:0.0049s ]
+SQL: SELECT * FROM `fuwushang` WHERE `biaoshi` = 1 ORDER BY id asc LIMIT 0,3   [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `wzxx` [ RunTime:0.0049s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php on line 25 and defined C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wzxx` LIMIT 1   [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0049s ]
+SQL: SELECT `id`,`yuan` FROM `users`  [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: page C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined variable: pages C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-27T16:49:52+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0078s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwu` LIMIT 1   [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0068s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwushang` WHERE `biaoshi` = 1 LIMIT 1   [ RunTime:0.0068s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php on line 16 and defined C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `fuwu` ORDER BY id asc LIMIT 0,6   [ RunTime:0.0078s ]
+SQL: SELECT * FROM `fuwushang` WHERE `biaoshi` = 1 ORDER BY id asc LIMIT 0,3   [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `wzxx` [ RunTime:0.0068s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php on line 25 and defined C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wzxx` LIMIT 1   [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0068s ]
+SQL: SELECT `id`,`yuan` FROM `users`  [ RunTime:0.0068s ]
+NOTIC: [8] Undefined variable: page C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined variable: pages C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-27T16:50:05+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0068s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwu` LIMIT 1   [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0078s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwushang` WHERE `biaoshi` = 1 LIMIT 1   [ RunTime:0.0078s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php on line 16 and defined C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `fuwu` ORDER BY id asc LIMIT 0,6   [ RunTime:0.0068s ]
+SQL: SELECT * FROM `fuwushang` WHERE `biaoshi` = 1 ORDER BY id asc LIMIT 0,3   [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `wzxx` [ RunTime:0.0078s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php on line 25 and defined C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wzxx` LIMIT 1   [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0078s ]
+SQL: SELECT `id`,`yuan` FROM `users`  [ RunTime:0.0068s ]
+NOTIC: [8] Undefined variable: page C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined variable: pages C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2017-11-27T16:50:18+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0059s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwu` LIMIT 1   [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwushang` WHERE `biaoshi` = 1 LIMIT 1   [ RunTime:0.0049s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php on line 16 and defined C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `fuwu` ORDER BY id asc LIMIT 0,6   [ RunTime:0.0049s ]
+SQL: SELECT * FROM `fuwushang` WHERE `biaoshi` = 1 ORDER BY id asc LIMIT 0,3   [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `wzxx` [ RunTime:0.0049s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php on line 25 and defined C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wzxx` LIMIT 1   [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0049s ]
+SQL: SELECT `id`,`yuan` FROM `users`  [ RunTime:0.0039s ]
+NOTIC: [8] Undefined variable: page C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined variable: pages C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-27T16:50:25+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0078s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwu` LIMIT 1   [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0078s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwushang` WHERE `biaoshi` = 1 LIMIT 1   [ RunTime:0.0078s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php on line 16 and defined C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `fuwu` ORDER BY id asc LIMIT 0,6   [ RunTime:0.0068s ]
+SQL: SELECT * FROM `fuwushang` WHERE `biaoshi` = 1 ORDER BY id asc LIMIT 0,3   [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `wzxx` [ RunTime:0.0078s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php on line 25 and defined C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wzxx` LIMIT 1   [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0068s ]
+SQL: SELECT `id`,`yuan` FROM `users`  [ RunTime:0.0068s ]
+NOTIC: [8] Undefined variable: page C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined variable: pages C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000976s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-27T17:05:47+08:00 ] 127.0.0.1 /index.php/Home/Index/qyfw/id/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `fuwu` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0068s ]
+SQL: SELECT `id` FROM `fuwu` WHERE `f_id` = 23 LIMIT 1   [ RunTime:0.0068s ]
+SQL: SELECT `name`,`id`,`f_id`,`img` FROM `fuwu` WHERE `f_id` = 35  [ RunTime:0.0068s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037109s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-27T17:05:48+08:00 ] 127.0.0.1 /index.php/Home/Index/xqym/id/82.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `fuwu` WHERE `id` = 82 LIMIT 1   [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `pingjia` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `pingjia` WHERE `f_id` = 82  [ RunTime:0.0068s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-11-27T17:05:50+08:00 ] 127.0.0.1 /index.php/Home/index/gyslb/id/82.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `fuwushang` WHERE `biaoshi` = 2  [ RunTime:0.0059s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-27T17:05:52+08:00 ] 127.0.0.1 /index.php/Home/Index/aboutc/id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `fuwushang` WHERE `id` = 29 LIMIT 1   [ RunTime:0.0078s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-11-27T19:11:50+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002929s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 9 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwu` LIMIT 1   [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwushang` WHERE `biaoshi` = 1 LIMIT 1   [ RunTime:0.0039s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php on line 16 and defined C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `fuwu` ORDER BY id asc LIMIT 0,6   [ RunTime:0.0049s ]
+SQL: SELECT * FROM `fuwushang` WHERE `biaoshi` = 1 ORDER BY id asc LIMIT 0,3   [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `wzxx` [ RunTime:0.0039s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php on line 25 and defined C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wzxx` LIMIT 1   [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0049s ]
+SQL: SELECT `id`,`yuan` FROM `users`  [ RunTime:0.0039s ]
+NOTIC: [8] Undefined variable: page C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined variable: pages C:\Users\Administrator\Desktop\wangxin\wangxin\Home\Controller\IndexController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.017578s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.017578s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007812s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007812s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007812s ]
+

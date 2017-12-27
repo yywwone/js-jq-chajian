@@ -1,0 +1,25 @@
+/* CSS Document */
+
+/*资讯信息*/
+
+.main-left-box{width: 1000px;margin: 0 auto;clear: both;margin-top: 50px;}
+.tit p{width: 990px;height: 30px;padding-left: 10px;padding-top: 10px;background:#FAFAFA;font-size: 14px;font-weight: bold;border-bottom: 1px solid #ccc;}
+.main-left-con{width: 900px;margin: 0 auto;}
+.main-left-con-box{width:100%;height:143px;border-bottom: 1px dashed #ccc;}
+.main-left-con-tit{width: 100%;height:50px;line-height: 50px;}
+.main-left-con-tit p{float: left;font-size: 18px;font-weight: bold;}
+.main-left-con-tit span{float:right}
+.main-left-con-text{width: 100%;height: 143px;}
+.main-left-con-text img{float: left}
+.main-left-con-text p{float: right;width:730px;line-height: 25px;font-size: 14px;margin-top: 10px;}
+
+/*返回顶部*/
+#float-top{position:fixed;right:20px;bottom:50px; background: url(../img/top.png);width: 50px;height: 50px;display: none;}
+#float-top:hover{background: url(../img/top-hover.png);}
+.return:hover{color:#f2880b}
+/*页标*/
+.main-left-con-num{width: 410px;height:30px;margin: 0 auto;margin-top: 40px;}
+.main-left-con-num a{display:inline-block;border: 1px solid #ccc;width: 18px;height: 18px;text-align: center;margin-right: 5px;}
+.main-left-con-num a:hover{background: #4384f2;color: #fff}
+.main-left-con-num2{background: #4384f2;color: #fff}
+.main-left-con-num .main-left-con-num1{width: 48px;}

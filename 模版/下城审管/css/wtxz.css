@@ -1,0 +1,19 @@
+/* CSS Document */
+a:link{text-decoration:none;color:white ;}
+a:visited {text-decoration:none;color:white;}
+a:hover{text-decoration:underline;color:white;}
+a:active{text-decoration:none;color:white;}
+.more_bg{background: url(../images/bg1.png);width:60%;background-size: 100% 100%;margin-left:150px; ;font-family: 微软雅黑;padding: 15px}
+.index_con_tit{font-weight: 600;margin-top: 15px;margin-left: 15px;font-size: 1.1em}
+.index_con_text{margin-left: 15px;margin-right: 15px;margin-bottom:2px;font-size: 1em;line-height: 20px;}
+.more_bg p:last-child{margin-bottom: 150px;}
+.more_bg1{width:20%;height: 500px;background:#E6F4FB;position: fixed;top: 100px;right:10px;}
+.more_bg1 p{margin: 15px;}
+.more_bg1 input[type="text"]{margin: 15px;width: 80%;padding: 15px;}
+.more_bg1_con{height: 460px;overflow: auto}
+.index_con_text1{width: 80%;height: 300px;color:#A9A9A9;padding: 15px;margin: 15px;}
+.more_bg1 .wrxz_submit{width: 100px;height: 30px;background: #fff;margin: 0 auto;border-radius: 10px;border: 0;display: block;outline: none;}
+
+
+
+

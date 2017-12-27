@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+body{font-family:微软雅黑;}
+.title{font-size:0.2rem;}
+.title h3{
+	padding-top:0.4rem;
+	padding-bottom:0.4rem;
+	text-align:center;
+	letter-spacing:0.02rem;
+}
+.b-box{
+	font-size:0.15rem;
+	position:relative;
+}
+.b-box p span{
+	margin-left:0.4rem;
+}
+.b-box p{
+	margin-bottom:0.5rem;
+}
+.hip{
+	margin-left:0.5rem;	
+}
+.button{
+	width:100%;
+	height:0.3rem;
+	background-color:#069;
+	text-align:center;
+	border:none;
+	color:#FFF;
+	position:fixed;
+	bottom:0%;
+	left:0;
+}
+.tips{
+	position:absolute;
+	right:1.3rem;
+}
+.tips2{
+	top:0.4rem;
+}
+.tips1{
+	top:1.2rem;
+}
+.tips3{
+	top:2.0rem;
+}
+.bigbox{
+	overflow:hidden;
+	height:1.2rem;
+	width:100%;
+	position: relative;
+}
+.bigbox span{
+	margin-left:0.4rem;
+	margin-top:0.rem;
+	position: absolute;
+	top:0.2rem;	
+}
+.z_photo{
+	margin-right:0.2rem;
+	width: 1.8rem;
+    height: 0.8rem;
+    overflow: auto;
+    clear: both;
+ 	border: 1px solid #555;
+	position:absolute;
+	right:0;
+}
+.z_photo1{
+	margin-right:0.2rem;
+	width: 1.8rem;
+    height: 0.8rem;
+    overflow: auto;
+    clear: both;
+ 	border: 1px solid #555;
+	position:absolute;
+	right:0;
+}

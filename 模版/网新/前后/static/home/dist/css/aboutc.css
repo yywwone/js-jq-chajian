@@ -1,0 +1,69 @@
+.company-banner-box{
+	width: 100%;
+	
+}
+.company-banner-box>img{
+	width: 100%;
+	height: auto;
+}
+.company-logo-box{
+	width: 100%;
+}
+.company-logo-box h1{
+	text-align: center;
+	margin-top: 30px;
+}
+.company-logo-box>img{
+	width: 2.15rem;
+	height: 0.38rem;
+	margin-top: 0.15rem;
+	margin-left: 0.35rem;
+}
+.p-main{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 0.25rem;
+	line-height: 0.2rem;
+	font-size: 0.12rem;
+	padding-bottom: 0.2rem;
+	border-bottom: solid 0.01rem #666666;
+	color: #666666;
+}
+.honor{
+	width:80%;
+	margin: 0 auto;
+	margin-top: 0.1rem;
+}
+.honor>h3{
+	font-size: 0.15rem;
+	color: #666666;
+	font-weight: normal;
+}
+.honor-main{
+	margin-top: 0.15rem;
+	border-bottom:solid 0.01rem #666666;
+	padding-bottom: 0.2rem;
+} 
+.honor-main span{
+	display: inline-block;
+	line-height: 0.2rem;
+	color: #666666;	
+}
+.qr-code-box{
+	width: 85%;
+	margin: 0 auto;
+	margin-top: 0.1rem;	
+}
+.qr-code-box>img{
+	width:0.5rem;
+	height:0.5rem;
+	margin-left: 0.1rem;	
+}
+.qwer{
+	width: 80%;
+	margin: 0 auto;
+	clear: both;
+	font-size: 0.12rem;
+	line-height: 0.2rem;
+	padding-bottom: 0.1rem;
+}

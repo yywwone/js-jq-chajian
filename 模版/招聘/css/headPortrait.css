@@ -1,0 +1,5 @@
+/* CSS Document */
+.headerPortrait_box{width: 100px;height: 100px;margin:40px auto;text-align: center}
+#pic{width:100%;height:100%;border-radius:50%;cursor: pointer;}
+.headerPortrait_submit{width: 90px;height: 30px;background: #FF6600;color: #fff;border: 0;margin-top: 15px;z-index: 10;line-height: 30px;cursor: pointer;}
+.headerPortrait_zz{width: 127px;height: 61px;line-height: 61px;color: #fff; background: rgba(179,179,179,0.5);text-align: center; position: fixed;top: 50%;left: 50%;margin-left: -63px;display: none;}

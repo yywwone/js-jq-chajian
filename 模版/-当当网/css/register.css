@@ -1,0 +1,49 @@
+/* CSS Document */
+/*注册头部*/
+#register_header{width:958px;height:48px;background:url(../images/register_head_bg.gif);margin: 0 auto;border: 1px solid #ccc;overflow: hidden}
+#register_header .logo{float: left;margin-top:5px;margin-left:40px;}
+#register_header_ul{float: right;margin-top: 29px;margin-right:21px;}
+#register_header_ul li{float: left;font-size: 12px;}
+#register_header_ul li img{margin-left: 4px;margin-right: 3px;}
+#register_header_ul li a{color:#1965b3}
+/*注册主体*/
+#register_body{width: 950px;height: 450px;margin:0 auto;margin-top: 15px;}
+/*注册主体 左侧边框*/
+#register_body_left-bd{background: url(../images/register_cont.gif) no-repeat;width:1px;height: 443px;float: left;margin-top: 5px;margin-right: -1px;}
+/*注册 主体 中间*/
+#register_body_middle{width:948px;height: 450px;float: left;}
+/*注册 主体 中间 边框*/
+#register_body_middle_bd{background:url(../images/register_top_bg.gif);width: 948px;height:5px;}
+/*注册 主体 中间 上部*/
+#register_body_middle_top{width: 948px;height:34px;border-bottom: 2px solid #a3a3a3;}
+#register_body_middle_top_img1{background: url(../images/register_tag_left.gif);width:313px;height: 32px;float: left;
+text-align: center;line-height: 32px; margin-left: 1px;color: #501500}
+#register_body_middle_top_img2{background: url(../images/register_tag_mid.gif);width:319px;height: 32px;float: left;
+text-align: center;line-height: 32px;}
+#register_body_middle_top_img3{background: url(../images/register_tag_right.gif);width:315px;height: 32px;float: left;
+text-align: center;line-height: 32px;}
+/*注册 主体 中间 头部*/
+#register_body_middle_header{width: 907px;height: 55px;margin-left: 20px;margin-top: 30px;border-bottom: 1px dashed #878787;}
+#register_body_middle_header img{float: left;margin-left: 103px;}
+#register_body_middle_header p{margin-top: 11px;margin-left: 19px;float: left}
+.register_body_middle_header_color{color: #cc3300;font-size: 12px;margin-left: 19px;}
+#register_body table{margin-left:127px;margin-top: 20px;}
+#register_body table td{height: 30px;}
+#register_body table td .classname1{background: #cff477;}
+#register_body table td .classname2{background: #f1cb81;border: 1px solid #999;}
+#register_body span{display: none;font-size: 12px;}
+
+/*注册 主体 右侧边框*/
+#register_body_right-bd{background: url(../images/register_cont.gif) no-repeat;width: 1px;height: 443px;float: left;margin-top: 3px;margin-left: -1px;}
+
+/*尾部*/ 
+#foot{width: 960px;height: 47px; margin: 0 auto;font-size: 12px;margin-top: 230px;}
+#foot ul{width: 377px;margin: 0 auto;}
+#foot ul li{float: left;line-height: 47px;}
+#foot ul li img{margin-left: 12px;margin-right: 11px;}
+#foot ul li a{color: #9b2b0f}
+#foot p{width: 600px;height: 48px;margin: 0 auto;clear: both;line-height: 48px;}
+#foot p img{vertical-align: middle}
+
+
+

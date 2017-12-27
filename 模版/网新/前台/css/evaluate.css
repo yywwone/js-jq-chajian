@@ -1,0 +1,73 @@
+.ev-company-box{
+	width: 93%;
+	height: 0.8rem;
+	margin-left: 0.15rem;
+	margin-bottom: 0.1rem;
+}
+.ev-name{
+	font-size: 0.16rem;
+	color: #666666;
+	height: 0.3rem;
+	margin-top: 0.2rem;
+	line-height:0.3rem;
+}
+.ev-pname{
+	font-size: 0.12rem;
+	color: #666666;
+	height: 0.3rem;
+	line-height:0.3rem;
+}
+.ev-time{
+	font-size: 0.09rem;
+	float: right;
+	margin-top: 0.2rem;
+	margin-left: 0.01rem;
+}
+.ev-time p{
+	line-height:0.3rem;
+	font-size:0.01rem;
+	height:0.3rem;
+	color: #999999;
+}
+.icon-star-box{
+	width:40%;
+	margin:0 auto;
+	text-align: center;
+}
+.icon-star{
+	margin-left: 0.05rem;
+}
+.icon-star>li{
+	float: left;
+	width: 0.18rem;
+	height: 0.185rem;
+	background: url(../images/icon-star.png);
+	background-size: cover;
+	margin-right: 0.1rem;
+}
+
+.write{
+	display: block;
+	width: 68%;
+	height: 1.15rem;
+	margin-top: 0.2rem;
+	float: left;
+	margin-left:0.4rem;
+	background-color: #e1e1e1;
+	resize: none;
+	outline: none;
+	padding: 0.2rem;
+	border:#666666 ;
+}
+.eval-sub{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	width: 100%;
+	height: 0.5rem;
+	background-color: #233B83;
+	color: #EEEEEE;
+	border: none;
+	font-size: 0.18rem;
+}

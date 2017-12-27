@@ -1,0 +1,72 @@
+/* CSS Document */
+.nav_left{background: #232b35;width:1300px;min-height:300px;margin: 0 auto;margin-bottom:300px;padding-bottom: 100px;}
+.nav_leftlist h2{height: 50px;line-height: 50px;padding-left: 60px;font-size: 16px;background: #3b444f;color: #999999;position: relative;cursor: pointer;}
+.nav_leftlist .nav_leftlist_name{float: left;width: 150px;}
+.nav_leftlist img{width: 30px;height: 30px;float: left;margin-top: 10px;}
+.nav_leftlist .nav_leftlist_text{float:right;margin-right: 15px;}
+.nav_leftlist .nav_leftlist_name a{color: #fff;text-decoration:none;}
+.nav_leftlist .nav_leftlist_name1{
+	width: 250px;
+	height: 50px;
+	overflow: hidden;
+	float: left;
+}
+.nav_leftlist .nav_leftlist_name2{
+	width: 40px;
+}
+.nav_leftlist .nav_leftlist_name3{
+	height: 150px;
+	margin-right: 15px;
+}
+.nav_leftlist dl{display: none;}
+.nav_leftlist dl dt{height: 50px;line-height: 50px;background: #2c3643;font-size: 16px;color: #ffffff;padding-left: 60px;position: relative;cursor: pointer;}
+.nav_leftlist dl dd{display: none;margin: 0;}
+.nav_leftlist dl dd .a1{display: block;height: 150px;line-height: 50px;color: #fff;padding-left: 60px;font-size: 16px;position: relative;cursor: pointer;}
+.nav_leftlist dl dd span span.cur{color: #ee581c;}
+.nav_leftlist_JsAndLc_box{
+	margin-left: 25px;
+	float: left;
+}
+.nav_leftlist_JsAndLc_box span{
+	float: left;
+}
+.nav_leftlist_name_del{
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

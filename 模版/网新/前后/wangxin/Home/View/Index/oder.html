@@ -1,0 +1,119 @@
+<extend name="public/base"/>
+
+<block name="title">
+<title>订单</title>
+</block>
+<block name="distcss">
+		<link href="__PUBLIC__/home/dist/css/reset.css" type="text/css" rel="stylesheet" />
+		<link href="__PUBLIC__/home/dist/css/oder.css" type="text/css" rel="stylesheet" />
+		<style type="text/css">
+			.oder-w_bg{
+				display: inline-block;
+				width: 0.8rem;
+				height: 0.3rem;
+				background-color: rgb(35, 59, 131);
+				text-align: center;
+				color: #fff;
+				line-height: 0.3rem;
+				border-radius: 5px;
+			}
+		</style>
+</block>
+</head>
+
+<block name="content">
+		<!--欢迎-->
+		<header class="hello-sign-box">
+			<div class="welcoming-speech2">
+				<p>服&nbsp;务&nbsp;订&nbsp;单</p>
+			</div>
+		</header>
+		<!--选项卡导航部分-->
+			<div class="tab-box">
+				<ul class="tab-nav">
+					<li class="tab-nav-list1">全部订单</li>
+					<li class="tab-nav-list2">正在服务</li>
+					<li class="tab-nav-list3">完成订单</li>
+				</ul>
+				
+			</div>
+			<!--选项卡内容大盒子-->
+			<div class="tab-content">
+				<!--内容1-->
+				<div class="all-oder">
+					<ul class="all-oder-item">
+						<volist name="pagintor" id="item">
+						<li>
+							<div class="all-oder-con">
+								<p class="oder-name">项目名称：<span>{$item.fw_name}</span></p>
+								<p class="oder-company">服务公司：<span>{$item.fws_name}</span></p>
+								<?php
+									if ($item['zhuangtai']==0) {
+								?>
+								<p class="oder-w">未完成</p>
+								<?php	
+									}elseif($item['zhuangtai']==1){
+								?>
+								<p class="oder-w">进行中</p>
+								<?php
+									}elseif($item['zhuangtai']==2){
+								?>
+								<p class="oder-w">已完成</p>
+								<?php
+									}elseif($item['zhuangtai']==3){
+								?>
+								<p class="oder-w">已评价</p>
+								<?php
+									}
+								?>
+								
+							</div>
+						</li>
+						</volist>
+						
+					</ul>
+				</div>
+				<!--内容2-->
+				<div class="all-oder">
+					<ul class="all-oder-item">
+						<volist name="pagintor1" id="item">
+						<li>
+							<div class="all-oder-con">
+								<p class="oder-name">项目名称：<span>{$item.fw_name}</span></p>
+								<p class="oder-company">服务公司：<span>{$item.fws_name}</span></p>
+								<p class="oder-w"><a class="oder-w_bg" href="{:U('queren','id='.$item['id'])}">确认完成</a></p>
+							</div>
+						</li>
+						</volist>
+					</ul>
+				</div>
+				<!--内容三-->
+				<div class="all-oder">
+					<ul class="all-oder-item">
+						<volist name="pagintor2" id="item">
+						<li>
+							<div class="all-oder-con">
+								<p class="oder-name">项目名称：<span>{$item.fw_name}</span></p>
+								<p class="oder-company">服务公司：<span>{$item.fws_name}</span></p>
+								<p class="oder-w"><a class="oder-w_bg"  href="{:U('evaluate','id='.$item['id'])}">请评价</a></p>
+							</div>
+						</li>
+						</volist>
+					</ul>
+				</div>
+			</div>
+			<!-- 底部栏显示标识 -->
+			<div class="wx_qt_dbgdl_active">3</div>
+			<!--根节点JS-->
+			
+</block>
+<block name="javascript">
+<script src="__PUBLIC__/home/dist/js/mobblie.js"></script>
+<script src="__PUBLIC__/home/dist/js/oder.js"></script>
+<script type="text/javascript">
+            if(<?php echo I('get.alert');?>=='1'){
+            	alert('评价成功');
+            }
+          
+		</script>
+</block>

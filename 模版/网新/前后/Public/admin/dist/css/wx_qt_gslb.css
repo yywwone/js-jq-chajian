@@ -1,0 +1,91 @@
+/* CSS Document */
+.wx_qt_gyslb_box_top{
+	width: 100%;
+	height: 0.11rem;
+	background: #ddeaf9;
+	border: 1px solid #c6c6c6;
+	border-left: none;
+	border-right: none;
+}
+.wx_qt_gyslb_main_box{
+	width: 3.37rem;
+	margin: 0 auto;
+	padding-bottom: 0.1rem;
+}
+.wx_qt_gyslb_main_top{
+	width: 100%;
+	margin-top: 0.09rem;
+	overflow: hidden;
+	position: relative;
+}
+.wx_qt_gyslb_main_top_left{
+	float: left;
+}
+.wx_qt_gyslb_main_top_right{
+	float: left;
+	margin-left: 0.2rem;
+	width: 2.31rem;
+}
+.wx_qt_gyslb_main_top_left img{
+	width: 0.85rem;
+	height: 1.2rem;
+}
+.wx_qt_gyslb_main_top_right_tit{
+	font-size: 0.15rem;
+	color: #333333;
+	margin-bottom: 0.08rem;
+}
+.wx_qt_gyslb_main_top_right p{
+	font-size: 0.09rem;
+	color: #b8b8b8;
+}
+.wx_qt_gyslb_main_top_right a{
+	
+}
+.wx_qt_gyslb_main_top_right .wx_qt_gyslb_main_bottom_main_ckxq_box{
+	color: #2d388a;
+	font-size: 0.12rem;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.wx_qt_gyslb_main_bottom_main_ckxq_box a{
+	color: #2d388a
+}
+.wx_qt_gyslb_main_bottom_main_ckxq{
+	width: 0.2rem;
+	height: 0.2rem;
+	display: inline-block;
+	background: #13227a;
+	color: #fff;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 0.18rem;
+	margin-left: 0.06rem;
+	font-size: 0.18rem;
+}
+.wx_qt_gslb_icon_text{
+	float: left;
+	margin-right: 0.1rem;
+	font-size: 0.14rem
+}
+.wx_qt_gslb_icon{
+	width: 0.2rem; 
+	height: 0.2rem;
+	vertical-align: -0.15em;
+	fill: currentColor;
+	overflow: hidden;
+	color:#000;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+

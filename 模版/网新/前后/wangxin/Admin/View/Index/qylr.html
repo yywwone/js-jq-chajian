@@ -1,0 +1,133 @@
+<extend name="public:base"/>
+<block name="link">
+    <link href="__PUBLIC__/admin/css/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="__PUBLIC__/admin/css/style.css"/>       
+        <link href="__PUBLIC__/admin/css/codemirror.css" rel="stylesheet">
+        <link rel="stylesheet" href="__PUBLIC__/admin/css/ace.min.css" />
+        <link rel="stylesheet" href="__PUBLIC__/admin/css/font-awesome.min.css" />
+        <style type="text/css">
+        .qylr tr td{
+          width: 50px;height:100px;
+        }
+        .qylrs{
+          width: 50px;height:100px;
+          overflow: hidden;
+        }
+      </style>
+    <script src="__PUBLIC__/admin/js/jquery.min.js"></script>
+    <script type="text/javascript">
+      window.jQuery || document.write("<script src='__PUBLIC__/admin/js/jquery-2.0.3.min.js'>"+"<"+"/script>");
+    </script>
+    <script type="text/javascript">
+      if("ontouchend" in document) document.write("<script src='__PUBLIC__/admin/js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
+    </script>
+    <script src="__PUBLIC__/admin/js/bootstrap.min.js"></script>
+    <script src="__PUBLIC__/admin/js/typeahead-bs2.min.js"></script>
+    <!-- page specific plugin scripts -->
+    <script src="__PUBLIC__/admin/js/jquery.dataTables.min.js"></script>
+    <script src="__PUBLIC__/admin/js/jquery.dataTables.bootstrap.js"></script>
+        <script type="text/javascript" src="__PUBLIC__/admin/js/H-ui.js"></script> 
+        <script type="text/javascript" src="__PUBLIC__/admin/js/H-ui.admin.js"></script> 
+        <script src="__PUBLIC__/admin/layer/layer.js" type="text/javascript" ></script>
+        <script src="__PUBLIC__/admin/laydate/laydate.js" type="text/javascript"></script>
+  </block>
+<block name="con">
+  <div class="page-content clearfix">
+    <div id="Member_Ratings">
+      <div class="d_Confirm_Order_style">
+    <div class="search_style">
+      <div class="title_names">搜索查询</div>
+      <ul class="search_content clearfix">
+        <form method="post" action={:U('index/widgets')}>
+         <li><label class="l_f">订单用户</label><input name="name" type="text"  class="text_add" placeholder="输入订单用户、服务、服务商名字、状态"  style=" width:400px"/></li>
+         <li style="width:90px;"><input type="submit" class="btn_search"></input></li>
+       </form>
+      </ul>
+    </div>
+     <!---->
+     <div class="border clearfix">
+       <span class="l_f">
+       </span>
+       <span class="r_f" style="float:left">共：<b>{$count}</b>条</span>
+     </div>
+     <!---->
+     <div class="table_menu_list">
+       <table class="table table-striped table-bordered table-hover qylr" id="sample-table">
+    <thead>
+     <tr>
+        <th width="80">批次</th>
+        <th width="100">公司名称</th>
+        <th width="80">公司法人</th>
+        <th width="120">公司地址</th>
+        <th width="150">公司电话</th>
+        <th width="">主营业务</th>
+        <th width="180">产品代表</th>
+        <th width="180">新增成果</th>
+        <th width="180">主要指标</th>
+        <th width="180">从业人数</th>
+        <th width="180">创业人数</th>
+        <th width="180">技术职称</th>
+        <th width="180">高新企业</th>
+        <th width="180">科技企业</th>
+        <th width="180">专利数量</th>
+        <th width="180">有效专利</th>
+        <th width="180">软件著作权</th>
+        <th width="180">注册地址</th>
+        <th width="180">缴税地址</th>
+      </tr>
+    </thead>
+  <tbody>
+   <tr>
+      <volist name="con" id="v">
+          <td><div class="qylrs">{$v['pici']}</td></div>
+          <td><div class="qylrs">{$v['gs_name']}</td></div>
+          <td><div class="qylrs">{$v['gs_faren']}</td></div>
+          <td><div class="qylrs">{$v['gs_add']}</td></div>
+          <td><div class="qylrs">{$v['gs_tel']}</td> </div>
+          <td><div class="qylrs">{$v['gs_yw']}</td></div>
+          <td><div class="qylrs">{$v['gs_cp']}</td></div>
+          <td><div class="qylrs">{$v['gs_cg']}</td></div>
+          <td><div class="qylrs">{$v['gs_zb']}</td> </div>
+          <td><div class="qylrs">{$v['congy_renshu']}</td></div>
+          <td><div class="qylrs">{$v['cy_renshu']}</td></div>
+          <td><div class="qylrs">{$v['gs_js']}</td></div>
+          <td><div class="qylrs">{$v['gx_qiye']}</td> </div>
+          <td><div class="qylrs">{$v['kj_qiye']}</td></div>
+           <td><div class="qylrs">{$v['zl_shuliang']}</td></div>
+           <td><div class="qylrs">{$v['yx_zhuanli']}</td></div>
+          <td><div class="qylrs">{$v['gs_zzq']}</td></div>
+          <td><div class="qylrs">{$v['zc_add']}</td></div>
+          <td><div class="qylrs">{$v['js_add']}</td></div>
+          
+    </tr>
+</volist>       
+      </tbody>
+  </table>
+   </div>
+   <div class="page">{$page}</div>
+  </div>
+ </div>
+</div>
+<!--添加用户图层-->
+<!-- <div class="add_menber" id="add_menber_style" style="display:none">
+  
+    <ul class=" page-content">
+     <li><label class="label_name">用&nbsp;&nbsp;户 &nbsp;名：</label><span class="add_name"><input value="" name="用户名" type="text"  class="text_add"/></span><div class="prompt r_f"></div></li>
+     <li><label class="label_name">真实姓名：</label><span class="add_name"><input name="真实姓名" type="text"  class="text_add"/></span><div class="prompt r_f"></div></li>
+     <li><label class="label_name">性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;别：</label><span class="add_name">
+     <label><input name="form-field-radio" type="radio" checked="checked" class="ace"><span class="lbl">男</span></label>&nbsp;&nbsp;&nbsp;
+     <label><input name="form-field-radio" type="radio" class="ace"><span class="lbl">女</span></label>&nbsp;&nbsp;&nbsp;
+     <label><input name="form-field-radio" type="radio" class="ace"><span class="lbl">保密</span></label>
+     </span>
+     <div class="prompt r_f"></div>
+     </li>
+     <li><label class="label_name">固定电话：</label><span class="add_name"><input name="固定电话" type="text"  class="text_add"/></span><div class="prompt r_f"></div></li>
+     <li><label class="label_name">移动电话：</label><span class="add_name"><input name="移动电话" type="text"  class="text_add"/></span><div class="prompt r_f"></div></li>
+     <li><label class="label_name">电子邮箱：</label><span class="add_name"><input name="电子邮箱" type="text"  class="text_add"/></span><div class="prompt r_f"></div></li>
+     <li class="adderss"><label class="label_name">家庭住址：</label><span class="add_name"><input name="家庭住址" type="text"  class="text_add" style=" width:350px"/></span><div class="prompt r_f"></div></li>
+     <li><label class="label_name">状&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;态：</label><span class="add_name">
+     <label><input name="form-field-radio1" type="radio" checked="checked" class="ace"><span class="lbl">开启</span></label>&nbsp;&nbsp;&nbsp;
+     <label><input name="form-field-radio1"type="radio" class="ace"><span class="lbl">关闭</span></label></span><div class="prompt r_f"></div></li>
+    </ul>
+ </div> -->
+  </block>

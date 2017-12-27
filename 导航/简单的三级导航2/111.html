@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link href="css/nav.css" rel="stylesheet">
+</head>
+<body>
+	<div class="nav_left">
+	   <div class="nav_leftlist">
+			<h2 class="nav_leftlist_fenlei nav_leftlist_h2">
+				<span class="nav_leftlist_name">编号</span>
+				<span class="nav_leftlist_name">名称</span>
+				<span class="nav_leftlist_name">背景图片</span>
+				<span class="nav_leftlist_name">图标</span>
+				<span class="nav_leftlist_name nav_leftlist_name1">服务介绍</span>
+				<span class="nav_leftlist_name nav_leftlist_name1">服务流程</span>
+			</h2>
+    	</div>
+    <div class="nav_leftlist">
+       <h2 class="nav_leftlist_fenlei">
+        	<span class="nav_leftlist_name">{$item.id}</span>
+        	<span class="nav_leftlist_name">{$item.name}</span>
+        	<span class="nav_leftlist_name"><img src="__UPLOAD__/{$item.img}"></span>
+        	<span class="nav_leftlist_name"><img src="__UPLOAD__/{$item.image}"></span>
+        	<div class="nav_leftlist_name_del">
+        		<span class="nav_leftlist_name nav_leftlist_name2"><a href="">修改</a></span>
+	        	<span class="nav_leftlist_name nav_leftlist_name2"><a href="javaScript:">删除</a></span>
+        	</div>
+        </h2>
+        <dl class="nav_leftlist_dl1">
+            <dt  class="nav_leftlist_fenlei">
+            	<span class="nav_leftlist_name">{$item1.id}</span>
+            	<span class="nav_leftlist_name">{$item1.name}</span>
+            	<span class="nav_leftlist_name"><img src="__UPLOAD__/{$item1.img}"></span>
+        		<span class="nav_leftlist_name"><img src="__UPLOAD__/{$item1.image}"></span>
+			    <div class="nav_leftlist_name_del">
+			    	<span class="nav_leftlist_name nav_leftlist_name2"><a href="">修改</a></span>
+		        	<span class="nav_leftlist_name nav_leftlist_name2"><a href="javaScript:">删除</a></span>
+	        	</div>
+            </dt>
+             <dd>
+                <span class="a1 nav_leftlist_fenlei" >
+					<span class="nav_leftlist_name">{$item2.id}</span>
+					<span class="nav_leftlist_name">{$item2.name}</span>
+					<span class="nav_leftlist_name"><img src="__UPLOAD__/{$item2.img}"></span>
+					<span class="nav_leftlist_name"><img src="__UPLOAD__/{$item2.image}"></span>
+					<span class="nav_leftlist_name nav_leftlist_name1 nav_leftlist_name3">{$item2.fw_js}</span>
+					<span class="nav_leftlist_name nav_leftlist_name1 nav_leftlist_name3">{$item2.fw_lc}</span>
+					<div class="nav_leftlist_name_del">
+						<span class="nav_leftlist_name nav_leftlist_name2"><a href="">修改</a></span>
+			        	<span class="nav_leftlist_name nav_leftlist_name2"><a href="javaScript:">删除</a></span>
+		        	</div>
+                </span>
+            </dd>
+        </dl>
+    </div>
+    
+</div>
+<script type="text/javascript" src="js/jquery-1.11.1.min.js" ></script>
+<script type="text/javascript" src="js/nav.js"></script>
+</body>
+</html>

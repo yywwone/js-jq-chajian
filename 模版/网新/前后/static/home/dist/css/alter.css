@@ -1,0 +1,65 @@
+.alter-content-box{
+	width: 80%;
+	margin:0 auto;
+}
+.worn-password{
+	margin-top: 0.25rem;
+	height: 0.39rem;
+	width:2.37rem;
+	border: solid 1px #999999;
+	border-radius: 0.19rem;
+	outline: none;
+	padding-left: 0.5rem;
+	font-size: 0.12rem;
+	line-height: 0.39rem;
+}
+.password-content{
+	position: relative;
+}
+.icon-password{
+	display: inline-block;
+	width: 0.14rem;
+	height:0.16rem;
+	background: url(../images/icon-password_03.png) no-repeat center center;
+	background-size: cover;
+	position: absolute;
+	top: 0.38rem;
+	left: 0.18rem;
+}
+.icon-eye{
+	width: 0.19rem;
+	height:0.1rem;
+	position: absolute;
+	background:url(../images/eye.png) no-repeat center center;
+	background-position: 0 0;
+	background-size: cover;
+	position: absolute;
+	top: 0.42rem;
+	right: 0.45rem;
+}
+.js-icon1{
+	height: 0.13rem;
+	background-position: 0 -0.09rem;
+	
+}
+.affirm{
+	text-align:center;
+	background-color: #233B83;
+	height: 0.39rem;
+	width: 2.88rem;
+	border: solid 1px #999999;
+	border-radius: 0.19rem;
+	display: block;
+	margin-left: 0.4rem;
+	color: #FFFFFF;
+	font-size: 0.16rem;
+	margin-top: 0.3rem;
+	margin-top: 0.5rem;
+}
+.tips{
+	float:right;
+	margin-top: 0.2rem;
+	margin-right: 0.65rem;
+	color: red;
+	font-size: 0.12rem;
+}

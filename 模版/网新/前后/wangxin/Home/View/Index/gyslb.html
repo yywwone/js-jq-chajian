@@ -1,0 +1,60 @@
+<extend name="public/base"/>
+<block name="distcss">
+<link href="__PUBLIC__/home/dist/css/wx_qt_gyslb.css" rel="stylesheet">
+</block>
+</head>
+
+<block name="content">
+<volist name="pagintor" id="item">
+<?php 
+	$arr=explode(",",$item['fu_id']);
+	$arrr=in_array($id,$arr);
+	if ($arrr) {
+?>
+<div class="wx_qt_gyslb_box">
+	<div class="wx_qt_gyslb_box_top"></div>
+	<div class="wx_qt_gyslb_main_box">
+		<div class="wx_qt_gyslb_main_top">
+			<div class="wx_qt_gyslb_main_top_left">
+				<img src="__PUBLIC__/admin/uploads/{$item.img}">
+			</div>
+			<div class="wx_qt_gyslb_main_top_right">
+				<h2 class="wx_qt_gyslb_main_top_right_tit">{$item.name}</h2>
+				<p class="wx_qt_gyslb_main_top_right_text">负责人：{$item.fuzeren}</p>
+				<p class="wx_qt_gyslb_main_top_right_text2">综合实力</p>
+				<div class="wx_qt_gyslb_main_top_right_img">
+					<img src="__PUBLIC__/home/dist/images/gyslb_xing1.png">
+					<img src="__PUBLIC__/home/dist/images/gyslb_xing1.png">
+					<img src="__PUBLIC__/home/dist/images/gyslb_xing1.png">
+					<img src="__PUBLIC__/home/dist/images/gyslb_xing1.png">
+					<img src="__PUBLIC__/home/dist/images/gyslb_xing2.png">
+				</div>
+			</div>
+		</div>
+		<div class="wx_qt_gyslb_main_bottom">
+			<div class="wx_qt_gyslb_main_bottom_main">
+				<svg class="wx_qt_gyslb_main_bottom_main_icon " aria-hidden="true">
+					<use xlink:href="#icon-querenxiadan-xuanze"></use>
+				</svg>
+				<?php $fw_id=I('id'); ?>
+				<a href="{:U('xiadan',['fws_id'=>$item['id'],'fw_id'=>$id])}">确认下单</a>
+			</div>
+			<div class="wx_qt_gyslb_main_bottom_main">
+				<a href="{:U('aboutc','id='.$item['id'])}">
+					<span class="wx_qt_gslb_icon_text">查看详情</span>
+					<svg class="wx_qt_gslb_icon" aria-hidden="true">
+						<use xlink:href="#icon-chakangengduo"></use>
+					</svg>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<?php	
+}
+?>
+</volist>
+</block>
+<block name="javascript">
+<script src="__PUBLIC__/home/dist/js/font_440400_waj7qmu35o2yb9.js"></script>
+</block>

@@ -1,0 +1,222 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>发布招聘</title>
+<!--通用CSS-->
+<link rel="icon" href="" type="image/x-icon"/>
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/foot.css" rel="stylesheet">
+<!--本页CSS-->
+<link href="css/img.css" rel="stylesheet">
+<link href="css/resume.css" rel="stylesheet">
+</head>
+<body>
+<div class="resume_zz"></div>
+<div class="container-fluid">
+	<div class="row work_con_tit">
+		<div class="col-xs-5">
+			<a href="index.html" class="work_con_return"><img src="img/return.png"></a>
+		</div>
+		<div class="col-xs-7">
+			<h4 class="work_con_h4">发布招聘</h4>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid" style="padding: 0">
+	<form class="position_form" action="" method="">
+			<div class="row resume_con">
+				<div class="col-xs-3 resume_con_text">分类</div>
+				<div class="col-xs-9">
+					<input type="text" class="resume_con_ty position_fl" value="销售/业务/采购">
+					<img src="img/right.png" class="resume_icon">
+					<div class="resume_hide position_hide_fl">
+						<p class="resume_active">销售/业务/采购</p>
+						<p>人力/行政/管理</p>
+						<p>文秘/文员/客服</p>
+						<p>市场/媒体/酒店</p>
+						<p>美工/设计/创意</p>
+						<p>法律/教育/培训</p>
+						<p>互联网/计算机/通信电子</p>
+						<p>生产/物流/质控</p>
+						<p>财会/金融/保险</p>
+						<p>医疗/制药/环保</p>
+						<p>建筑/物业</p>
+						<p>普工/技工</p>
+						<p>家政/其他</p>
+					</div>
+				</div>
+			</div>
+			<div class="row resume_con">
+				<div class="col-xs-3 resume_con_text">职位</div>
+				<div class="col-xs-9"><input type="text" required></div>
+			</div>
+			<div class="row resume_con">
+				<div class="col-xs-3 resume_con_text">公司</div>
+				<div class="col-xs-9"><input type="text" required></div>
+			</div>
+			<div class="row resume_con">
+				<div class="col-xs-3 resume_con_text">薪酬</div>
+				<div class="col-xs-9">
+					<div class="col-xs-6">
+						<input type="text" required>
+					</div>
+					<div class="col-xs-6">
+						<input type="text" required placeholder="至">
+					</div>
+				</div>
+			</div>
+			<div class="row resume_con">
+				<div class="col-xs-3 resume_con_text">人数</div>
+				<div class="col-xs-9"><input type="text" required></div>
+			</div>
+			<div class="row resume_con">
+				<div class="col-xs-3 resume_con_text">学历</div>
+				<div class="col-xs-9">
+					<input type="text" class="resume_con_ty position_education" value="不限">
+					<img src="img/right.png" class="resume_icon">
+					<div class="resume_hide position_hide_education">
+						<p class="resume_active">不限</p>
+						<p>高中/中专</p>
+						<p>大专</p>
+						<p>本科</p>
+						<p>硕士</p>
+						<p>博士及以上</p>
+					</div>
+				</div>
+			</div>
+			<div class="row resume_con">
+				<div class="col-xs-3 resume_con_text">详情</div>
+				<div class="col-xs-9">
+					<textarea class="position_dhwb" maxlength="500"></textarea>
+				</div>
+			</div>
+			<div class="row resume_con">
+				<div class="col-xs-12" style="margin-bottom: 15px;">公司照片</div>
+			</div>
+			<div class="container">
+				<!--    照片添加    -->
+				<div class="z_photo">
+					<div class="z_file">
+						<input type="file" name="file" id="file" value="" accept="image/*" multiple onchange="imgChange('z_photo','z_file');" />
+
+					</div>
+				</div>
+				<!--遮罩层-->
+				<div class="z_mask">
+					<!--弹出框-->
+					<div class="z_alert">
+						<p>确定要删除这张图片吗？</p>
+						<p>
+							<span class="z_cancel">取消</span>
+							<span class="z_sure">确定</span>
+						</p>
+					</div>
+				</div>
+			</div>
+			<hr style="margin:10px 5px;background:#F0F0F0">
+			<div class="row resume_con">
+				<div class="col-xs-3 resume_con_text">标签</div>
+				<div class="col-xs-9 position_bq_box">
+					<span class="work_con_icon1">五险一金</span>
+					<span class="work_con_icon1">双休</span>
+					<span class="work_con_icon1">福利好</span>
+					<span class="work_con_icon1">带薪年假</span>
+					<span class="work_con_icon1">包吃</span>
+					<span class="work_con_icon1">包住</span>
+					<span class="work_con_icon1">年终奖</span>
+					<span class="work_con_icon1">员工体检</span>
+					<span class="work_con_icon1">餐补</span>
+				</div>
+			</div>
+			<div class="row resume_con">
+				<div class="col-xs-3 resume_con_text">联系人</div>
+				<div class="col-xs-9">
+					<input type="text" required>
+				</div>
+			</div>
+			<div class="row resume_con">
+				<div class="col-xs-3 resume_con_text">电话</div>
+				<div class="col-xs-9">
+					<input type="text" required>
+				</div>
+			</div>
+			<div class="row resume_con">
+				<div class="col-xs-3 resume_con_text">QQ</div>
+				<div class="col-xs-9">
+					<input type="text" required>
+				</div>
+			</div>
+			<div class="row resume_con">
+				<div class="col-xs-3 resume_con_text">地址</div>
+				<div class="col-xs-9">
+					<input type="text" required>
+				</div>
+			</div>
+			<div class="row resume_con">
+				<div class="col-xs-3 resume_con_text">有效期</div>
+				<div class="col-xs-9">
+					<input type="text" class="resume_con_ty position_time" value="3天">
+					<img src="img/right.png" class="resume_icon">
+					<div class="resume_hide position_hide_time">
+						<p class="resume_active">3天</p>
+						<p>7天</p>
+						<p>15天</p>
+						<p>30天</p>
+						
+					</div>
+				</div>
+			</div>
+			<input type="hidden" class="position_bq" name="a11">
+			
+			<div class="row resume_con">
+				<div class="col-xs-12">
+					<input type="submit" class="resume_submit">
+				</div>
+			</div>
+	</form>
+</div>
+<!--提示信息-->
+<div class="resume_xxts"></div>
+<!--发布成功-->
+<!--底部固定栏-->
+<br><br><br><br><br>
+<div class="container-fluid foot">
+	<div class="row ">
+		<div class="col-xs-3">
+			<a href="index.html">
+				<p class="index_top_p1"><span class="glyphicon glyphicon-home"></span></p>
+				<p class="index_top_p_text1">首页</p>
+			</a>
+		</div>
+		<div class="col-xs-3">
+			<a href="position.html">
+				<p class="index_top_p1"><span>聘</span></p>
+				<p class="index_top_p_text1">发布职位</p>
+			</a>
+		</div>
+		<div class="col-xs-3">
+			<a href="resume.html">
+				<p class="index_top_p1"><span class="glyphicon glyphicon-edit"></span></p>
+				<p class="index_top_p_text1">登记简历</p>
+			</a>
+		</div>
+		<div class="col-xs-3">
+			<a href="me.html">
+				<p class="index_top_p1"><span class="glyphicon glyphicon-user"></span></p>
+				<p class="index_top_p_text1">我</p>
+			</a>
+		</div>
+	</div>
+</div>
+<!--通用JS-->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!--本页JS-->
+<script src="js/position.js"></script>
+<script src="js/img.js"></script>
+</body>
+</html>

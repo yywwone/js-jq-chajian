@@ -1,0 +1,20 @@
+<extend name="public:base"/>
+<block name="con">
+<form method="post" action="{:U('Complain/huodong')}">
+	活动标题 ：<input type="text" value="" name="tit">
+	<script id="container" name="content" type="text/plain">
+	</script>
+	<input type="submit">
+</form>
+  </block>
+  <block name="src">
+  <script type="text/javascript" src="__PUBLIC__/ueditor/ueditor.config.js"></script>
+  <script type="text/javascript" src="__PUBLIC__/ueditor/ueditor.all.min.js"></script>
+  <script type="text/javascript" src="__PUBLIC__/ueditor/lang/zh-cn/zh-cn.js"></script>
+  <script type="text/javascript">
+
+  var editor = UE.getEditor('container');
+
+  </script>
+
+  </block>

@@ -1,0 +1,12 @@
+/* CSS Document */
+
+
+#con_r #con_r_ul{float: left}
+#con_r_ul li{float: left;width: 680px;height:43px;margin-left: 37px;border-bottom: 1px #ccc dashed;line-height: 43px;font-size: 12px;}
+#con_r_ul .con_r_time{float: right}
+#con_r_ul .con_r_a{color: green}
+#con_r_ul1{float: left;margin-left: 178px;margin-top: 33px;}
+#con_r_ul1 li{float: left;margin-right: 10px;}
+
+
+

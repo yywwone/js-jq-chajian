@@ -1,0 +1,19 @@
+/* CSS Document */
+
+#content{width: 980px;height: 780px;background: #fff;margin:9px auto;border-radius: 5px;}
+#con_l{ float: left;margin-top: 11px;margin-left: 11px;}
+#con_l ul{ width: 198px; font-size: 12px;background:#f4f4f4;border:1px solid #e0e0e0;margin-left: 7px;margin-top: -3px;border-top: none;border-bottom: none}
+#con_l ul li img{margin-left: 12px;margin-right: 12px;}
+#con_l li{width: 186px; height: 31px;border-bottom: 1px solid #e3e3ed;line-height: 31px;}
+#con_l li a{color: #000;}
+#con_l li a:hover{color: blue}
+#con_l .con_l_img2{margin-left: 7px;margin-bottom: 10px;}
+
+#con_l #con_l_box{font-size: 11px;background: #f4f4f4;width:198px;height: 144px;margin-left: 7px;margin-top: -13px;border: 1px solid #e0e0e0;border-bottom: none;border-top: none;}
+#con_l_box p{margin-left: 12px;width: 167px;margin-top: 9px;line-height: 12px;} 
+
+#con_r{float: left;width: 731px;height: 750px; margin-top: 11px;margin-left: 10px;position: relative;}
+#con_r .con_r_h3{position: absolute;left: 44px; top: 15px;}
+#con_r .con_r_p{position: absolute;left:512px ;top:22px;font-size: 12px;}
+#con_r a{color: #000;}
+#con_r a:hover{color: blue}

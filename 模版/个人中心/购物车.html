@@ -1,0 +1,511 @@
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script type="text/javascript" src="js/safe/aywmq_qt.js"></script>
+		<script type="text/javascript" src="js/safe/da_opt.js"></script>
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<link rel="stylesheet" href="css/safe/css.css" />
+		<link rel="stylesheet" href="css/safe/common.min.css" />
+		<link rel="stylesheet" href="css/safe/ms-style.min.css" />
+		<link rel="stylesheet" href="css/safe/personal_member.min.css" />
+		<link rel="stylesheet" href="css/safe/Snaddress.min.css" />
+		<style>
+			progress {
+				width: 300px;
+				border: 1px solid #ffffff;
+				background-color: #e6e6e6;
+				color: #0064B4;
+				/*IE10*/
+			}
+			
+			progress::-moz-progress-bar {
+				background: #FFFFFF;
+			}
+			
+			progress::-webkit-progress-bar {
+				background: #ccc;
+			}
+			
+			progress::-webkit-progress-value {
+				background: #FF7700;
+			}
+		</style>
+	</head>
+
+	<body class="ms-body">
+		<div id="" class="ng-top-banner"></div>
+		<div class="ng-toolbar">
+			<div class="ng-toolbar-con wrapper">
+				<div class="ng-toolbar-left">
+					<a class="ng-bar-node ng-bar-node-backhome" id="ng-bar-node-backhome" style="display: block;">
+						<span><img src="img/Home.png" style="margin-right: 10px;"/>返回买啦首页</span>
+					</a>
+					<div class="ng-bar-node-box ng-site-nav-box">
+						<a href="" class="ng-bar-node ng-bar-node-site">
+							<span><img src="img/daohang.png" style="margin-right: 5px;" />网站导航</span><em class="ng-iconfont down"></em>
+						</a>
+						<div class="ng-sn-site-nav ng-d-box site-nav-child" style="display:none;">
+							<dl class="sn-site-list lnb">
+								<dt>
+								    特色购物
+								 </dt>
+								<dd>
+									<p><a target="_blank">###</a></p>
+									<p><a target="_blank">###</a></p>
+									<p><a target="_blank">###</a></p>
+								</dd>
+							</dl>
+							<dl class="sn-site-list">
+								<dt>
+							    主题频道
+							   </dt>
+								<dd>
+									<p><a target="_blank">###</a></p>
+									<p><a target="_blank">###</a></p>
+									<p><a target="_blank">###</a></p>
+									<p><a target="_blank">###</a></p>
+									<p><a target="_blank">###</a></p>
+									<p><a target="_blank">###</a></p>
+								</dd>
+							</dl>
+							<dl class="sn-site-list">
+								<dt>
+					    生活助手
+					   </dt>
+								<dd>
+									<p><a target="_blank">###<i class="hot"></i></a></p>
+									<p><a target="_blank">###</a></p>
+									<p><a target="_blank">###</a></p>
+									<p><a target="_blank">###</a></p>
+									<p><a target="_blank">###</a></p>
+									<p><a target="_blank">###</a></p>
+								</dd>
+							</dl>
+							<dl class="sn-site-list">
+								<dt>
+					    会员服务
+					   </dt>
+								<dd>
+									<p><a target="_blank">###<i class="hot"></i></a></p>
+									<p><a target="_blank">###</a></p>
+									<p><a target="_blank">###</a></p>
+									<p><a target="_blank">###</a></p>
+								</dd>
+							</dl>
+							<dl class="sn-site-list rnb">
+								<dt>
+					    更多热点
+					   </dt>
+								<dd>
+									<p><a target="_blank">###</a></p>
+									<p><a target="_blank">###</a></p>
+									<p><a target="_blank">###<i class="hot"></i></a></p>
+								</dd>
+							</dl>
+							<a href="" class="ng-close"><em class="ng-iconfont"></em></a>
+						</div>
+					</div>
+
+				</div>
+				<div class="ng-toolbar-right">
+					<a href="" class="ng-bar-node username-bar-node username-bar-node-showside" id="" rel="nofollow" style="display:none;">
+						<span id="">吉米小子</span>
+						<em class="hasmsg ng-iconfont"></em>
+					</a>
+					<div class="ng-bar-node-box username-handle" id="" style="display: block;">
+						<a href="" rel="nofollow" class="ng-bar-node username-bar-node username-bar-node-noside">
+							<span id="">吉米小子</span>
+							<em class="hasmsg ng-iconfont"></em>
+							<em class="ng-iconfont down"></em>
+						</a>
+						<div class="ng-d-box ng-down-box ng-username-slide" style="display:none;">
+							<a href="" class="ng-vip-union" target="_blank" rel="nofollow">账号管理</a>
+							<a href="" rel="nofollow">退出登录</a>
+						</div>
+					</div>
+					<div class="ng-bar-node reg-bar-node" id="reg-bar-node" style="display: none;">
+						<a href="" rel="nofollow" class="login">登录</a>
+						<a href="" target="_blank" class="login reg-bbb" rel="nofollow">注册</a>
+					</div>
+
+					<div class="ng-bar-node-box myorder-handle">
+						<a class="ng-bar-node ng-bar-node-fix touch-href ng-bar-node-pr5"><span>我的买啦</span><em class="ng-iconfont down"></em></a>
+						<div class="ng-down-box ng-d-box myorder-child" style="display:none;">
+							<a>待支付<em id="waitPayCounts"></em></a>
+							<a>待收货<em id="waitDeliveryCounts"></em></a>
+							<a>待评价<em id="waitEvaluation"></em></a>
+							<a>修改订单</a>
+						</div>
+					</div>
+					<a class="ng-bar-node ng-bar-node-mini-cart" rel="nofollow" href="">
+						<span><img src="img/购物车.png" />购物车</span>
+						<span class="total-num-bg-box">
+						<em></em>
+						<i></i>
+					</span>
+						</span>
+					</a>
+					<div class="ng-bar-node-box mysuning-handle">
+						<a href="http://my.suning.com" rel="nofollow" name="" class="ng-bar-node ng-bar-node-fix touch-href ng-bar-node-pr5"><span>收藏夹</span><em class="ng-iconfont down"></em></a>
+						<div class="ng-down-box ng-d-box mysuning-child" style="display:none;">
+							<a href="" rel="nofollow" target="_blank">我的二手</a>
+							<a href="" rel="nofollow" target="_blank">我的金融</a>
+							<a href="" rel="nofollow">我的收藏</a>
+							<a href="" rel="nofollow">我的任性付</a>
+							<a href="" rel="nofollow">我的优惠券</a>
+							<a href="" rel="nofollow">打卡赚云钻</a>
+							<a href="" class="ng-vip-union" target="_blank" rel="nofollow">会员联盟<em class="ng-iconfont"></em></a>
+						</div>
+					</div>
+
+					<div class="ng-bar-node-box app-down-box">
+						<a href="" target="_blank" rel="nofollow" class="ng-bar-node mb-suning touch-href">
+							<span>关注买啦</span>
+						</a>
+						<div class="ng-mb-box ng-d-box mb-down-child" style="display:none;">
+							<div class="ng-code-box">
+								<p class="ng-tip">
+									<a href="" rel="nofollow" target="_blank"></a>
+								</p>
+								<a target="_blank">
+									<img src="" height="80" width="80">
+								</a>
+							</div>
+							<div class="ng-app-box">
+								<div class="ng-app-list">
+									<a href="" target="_blank" rel="nofollow" class="ng-app">
+										<img src="" title="###"></a>
+									<a href="" target="_blank" rel="nofollow" class="ng-app">
+										<img src="" title="###"></a>
+									<a class="ng-app">
+										<img src="" title="###"></a>
+									<a href="" target="_blank" rel="nofollow" class="ng-app">
+										<img src="" title="###"></a>
+								</div>
+							</div>
+							<a href="" target="_blank" rel="nofollow">
+								<img src="" height="35" width="242">
+							</a>
+							<a href="javascript:void(0);" class="ng-close" rel="nofollow"><em class="ng-iconfont"></em></a>
+						</div>
+					</div>
+
+					<a href="" class="ng-bar-node ng-bar-node-pr5" target="_blank"><span>卖家中心</span><em class="ng-iconfont down"></em></a>
+					<div class="ng-bar-node-box service-handle">
+						<a href="javascript:void(0);" class="ng-bar-node ng-bar-node-service ng-bar-node-fix touch-href ng-bar-node-pr5" rel="nofollow"><span>联系我们</span><em class="ng-iconfont down"></em>
+				    </a>
+						<div class="ng-down-box ng-d-box service-center-child ng-ser-list" style="display:none;">
+							<a>帮助中心</a>
+							<a>查找门店</a>
+							<a>退换货</a>
+							<a>帮客预约</a>
+							<a>建议反馈</a>
+							<a>在线咨询</a>
+						</div>
+					</div>
+				</div>
+				<div id="ng-minicart-slide-box"></div>
+			</div>
+		</div>
+		<header class="ms-header ms-header-inner ms-head-position">
+			<article class="ms-header-menu1">
+				<style type="text/css">
+					.nav-manage .list-nav-manage {
+						position: absolute;
+						padding: 15px 4px 10px 15px;
+						left: 0;
+						top: -15px;
+						width: 90px;
+						background: #FFF;
+						box-shadow: 1px 1px 2px #e3e3e3, -1px 1px 2px #e3e3e3;
+						z-index: 10;
+					}
+					
+					.ms-nav li {
+						float: left;
+						position: relative;
+						padding: 0 20px;
+						height: 44px;
+						font: 14px/26px "Microsoft YaHei";
+						color: #FFF;
+						cursor: pointer;
+						z-index: 10;
+					}
+				</style>
+				<div class="header-menu" style="width: 1200px;">
+						<img src="img/logo.png" style="float:left;width: 57px;height: 40px;">
+						<font style="font-size: 24px;color: #F88600;font-weight: bold; margin-left:6px;">购物车</font>
+						
+						<div class="ms-search1">
+							<select id="edu" name="edu" style="height: 30px;width:63px;background-color: #F1F1F1;">
+                         <option value="0"><font style="font-size: 12px;color: #949494;">宝贝</font></option>
+						</select>
+						<input type="button" value="搜索" style="float: right; color:#F2FAFF;background-color:#F88600;height:31px;width:70px;border: 0px;"></input>
+
+						</div>
+				
+				</div>
+
+			</article>
+
+		</header>
+		<div id="ms-center" class="personal-member">
+			<div class="cont">
+
+				<div class="cont-main" style="width: 1210px;">
+					<div style="margin-top: 20px;width: 1200px;">
+						<font style="font-size: 16px;color: #F4401C;font-weight: bold; margin-left:20px;border-bottom: 1px #F88600 solid;   padding-bottom: 14px;">全部商品 6</font>
+						<font style="font-size: 16px;color: #060606; font-weight:bold;margin-left:20px;">|</font>
+						<font style="font-size: 16px;color: #060606; font-weight:bold;margin-left:20px;">降价商品 0</font>
+						<font style="font-size: 16px;color: #060606; font-weight:bold;margin-left:20px;">|</font>
+						<font style="font-size: 16px;color: #060606; font-weight:bold;margin-left:20px;">库存紧张  0</font>
+						<font style="font-size: 12px;color: #949494; font-weight:bold;margin-left:670px;">已选商品(不含运费)</font>
+						<input type="button" value="结算" style="float: right; color:#686868;background-color:#DEDEDE;height:20px;width:46px;border-style:solid;"></input>
+                        <hr style=" border-style:solid;width: 1200px;border-color:#DEDEDE;margin-top: 12px;"/> 
+                        <input name="商品" type="checkbox" value="" style="margin-top:19px;" />
+                        <font style="font-size: 12px;color: #212121;margin-left: 20px;font-weight: bold;margin-top: -15px;display: flex;">全选</font> 
+                        <font style="font-size: 12px;color: #212121;margin-left: 100px;font-weight: bold;">商品信息</font> 
+                        <font style="font-size: 12px;color: #212121;margin-left: 400px;font-weight: bold;">单价(元)</font> 
+                        <font style="font-size: 12px;color: #212121;margin-left: 100px;font-weight: bold;">数量</font>
+                        <font style="font-size: 12px;color: #212121;margin-left: 100px;font-weight: bold;">金额(元)</font>
+                        <font style="font-size: 12px;color: #212121;margin-left: 100px;font-weight: bold;">操作</font>			
+                        <br />
+                        <input name="店铺" type="checkbox" value="" style="margin-top: 20px;" />
+                        <font style="font-size: 12px;color: #212121;margin-left: 20px;font-weight: bold;display: flex;margin-top: -15px;">店铺:巴鼎红火锅店专用</font> 
+
+					   <div style="border:1px solid #ccc;height: 150px;margin-top: 20px;">
+					    	<input name="店铺" type="checkbox" value="" style="margin-top: 20px;margin-left: 20px;" />
+						<div >
+					    	<img src="img/购物车/组-44.png" style="margin-left:40px; float: left;" />
+					    </div>	
+					    <div>
+					    	<span style="margin-left:15px;float: left;"><font style="font-size: 12px;color: #1f1f1f; ">买二送一,巴鼎红重庆麻辣香锅火锅底料干锅</font>
+					    		<font style="font-size: 12px;color: #949494;margin-left: 230px;TEXT-DECORATION: line-through; ">22.8</font>
+					    		<br/> <font style="font-size: 12px;color: #1f1f1f; ">底料百搭调味料250克</font>
+					    		<font style="font-size: 12px;color: #1f1f1f;margin-left: 340px;font-weight: bold;  ">15.90</font>
+					    		<br/>
+					    	<img src="img/购物车/矢量智能对象.png" style="margin-left:0px; float: left;" />
+					    	<button style="color:F88600;background-color: #FCE6D1;border: 1px #F88600 solid;width:80px ;margin-left: 430px;">卖家促销</button>
+					    	</span>
+							<span style="margin-left:35px;float: left; ">
+								<input type="button" value="-" style=" color:#333333;height:30px;width:20px;border-style:solid;margin-left:30px;"></input><input type="text" value="1" style=" color:#333333;height:30px;width:30px;text-align:center;"></input><input type="button" value="+" style=" color:#333333;height:30px;width:20px;border-style:solid;"></input>
+							</span>
+							<span style="margin-left:10px;float: left;">
+                          <font style="font-size: 14px;color: #FD3C0D;margin-left: 85px;font-weight: bold;  ">15.90</font>
+							</span >
+							<span style="margin-left:85px; float: left;"><font style="font-size: 14px;color: #1E1E1E; ">移入收藏夹</font>
+                          <br/> <font style="font-size: 14px;color: #1E1E1E; ">删除</font>
+							</span>
+					    </div>
+					   
+					  </div>
+					  <br />
+                        <input name="店铺" type="checkbox" value="" style="margin-top: 20px;" /><font style="font-size: 12px;color: #212121;margin-left: 10px;font-weight: bold;">店铺:巴鼎红火锅店专用</font> 
+
+					   <div style="border:1px solid #ccc;height: 150px; margin-top: 20px;">
+					    	<input name="店铺" type="checkbox" value="" style="margin-top: 20px;margin-left: 20px;" />
+						<div >
+					    	<img src="img/购物车/cd2023ae-cc53-4ea0-b4b3-3f8d4c8f370b.png" style="margin-left:40px; float: left;" />
+					    </div>	
+					    <div>
+					    	<span style="margin-left:15px;float: left;"><font style="font-size: 12px;color: #1f1f1f; ">买二送一,巴鼎红重庆麻辣香锅火锅底料干锅</font>
+					    		<font style="font-size: 12px;color: #949494;margin-left: 230px;TEXT-DECORATION: line-through; ">22.8</font>
+					    		<br/> <font style="font-size: 12px;color: #1f1f1f; ">底料百搭调味料250克</font>
+					    		<font style="font-size: 12px;color: #1f1f1f;margin-left: 340px;font-weight: bold;  ">15.90</font>
+					    		<br />
+					    		<img src="img/购物车/矢量智能对象.png" style="margin-left:0px; float: left;" />
+					    	</span>
+							<span style="margin-left:65px;float: left; ">
+								<input type="button" value="-" style=" color:#333333;height:30px;width:20px;border-style:solid;margin-left:30px;"></input><input type="text" value="1" style=" color:#333333;height:30px;width:30px;text-align:center;"></input><input type="button" value="+" style=" color:#333333;height:30px;width:20px;border-style:solid;"></input>
+							</span>
+							<span style="margin-left:10px;float: left;">
+                          <font style="font-size: 14px;color: #FD3C0D;margin-left: 80px;font-weight: bold;  ">15.90</font>
+							</span >
+							<span style="margin-left:85px; float: left;"><font style="font-size: 14px;color: #1E1E1E; ">移入收藏夹</font>
+                          <br/> <font style="font-size: 14px;color: #1E1E1E; ">删除</font>
+							</span>
+					    </div>
+					   
+					  </div>
+					  
+					   <div style="border:1px solid #ccc;height: 40px;line-height:40px;border-top:0px;">					    
+					   <font style="font-size: 12px;margin-left:780px;color: #949494; ">再买3974.00元,"满4000.00元减2200.00元",该店铺商品合计:￥26.00</font>
+					   <font style="margin-left: 3px;">|</font><font style="margin-left: 3px;color:#F88600 ;">去凑单</font>
+					  </div>
+					  
+					  <br />
+                        <input name="店铺" type="checkbox" value="" style="margin-top: 20px;" /><font style="font-size: 12px;color: #212121;margin-left: 10px;font-weight: bold;">店铺:巴鼎红火锅店专用</font> 
+
+					   <div style="border:1px solid #ccc;height: 150px;margin-top: 20px;">
+					    	<input name="店铺" type="checkbox" value="" style="margin-top: 20px;margin-left: 20px;" />
+						<div >
+					    	<img src="img/购物车/组-44.png" style="margin-left:40px; float: left;" />
+					    </div>	
+					    <div>
+					    	<span style="margin-left:15px;float: left;"><font style="font-size: 12px;color: #1f1f1f; ">买二送一,巴鼎红重庆麻辣香锅火锅底料干锅</font>
+					    		<font style="font-size: 12px;color: #949494;margin-left: 230px;TEXT-DECORATION: line-through; ">22.8</font>
+					    		<br/> <font style="font-size: 12px;color: #1f1f1f; ">底料百搭调味料250克</font>
+					    		<font style="font-size: 12px;color: #1f1f1f;margin-left: 340px;font-weight: bold;  ">15.90</font>
+					    		<br />
+					    		<img src="img/购物车/矢量智能对象.png" style="margin-left:0px; float: left;" />
+					    		</span>
+							<span style="margin-left:65px;float: left; ">
+								<input type="button" value="-" style=" color:#333333;height:30px;width:20px;border-style:solid;margin-left:30px;"></input><input type="text" value="1" style=" color:#333333;height:30px;width:30px;text-align:center;"></input><input type="button" value="+" style=" color:#333333;height:30px;width:20px;border-style:solid;"></input>
+							</span>
+							<span style="margin-left:10px;float: left;">
+                          <font style="font-size: 14px;color: #FD3C0D;margin-left: 85px;font-weight: bold;  ">15.90</font>
+							</span >
+							<span style="margin-left:85px; float: left;"><font style="font-size: 14px;color: #1E1E1E; ">移入收藏夹</font>
+                          <br/> <font style="font-size: 14px;color: #1E1E1E; ">删除</font>
+							</span>
+					    </div>
+					   
+					  </div>
+					   
+					<div style="margin-top: 10px;background:#E5E5E5;height:50px;width:1200px;">
+							<table class="uiTable" >
+											<tr >
+										        <th  style="line-height:50px;" >
+										        	<input name="店铺" type="checkbox" value="" style="height: 14px;width: 14px;float: left;margin-top: 19px;"   />
+										        <font style="font-size: 12px;color: #333333;margin-left: 20px;font-weight: bold;display: flex;">全选</font> 
+												<th  style="line-height:50px;"><font style="font-size: 12px;margin-left:50px;color: #333333; ">删除</font></th>
+												<th  style="line-height:50px;"><font style="font-size: 12px;margin-left:50px;color: #333333;  ">消除失效宝贝</font></th>
+												<th  style="line-height:50px;" ><font style="font-size: 12px;margin-left:50px; color: #333333;">移入收藏夹</font></th>
+												<th  style="line-height:50px; " ><font style="font-size: 12px;margin-left:50px;color: #333333; ">分享</font></th>
+												<th class="lastTd" colspan="2" style="line-height:50px; "><font style="font-size: 12px;margin-left:300px; ">已选商品</font><font style="font-size: 12px;color:#FD3C0D;">0</font><font style="font-size: 12px;color:#333333;">件</font></th>
+												<th  style="line-height:50px; " ><span style="font-size: 12px;margin-left:80px;color: #949494; ">合计(不含运费):</span>
+													</th>
+													<th  style="line-height:50px; " >
+													<span style="font-size: 18px;color:#FD3C0D;">￥198</span></th>
+                                                <th  style="line-height:50px; " ><font style="font-size: 20px;margin-left:43px;color: #949494; ">结算</font></th>
+											</tr>
+
+										</table>
+						</div>
+					
+				</div>
+				<div style="margin-top:50px;">
+				<font style="font-size: 16px;color: #F4401C;font-weight: bold;border-bottom: 3px #F88600 solid;   padding-bottom: 15px;margin-left: 10px; ">掌柜热卖</font>
+						<font style="font-size: 16px;color: #E5E5E5; font-weight:bold;margin-left:20px;">|</font>
+						<font style="font-size: 16px;color: #060606; font-weight:bold;margin-left:20px;">最近收藏的</font>
+						<font style="font-size: 16px;color: #E5E5E5; font-weight:bold;margin-left:20px;">|</font>
+						<font style="font-size: 16px;color: #060606; font-weight:bold;margin-left:20px;">最近游览过的</font>
+						<font style="font-size: 16px;color: #E5E5E5; font-weight:bold;margin-left:20px;">|</font>
+						<font style="font-size: 16px;color: #060606; font-weight:bold;margin-left:20px;">猜你喜欢的</font>
+						<font style="font-size: 12px;color: #686868; font-weight:bold;float: right;margin-right: 15px;">去我的足迹</font>
+				</div>
+                <hr style=" border-top:0.01rem #ccc solid;width:1200px;margin-top: 12px;"> </hr>
+				
+				<div style="float: left;margin-top: 20px;text-align: center; ">
+											<img src="img/购物车/图层-285.png" style="min-width: 150px;" />
+											<br />
+											<span><font style="color: #F2873B;font-size: 16px; font-weight: bold;">￥237.00</font></span>
+											<span style="background-color: #F37B1D;margin-left: 100px;"><font style="color: #F0F0F0;font-size: 12px; font-weight: bold;">包邮</font></span>
+											<br />
+											<span style="color: #565656;">匹考克甜品peacocakecupcake下午茶</span>
+											<br />
+											<span style="display:inline;margin-top: 5px;"><font style="color: #686868;font-size: 12px; ">销量:996</font></span>
+											<span style="display:inline ;background-color: #00DB00;margin-left: 100px;"><font style="color: #F0F0F0;font-size: 12px; font-weight: bold;">新品上市</font></span>
+                        </div>
+                <div style="float: left;margin-top: 20px;text-align: center;margin-left: 20px;">
+											<img src="img/购物车/9c0377aa-d9d9-4f94-88f5-6435550c7093.png" style="min-width: 150px;" />
+											<br />
+											<span><font style="color: #F2873B;font-size: 16px; font-weight: bold;">￥237.00</font></span>
+											<span style="background-color: #F37B1D;margin-left: 100px;"><font style="color: #F0F0F0;font-size: 12px; font-weight: bold;">包邮</font></span>
+											<br />
+											<span style="color: #565656;">匹考克甜品peacocakecupcake下午茶</span>
+											<br />
+											<span style="display:inline;margin-top: 5px;"><font style="color: #686868;font-size: 12px; ">销量:996</font></span>
+											<span style="display:inline ;background-color: #00DB00;margin-left: 100px;"><font style="color: #F0F0F0;font-size: 12px; font-weight: bold;">新品上市</font></span>
+                        </div>
+                <div style="float: left;margin-top: 20px;text-align: center;margin-left: 20px;">
+											<img src="img/购物车/图层-285.png" style="min-width: 150px;" />
+											<br />
+											<span><font style="color: #F2873B;font-size: 16px; font-weight: bold;">￥237.00</font></span>
+											<span style="background-color: #F37B1D;margin-left: 100px;"><font style="color: #F0F0F0;font-size: 12px; font-weight: bold;">包邮</font></span>
+											<br />
+											<span style="color: #565656;">匹考克甜品peacocakecupcake下午茶</span>
+											<br />
+											<span style="display:inline;margin-top: 5px;"><font style="color: #686868;font-size: 12px; ">销量:996</font></span>
+											<span style="display:inline ;background-color: #00DB00;margin-left: 100px;"><font style="color: #F0F0F0;font-size: 12px; font-weight: bold;">新品上市</font></span>
+                        </div>
+                 <div style="float: left;margin-top: 20px;text-align: center;margin-left: 20px;">
+											<img src="img/购物车/9c0377aa-d9d9-4f94-88f5-6435550c7093.png" style="min-width: 150px;" />
+											<br />
+											<span><font style="color: #F2873B;font-size: 16px; font-weight: bold;">￥237.00</font></span>
+											<span style="background-color: #F37B1D;margin-left: 100px;"><font style="color: #F0F0F0;font-size: 12px; font-weight: bold;">包邮</font></span>
+											<br />
+											<span style="color: #565656;">匹考克甜品peacocakecupcake下午茶</span>
+											<br />
+											<span style="display:inline;margin-top: 5px;"><font style="color: #686868;font-size: 12px; ">销量:996</font></span>
+											<span style="display:inline ;background-color: #00DB00;margin-left: 100px;"><font style="color: #F0F0F0;font-size: 12px; font-weight: bold;">新品上市</font></span>
+                        </div>
+                 <div style="float: right;margin-top: 20px;text-align: center;margin-left: 20px;">
+											<img src="img/购物车/图层-285.png" style="min-width: 150px;" />
+											<br />
+											<span><font style="color: #F2873B;font-size: 16px; font-weight: bold;">￥237.00</font></span>
+											<span style="background-color: #F37B1D;margin-left: 100px;"><font style="color: #F0F0F0;font-size: 12px; font-weight: bold;">包邮</font></span>
+											<br />
+											<span style="color: #565656;">匹考克甜品peacocakecupcake下午茶</span>
+											<br />
+											<span style="display:inline;margin-top: 5px;"><font style="color: #686868;font-size: 12px; ">销量:996</font></span>
+											<span style="display:inline ;background-color: #00DB00;margin-left: 100px;"><font style="color: #F0F0F0;font-size: 12px; font-weight: bold;">新品上市</font></span>
+                        </div>
+			</div>
+		</div>
+		<div class="clear "></div>
+		<div class="ng-footer ">
+
+			<textarea class="footer-dom " id="footer-dom-02 ">
+			</textarea>
+			<div class="ng-fix-bar "></div>
+		</div>
+		<style type="text/css ">
+			.ng-footer {
+				height: 130px;
+				margin-top: 0;
+			}
+			
+			.ng-s-footer {
+				height: 130px;
+				background: none;
+				text-align: center;
+			}
+			
+			.ng-s-footer p.ng-url-list {
+				height: 25px;
+				line-height: 25px;
+			}
+			
+			.ng-s-footer p.ng-url-list a {
+				color: #666666;
+			}
+			
+			.ng-s-footer p.ng-url-list a:hover {
+				color: #f60;
+			}
+			
+			.ng-s-footer .ng-authentication {
+				float: none;
+				margin: 0 auto;
+				height: 25px;
+				width: 990px;
+				margin-top: 5px;
+			}
+			
+			.ng-s-footer p.ng-copyright {
+				float: none;
+				width: 100%;
+			}
+			
+			.root1200 .ng-s-footer p.ng-copyright {
+				width: 100%;
+			}
+		</style>
+		<script type="text/javascript " src="js/safe/ms_common.min.js "></script>
+	</body>
+
+</html>

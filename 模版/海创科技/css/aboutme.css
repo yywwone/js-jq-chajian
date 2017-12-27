@@ -1,0 +1,25 @@
+.content-box3{
+	width: 1200px;
+	margin: 0 auto;
+}
+.banner3-box{
+	height:321px;
+	width: 100%;
+}
+.gps3{
+	margin-top: 28px;
+	margin-left: 151px;
+}
+.txt3{
+	color: #747474;
+}
+.name{
+	text-align: center;
+	font-size: 40px;
+	color: #296d26;
+	margin-bottom: 20px;
+}
+.map{
+	text-align: center;
+	font-size: 24px;
+}

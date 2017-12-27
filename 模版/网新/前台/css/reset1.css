@@ -1,0 +1,12 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	text-decoration:none;
+	list-style: none;
+}
+body{
+	font-size: 0.16rem;
+	position: relative;
+}

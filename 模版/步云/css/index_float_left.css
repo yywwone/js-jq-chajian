@@ -1,0 +1,5 @@
+/* CSS Document */
+.index_float_left{width: 200px;height: 230px;background: #ccc;padding-top: 15px;position: fixed;bottom:5%;z-index: 100}
+.index_float_left h3{text-align: center;color: #fff}
+.index_float_left form{margin: 0 auto;width: 150px;height: 147px;}
+.index_float_left input{width: 135px;height: 30px;margin-top: 15px;outline: none;padding-left: 15px;}

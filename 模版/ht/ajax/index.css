@@ -1,0 +1,240 @@
+/* moudle add address style by Huang, Jiwei */
+.address-head {
+    font-size: 16px;
+    border-bottom: 0.5pt solid #e73828;
+}
+.address-head .address-back {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    width: 18px;
+    height: 30px;
+    background: url(../../image/icon/back.png) no-repeat;
+    background-size: 13px;
+}
+
+.address-head-text {
+    display: inline-block;
+    line-height: 40px;
+    color: #e73828;
+}
+
+.address-head-confirm {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 65px;
+    padding: 2px 0px;
+    border: 1px solid white;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: normal;
+    background-color: #e73828;
+    color: #FFFFFF;
+}
+
+.address-head-confirm.disabled {
+    background-color: #999;
+}
+
+#address-list-page .address-body {
+    padding-top: 52px;
+}
+
+#add-addresss-page .address-head {
+    margin-bottom: 12px;
+    position: static;
+}
+
+#add-addresss-page .add-info input {
+    width: 100%;
+    height: 38px;
+    padding: 0px 15px;
+    border: none;
+    border-bottom: 1px solid #EEEDF3;
+    font-size: 14px;
+}
+
+#add-addresss-page .add-info input:nth-child(5) {
+    background: #fff url(../../image/icon/select_arrow.png) no-repeat;
+    background-size: 10px;
+    background-position: 96% 12px;
+}
+
+#add-addresss-page .add-info input:nth-child(5)::-webkit-input-placeholder {
+    color: #333;
+}
+
+#add-addresss-page .add-info textarea {
+    width: 100%;
+    height: 90px;
+    padding: 7px 15px;
+    border: none;
+    border-bottom: 1px solid #EEEDF3;
+    font-size: 14px;
+    resize: none;
+}
+
+/* moudle address list style by Zhang, Jiahui */
+#address-list-page .address-item {
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: white;
+}
+/* no address prompt */
+#address-list-page .u-no-address {
+    position: absolute;
+    margin-top: -52px;
+    width: 100%;
+    height: 94%;
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    background-color: #fff;
+}
+#address-list-page .u-no-address span {
+    display: block;
+    position: absolute;
+    top: 42%;
+    width: 100%;
+    height: 85px;
+    padding-top: 63px;
+    text-align: center;
+    background: url(../../image/icon/no-address.png) center top no-repeat;
+    background-size: 62px 60px;
+}
+/* load more */
+#address-list-page .u-load-more {
+    margin-bottom: 50px;
+}
+
+#address-list-page .address-item:last-child {
+    margin-bottom: 50px;
+}
+
+#address-list-page .address-item p {
+    margin: 0;
+    padding: 10px 13px;
+}
+
+#address-list-page .address-item .address-info {
+    border-bottom: 1px solid #E8E8E8;
+    font-size: 1.3em;
+}
+
+#address-list-page .address-item .address-action {
+    padding: 5px 13px;
+    font-size: 1.3em;
+}
+
+#address-list-page .address-item .consignee {
+    display: inline-block;
+    min-width: 110px;
+}
+
+@media only screen and (max-width: 359px) {
+    #address-list-page .address-item .consignee {
+        min-width: 90px;
+    }
+}
+
+#address-list-page .address-item .default {
+    display: inline-block;
+    float: right;
+    color: #e73828;
+}
+
+#address-list-page .address-item .detail {
+    display: block;
+    padding-top: 5px;
+    font-size: 13px;
+}
+
+#address-list-page .address-item .set-default:before {
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    content: '';
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border: 1px solid #333;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+#address-list-page .address-item .set-default {
+    display: inline-block;
+    padding-top: 1px;
+    line-height: 0;
+}
+
+#address-list-page .address-item .set-default.active {
+    color: #e73828;
+}
+
+#address-list-page .address-item .set-default.active:before {
+    background: url(../../image/icon/selected.png) no-repeat;
+    background-size: 100%;
+    border: none;
+}
+
+
+#address-list-page .address-item .button-list {
+    display: inline-block;
+    float: right;
+}
+
+#address-list-page .address-item .edit-address,
+#address-list-page .address-item .del-address {
+    padding-left: 10px;
+    color: #e73828;
+}
+
+/* select style */
+#address-list-page .address-list.select .select-radio {
+    float: left;
+    padding: 0;
+}
+
+#address-list-page .address-list.select .select-radio:before {
+    display: inline-block;
+    content: '';
+    width: 25px;
+    height: 25px;
+    margin: 20px 14px;
+    padding: 0;
+    border: 1px solid #333;
+    border-radius: 50%;
+}
+
+#address-list-page .address-list.select .select-radio.active:before {
+    width: 26px;
+    height: 26px;
+    margin-top: 19px;
+    margin-right: 13px;
+    /*background: url(../../image/icon/selected.png) no-repeat;*/
+    background-size: 100%;
+    border: none;
+}
+
+/* add address button */
+#address-list-page .address-add {
+    position:fixed;
+    bottom:0;
+    z-index: 10;
+    width: 100%;
+    height: 42px;
+    background: #e73828;
+    text-align: center;
+    line-height: 42px;
+}
+
+#address-list-page .address-add a {
+    display: block;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+}

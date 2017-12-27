@@ -1,0 +1,61 @@
+/* CSS Document */
+/*重置*/
+*{padding: 0;margin: 0;text-decoration:none;list-style: none;font-family: 微软雅黑;font-size: 14px;color: #3D3D3D;outline: none}
+a:focus{outline: none;-moz-outline-style: none; }
+img{border:none}
+/*上部*/
+.bar-bg{width: 100%;height: 35px;background: #F9F9F9;}
+.bar-box{width: 1201px;height:35px;margin: 0 auto;}
+.bar-lt{float: left;width: 400px;height: 35px;}
+.bar-lt p{line-height: 35px;float: left}
+.bar-lt span{color: #898989;line-height: 35px;margin-left: 10px;margin-right: 19px;}
+.bar-rt{float: right}
+.bar-rt li{float: left;line-height: 35px;margin-right: 10px;}
+.bar-Login{display: inline-block;width: 60px;height: 20px;background:#4348f2;color: #fff;text-align: center;line-height: 20px;}
+/*导航栏*/
+.nav{width: 1201px;;height:43px;margin-top:20px;margin: 0 auto}
+.nav li{float: left;width: 110px;height: 43px;line-height: 43px;text-align: center;margin-right: 10px;margin-top: 20px;font-size:19px;font-weight:500}
+.nav li:hover{background: #4348f2;color: #fff;}
+.nav .nav-libg{background: #4348f2;color: #fff;}
+.nav-line{width: 100%;height: 2px;background: #4348f2;float: left;margin-bottom: 20px;}
+
+/*产品导航*/
+.nav2{width: 1201px;margin: 0 auto;height: 50px;}
+.nav2 ul li{float: left;width: 400px;height: 50px;text-align: center;line-height: 50px;}
+.nav2 ul li a{font-size: 18px;font-weight: bold;}
+.nav2 a:hover{color:#4348f2}
+
+/*banner轮播图*/
+.wrapper{width: 1201px;margin: 0 auto;}
+#focus{width: 1201px;height: 460px;overflow: hidden;}
+#focus ul{height:460px;position: relative;}
+#focus ul li{float: left;width: 1201px;height: 460px;overflow: hidden;position: absolute;left: 0;top: 0; background: #000;}
+#focus ul li div{position: absolute;overflow: hidden;}
+
+/*销量明星*/
+.sales{width: 1201px;height:530px;margin: 0 auto;}
+.sales-tit{width: 100%;height:73px;}
+.sales-tit h1{font-size: 24px;line-height: 73px;}
+
+.ui_scroller_container {height: 383px;position: relative;width: 1201px;padding-bottom: 12px;}
+.ui_scroller {margin: 0 35px;overflow: hidden;width:1201px;position: relative;}
+.scrollPics {height: 383px;width: 1201px;overflow:hidden}
+.scrollPics li {float: left;height: 383px;text-align: center;width: 290px;}
+.ui_scroller_prev, .ui_scroller_next{height: 132px;top: 100px;width: 30px;position: absolute;display: block;z-index: 10;}
+.ui_scroller_prev {background: url(../img/sales-icon.png) no-repeat scroll -301px -83px transparent;left: 0px;}
+.ui_scroller_next {background: url(../img/sales-icon.png) no-repeat scroll -403px -83px transparent;right: 0px;}
+
+/*电脑类*/
+.com-main{width: 100%;height:701px;}
+.com-main img{float: left}
+.mn{margin-right: 135px;}
+.mn1{margin-right: 40px;}
+.main{width: 1201px;margin: 0 auto;height: 774px;clear: both}
+
+
+/*返回顶部*/
+#float-top{position:fixed;right:20px;bottom:50px; background: url(../img/top.png);width: 50px;height: 50px;display: none;}
+#float-top:hover{background: url(../img/top-hover.png);}
+.return:hover{color:#f2880b}
+
+

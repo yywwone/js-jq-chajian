@@ -1,0 +1,35 @@
+/* CSS Document */
+/*找工作*/
+
+.bx_qt_work_main{width: 800px;margin: 0 auto;overflow: hidden}
+.bx_qt_work_main h1{text-align: center;margin-bottom: 30px;}
+.bx_qt_work_main_tit{border: 1px solid #D3D3D3;height: 62px;line-height: 62px;}
+.bx_qt_work_main_tit span{float: left;width:158px;text-align: center;font-size:20px;}
+.bx_qt_work_main_tit_ul{float: left}
+.bx_qt_work_main_tit li{float: left;text-align: center;cursor: pointer;font-size: 20px;}
+.bx_qt_work_main_tit ul .bx_qt_work_main_tit_ul_active{background: red;color: #fff;}
+.bx_qt_work_main_con{display: none;}
+.bx_qt_work_main_con_work{text-align: center;}
+.bx_qt_work_main_con_input{width:766px;height: 32px;padding:15px;border: 1px solid #c4c4c4;margin-top: 38px;font-size: 16px;}
+.bx_qt_work_main_con_wx{float: left;margin-top: 20px;margin-left: 30px;font-size:22px;}
+.bx_qt_work_main_con_tel{float: right;margin-top: 20px;margin-right: 30px;font-size:22px;}
+.bx_qt_work_main_con_wx img{margin-right: 5px;float: left;margin-top: 4px;}
+.bx_qt_work_main_con_tel img{margin-right:5px;float: left;margin-top: 4px;}
+.bx_qt_work_main_con_submit{width: 300px;height: 71px;background: red;border: 0;border-radius: 15px;color: #fff;font-size: 24px;margin: 57px 0 100px 0;cursor: pointer;}
+.bx_qt_work_main_con_submit1{width: 300px;height: 71px;background: red;border: 0;border-radius: 15px;color: #fff;font-size: 24px;margin: 57px 0 100px 0;cursor: pointer;}
+.bx_qt_work_tsxx{width: 200px;height: 50px;background: rgba(83,83,83,0.5);position: fixed;left: 50%;top: 50%;margin-left: -100px;margin-top: -25px;text-align: center;line-height:50px;color: #fff;display: none;}
+/*顾问*/
+.bx_qt_counselor_con{margin-bottom: 69px;overflow: hidden;}
+.bx_qt_counselor_con img{width:303px;height: 361px;}
+.bx_qt_counselor_main{width: 1080px;}
+.bx_qt_counselor_con_img1{float: left}
+.bx_qt_counselor_con_p1{float: right;width: 700px;}
+.bx_qt_counselor_con_img2{float: right}
+.bx_qt_counselor_con_p2{width: 700px;float: left;margin-top: 50px;}
+.bx_qt_counselor_con_p1 h2,.bx_qt_counselor_con_p2 h2{margin-bottom: 20px;}
+.bx_qt_counselor_con_p3{margin-right: 75px;}
+.bx_qt_counselor_con_text{line-height: 30px;}
+/*LOGO*/
+
+
+

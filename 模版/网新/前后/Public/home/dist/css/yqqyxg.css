@@ -1,0 +1,78 @@
+/* CSS Document */
+*{padding: 0;margin: 0;text-decoration:none;list-style: none;font-family: 微软雅黑;outline: none;}
+.wx_ht_yqqyxg_box{
+	margin: 50px auto;
+	overflow: hidden;
+}
+.wx_ht_yqqyxg_con_box{
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.wx_ht_yqqyxg_con_name{
+	float: left;
+	width: 70px;
+}
+.wx_ht_yqqyxg_con_con_xiugai{
+	float: left;
+}
+.wx_ht_yqqyxg_con_con_xiugai input{
+	width: 200px;
+	height: 20px;
+	padding-left: 3px;
+}
+.wx_ht_yqqyxg_con_con_xiugai textarea{
+	width: 207px;
+	height: 300px;
+	padding: 3px;
+	box-sizing: border-box;
+	resize: none;
+}
+.wx_ht_yqqyxg_con_con_xiugai textarea::-webkit-scrollbar {
+	width: 0px;
+	height: 1px;
+}
+.wx_ht_yqqyxg_con_con_xiugai_jj textarea{
+	height: 200px;
+}
+.wx_ht_yqqyxg_con_con_xiugai_dz textarea{
+	height: 100px;
+}
+#pic{
+	width:145px;
+	height: 145px;
+	border: 1px solid #ccc;
+}
+#pic1{
+	width:375px;
+	height: 109px;
+	border: 1px solid #ccc;
+}
+.wx_ht_yqqyxg_con_con_tijiao{
+	width: 280px;
+	height: 30px;
+	cursor: pointer;
+}
+
+.wx_ht_yqqyxg_con_con_xiugai_danxuan input{
+	width: 30px;
+	vertical-align:text-bottom;
+	text-align: left;
+	margin-right:0px;
+}
+.wx_ht_yqqyxg_con_con_xiugai_danxuan label{
+	margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

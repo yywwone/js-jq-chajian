@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link href="css/reset.css" type="text/css" rel="stylesheet"><!--重置样式-->
+<link href="css/shopping.css" type="text/css" rel="stylesheet"><!--页面CSS样式-->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/recommend.js"></script>
+<script src="js/compute.js"></script>
+</head>
+
+<body>
+<!--头部引入-->
+<div><iframe src="header.html" width="100%" height="155" scrolling="no" frameborder="0"></iframe></div>
+<!--我的购物车-->
+<div id="myshopping"><img src="images/shopping_myshopping.gif"><p>全场免运费活动中</p></div>
+<!--当当推荐 头部-->
+<div id="recommend"><p>根据您挑选的商品，当当为您推荐</p><div></div></div>
+<!--当当推荐 内容-->
+<div id="recommend_body">
+	<!--当当推荐 内容 左侧-->
+	<div id="recommend_body_left">
+		<table>
+			<tr>
+				<td width="255" height="28"><a href="#" hidefocus="true"  target="_self" class="blue">·JavaScript DOM编程艺术</a></td>
+				<td class="line-through" width="71">￥39.00</td>
+				<td width="74">￥29.30</td>
+				<td width="49"><a href="#" hidefocus="true"  target="_self" class="red">购买</a></td>
+			</tr>
+			<tr>
+				<td width="255" height="28"><a href="#" hidefocus="true"  target="_self" class="blue">·解禁（当当网独家首发）</a></td>
+				<td class="line-through" width="71">￥28.00</td>
+				<td width="74">￥19.40</td>
+				<td width="49"><a href="#" hidefocus="true"  target="_self" class="red">购买</a></td>
+			</tr>
+			<tr>
+				<td width="255" height="28"><a href="#" hidefocus="true"  target="_self" class="blue">·地王之王（金融危机下房地产行...</a></td>
+				<td class="line-through" width="71">￥32.00</td>
+				<td width="74">￥25.10</td>
+				<td width="49"><a href="#" hidefocus="true"  target="_self" class="red">购买</a></td>
+			</tr>
+			<tr>
+				<td width="255" height="28"><a href="#" hidefocus="true"  target="_self" class="blue">·逃庄</a></td>
+				<td class="line-through" width="71">￥36.00</td>
+				<td width="74">￥27.70</td>
+				<td width="49"><a href="#" hidefocus="true"  target="_self" class="red">购买</a></td>
+			</tr>
+		</table>
+	</div>
+	<!--当当推荐 内容 右侧侧-->
+	<div id="recommend_body_right">
+		<table>
+			<tr>
+				<td width="255" height="28"><a href="#" hidefocus="true"  target="_self" class="blue">·深入浅出MySQL数据库开发/优...</a></td>
+				<td class="line-through" width="71">￥59.00</td>
+				<td width="74">￥47.20</td>
+				<td width="49"><a href="#" hidefocus="true"  target="_self" class="red">购买</a></td>
+			</tr>
+			<tr>
+				<td width="255" height="28"><a href="#" hidefocus="true"  target="_self" class="blue">·大玩家（马未都、王刚推荐！央...</a></td>
+				<td class="line-through" width="71">￥34.80</td>
+				<td width="74">￥20.60</td>
+				<td width="49"><a href="#" hidefocus="true"  target="_self" class="red">购买</a></td>
+			</tr>
+			<tr>
+				<td width="255" height="28"><a href="#" hidefocus="true"  target="_self" class="blue">·都市风水师--官场风水小说：-...</a></td>
+				<td class="line-through" width="71">￥39.80</td>
+				<td width="74">￥30.50</td>
+				<td width="49"><a href="#" hidefocus="true"  target="_self" class="red">购买</a></td>
+			</tr>
+			<tr>
+				<td width="255" height="28"><a href="#" hidefocus="true"  target="_self" class="blue">·国戏（以麻将术语解读宦海沉浮...</a></td>
+				<td class="line-through" width="71">￥25.00</td>
+				<td width="74">￥17.30</td>
+				<td width="49"><a href="#" hidefocus="true"  target="_self" class="red">购买</a></td>
+			</tr>
+		</table>
+	</div>
+	</div>
+<!--已选择商品-->
+<div id="select"><p>您已选购以下商品</p></div>
+<!--已选择商品 主体-->
+<div id="select_body">
+<div id="select_body_table">
+	<form>
+		<!--已选购商品列表-->
+		<table cellspacing="0">
+			<tr class="select_body_first-tr" >
+				<td width="492" height="25"><span  class="juli">商品名</span></td>
+				<td width="126" align="center">单品积分</td>
+				<td width="121" align="center">市场价</td>
+				<td width="100" align="center">当当价</td>
+				<td width="70" align="center">数量</td>
+				<td width="47" align="center">删除</td>
+			</tr>
+			<tr class="select_body_tr">
+				<td height="38"><span class="juli"><a href="#" hidefocus="true"  target="_self">私募（首部披露资本博弈秘密的金融...）</a></span></td>
+				<td align="center"><span class="integration">189</span></td>
+				<td align="center">￥<span class="market-price">32.00</span></td>
+				<td align="center">￥<span class="dd-price">18.90</span>(59折)</td>
+				<td align="center"><input type="text" value="1" class="number" maxlength="5"></td>
+				<td align="center"><a href="#" hidefocus="true"  target="_self" class="del">删除</a></td>
+			</tr>
+			<tr class="select_body_tr">
+				<td height="38"><span class="juli"><a href="#" hidefocus="true"  target="_self">小团圆（张爱玲最神秘小说遗稿）</a></span></td>
+				<td align="center"><span class="integration">173</span></td>
+				<td align="center">￥<span class="market-price">28.00</span></td>
+				<td align="center">￥<span class="dd-price">17.30</span>(62折)</td>
+				<td align="center"><input type="text" value="1" class="number" maxlength="5"></td>
+				<td align="center"><a href="#" hidefocus="true"  target="_self" class="del">删除</a></td>
+			</tr>
+			<tr class="select_body_tr">
+				<td height="38"><span class="juli"><a href="#" hidefocus="true"  target="_self">不抱怨的世界（畅销全球80国的世界...</a></span></td>
+				<td align="center"><span class="integration">154</span></td>
+				<td align="center">￥<span class="market-price">24.80</span></td>
+				<td align="center">￥<span class="dd-price">15.40</span>(62折)</td>
+				<td align="center"><input type="text" value="2" class="number" maxlength="5"></td>
+				<td align="center"><a href="#" hidefocus="true"  target="_self" class="del">删除</a></td>
+			</tr>
+			<tr class="select_body_tr">
+				<td height="38"><span class="juli"><a href="#" hidefocus="true"  target="_self">福玛特双桶洗衣机XPB20-07S</a></span></td>
+				<td align="center"><span class="integration">358</span></td>
+				<td align="center">￥<span class="market-price">458.00</span></td>
+				<td align="center">￥<span class="dd-price">358.00</span>(78折)</td>
+				<td align="center"><input type="text" value="1" class="number" maxlength="5"></td>
+				<td align="center"><a href="#" hidefocus="true"  target="_self" class="del">删除</a></td>
+			</tr>
+			<tr class="select_body_tr">
+				<td height="38"><span class="juli"><a href="#" hidefocus="true"  target="_self">PHP和MySQL Web开发（原书第4版）</a></span></td>
+				<td align="center"><span class="integration">712</span></td>
+				<td align="center">￥<span class="market-price">95.00</span></td>
+				<td align="center">￥<span class="dd-price">71.20</span>(75折)</td>
+				<td align="center"><input type="text" value="1" class="number" maxlength="5"></td>
+				<td align="center"><a href="#" hidefocus="true"  target="_self" class="del">删除</a></td>
+			</tr>
+			<tr class="select_body_tr">
+				<td height="38"><span class="juli"><a href="#" hidefocus="true"  target="_self">法布尔昆虫记（再买￥68.30即可参加“满199元减10元现金”活动）</a></span></td>
+				<td align="center"><span class="integration">10</span></td>
+				<td align="center">￥<span class="market-price">198.00</span></td>
+				<td align="center">￥<span class="dd-price">130.70</span>(66折)</td>
+				<td align="center"><input type="text" value="1" class="number" maxlength="5"></td>
+				<td align="center"><a href="#" hidefocus="true"  target="_self" class="del">删除</a></td>
+			</tr>
+		</table>
+	</form>
+	</div>
+	<!--已选择商品 结尾-->
+	<div id="select_foot">
+		<!--计算已选购商品的节省金额/积分/总价-->
+		<div id="compute">
+			<!--计算已选购商品的节省金额/积分-->
+			<div id="compute1">
+				<p>您共节省金额：￥<span class="result1"></span></p>
+				<p>可获商品积分：<span class="result2"></span></p>
+			</div>
+			<!--计算已选购商品的总价-->
+			<div id="compute2">
+				<p>商品金额总计：￥<span  class="result3"></span></p>
+				<input type="image" src="images/shopping_balance.gif" class="compute2_input">	
+			</div>
+		</div>
+	</div>
+</div>
+<!--结尾-->
+<div id="foot">
+	<ul>
+		<li><a href="#" hidefocus="true"  target="_self">公司简介</a></li>
+		<li><img src="images/line.png" class="line"></li>
+		<li><a href="#" hidefocus="true"  target="_self">诚证英才</a></li>
+		<li><img src="images/line.png" class="line"></li>
+		<li><a href="#" hidefocus="true"  target="_self">网站联盟</a></li>
+		<li><img src="images/line.png" class="line"></li>
+		<li><a href="#" hidefocus="true"  target="_self">百货招商</a></li>
+		<li><img src="images/line.png" class="line"></li>
+		<li><a href="#" hidefocus="true"  target="_self">交易条款</a></li>
+		<li><img src="images/line.png" class="line"></li>
+	</ul>
+	<p>Copyright(C)当当网2004-2009,All Rights Reserved<img src="images/validate.gif">京ICP证041189号 音像制品经营许可证 景音网8号</p>	
+</div><br><br><br><br>
+</body>
+</html>

@@ -1,0 +1,28 @@
+$(".provinceId1").change(function(){
+        $(".province1").show();
+        a=$(this).val();
+        // alert(a)
+        // $(".aaa").attr("value",a)
+        $.ajax({
+            type:"post",
+            url:'{:U("/Admin/Dealer/ajax")}',
+            data:"menu="+a,
+            dataType:"json",
+            success:function(status){
+            
+            $(".province1 option").remove();
+            $.each(status,function(i,n)
+        {
+            
+            var b="<option value='"+n.name+"'>"+n.name+"</option>";
+
+            $(".province1").append(b);
+        });     
+                
+               
+            },
+            error:function(status){
+               alert('系统错误');
+            }
+        });
+    })

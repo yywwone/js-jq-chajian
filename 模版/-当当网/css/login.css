@@ -1,0 +1,49 @@
+/* CSS Document */
+#login{width: 960px;height:500px;margin: 0 auto;margin-top: 30px;}
+/*头部*/
+#login_header{width: 801px;height: 40px;margin-left: 80px;}
+#login_header ul{float: right;margin-top: 15px;}
+#login_header ul li{float: left}
+#login_header ul li img{margin-left: 4px;margin-right: 3px;}
+#login_header ul li a{color: #1965b3}
+/*左侧*/
+#login_left{width:582px;height:343px;font-size: 12px;float: left}
+/*左侧 上部*/
+#login_left_top{overflow: hidden;margin-top: 10px;}
+#login_left_top img{float: left}
+/*左侧 下部*/
+#login_left_bottom{margin-top: 10px;overflow: hidden;margin-left:30px;}
+.login_left_bottom_div{float: left;border-right: 1px dashed #878787;width: 166px;height: 88px;margin-left: 15px;line-height: 20px;}
+.login_left_bottom_div1{float: left;width: 166px;height: 88px; margin-left: 15px;line-height: 20px;}
+/*右侧*/
+#login_right{width: 310px;height: 310px;border: 1px solid #666;float: right;margin-top: 10px;background: url(../images/login_icon_bg_02.gif)}
+/*右侧 头部*/
+#login_right_header{width: 310px;height:40px;background: #fff;}
+#login_right_header_img{width: 24px;height: 24px;background: url(../images/login_icon_bg_01.gif);background-position: -304px -33px;margin-left: 10px;margin-top: 10px;float: left}
+#login_right_header p{float: left;margin-top: 15px;margin-left: 5px;}
+/*右侧 主体*/
+#login_right_body{width: 310px;height: 150px;border-bottom: 1px dashed #878787;background: #fff;margin-top: 3px;font-size: 12px;}
+/*右侧 表单*/
+#mytable{margin-left:40px;margin-top: 30px;float: left}
+.login-button{width: 77px;height: 26px;background: url(../images/login_icon_bg_01.gif);background-position: 0 -30px;}
+.login-button1{background-position: -78px -30px;}
+/*右侧 结尾*/
+#login_right_foot{font-size: 12px;width: 250px;height: 80px;margin-left:26px;margin-top: 28px;}
+#login_right_foot p{line-height: 20px;}
+#login_right_foot span{font-weight: bold;}
+.register-buttom{width: 143px;height: 26px;background: url(../images/login_icon_bg_01.gif);background-position:0 -3px; margin-left: 104px;display:inline-block}
+.register-buttom1{background-position: -144px -3px;}
+
+/*尾部*/ 
+#foot{width: 960px;height: 47px; margin: 0 auto;font-size: 12px;}
+#foot ul{width: 377px;margin: 0 auto;}
+#foot ul li{float: left;line-height: 47px;}
+#foot ul li img{margin-left: 12px;margin-right: 11px;}
+#foot ul li a{color: #9b2b0f}
+#foot p{width: 600px;height: 48px;margin: 0 auto;clear: both;line-height: 48px;}
+#foot p img{vertical-align: middle}
+
+
+
+
+

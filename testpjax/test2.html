@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>test pjax</title>
+	<script type="text/javascript" src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.pjax-1.8.2.min.js"></script>
+</head>
+<body>
+	<h1>test2</h1>
+	<div id="main"><a href="test1.html">test1.html</a></div>
+	<script type="text/javascript">
+		$(document).pjax('a[target!=_blank]', '#main', {fragment: '#main',timeout: 8000});
+	</script>
+</body>
+</html>

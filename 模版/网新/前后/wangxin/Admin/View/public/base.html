@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>网新后台</title>
+
+<meta charset="UTF-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<block name="link">  </block>
+<link rel="stylesheet" href="__PUBLIC__/admin/css/bootstrap.min.css" />
+
+<link rel="stylesheet" href="__PUBLIC__/admin/css/bootstrap-responsive.min.css" />
+
+<link rel="stylesheet" href="__PUBLIC__/admin/css/fullcalendar.css" />
+
+<link rel="stylesheet" href="__PUBLIC__/admin/css/matrix-style.css" />
+
+<link rel="stylesheet" href="__PUBLIC__/admin/css/matrix-media.css" />
+
+<link href="__PUBLIC__/admin/font-awesome/css/font-awesome.css" rel="stylesheet" />
+
+<link rel="stylesheet" href="__PUBLIC__/admin/css/jquery.gritter.css" />
+<link rel="stylesheet" href="__PUBLIC__/admin/css/page.css" />
+<style type="text/css">
+ .table_tr_td tr td{
+  width:120px;height:150px;
+ }
+</style>
+</head>
+
+<body>
+
+
+
+<!--Header-part-->
+
+<div id="header">
+  <div style="width:100px;height:30px"></div>
+<b><a href="{:U('index/index')}" style="color:green;font-size:30px;margin-left:30px" ><?php echo session('type')['name'];?></a></b>
+
+</div>
+<div id="search">
+  <!-- <input type="text" placeholder="Search here..."/> -->
+ <div style="width:20px;height:4px"></div>
+ <!-- <a href="http://www.buy297.com" style="font-size:13px;margin-right:30px;" target="view_frame">站点首页</a> -->
+  <a href="{:U('index/uplogin')}" style="font-size:13px;margin-right:20px">退出登录</a>
+</div>
+<div id="sidebar"><a href="#" class="visible-phone"><i class="icon icon-home"></i> one</a>
+
+  <ul>
+
+      <li><a href="{:U('index/index')}"><i class="icon icon-home"></i> <span>网站管理</span></a> </li>
+      <if condition="session('type')['quan']=='1'">
+      <li> <a href="{:U('index/accout')}"><i class="icon icon-signal"></i> <span>园区账号管理</span></a> </li>
+      </if>
+    <li> <a href="{:U('index/widgets')}"><i class="icon icon-inbox"></i> <span>订单管理</span></a> </li>
+
+    <li><a href="{:U('index/tables')}"><i class="icon icon-th-list"></i> <span>用户管理</span></a></li>
+    <li><a href="{:U('index/facilitator')}"><i class="icon icon-th"></i> <span>服务商管理</span></a></li>
+
+    <li><a href="{:U('index/qylr')}"><i class="icon icon-calendar"></i> <span>企业录入信息</span></a></li>
+    <li><a href="{:U('index/grid')}"><i class="icon icon-fullscreen"></i> <span>评论&投诉</span></a></li>
+
+    <li class="submenu"> <a href="#"><i class="icon icon-info-sign"></i> <span>投诉&评论&活动</span><!--  <span class="label label-important">3</span> --></a>
+      <ul>
+        <li><a href="{:U('complain/complain')}">投诉</a></li>
+        <li><a href="{:U('complain/comment')}">评论</a></li>
+        <li><a href="{:U('complain/huodong')}">活动</a></li>
+      </ul>
+    </li>
+  </ul>
+
+</div>
+
+<!--sidebar-menu-->
+
+
+
+<!--main-container-part-->
+
+<div id="content">
+
+<!--breadcrumbs-->
+
+  <div id="content-header">
+
+    <div id="breadcrumb"> <a href="{:U('index/index')} 
+      " title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Home</a></div>
+
+  </div>
+
+<!--End-breadcrumbs-->
+
+
+
+<!--Action boxes-->
+<block name="con">
+  <div class="container-fluid">
+
+    <div class="quick-actions_homepage">
+
+      <ul class="quick-actions">
+
+        <li class="bg_lb"> <a href="{:U('index/index')}"> <i class="icon-dashboard"></i> <span class="label label-important">20</span> My Dashboard </a> </li>
+
+        <li class="bg_lg span3"> <a href="{:U('index/charts')}"> <i class="icon-signal"></i> Charts</a> </li>
+
+        <li class="bg_ly"> <a href="{:U('index/widgets')}"> <i class="icon-inbox"></i><span class="label label-success">101</span> Widgets </a> </li>
+
+        <li class="bg_lo"> <a href="{:U('index/tables')}"> <i class="icon-th"></i> Tables</a> </li>
+
+        <li class="bg_ls"> <a href="{:U('index/grid')}"> <i class="icon-fullscreen"></i> Full width</a> </li>
+
+        <li class="bg_lo span3"> <a href="{:U('index/form_common')}"> <i class="icon-th-list"></i> Forms</a> </li>
+
+        <li class="bg_ls"> <a href="{:U('index/buttons')}"> <i class="icon-tint"></i> Buttons</a> </li>
+
+        <li class="bg_lb"> <a href="{:U('index/interface')}"> <i class="icon-pencil"></i>Elements</a> </li>
+
+        <li class="bg_lg"> <a href="{:U('index/calendar')}"> <i class="icon-calendar"></i> Calendar</a> </li>
+
+        <li class="bg_lr"> <a href="{:U('index/error404')}"> <i class="icon-info-sign"></i> Error</a> </li>
+
+
+
+      </ul>
+
+    </div>
+
+<!--End-Action boxes-->    
+
+
+
+<!--Chart-box-->    
+
+    <div class="row-fluid">
+
+      <div class="widget-box">
+
+        <div class="widget-title bg_lg"><span class="icon"><i class="icon-signal"></i></span>
+
+          <h5>Site Analytics</h5>
+
+        </div>
+
+        <div class="widget-content" >
+
+          <div class="row-fluid">
+
+            <div class="span9">
+
+              <div class="chart"></div>
+
+            </div>
+
+            <div class="span3">
+
+              <ul class="site-stats">
+
+                <li class="bg_lh"><i class="icon-user"></i> <strong>2540</strong> <small>Total Users</small></li>
+
+                <li class="bg_lh"><i class="icon-plus"></i> <strong>120</strong> <small>New Users </small></li>
+
+                <li class="bg_lh"><i class="icon-shopping-cart"></i> <strong>656</strong> <small>Total Shop</small></li>
+
+                <li class="bg_lh"><i class="icon-tag"></i> <strong>9540</strong> <small>Total Orders</small></li>
+
+                <li class="bg_lh"><i class="icon-repeat"></i> <strong>10</strong> <small>Pending Orders</small></li>
+
+                <li class="bg_lh"><i class="icon-globe"></i> <strong>8540</strong> <small>Online Orders</small></li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+<!--End-Chart-box--> 
+
+    <hr/>
+
+
+</block>
+  </div>
+
+</div>
+
+
+
+<!--end-main-container-part-->
+
+
+
+<!--Footer-part-->
+
+
+
+<div class="row-fluid">
+
+  <div id="footer" class="span12"><a href="http://themedesigner.in/"></a> </div>
+
+</div>
+
+
+
+<!--end-Footer-part-->
+
+
+
+<script src="__PUBLIC__/admin/js/excanvas.min.js"></script> 
+
+<script src="__PUBLIC__/admin/js/jquery.min.js"></script> 
+
+<script src="__PUBLIC__/admin/js/jquery.ui.custom.js"></script> 
+
+<script src="__PUBLIC__/admin/js/bootstrap.min.js"></script> 
+
+<script src="__PUBLIC__/admin/js/jquery.flot.min.js"></script> 
+
+<script src="__PUBLIC__/admin/js/jquery.flot.resize.min.js"></script> 
+
+<script src="__PUBLIC__/admin/js/jquery.peity.min.js"></script> 
+
+<script src="__PUBLIC__/admin/js/fullcalendar.min.js"></script> 
+
+<script src="__PUBLIC__/admin/js/matrix.js"></script> 
+
+<script src="__PUBLIC__/admin/js/matrix.dashboard.js"></script> 
+
+<script src="__PUBLIC__/admin/js/jquery.gritter.min.js"></script> 
+
+<script src="__PUBLIC__/admin/js/matrix.interface.js"></script> 
+
+<script src="__PUBLIC__/admin/js/matrix.chat.js"></script> 
+
+<script src="__PUBLIC__/admin/js/jquery.validate.js"></script> 
+
+<script src="__PUBLIC__/admin/js/matrix.form_validation.js"></script> 
+
+<script src="__PUBLIC__/admin/js/jquery.wizard.js"></script> 
+
+<script src="__PUBLIC__/admin/js/jquery.uniform.js"></script> 
+
+<script src="__PUBLIC__/admin/js/select2.min.js"></script> 
+
+<script src="__PUBLIC__/admin/js/matrix.popover.js"></script> 
+
+<script src="__PUBLIC__/admin/js/jquery.dataTables.min.js"></script> 
+
+<script src="__PUBLIC__/admin/js/matrix.tables.js"></script> 
+<block name="src">
+</block>
+
+<!-- <script type="text/javascript">
+
+  // This function is called from the pop-up menus to transfer to
+
+  // a different page. Ignore if the value returned is a null string:
+
+  function goPage (newURL) {
+
+
+
+      // if url is empty, skip the menu dividers and reset the menu selection to default
+
+      if (newURL != "") {
+
+      
+
+          // if url is "-", it is this page -- reset the menu:
+
+          if (newURL == "-" ) {
+
+              resetMenu();            
+
+          } 
+
+          // else, send page to designated URL            
+
+          else {  
+
+            document.location.href = newURL;
+
+          }
+
+      }
+
+  }
+
+
+
+// resets the menu selection upon entry to this page:
+
+function resetMenu() {
+
+   document.gomenu.selector.selectedIndex = 2;
+
+}
+
+</script> -->
+
+</body>
+
+</html>
+

@@ -1,0 +1,651 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>找工作</title>
+<!--通用CSS-->
+<link rel="icon" href="" type="image/x-icon"/>
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/foot.css" rel="stylesheet">
+<!--本页CSS-->
+<link href="css/work.css" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid">
+	<div class="row work_con_tit">
+		<div class="col-xs-5">
+			<a href="index.html" class="work_con_return"><img src="img/return.png"></a>
+		</div>
+		<div class="col-xs-7">
+			<h4 class="work_con_h4">招聘</h4>
+		</div>
+	</div>
+</div>
+<!--标题-->
+<div class="container-fluid work_classes">
+	<div class="row" style="margin-top: 15px;border-bottom: 1px solid #ccc">
+		<div class="col-xs-5">
+			<p class="work_show_toggle">分类
+				<span class="work_icon">∨</span>
+			</p>
+		</div>
+		<div class="col-xs-2">
+			<p style="text-align: center;color: #E9E9E9">丨</p>
+		</div>
+		<div class="col-xs-5">
+			<p class="work_show_toggle">区域
+				<span class="work_icon">∨</span>
+			</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="work_hover">
+				<!--类型选择-->
+				<div class="work_show">
+					<ul>
+						<li style="border-bottom-color: red"><a href="#">全部</a></li>
+						<li><a href="#">销售/业务/采购</a></li>
+						<li><a href="#">人力/行政/管理</a></li>
+						<li><a href="#">文秘/文员/客服</a></li>
+						<li><a href="#">市场/媒体/酒店</a></li>
+						<li><a href="#">美工/设计/创意</a></li>
+						<li><a href="#">法律/教育/培训</a></li>
+						<li><a href="#">互联网/计算机/通信电子</a></li>
+						<li><a href="#">生产/物流/质控</a></li>
+						<li><a href="#">财会/金融/保险</a></li>
+						<li><a href="#">医疗/制药/环保</a></li>
+						<li><a href="#">建筑/物业</a></li>
+						<li><a href="#">普工/技工</a></li>
+						<li><a href="#">家政/其他</a></li>
+					</ul>
+				</div>
+				<div class="work_show"></div>
+				<!--地区选择-->
+				<div class="work_show">
+					<ul class="work_dq_box pull-left">
+						<li>全部</li>
+						<li>西湖</li>
+						<li>拱墅</li>
+						<li>江干</li>
+						<li>下城</li>
+						<li>上城</li>
+						<li>余杭</li>
+						<li>萧山</li>
+						<li>滨江</li>
+						<li>建德</li>
+						<li>富阳</li>
+						<li>临安</li>
+						<li>桐庐</li>
+						<li>淳安</li>
+						<li>杭州周边</li>
+					</ul>
+					<div class="work_dq_box1 pull-left">
+						<ul></ul>
+						<ul>
+							<li><a href="#">全部</a></li>
+							<li><a href="#">半道红</a></li>
+							<li><a href="#">大关</a></li>
+							<li><a href="#">拱宸桥</a></li>
+							<li><a href="#">湖墅</a></li>
+							<li><a href="#">米市巷</a></li>
+							<li><a href="#">桥西</a></li>
+							<li><a href="#">石祥路</a></li>
+							<li><a href="#">塘河</a></li>
+							<li><a href="#">万达广场</a></li>
+							<li><a href="#">祥符</a></li>
+							<li><a href="#">余杭塘上</a></li>
+						</ul>
+						<ul>
+							<li><a href="#">全部</a></li>
+							<li><a href="#">白杨</a></li>
+							<li><a href="#">城东新城</a></li>
+							<li><a href="#">丁桥</a></li>
+							<li><a href="#">火车东站</a></li>
+							<li><a href="#">九堡</a></li>
+							<li><a href="#">凯旋</a></li>
+							<li><a href="#">南肖埠</a></li>
+							<li><a href="#">彭埠</a></li>
+							<li><a href="#">钱江新城</a></li>
+							<li><a href="#">四季青</a></li>
+							<li><a href="#">五堡</a></li>
+							<li><a href="#">下沙</a></li>
+							<li><a href="#">闸弄口</a></li>
+						</ul>
+						<ul>
+							<li><a href="#">全部</a></li>
+							<li><a href="#">宝善</a></li>
+							<li><a href="#">朝晖</a></li>
+							<li><a href="#">东新</a></li>
+							<li><a href="#">凤起</a></li>
+							<li><a href="#">艮山</a></li>
+							<li><a href="#">孩儿巷</a></li>
+							<li><a href="#">莫衙营</a></li>
+							<li><a href="#">庆春</a></li>
+							<li><a href="#">三塘</a></li>
+							<li><a href="#">天水</a></li>
+							<li><a href="#">武林</a></li>
+							<li><a href="#">下城周边</a></li>
+						</ul>
+						<ul>
+							<li><a href="#">全部</a></li>
+							<li><a href="#">城站</a></li>
+							<li><a href="#">复兴</a></li>
+							<li><a href="#">湖滨</a></li>
+							<li><a href="#">近江</a></li>
+							<li><a href="#">龙翔附近</a></li>
+							<li><a href="#">梅花碑</a></li>
+							<li><a href="#">南星</a></li>
+							<li><a href="#">平海路</a></li>
+							<li><a href="#">清波</a></li>
+							<li><a href="#">上城周边</a></li>
+							<li><a href="#">望江</a></li>
+							<li><a href="#">小营</a></li>
+							<li><a href="#">佑圣观路</a></li>
+							<li><a href="#">紫阳</a></li>
+						</ul>
+						<ul>
+							<li><a href="#">全部</a></li>
+							<li><a href="#">仓前</a></li>
+							<li><a href="#">勾庄</a></li>
+							<li><a href="#">老余杭</a></li>
+							<li><a href="#">南苑</a></li>
+							<li><a href="#">瓶窑</a></li>
+							<li><a href="#">钱江经济开发区</a></li>
+							<li><a href="#">仁和</a></li>
+							<li><a href="#">塘栖</a></li>
+							<li><a href="#">未来科技城[海创园]</a></li>
+							<li><a href="#">五常</a></li>
+							<li><a href="#">闲林</a></li>
+							<li><a href="#">余杭周边</a></li>
+						</ul>
+						<ul>
+							<li><a href="#">全部</a></li>
+							<li><a href="#">北干</a></li>
+							<li><a href="#">城厢</a></li>
+							<li><a href="#">大江东</a></li>
+							<li><a href="#">河庄</a></li>
+							<li><a href="#">开发区</a></li>
+							<li><a href="#">临江</a></li>
+							<li><a href="#">钱江世纪城</a></li>
+							<li><a href="#">蜀山</a></li>
+							<li><a href="#">闻堰</a></li>
+							<li><a href="#">湘湖</a></li>
+							<li><a href="#">义蓬</a></li>
+						</ul>
+						<ul>
+							<li><a href="#">全部</a></li>
+							<li><a href="#">彩虹城</a></li>
+							<li><a href="#">长河</a></li>
+							<li><a href="#">杭二中</a></li>
+							<li><a href="#">区政府</a></li>
+							<li><a href="#">浦沿</a></li>
+							<li><a href="#">滨江周边</a></li>
+						</ul>
+						<ul>
+							<li><a href="#">全部</a></li>
+						</ul>
+						<ul>
+							<li><a href="#">全部</a></li>
+							<li><a href="#">东洲</a></li>
+							<li><a href="#">富春</a></li>
+							<li><a href="#">银湖</a></li>
+							<li><a href="#">富阳周边</a></li>
+						</ul>
+						<ul>
+							<li><a href="#">全部</a></li>
+						</ul>
+						<ul>
+							<li><a href="#">全部</a></li>
+						</ul>
+						<ul>
+							<li><a href="#">全部</a></li>
+						</ul>
+						<ul>
+							<li><a href="#">全部</a></li>
+						</ul>
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	
+</div>
+<!--内容-->
+<a href="work_con.html"><div class="container-fluid work_con_box">
+	<div class="row work_con work_con1">
+		<div class="col-xs-10">
+			<p>奶茶制作
+				<span class="work_pin" style="width: 22px;height: 22px;">聘</span>
+			</p>
+		</div>
+		<div class="col-xs-2">
+			<p>8月20日</p>
+		</div>
+	</div>			
+	<div class="row work_con">
+		<div class="col-xs-8">
+			<p>王小姐的茶</p>
+		</div>
+		<div class="col-xs-4 work_jg">
+			<span>3000-5000元</span>
+		</div>
+	</div>
+	<div class="row work_con">
+		<div class="col-xs-12 work_yq">
+			<span><img src="img/rs.png" width="16" height="16">若干人</span>&nbsp;&nbsp;<span><img src="img/xl.png">不限</span>
+		</div>
+	</div>
+	<div class="row work_lx">
+		<div class="col-xs-12 ">
+			<p>家政/其他</p>
+		</div>
+	</div>
+</div></a>
+<a href="work_con.html"><div class="container-fluid work_con_box">
+	<div class="row work_con work_con1">
+		<div class="col-xs-10">
+			<p>文员
+				<span class="work_pin" style="width: 22px;height: 22px;">聘</span>
+			</p>
+		</div>
+		<div class="col-xs-2">
+			<p>8月20日</p>
+		</div>
+	</div>
+	<div class="row work_con">
+		<div class="col-xs-8">
+			<p>杭州申昊科技股份有限公司</p>
+		</div>
+		<div class="col-xs-4 work_jg">
+			<span>3000-5000元</span>
+		</div>
+	</div>
+	<div class="row work_con">
+		<div class="col-xs-12 work_yq">
+			<span>1人</span>&nbsp;&nbsp;<span>大专</span>
+		</div>
+	</div>
+	<div class="row work_lx">
+		<div class="col-xs-12 ">
+			<p>人力/行政/管理</p>
+		</div>
+	</div>
+</div></a>
+<a href="work_con.html"><div class="container-fluid work_con_box">
+	<div class="row work_con work_con1">
+		<div class="col-xs-10">
+			<p>文员
+				<span class="work_pin" style="width: 22px;height: 22px;">聘</span>
+			</p>
+		</div>
+		<div class="col-xs-2">
+			<p>8月20日</p>
+		</div>
+	</div>
+	<div class="row work_con">
+		<div class="col-xs-8">
+			<p>杭州申昊科技股份有限公司</p>
+		</div>
+		<div class="col-xs-4 work_jg">
+			<span>3000-5000元</span>
+		</div>
+	</div>
+	<div class="row work_con">
+		<div class="col-xs-12 work_yq">
+			<span>1人</span>&nbsp;&nbsp;<span>大专</span>
+		</div>
+	</div>
+	<div class="row work_lx">
+		<div class="col-xs-12 ">
+			<p>销售/业务/采购</p>
+		</div>
+	</div>
+</div></a>
+<a href="work_con.html"><div class="container-fluid work_con_box">
+	<div class="row work_con work_con1">
+		<div class="col-xs-10">
+			<p>文员
+				<span class="work_pin" style="width: 22px;height: 22px;">聘</span>
+			</p>
+		</div>
+		<div class="col-xs-2">
+			<p>8月20日</p>
+		</div>
+	</div>
+	<div class="row work_con">
+		<div class="col-xs-8">
+			<p>杭州申昊科技股份有限公司</p>
+		</div>
+		<div class="col-xs-4 work_jg">
+			<span>3000-5000元</span>
+		</div>
+	</div>
+	<div class="row work_con">
+		<div class="col-xs-12 work_yq">
+			<span>1人</span>&nbsp;&nbsp;<span>大专</span>
+		</div>
+	</div>
+	<div class="row work_lx">
+		<div class="col-xs-12 ">
+			<p>文秘/文员/客服</p>
+		</div>
+	</div>
+</div></a>
+<a href="work_con.html"><div class="container-fluid work_con_box">
+	<div class="row work_con work_con1">
+		<div class="col-xs-10">
+			<p>文员
+				<span class="work_pin" style="width: 22px;height: 22px;">聘</span>
+			</p>
+		</div>
+		<div class="col-xs-2">
+			<p>8月20日</p>
+		</div>
+	</div>
+	<div class="row work_con">
+		<div class="col-xs-8">
+			<p>杭州申昊科技股份有限公司</p>
+		</div>
+		<div class="col-xs-4 work_jg">
+			<span>3000-5000元</span>
+		</div>
+	</div>
+	<div class="row work_con">
+		<div class="col-xs-12 work_yq">
+			<span>1人</span>&nbsp;&nbsp;<span>大专</span>
+		</div>
+	</div>
+	<div class="row work_lx">
+		<div class="col-xs-12 ">
+			<p>市场/媒体/酒店</p>
+		</div>
+	</div>
+</div></a>
+<a href="work_con.html"><div class="container-fluid work_con_box">
+	<div class="row work_con work_con1">
+		<div class="col-xs-10">
+			<p>文员
+				<span class="work_pin" style="width: 22px;height: 22px;">聘</span>
+			</p>
+		</div>
+		<div class="col-xs-2">
+			<p>8月20日</p>
+		</div>
+	</div>
+	<div class="row work_con">
+		<div class="col-xs-8">
+			<p>杭州申昊科技股份有限公司</p>
+		</div>
+		<div class="col-xs-4 work_jg">
+			<span>3000-5000元</span>
+		</div>
+	</div>
+	<div class="row work_con">
+		<div class="col-xs-12 work_yq">
+			<span>1人</span>&nbsp;&nbsp;<span>大专</span>
+		</div>
+	</div>
+	<div class="row work_lx">
+		<div class="col-xs-12 ">
+			<p>美工/设计/创意</p>
+		</div>
+	</div>
+</div></a>
+<a href="work_con.html"><div class="container-fluid work_con_box">
+	<div class="row work_con work_con1">
+		<div class="col-xs-10">
+			<p>文员
+				<span class="work_pin" style="width: 22px;height: 22px;">聘</span>
+			</p>
+		</div>
+		<div class="col-xs-2">
+			<p>8月20日</p>
+		</div>
+	</div>
+	<div class="row work_con">
+		<div class="col-xs-8">
+			<p>杭州申昊科技股份有限公司</p>
+		</div>
+		<div class="col-xs-4 work_jg">
+			<span>3000-5000元</span>
+		</div>
+	</div>
+	<div class="row work_con">
+		<div class="col-xs-12 work_yq">
+			<span>1人</span>&nbsp;&nbsp;<span>大专</span>
+		</div>
+	</div>
+	<div class="row work_lx">
+		<div class="col-xs-12 ">
+			<p>法律/教育/培训</p>
+		</div>
+	</div>
+</div></a>
+<a href="work_con.html"><div class="container-fluid work_con_box">
+	<div class="row work_con work_con1">
+		<div class="col-xs-10">
+			<p>文员
+				<span class="work_pin" style="width: 22px;height: 22px;">聘</span>
+			</p>
+		</div>
+		<div class="col-xs-2">
+			<p>8月20日</p>
+		</div>
+	</div>
+	<div class="row work_con">
+		<div class="col-xs-8">
+			<p>杭州申昊科技股份有限公司</p>
+		</div>
+		<div class="col-xs-4 work_jg">
+			<span>3000-5000元</span>
+		</div>
+	</div>
+	<div class="row work_con">
+		<div class="col-xs-12 work_yq">
+			<span>1人</span>&nbsp;&nbsp;<span>大专</span>
+		</div>
+	</div>
+	<div class="row work_lx">
+		<div class="col-xs-12 ">
+			<p>互联网/计算机/通信电子</p>
+		</div>
+	</div>
+</div></a>
+<a href="work_con.html"><div class="container-fluid work_con_box">
+	<div class="row work_con work_con1">
+		<div class="col-xs-10">
+			<p>文员
+				<span class="work_pin" style="width: 22px;height: 22px;">聘</span>
+			</p>
+		</div>
+		<div class="col-xs-2">
+			<p>8月20日</p>
+		</div>
+	</div>
+	<div class="row work_con">
+		<div class="col-xs-8">
+			<p>杭州申昊科技股份有限公司</p>
+		</div>
+		<div class="col-xs-4 work_jg">
+			<span>3000-5000元</span>
+		</div>
+	</div>
+	<div class="row work_con">
+		<div class="col-xs-12 work_yq">
+			<span>1人</span>&nbsp;&nbsp;<span>大专</span>
+		</div>
+	</div>
+	<div class="row work_lx">
+		<div class="col-xs-12 ">
+			<p>生产/物流/质控</p>
+		</div>
+	</div>
+</div></a>
+<a href="work_con.html"><div class="container-fluid work_con_box">
+	<div class="row work_con work_con1">
+		<div class="col-xs-10">
+			<p>文员
+				<span class="work_pin" style="width: 22px;height: 22px;">聘</span>
+			</p>
+		</div>
+		<div class="col-xs-2">
+			<p>8月20日</p>
+		</div>
+	</div>
+	<div class="row work_con">
+		<div class="col-xs-8">
+			<p>杭州申昊科技股份有限公司</p>
+		</div>
+		<div class="col-xs-4 work_jg">
+			<span>3000-5000元</span>
+		</div>
+	</div>
+	<div class="row work_con">
+		<div class="col-xs-12 work_yq">
+			<span>1人</span>&nbsp;&nbsp;<span>大专</span>
+		</div>
+	</div>
+	<div class="row work_lx">
+		<div class="col-xs-12 ">
+			<p>财会/金融/保险</p>
+		</div>
+	</div>
+</div></a>
+<a href="work_con.html"><div class="container-fluid work_con_box">
+	<div class="row work_con work_con1">
+		<div class="col-xs-10">
+			<p>文员
+				<span class="work_pin" style="width: 22px;height: 22px;">聘</span>
+			</p>
+		</div>
+		<div class="col-xs-2">
+			<p>8月20日</p>
+		</div>
+	</div>
+	<div class="row work_con">
+		<div class="col-xs-8">
+			<p>杭州申昊科技股份有限公司</p>
+		</div>
+		<div class="col-xs-4 work_jg">
+			<span>3000-5000元</span>
+		</div>
+	</div>
+	<div class="row work_con">
+		<div class="col-xs-12 work_yq">
+			<span>1人</span>&nbsp;&nbsp;<span>大专</span>
+		</div>
+	</div>
+	<div class="row work_lx">
+		<div class="col-xs-12 ">
+			<p>医疗/制药/环保</p>
+		</div>
+	</div>
+</div></a>
+<a href="work_con.html"><div class="container-fluid work_con_box">
+	<div class="row work_con work_con1">
+		<div class="col-xs-10">
+			<p>文员
+				<span class="work_pin" style="width: 22px;height: 22px;">聘</span>
+			</p>
+		</div>
+		<div class="col-xs-2">
+			<p>8月20日</p>
+		</div>
+	</div>
+	<div class="row work_con">
+		<div class="col-xs-8">
+			<p>杭州申昊科技股份有限公司</p>
+		</div>
+		<div class="col-xs-4 work_jg">
+			<span>3000-5000元</span>
+		</div>
+	</div>
+	<div class="row work_con">
+		<div class="col-xs-12 work_yq">
+			<span>1人</span>&nbsp;&nbsp;<span>大专</span>
+		</div>
+	</div>
+	<div class="row work_lx">
+		<div class="col-xs-12 ">
+			<p>建筑/物业</p>
+		</div>
+	</div>
+</div></a>	
+<a href="work_con.html"><div class="container-fluid work_con_box">
+	<div class="row work_con work_con1">
+		<div class="col-xs-10">
+			<p>文员
+				<span class="work_pin" style="width: 22px;height: 22px;">聘</span>
+			</p>
+		</div>
+		<div class="col-xs-2">
+			<p>8月20日</p>
+		</div>
+	</div>
+	<div class="row work_con">
+		<div class="col-xs-8">
+			<p>杭州申昊科技股份有限公司</p>
+		</div>
+		<div class="col-xs-4 work_jg">
+			<span>3000-5000元</span>
+		</div>
+	</div>
+	<div class="row work_con">
+		<div class="col-xs-12 work_yq">
+			<span>1人</span>&nbsp;&nbsp;<span>大专</span>
+		</div>
+	</div>
+	<div class="row work_lx">
+		<div class="col-xs-12 ">
+			<p>普工/技工</p>
+		</div>
+	</div>
+</div></a>
+	
+	
+	
+	
+<!--底部固定栏-->
+<br><br><br><br><br>
+<div class="container-fluid foot">
+	<div class="row ">
+		<div class="col-xs-3">
+			<a href="index.html">
+				<p class="index_top_p1"><span class="glyphicon glyphicon-home"></span></p>
+				<p class="index_top_p_text1">首页</p>
+			</a>
+		</div>
+		<div class="col-xs-3">
+			<a href="position.html">
+				<p class="index_top_p1"><span>聘</span></p>
+				<p class="index_top_p_text1">发布职位</p>
+			</a>
+		</div>
+		<div class="col-xs-3">
+			<a href="resume.html">
+				<p class="index_top_p1"><span class="glyphicon glyphicon-edit"></span></p>
+				<p class="index_top_p_text1">登记简历</p>
+			</a>
+		</div>
+		<div class="col-xs-3">
+			<a href="me.html">
+				<p class="index_top_p1"><span class="glyphicon glyphicon-user"></span></p>
+				<p class="index_top_p_text1">我</p>
+			</a>
+		</div>
+	</div>
+</div>
+<!--通用JS-->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!--本页JS-->
+<script src="js/shade.js"></script>
+<script src="js/dq.js"></script>
+
+</body>
+</html>

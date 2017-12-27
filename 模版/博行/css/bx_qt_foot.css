@@ -1,0 +1,27 @@
+/* CSS Document */
+.bx_qt_foot{width:100%;height: 210px;background: #535353;padding-top:27px;margin-top: 50px;}
+.bx_qt_foot_con{width: 1000px;margin: 0 auto;overflow:hidden}
+.bx_qt_foot_con_left{width: 158px;float: left;margin-right: 98px;}
+.bx_qt_foot_con_left p{text-align: center;margin-top:14px;color: #fff}
+.bx_qt_foot_con_text{float:left;font-size:20px;color: #fff}
+.bx_qt_foot_con_text_p{margin-top:24px;margin-bottom:43px;}
+/*右侧客服*/
+.bx_qt_zxkf{width:200px;position: fixed;right: -155px;bottom: 150px;}
+.bx_qt_zxkf_img{float: left}
+.bx_qt_zxkf_right{background:#F3F3F3;width: 155px;height: 202px;float: left}
+.bx_qt_zxkf_icon{height: 100px;text-align: center;border-bottom: 2px solid #DCDCDC;}
+.bx_qt_zxkf_icon:last-child{border-bottom: 0}
+.icon{width: 2em; height: 2em;vertical-align: -0.15em;fill: currentColor;overflow: hidden;color:#858585;font-size:1.5em;margin-top: 15px;}
+.bx_qt_zxkf_icon a{width: 100%;height: 100%;display: block}
+
+
+
+
+
+
+
+
+
+
+
+

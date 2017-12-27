@@ -1,0 +1,86 @@
+/* CSS Document */
+/*网站建设*/
+.by_wzjs_box{
+	width: 1150px;
+	margin: 0 auto;
+}
+.by_wzjs_con2{
+	text-align: center;
+	overflow: hidden;
+	margin-bottom: 15px;
+	clear: both;
+}
+.by_wzjs_con2_h2{
+	text-align: center;
+	margin: 15px 0;
+}
+.by_wzjs_js{
+	overflow: hidden;
+}
+.by_wzjs_js_con{
+	float: left;
+	width: 15%;
+	margin-left: 6%;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.by_wzjs_js_con:first-child{
+	margin-left: 0;
+}
+.by_wzjs_js_con_img{
+	width: 90%;
+}
+.by_wzjs_js_con_text{
+	font-size: 1em;
+	margin-top: 15px;
+}
+.by_wzjs_con2 .by_wzjs_con2_p{
+	float: left;
+	width: 33%;
+	height: 148px;
+	line-height: 148px;
+	text-align: center;
+	color: #666666;
+	cursor: pointer;
+	font-size: 18px;
+	position: relative;
+	z-index: 501;
+}
+.by_wzjs_con2 .by_wzjs_con2_p .by_wzjs_con2_bg{
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+	height: 0px;
+	z-index: -1;
+	display: inline-block;
+	background: #128ff7;
+}
+
+/*媒体查询*/
+@media only screen and (max-width: 425px){	
+	.by_wzjs_con2{
+		display: none;
+	}
+	.by_wzjs_js_con{
+		width: 29%;
+		font-size:0.5em;
+	}
+	.by_wzjs_js_con_xia{
+		margin-left: 19%;
+	}
+}
+@media only screen and (max-width:1150px){	
+	.by_wzjs_box{
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+
+
+
+
+
+
+
+

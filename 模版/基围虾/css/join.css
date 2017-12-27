@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+body{font-family:微软雅黑;}
+.footer{
+	width:100%;
+	height:146px;
+	background-color:#4e4e4e;
+	float:left;
+}
+.footer_main{
+	width:1200px;
+	margin:0 auto;
+	margin-top:32px;
+}
+.lie li{
+	float:left;
+	color:#FFFCF7;
+}
+.footer_main_b{
+	width:730px;
+	height:100px;
+	float:left;
+}
+.footer_main_b ul li{
+	float:left;
+	margin-right:27px;
+	color:#e8e4e4;
+}
+.footer_main_b ul{
+	height:40px;
+	margin:0;
+	padding:0;
+}
+.jsj{
+	color:#FFFCF7;
+	font-size:14px;
+	line-height:25px;
+}
+.footer_main_d{
+	float:right;
+	margin-right:40px;
+	margin-top:10px;
+	line-height:30px;
+	color:#FFFCF7;
+}
+.xfoter{
+	display:none;
+	font-size:0.1em;
+}
+.footer2{
+	float:left;
+	color:#e4e3e3;
+	margin:0;
+	padding:0;
+	margin-right:2em;
+}
+.footer3{
+	float:left;
+	color:#e4e3e3;
+	margin:0;
+	padding:0;
+}
+@media screen and (max-width: 800px){
+	.xfoter{
+	display:block;
+}
+.footer{
+		display:none;
+	}
+}
+.banner{
+	margin:0;
+	padding:0;
+}
+.eamil{
+	color:#4e4e4e;
+	padding-left:0.5em;
+	padding-bottom:0.5em;
+	border-bottom:solid 1px #CCC;
+}
+.jojo>p{
+	text-align:center;
+}
+.xsx{color:#CCC; font-size:0.8em;}
+.col-xs-12 p{
+	font-size:16px;
+}
+@media screen and (max-width: 800px){
+	.eamil{font-size:1.2em;
+		text-align:center;
+	}
+	.col-xs-12 p{
+	font-size:0.5em;
+}
+}

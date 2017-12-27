@@ -1,0 +1,275 @@
+/* CSS Document */
+body{
+			position: relative;
+		}
+	
+		/*右侧悬浮菜单*/
+		.slide{
+			width: 50px;
+			height: 200px;
+			position: fixed;
+			top: 70%;
+			margin-top: -126px;
+			background: #cc1414;
+			right: 0;
+			border-radius: 5px 0 0 5px;
+			z-index: 999;
+		}
+		.slide ul{
+			list-style: none;
+		}
+		.slide .icon li{
+			width: 49px;
+			height: 50px;
+			background: url(../images/icon.png) no-repeat;
+		}
+		.slide .icon li.top{
+			background: url(../images/top.png) no-repeat;
+			background-position:10px 15px ;
+		}
+		.slide .icon li.qq{
+			background-position:-385px -73px ;
+		}
+		.slide .icon li.tel{
+			background-position:-385px -160px ;
+		}
+		.slide .icon li.wx{
+			background-position:-385px -120px ;
+		}
+		
+		.slide .info{
+			top: 50%;
+			height: 147px;
+			position: absolute;
+			right: 100%;
+			background: #cc1414;
+			width: 0px;
+			overflow: hidden;
+			margin-top: -73.5px;
+			transition:0.5s;
+			border-radius:4px 0 0 4px ;
+		}
+		.slide .info.hover{
+			width: 145px;
+			
+		}
+		.slide .info li{
+			width: 145px;
+			color: #fff;
+			text-align: center;
+		}
+		.slide .info li p{
+			font-size: 1em;
+			line-height: 2em;
+			padding: 15px;
+			text-align: left;
+		}
+		.slide .info li.qq p a{
+			display: block;
+			margin-top: 12px;
+			width: 100px;
+			height: 32px;
+			line-height: 32px;
+			color: #fff;
+			font-size: 16px;   
+			text-align: center;
+			text-decoration: none;
+			border: 1px solid #fff;
+			border-radius: 5px;
+		}
+		.slide .info li.qq p a:hover{
+			background: #FF5456
+			
+			
+		}
+		.slide .info li div.img{
+			height: 100%;
+			background: #DEFFF9;
+			margin: 15px;
+		}
+		.slide .info li div.img img{
+			width: 100%;
+			height: 100%;
+		}
+		/*控制菜单的按钮*/
+		.index_cy{
+			width: 30px;
+			height: 30px;
+			background: url(../images/index_cy.png);
+			position: fixed;
+			right: 10px;
+			top: 70%;
+			margin-top: 80px;
+			
+			background-position: 62px 0;
+			cursor: pointer;
+		}
+		.index_cy2{
+			width: 30px;
+			height: 30px;
+			background: url(../images/index_cy.png);
+			position: fixed;
+			right: 10px;
+			top: 70%;
+			margin-top: 80px;
+			background-position: 30px 0;
+			cursor: pointer;
+		}
+		
+		/*自适应 当屏小于1050时隐藏*/
+		@media screen and (max-width: 1050px) {
+			.slide{
+				display: none;
+			}
+			#btn{
+				display: none;
+			}
+			
+		}
+
+	
+
+/* CSS Document */
+.list-inline{
+	line-height:2.5em;
+	border-bottom: 1px solid #e8e8e8;
+	margin-left:3.5em;		
+}
+
+*{list-style:none; text-decoration:none;}
+img{border:none;}
+#accordion{display:none}
+@media screen and (max-width: 800px){
+	#lis{
+		display:none;
+	}
+	#accordion{
+		display:block;
+	}
+	.video1{
+		padding:1px;
+	}
+	
+	.list-inline{
+		margin-left:0em;
+	}
+}
+
+.col-md-4,.col-xs-4{
+	margin:0;
+	padding:0;
+}
+.video1{
+	margin-right:0.15em;
+}
+.video1>p{
+	margin:0;
+	padding:0;
+	margin-top:0.5em;
+	color:#4e4e4e;
+	font-size:0.9em;
+}
+.tit{font-size:0.3em;
+	color:#999;
+	padding-top:0.3em;
+}
+.video{
+	position:relative;
+}
+.ze{
+	position:absolute;
+	top:0;
+	left:0;
+	background:url(../images/ser.png) no-repeat center;
+	background-size:18%;
+	background-color:rgba(0,0,0,0.4);
+	display:block;
+	text-decoration:none;
+	cursor:pointer;
+	
+}
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #4e4e4e;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.page{
+	text-align:center;
+	margin-top:1em;
+}
+
+/*下方为底部栏*/
+.footer{
+	width:100%;
+	height:146px;
+	background-color:#4e4e4e;
+	float:left;
+}
+.footer_main{
+	width:1200px;
+	margin:0 auto;
+	margin-top:32px;
+}
+.lie li{
+	float:left;
+	color:#FFFCF7;
+}
+.footer_main_b{
+	width:730px;
+	height:100px;
+	float:left;
+}
+.footer_main_b ul li{
+	float:left;
+	margin-right:27px;
+	color:#e8e4e4;
+}
+.footer_main_b ul{
+	height:40px;
+	margin:0;
+	padding:0;
+}
+.jsj{
+	color:#FFFCF7;
+	font-size:14px;
+	line-height:25px;
+}
+.footer_main_d{
+	float:right;
+	margin-right:40px;
+	margin-top:10px;
+	line-height:30px;
+	color:#FFFCF7;
+}
+.xfoter{
+	display:none;
+	font-size:0.1em;
+}
+.footer2{
+	float:left;
+	color:#e4e3e3;
+	margin:0;
+	padding:0;
+	margin-right:2em;
+}
+.footer3{
+	float:left;
+	color:#e4e3e3;
+	margin:0;
+	padding:0;
+}
+@media screen and (max-width: 800px){
+	.xfoter{
+	display:block;
+}
+.footer{
+		display:none;
+	}
+}
+	

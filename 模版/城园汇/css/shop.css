@@ -1,0 +1,39 @@
+.pro-choose-main{padding-top:32px;position:relative}
+
+.xm-buyBox .pro-view{position:relative;float:left;height:600px;margin-left:0}
+
+.xm-buyBox .pro-view img{height:560px;width:560px;opacity:0;filter:alpha(opacity=0)\9}
+
+.xm-buyBox .pro-view img.done{opacity:1;filter:alpha(opacity=100)\9}
+
+.xm-buyBox .pro-info .pro-price{display:block;font-size:18px;line-height:1;color:#ff6700;border-bottom:1px solid #e0e0e0;padding:12px 0 20px}
+
+.xm-buyBox .pro-info .pro-choose{margin-bottom:30px}
+
+.xm-buyBox .pro-info .pro-choose .step-title{line-height:1;font-size:18px}
+
+.xm-buyBox .pro-info .pro-choose ul li{overflow:hidden;_zoom:1;position:relative;border:1px solid #e0e0e0;}
+
+.xm-buyBox .pro-info .pro-choose ul li.active{border-color:#ff6700;color:#ff6700}
+
+.xm-buyBox .pro-info .pro-choose-col2 ul li{margin-left:2px;margin-top:15px;line-height:42px;height:42px}
+
+.xm-buyBox .pro-info .pro-choose-col2 ul li:nth-child(2n+1){margin-left:0}
+
+.xm-buyBox .pro-info .pro-list{background:#f9f9fa;padding:30px;margin-bottom:30px}
+
+.xm-buyBox .pro-info .pro-list ul .totlePrice{color:#ff6700;font-size:24px;padding-top:20px}
+
+.list-wrap{margin-top:30px}
+
+.span10{float:left;width:606px}
+
+.btn{display:inline-block;width:158px;height:38px;border:1px solid #b0b0b0;font-size:14px;line-height:38px;text-align:center;color:#b0b0b0;cursor:pointer;-webkit-transition:all .4s;transition:all .4s}
+
+.btn-biglarge{width:298px;height:52px;line-height:52px;font-size:16px}
+
+.btn-primary{background:#ff6700;border-color:#ff6700;color:#fff}
+
+.btn-primary:hover{background-color:#f25807;border-color:#f25807;color:#fff}
+
+

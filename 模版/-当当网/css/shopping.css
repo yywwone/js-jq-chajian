@@ -1,0 +1,54 @@
+/* CSS Document */
+/*我的购物车*/
+#myshopping{width: 960px;height: 36px;margin: 0 auto;}
+#myshopping img{float: left;margin-left: 5px;}
+#myshopping p{float: left;font-size: 12px;line-height: 36px;margin-left: 9px;}
+/*当当推荐 头部*/
+#recommend{width: 958px;height:21px;border: 1px solid #999;margin: 0 auto;background: url(../images/shopping_commend_bg.gif)}
+#recommend p{font-size: 12px;margin-left: 10px;line-height: 21px;float: left}
+#recommend div{width: 15px;height: 15px; float: right;margin-top: 3px;margin-right: 10px;cursor: pointer;background: url(../images/shopping_arrow_up.gif)}
+#recommend .img-down{background: url(../images/shopping_arrow_down.gif)}
+/*当当推荐 内容*/
+#recommend_body{width: 958px;height: 130px;border: 1px solid #999;margin: 0 auto;border-top: none;font-size: 12px}
+#recommend_body .blue{color: #1965b3;}
+#recommend_body .red{color: #ed610c}
+#recommend_body .line-through{text-decoration: line-through;color:#999;}
+/*当当推荐 内容 左侧*/
+#recommend_body_left{width:449px;height:118px;margin-top: 6px;margin-left:21px;float: left;border-right:1px dashed #878787;}
+/*当当推荐 内容 右侧*/
+#recommend_body_right{width:472px;height:118px;margin-top: 6px;float: right;}
+/*已选择商品*/
+#select{width: 960px;height: 40px;font-size: 14px;margin: 0 auto;line-height: 63px;text-indent:10px}
+/*已选择商品 主体*/
+#select_body{width: 956px;height: 325px;border: 2px solid #999;margin: 0 auto;font-size: 12px;}
+#select_body .juli{margin-left: 30px;}
+#select_body a{color: #1965b3;}
+#select_body input{width: 40px;height: 17px;text-align: center}
+.select_body_first-tr{background: #d8e4c6;}
+.select_body_tr td{background:#fefbf2;border-bottom:1px dashed #cccccc;}
+#select_body_table{width: 956px;height: 260px;background:#fefbf2 }
+/*已选择商品 结尾*/
+#select_foot{width: 956px;height: 66px;background: #cddbb8}
+/*计算已选购商品的节省金额/积分/总价*/
+#compute{width:519px;height: 40px;float: right;margin-right: 10px;margin-top: 10px;}
+#compute span{color: #bd3e00}
+/*计算已选购商品的节省金额/积分*/
+#compute1{width: 200px;height: 40px;border-right: 1px solid #666666;float: left;line-height: 20px;}
+/*计算已选购商品的总价*/
+#compute2{width:300px;  height: 40px;float: left;line-height: 35px;font-size: 14px;font-weight: bold;margin-left: 10px;}
+#compute2 p{float: left}
+#compute2 .compute2_input{width: 98px;height: 34px;float: right}
+
+
+/*尾部*/ 
+#foot{width: 960px;height: 47px; margin: 0 auto;font-size: 12px;}
+#foot ul{width: 377px;margin: 0 auto;}
+#foot ul li{float: left;line-height: 47px;}
+#foot ul li img{margin-left: 12px;margin-right: 11px;}
+#foot ul li a{color: #9b2b0f}
+#foot p{width: 600px;height: 48px;margin: 0 auto;clear: both;line-height: 48px;}
+#foot p img{vertical-align: middle}
+
+
+
+

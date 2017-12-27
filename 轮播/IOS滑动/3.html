@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<style>
+*{ margin:0; padding:0;}
+#div1{ width:200px; height:200px; border:1px black solid; position:relative; margin:100px; overflow:hidden;}
+#ul1{ position:absolute; top:0; width:100%;}
+</style>
+<script src="move.js"></script>
+<script>
+document.ontouchmove = function(ev){
+	ev.preventDefault();
+};
+window.onload = function(){
+	var oDiv = document.getElementById('div1');
+	var oUl = document.getElementById('ul1');
+	
+	var downY = 0;
+	var downTop = 0;
+	var prevY = 0;
+	var iSpeedY = 0;
+	var timer = null;
+	
+	for(var i=0;i<100;i++){
+		var oLi = document.createElement('li');
+		oLi.innerHTML = i;
+		oUl.appendChild( oLi );
+	}
+	
+	oUl.ontouchstart = function(ev){
+		var touchs = ev.changedTouches[0];
+		downY = touchs.pageY;
+		downTop = this.offsetTop;
+		prevY = touchs.pageY;
+		var bBtn = true;
+		
+		oUl.ontouchmove = function(ev){
+			var touchs = ev.changedTouches[0];
+			
+			iSpeedY = touchs.pageY - prevY;
+			prevY = touchs.pageY;
+			
+			if(this.offsetTop >= 0){
+				if(bBtn){
+					bBtn = false;
+					downY = touchs.pageY;
+				}
+				this.style.top = (touchs.pageY - downY)/3 + 'px';
+			}
+			else if(this.offsetTop <= oDiv.offsetHeight - oUl.offsetHeight){
+				if(bBtn){
+					bBtn = false;
+					downY = touchs.pageY;
+				}
+				this.style.top = (touchs.pageY - downY)/3 + (oDiv.offsetHeight - oUl.offsetHeight) + 'px';
+			}
+			else{
+				this.style.top = touchs.pageY - downY + downTop + 'px';
+			}
+		};
+		oUl.ontouchend = function(){
+			this.ontouchmove = null;
+			this.ontouchend = null;
+			var This = this;
+			//iSpeedY
+			
+			clearInterval(timer);
+			timer = setInterval(function(){
+				
+				if( Math.abs(iSpeedY)<=1 || This.offsetTop > 50 || This.offsetTop <= oDiv.offsetHeight - oUl.offsetHeight - 50 ){
+					clearInterval(timer);
+					if( This.offsetTop >= 0 ){
+						startMove(This,{top : 0},400,'easeOut');
+					}
+					else if( This.offsetTop <= oDiv.offsetHeight - oUl.offsetHeight ){
+						startMove(This,{top : oDiv.offsetHeight - oUl.offsetHeight},400,'easeOut');
+					}
+				}
+				else{
+					iSpeedY *= 0.95;
+					This.style.top = This.offsetTop + iSpeedY + 'px';
+				}
+				
+			},13);
+			
+		};
+	};
+	
+};
+</script>
+</head>
+
+<body>
+<div id="div1">
+	<ul id="ul1">
+    </ul>
+</div>
+</body>
+</html>

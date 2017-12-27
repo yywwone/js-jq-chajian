@@ -1,0 +1,245 @@
+body{
+	font-family: "微软雅黑";
+	font-size: 12px;
+	background-color: #EFEEF4;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	padding:0;
+	margin:0;
+}
+
+.color-333{
+	color:#333;
+}
+
+.color-999{
+	color:#999;
+}
+.color-666{
+	color:#666;
+}
+.color-red{
+    color: #e73828;
+}
+
+.float-none{
+    float:none!important;
+}
+
+.m-top-50{
+    margin-top:50px!important;
+}
+/*页面顶部菜单样式*/
+.nav-head{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 13px;
+    text-align: center;
+    background-color: #fff;
+    border-bottom: 1px solid #e73828;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    color: #fff;
+    font-size: 16px;
+}
+
+/* 模态框*/
+.author-modal,
+.close-focus{
+    position: fixed;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.6);
+    top:0px;
+    z-index:999999;
+}
+.close-focus{
+    background-color: rgba(0,0,0,0);
+    z-index: 999998;
+}
+
+.modal-head,
+.modal-form,
+.modal-bottom,
+.author-dialog{
+    width:100%;
+}
+.author-dialog{
+    position: relative;
+    width:70%;
+    margin-left:15%;
+    margin-top:50px!important;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px 20px 0px 20px;
+    z-index: 999999;
+}
+
+.modal-head{
+    height:50px;
+    background: url("../../image/icon/logo.png") center bottom no-repeat;
+    background-size: 100px 40px;
+}
+
+.modal-form{
+    text-align: center;
+}
+
+.modal-form input{
+    width:100%;
+    height:35px;
+    line-height: 14px;
+    font-size: 14px;
+    margin-top:10px;
+    border: 2px solid #f1f1f1;
+    padding-left:15px;
+}
+
+.modal-bottom{
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+    color:#e73828;
+    font-size: 17px;
+}
+
+.modal-bottom > span{
+    display: inline-block;
+    width: 50px;
+}
+
+/* 信息提示框样式和确认弹框样式 */
+#m-msg-section {
+    position: fixed;
+    z-index: 2031;
+    top: 120px;
+    display: none;
+    width: 100%;
+}
+
+#m-msg-section .alert {
+    display: table;
+    max-width: 80%;
+    margin: 0 auto;
+    -webkit-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+#m-confirm-section.dialog-box {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    display: block;
+}
+
+#m-confirm-section.dialog-box .dialog {
+    width: 72%;
+    height: 150px;
+    position: absolute;
+    left: 14%;
+    top: 30%;
+    background: #fff;
+    border-radius: 12px;
+    text-align: center;
+}
+#m-confirm-section .dialog .dialog-title {
+    height: 95px;
+    padding: 35px 30px 20px;
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+#m-confirm-section .dialog .dialog-bottom > button {
+    display: inline-block;
+    float: left;
+    width: 35%;
+    line-height: 28px;
+    font-size: 15px;
+    border: none;
+    border-radius: 14px;
+    color: #fff;
+}
+#m-confirm-section .dialog .dialog-bottom .confirm-cancel {
+    background: #d0d0d0;
+    margin: 13px 5% 13px 10%;
+}
+#m-confirm-section .dialog .dialog-bottom .confirm-submit {
+    background: #e73828;
+    margin: 13px 10% 13px 5%;
+}
+/*加载更多*/
+.u-load-more .loader {
+    line-height: 30px;
+    text-align: center;
+    color: #c1c1c1;
+}
+
+.error-tip::-webkit-input-placeholder{
+    color:red;
+}
+
+/*日期插件源码样式修改*/
+.dwo{
+    height:auto!important;
+    background: rgba(0,0,0,0);
+}
+
+.dw-persp, .dwo {
+    z-index: 999999;
+}
+
+.dw{
+    width: 100%;
+    height: 260px;
+    bottom: 0px;
+}
+
+.dwwr{
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+/*iphone 6*/
+/*@media only screen and (min-device-width : 375px) and (max-device-width : 667px){
+    .dw{
+        position:fixed!important;
+        top:407px!important;
+    }
+
+    .dwwr{
+        position: fixed;
+        top:407px!important;
+    }
+}*/
+
+
+/*iphone 6 Plus*/
+/*@media only screen and (min-device-width : 414px) and (max-device-width : 736px){
+    .dw{
+        position:fixed!important;
+        top:407px!important;
+    }
+
+    .dwwr{
+        position: fixed;
+        top:407px!important;
+    }
+}*/
+.dw,.dwwr{
+    top: auto!important;
+    bottom: 0!important;
+    position: absolute!important;
+}

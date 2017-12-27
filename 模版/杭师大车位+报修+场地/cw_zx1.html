@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+<style>
+	body{margin: 0;}
+	.cw_zx_tit{background: blue;height:40px;color: #fff;line-height: 40px;margin: 0;padding-left: 15px;}
+	.cw_zx_form{margin: 5px;}
+	.cw_zx_form table{width: 100%;}
+	.cw_zx_form input{width: 98%;height: 30px;margin: 0 auto;padding-left: 10px;margin-top: 15px;outline: none;}
+	.cw_zx_form select{width: 100%;height: 40px;font-size: 16px;}
+	.cw_zx_form a{color: #000;text-decoration: none;display: inline-block;width: 50%;float: left;margin-top:10px;height: 30px;line-height: 50px;}
+	.cw_zx_form a img{width: 30%;float: left}
+	.cw_zx_form_img{width: 100%;height: 100px}
+	.cw_zx_form_label{float: left;width: 49%;text-align: center}
+	.cw_zx_form_label1{float: right;width: 49%;text-align: center}
+	#optionsRadios1{width:30px;height: 10px;}
+	#optionsRadios2{width:30px;height: 10px;}
+</style>
+</head>
+
+<body>
+<p class="cw_zx_tit">车位租赁</p>
+<form class="cw_zx_form">
+	<table>
+		<label class="cw_zx_form_label">
+			<img src="img/cw1.jpg" class="cw_zx_form_img" for="optionsRadios1" checkbox>
+			<input type="radio" name="danxuan" id="optionsRadios1" checkbox>
+		</label>
+		<label class="cw_zx_form_label1">
+			<img src="img/cw2.jpg" class="cw_zx_form_img" for="optionsRadios2" checkbox>
+			<input type="radio" name="danxuan" id="optionsRadios2" checkbox>
+		</label>
+		
+		<tr>
+			<td><input type="text" placeholder="请输入您的姓名" required></td>
+		</tr>
+		<tr>
+			<td><input type="text" placeholder="请输入您的手机号" required class="tel"></td>
+		</tr>
+		<tr>
+			<td>
+				<input type="text" placeholder="请输入您的车牌" required>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="text" placeholder="请输入您的公司名称" required>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="text" placeholder="请输入其他需求" required>
+			</td>
+		</tr>
+		<tr>
+			
+			<td><a href="tel:13888888888"><img src="img/tel.png">电话咨询</a><input type="submit" style="width: 50%;"></td>
+		</tr>
+	</table>	
+</form>
+
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<!--验证-->
+<script>
+	/*手机号验证*/
+	$(".tel").blur(function(){
+		var phone=$(this).val();
+		 if(phone.length!=11){
+			 alert("手机号长度不正确")
+			 $(".tel").val("")
+		 }else{
+			 if(!(/^1[3|4|5|8][0-9]\d{4,8}$/.test(phone))){
+				 alert("手机号码有误")
+				 $(".tel").val("")
+			 }
+		}
+	})	
+</script>
+</body>
+</html>

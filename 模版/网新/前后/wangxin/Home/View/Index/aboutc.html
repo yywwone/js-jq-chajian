@@ -1,0 +1,69 @@
+<extend name="public/base"/>
+<block name="distcss">
+		<link href="__PUBLIC__/home/dist/css/reset1.css" type="text/css" rel="stylesheet" />
+		<link href="__PUBLIC__/home/dist/css/aboutc.css" type="text/css" rel="stylesheet" />
+</block>
+</head>
+
+<block name="content">
+		<!--<div class="company-banner-box">-->
+			<!--<img src="__UPLOAD__/{$item.image}">-->
+		<!--</div>-->
+		<!--<div class="company-logo-box">-->
+			<!--<h1>{$item.name}</h1>-->
+		<!--</div>-->
+		<!--<p class="p-main">-->
+			<!--&lt;!&ndash;{$item.xiangqing}&ndash;&gt;-->
+            <!--<svg class="a11_iocn" aria-hidden="true">-->
+                <!--<use xlink:href="#icon-shouye"></use>-->
+            <!--</svg>-->
+		<!--</p>-->
+		<!--<div class="honor">-->
+			<!--<h3>企业荣誉</h3>-->
+			<!--<p class="honor-main">-->
+				<!--{$item.qy_rongyu}-->
+			<!--</p>-->
+		<!--</div>-->
+            <img src="__PUBLIC__/admin/uploads/{$item.img}" alt="banner" class="xq_banner_img">
+            <h2>信永中和会计师事务所</h2>
+        <div class="xq_main">
+            <p class="aboutc_main_box">
+                <svg class="xq_main_icon" aria-hidden="true">
+                	<use xlink:href="#icon-fuzeren1"></use>
+                </svg>
+                <span class=" xa_main_span">负&nbsp;&nbsp;责&nbsp;人</span>
+                <span>{$item.fuzeren}</span>
+            </p>
+            <p class="aboutc_main_box">
+                <svg class="xq_main_icon" aria-hidden="true">
+                    <use xlink:href="#icon-dizhi"></use>
+                </svg>
+                <span class=" xa_main_span">企业地址</span>
+                <p class="qydz_text">{$item.add}</p>
+            </p>
+           <!--  <p>
+                <svg class="xq_main_icon" aria-hidden="true">
+                    <use xlink:href="#icon-fanwei"></use>
+                </svg>
+                <span class="xa_main_span xa_main_span2">服务范围</span>
+                <span>杭州市余杭区</span>
+            </p> -->
+            <p class="aboutc_main_box">
+                <svg class="xq_main_icon" aria-hidden="true">
+                    <use xlink:href="#icon-shouye"></use>
+                </svg>
+                <span class=" xa_main_span">企业简介</span>
+            </p>
+            <div class="xq_main_text">
+                {$item.jianjie}
+            </div>
+        </div>
+
+
+		<!-- 底部栏显示标识 -->
+		</block>
+        <block name="javascript">
+		<script src="__PUBLIC__/home/dist/js/jquery-1.11.0.min.js"></script>
+		<script src="__PUBLIC__/home/dist/js/font_440400_waj7qmu35o2yb9.js"></script>
+		<script src="__PUBLIC__/home/dist/js/rem.js"></script>
+       </block>

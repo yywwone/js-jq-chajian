@@ -1,0 +1,46 @@
+/* CSS Document */
+*{padding: 0;margin: 0;text-decoration:none;list-style: none;font-family: 微软雅黑;font-size: 12px;color: #3D3D3D;outline: none}
+a:focus{outline: none;-moz-outline-style: none; }
+img{border:none}
+a,img{border:0;}
+body{font:16/180% Arial, Helvetica, sans-serif, "微软雅黑","黑体";text-align:center;width: 100%;height:100%;background:url(../img/bg1.png);}
+table {border-collapse:collapse;border-spacing:0;}
+td,th {padding:0;}
+h1{margin-left: 50px;cursor: pointer}
+.clear {clear:both;}
+.clear:before,.clear:after {content:"";display:table;}
+.clear:after {clear:both;}
+/*上部*/
+.bar-bg{width: 100%;height: 35px;background: #F9F9F9;}
+.bar-box{width: 1201px;height:35px;margin: 0 auto;}
+.bar-lt{float: left;width: 200px;height: 35px;}
+.bar-lt p{line-height: 35px;float: left}
+.bar-lt span{color: #898989;line-height: 35px;margin-left: 10px;margin-right: 19px;}
+.bar-rt{float: right}
+.bar-rt li{float: left;line-height: 35px;margin-right: 10px;}
+.bar-Login{display: inline-block;width: 60px;height: 20px;background:#4348f2;color: #fff;text-align: center;line-height: 20px;}
+/* form-div */
+.box{padding-top: 50px;}
+.form-div{background-color:rgba(250,250,250,0.9); border-radius:10px; border:1px solid #aaa; width:1024px; margin:0 auto;padding:30px 0 20px 0px; font-size:12px;box-shadow:inset 0px 0px 10px rgba(250,250,250,0.9),0px 0px 15px; text-align:left;margin-top: 50px;}
+.tit{font-size: 24px;}
+
+.form-div table{margin:0 auto; text-align:right; color:rgba(64,64,64,1.00);position: relative}
+.form_box{width: 500px;margin: 0 auto;height: 500px;}
+.form-div input[type="text"], .form-div input[type="password"], .form-div input[type="email"]{width:268px; margin:10px; line-height:20px; font-size:16px;height: 30px;padding-left: 5px;}
+.form-div input[type="submit"]{width: 280px;margin-right: 10px;;height: 40px;margin-top: 15px;font-size: 18px;cursor: pointer;}
+
+.wjmm_zz{width: 230px;height: 30px;color:red;text-align: left;line-height: 30px;position: absolute;left:350px;top:12px;display:none;}
+.wjmm_zz1{width: 230px;height: 30px;color:red;text-align: left;line-height: 30px;position: absolute;left:350px;top:65px;display:none;}
+.wjmm_zz2{width: 230px;height: 30px;color:red;text-align: left;line-height: 30px;position: absolute;left:350px;top:118px;display:none;}
+.wjmm_zz3{width: 230px;height: 30px;color:red;text-align: left;line-height: 30px;position: absolute;left:350px;top:171px;display:none;}
+
+
+
+
+
+
+
+
+
+
+

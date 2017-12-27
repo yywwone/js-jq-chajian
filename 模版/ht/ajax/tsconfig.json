@@ -1,0 +1,59 @@
+{
+  "obj": [{
+      "id": 4,
+      "consignee": "呵呵",
+      "mobile": "18268044751",
+      "zcode": "311511",
+      "prov": "北京",
+      "city": "东城区",
+      "area": "",
+      "address": "法国红酒",
+      "isdef": 1
+    },
+    {
+      "id": 44,
+      "consignee": "邵炉琴",
+      "mobile": "18268044716",
+      "zcode": "",
+      "prov": "北京",
+      "city": "东城区",
+      "area": "",
+      "address": "的",
+      "isdef": 0
+    },
+    {
+      "id": 43,
+      "consignee": "邵炉琴",
+      "mobile": "18268044751",
+      "zcode": "",
+      "prov": "浙江省",
+      "city": "杭州市",
+      "area": "西湖区",
+      "address": "亟待解决",
+      "isdef": 0
+    },
+    {
+      "id": 36,
+      "consignee": "gfsa",
+      "mobile": "15968044517",
+      "zcode": "455100",
+      "prov": "北京",
+      "city": "东城区",
+      "area": "",
+      "address": "fagrastf",
+      "isdef": 0
+    },
+    {
+      "id": 35,
+      "consignee": "飞龙剑",
+      "mobile": "18268044751",
+      "zcode": "300100",
+      "prov": "北京",
+      "city": "东城区",
+      "area": "",
+      "address": "fdsagfdsafg",
+      "isdef": 0
+    }],
+  "status": 0,
+  "message": null
+}

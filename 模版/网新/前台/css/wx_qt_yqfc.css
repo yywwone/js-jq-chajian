@@ -1,0 +1,55 @@
+/* CSS Document */
+.wx_qyfc_header_img{
+	width: 3.75rem;
+	height: 2.39rem;
+}
+.wx_qyfc_header_img img{
+	width: 100%;
+	height: 100%;
+}
+/*园区简介*/
+.wx_qyfc_main_box h2{
+	height: 0.285rem;
+	background: #ddeaf9;
+	font-size: 0.15rem;
+	line-height: 0.285rem;
+	padding-left: 0.26rem;
+	margin-top: 0.15rem;
+	margin-bottom: 0.11rem;
+}
+.wx_qyfc_main{
+	padding: 0 0.35rem;
+}
+.wx_qyfc_main h3{
+	font-size: 0.13rem;
+	text-align: center;
+	color: #233b83;
+}
+.wx_qyfc_main .wx_qyfc_main_text{
+	font-size: 0.13rem;
+	color: #233b83;
+	margin-top: 0.1rem;
+	margin-bottom: 0.23rem;
+	font-weight: bold;
+}
+.qyfc_yqjj{
+	width: 3.055rem;
+	height: 1.18rem;
+	margin-bottom: 0.25rem;
+}
+.wx_qyfc_main_text2{
+	font-size: 0.12rem;
+	line-height: 0.18rem;
+}
+.wx_qyfc_main_text3{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+

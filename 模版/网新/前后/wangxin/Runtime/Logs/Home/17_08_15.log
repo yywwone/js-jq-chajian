@@ -1,0 +1,2683 @@
+[ 2017-08-15T09:14:53+08:00 ] 127.0.0.1 /index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002908s ]
+SQL: SHOW COLUMNS FROM `conf` [ RunTime:0.0042s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 7 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT `zrrz`,`qq`,`tel`,`ljrz`,`zrjy`,`ljrzfw`,`jrjy` FROM `conf`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0040s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 9 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `taobao` LIMIT 0,6   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0041s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 11 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `remen` LIMIT 0,6   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0046s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 13 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `news` LIMIT 0,6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user_say` [ RunTime:0.0049s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 15 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `user_say`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] Undefined index: ljjy C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Home\98fa3081af27f25fb76692bbdf0f1034.php 第 203 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.119745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.119797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002958s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002998s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002935s ]
+
+[ 2017-08-15T09:15:13+08:00 ] 127.0.0.1 /index.php/Home/index/play/type/118/typ/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002963s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0197s ]
+SQL: SELECT * FROM `taobao` WHERE `id` = 118  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003938s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004111s ]
+
+[ 2017-08-15T09:15:19+08:00 ] 127.0.0.1 /index.php/Home/index/fancybox.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003538s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0042s ]
+SQL: INSERT INTO `users` (`video`,`price`,`name`,`tel`,`create`) VALUES ('','','','0','1502759719') [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034685s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003698s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003764s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003344s ]
+
+[ 2017-08-15T09:15:22+08:00 ] 127.0.0.1 /index.php/Home/index/tbsp.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003514s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `taobao` WHERE `type` LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `taobao` WHERE `type` LIKE '%%' LIMIT 0,6   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002757s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002812s ]
+
+[ 2017-08-15T09:15:23+08:00 ] 127.0.0.1 /index.php/Home/index/play/type/113/typ/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003201s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `taobao` WHERE `id` = 113  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002844s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002890s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002897s ]
+
+[ 2017-08-15T09:15:25+08:00 ] 127.0.0.1 /index.php/Home/index/jdal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002877s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0047s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 50 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `remen` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT * FROM `remen` LIMIT 0,6   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002947s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002986s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002995s ]
+
+[ 2017-08-15T09:15:27+08:00 ] 127.0.0.1 /index.php/Home/index/play/type/24/typ/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002919s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `remen` WHERE `id` = 24  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002994s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003263s ]
+
+[ 2017-08-15T09:15:28+08:00 ] 127.0.0.1 /index.php/Home/index/meigong.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003246s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002942s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002982s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002857s ]
+
+[ 2017-08-15T09:15:39+08:00 ] 127.0.0.1 /index.php/Home/index/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003533s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0052s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 68 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 72 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `news` LIMIT 0,4   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002919s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003145s ]
+
+[ 2017-08-15T09:15:47+08:00 ] 127.0.0.1 /index.php/Home/index/join.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003221s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.143308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.143363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003952s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004277s ]
+
+[ 2017-08-15T09:15:48+08:00 ] 127.0.0.1 /index.php/Home/index/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029871s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002939s ]
+
+[ 2017-08-15T09:16:47+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002859s ]
+SQL: SHOW COLUMNS FROM `conf` [ RunTime:0.0043s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 7 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT `zrrz`,`qq`,`tel`,`ljrz`,`zrjy`,`ljrzfw`,`jrjy` FROM `conf`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0050s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 9 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `taobao` LIMIT 0,6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0044s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 11 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `remen` LIMIT 0,6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0041s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 13 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `news` LIMIT 0,6   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user_say` [ RunTime:0.0045s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 15 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `user_say`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] Undefined index: ljjy C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Home\98fa3081af27f25fb76692bbdf0f1034.php 第 203 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002895s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002938s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002856s ]
+
+[ 2017-08-15T09:22:58+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002945s ]
+SQL: SHOW COLUMNS FROM `conf` [ RunTime:0.0042s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 7 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT `zrrz`,`qq`,`tel`,`ljrz`,`zrjy`,`ljrzfw`,`jrjy` FROM `conf`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0056s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 9 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `taobao` LIMIT 0,6   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0048s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 11 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `remen` LIMIT 0,6   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0048s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 13 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `news` LIMIT 0,6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user_say` [ RunTime:0.0043s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 15 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `user_say`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] Undefined index: ljjy C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Home\98fa3081af27f25fb76692bbdf0f1034.php 第 203 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002780s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002812s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002992s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003049s ]
+
+[ 2017-08-15T09:23:58+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002914s ]
+SQL: SHOW COLUMNS FROM `conf` [ RunTime:0.0047s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 7 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT `zrrz`,`qq`,`tel`,`ljrz`,`zrjy`,`ljrzfw`,`jrjy` FROM `conf`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0065s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 9 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `taobao` LIMIT 0,6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0044s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 11 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `remen` LIMIT 0,6   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0046s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 13 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `news` LIMIT 0,6   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user_say` [ RunTime:0.0064s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 15 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `user_say`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+NOTIC: [8] Undefined index: ljjy C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Home\98fa3081af27f25fb76692bbdf0f1034.php 第 203 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036127s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002797s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002831s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002948s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003008s ]
+
+[ 2017-08-15T09:24:27+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003197s ]
+SQL: SHOW COLUMNS FROM `conf` [ RunTime:0.0055s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 7 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT `zrrz`,`qq`,`tel`,`ljrz`,`zrjy`,`ljrzfw`,`jrjy` FROM `conf`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0058s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 9 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `taobao` LIMIT 0,6   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0055s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 11 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `remen` LIMIT 0,6   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0048s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 13 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `news` LIMIT 0,6   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user_say` [ RunTime:0.0053s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 15 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `user_say`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+NOTIC: [8] Undefined index: ljjy C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Home\98fa3081af27f25fb76692bbdf0f1034.php 第 203 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003222s ]
+
+[ 2017-08-15T09:25:05+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002796s ]
+SQL: SHOW COLUMNS FROM `conf` [ RunTime:0.0062s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 7 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT `zrrz`,`qq`,`tel`,`ljrz`,`zrjy`,`ljrzfw`,`jrjy` FROM `conf`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0049s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 9 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `taobao` LIMIT 0,6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0054s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 11 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `remen` LIMIT 0,6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0056s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 13 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `news` LIMIT 0,6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user_say` [ RunTime:0.0046s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 15 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `user_say`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] Undefined index: ljjy C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Home\98fa3081af27f25fb76692bbdf0f1034.php 第 203 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037989s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002960s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002936s ]
+
+[ 2017-08-15T09:25:38+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004264s ]
+SQL: SHOW COLUMNS FROM `conf` [ RunTime:0.0055s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 7 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT `zrrz`,`qq`,`tel`,`ljrz`,`zrjy`,`ljrzfw`,`jrjy` FROM `conf`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0052s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 9 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `taobao` LIMIT 0,6   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0069s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 11 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `remen` LIMIT 0,6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0053s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 13 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `news` LIMIT 0,6   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user_say` [ RunTime:0.0065s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 15 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `user_say`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+NOTIC: [8] Undefined index: ljjy C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Home\98fa3081af27f25fb76692bbdf0f1034.php 第 203 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043245s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003061s ]
+
+[ 2017-08-15T09:27:00+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002780s ]
+SQL: SHOW COLUMNS FROM `conf` [ RunTime:0.0059s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 7 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT `zrrz`,`qq`,`tel`,`ljrz`,`zrjy`,`ljrzfw`,`jrjy` FROM `conf`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0054s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 9 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `taobao` LIMIT 0,6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0046s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 11 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `remen` LIMIT 0,6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0063s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 13 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `news` LIMIT 0,6   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user_say` [ RunTime:0.0048s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 15 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `user_say`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] Undefined index: ljjy C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Home\98fa3081af27f25fb76692bbdf0f1034.php 第 203 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036218s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036266s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003067s ]
+
+[ 2017-08-15T09:28:35+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003002s ]
+SQL: SHOW COLUMNS FROM `conf` [ RunTime:0.0068s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 7 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT `zrrz`,`qq`,`tel`,`ljrz`,`zrjy`,`ljrzfw`,`jrjy` FROM `conf`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0058s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 9 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `taobao` LIMIT 0,6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0050s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 11 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `remen` LIMIT 0,6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0056s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 13 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `news` LIMIT 0,6   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user_say` [ RunTime:0.0057s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 15 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `user_say`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Undefined index: ljjy C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Home\98fa3081af27f25fb76692bbdf0f1034.php 第 203 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003171s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002958s ]
+
+[ 2017-08-15T09:28:46+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002876s ]
+SQL: SHOW COLUMNS FROM `conf` [ RunTime:0.0061s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 7 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT `zrrz`,`qq`,`tel`,`ljrz`,`zrjy`,`ljrzfw`,`jrjy` FROM `conf`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0048s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 9 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `taobao` LIMIT 0,6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0050s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 11 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `remen` LIMIT 0,6   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0055s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 13 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `news` LIMIT 0,6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user_say` [ RunTime:0.0049s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 15 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `user_say`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Undefined index: ljjy C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Home\98fa3081af27f25fb76692bbdf0f1034.php 第 203 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035344s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002918s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002878s ]
+
+[ 2017-08-15T09:29:09+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002957s ]
+SQL: SHOW COLUMNS FROM `conf` [ RunTime:0.0061s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 7 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT `zrrz`,`qq`,`tel`,`ljrz`,`zrjy`,`ljrzfw`,`jrjy` FROM `conf`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0057s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 9 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `taobao` LIMIT 0,6   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0053s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 11 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `remen` LIMIT 0,6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0071s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 13 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `news` LIMIT 0,6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user_say` [ RunTime:0.0066s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 15 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `user_say`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] Undefined index: ljjy C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Home\98fa3081af27f25fb76692bbdf0f1034.php 第 203 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038383s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002943s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002885s ]
+
+[ 2017-08-15T09:29:20+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003252s ]
+SQL: SHOW COLUMNS FROM `conf` [ RunTime:0.0073s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 7 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT `zrrz`,`qq`,`tel`,`ljrz`,`zrjy`,`ljrzfw`,`jrjy` FROM `conf`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0049s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 9 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `taobao` LIMIT 0,6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0064s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 11 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `remen` LIMIT 0,6   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0057s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 13 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `news` LIMIT 0,6   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user_say` [ RunTime:0.0053s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 15 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `user_say`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+NOTIC: [8] Undefined index: ljjy C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Home\98fa3081af27f25fb76692bbdf0f1034.php 第 203 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003231s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003307s ]
+
+[ 2017-08-15T09:29:56+08:00 ] 127.0.0.1 /index.php/Home/index/play/type/28/typ/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004515s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `remen` WHERE `id` = 28  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002793s ]
+
+[ 2017-08-15T09:30:02+08:00 ] 127.0.0.1 /index.php/Home/index/fancybox.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003765s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0058s ]
+SQL: INSERT INTO `users` (`video`,`price`,`name`,`tel`,`create`) VALUES ('','','','0','1502760602') [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002962s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002997s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003140s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003189s ]
+
+[ 2017-08-15T09:30:05+08:00 ] 127.0.0.1 /index.php/Home/index/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000965s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003631s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003142s ]
+
+[ 2017-08-15T09:30:12+08:00 ] 127.0.0.1 /index.php/Home/index/join.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005873s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030669s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002896s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002930s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002876s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002922s ]
+
+[ 2017-08-15T09:30:54+08:00 ] 127.0.0.1 /index.php/Home/index/join.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002901s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023045s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003680s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004135s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004211s ]
+
+[ 2017-08-15T09:31:29+08:00 ] 127.0.0.1 /index.php/Home/index/join.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003195s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023042s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002950s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002993s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003363s ]
+
+[ 2017-08-15T09:35:02+08:00 ] 127.0.0.1 /index.php/Home/index/join.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002938s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003447s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002933s ]
+
+[ 2017-08-15T09:36:55+08:00 ] 127.0.0.1 /index.php/Home/index/join.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003089s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002940s ]
+
+[ 2017-08-15T09:36:59+08:00 ] 127.0.0.1 /index.php/Home/index/tbsp.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002922s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `taobao` WHERE `type` LIKE '%%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `taobao` WHERE `type` LIKE '%%' LIMIT 0,6   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023745s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002805s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002838s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002835s ]
+
+[ 2017-08-15T09:37:01+08:00 ] 127.0.0.1 /index.php/Home/index/play/type/118/typ/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002951s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0211s ]
+SQL: SELECT * FROM `taobao` WHERE `id` = 118  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002788s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002822s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002824s ]
+
+[ 2017-08-15T09:37:03+08:00 ] 127.0.0.1 /index.php/Home/index/tbsp.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0058s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `taobao` WHERE `type` LIKE '%%' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `taobao` WHERE `type` LIKE '%%' LIMIT 0,6   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025610s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025684s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003269s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003344s ]
+
+[ 2017-08-15T09:37:05+08:00 ] 127.0.0.1 /index.php/Home/index/play/type/113/typ/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003488s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `taobao` WHERE `id` = 113  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002975s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004629s ]
+
+[ 2017-08-15T09:37:08+08:00 ] 127.0.0.1 /index.php/Home/index/tbsp.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003078s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `taobao` WHERE `type` LIKE '%%' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `taobao` WHERE `type` LIKE '%%' LIMIT 0,6   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025396s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003220s ]
+
+[ 2017-08-15T09:37:10+08:00 ] 127.0.0.1 /index.php/Home/index/jdal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003212s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0054s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 50 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `remen` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT * FROM `remen` LIMIT 0,6   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027147s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004982s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005084s ]
+
+[ 2017-08-15T09:37:12+08:00 ] 127.0.0.1 /index.php/Home/index/play/type/29/typ/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003781s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `remen` WHERE `id` = 29  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026644s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005637s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005707s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003416s ]
+
+[ 2017-08-15T09:37:16+08:00 ] 127.0.0.1 /index.php/Home/index/play/type/29/typ/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003041s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `remen` WHERE `id` = 29  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003586s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003163s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003226s ]
+
+[ 2017-08-15T09:37:19+08:00 ] 127.0.0.1 /index.php/Home/index/play/type/29/typ/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008096s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `remen` WHERE `id` = 29  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002768s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002819s ]
+
+[ 2017-08-15T09:37:22+08:00 ] 127.0.0.1 /index.php/Home/index/play/type/29/typ/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002928s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `remen` WHERE `id` = 29  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023334s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002791s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002825s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003072s ]
+
+[ 2017-08-15T09:37:23+08:00 ] 127.0.0.1 /index.php/Home/index/play/type/29/typ/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002912s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `remen` WHERE `id` = 29  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004622s ]
+
+[ 2017-08-15T09:37:26+08:00 ] 127.0.0.1 /index.php/Home/index/play/type/29/typ/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002797s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `remen` WHERE `id` = 29  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021316s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002929s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002968s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002832s ]
+
+[ 2017-08-15T09:37:27+08:00 ] 127.0.0.1 /index.php/Home/index/jdal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003445s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0045s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 50 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `remen` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT * FROM `remen` LIMIT 0,6   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024082s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002864s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003729s ]
+
+[ 2017-08-15T09:37:29+08:00 ] 127.0.0.1 /index.php/Home/index/tbsp.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002876s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `taobao` WHERE `type` LIKE '%%' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `taobao` WHERE `type` LIKE '%%' LIMIT 0,6   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023871s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002882s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002921s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002856s ]
+
+[ 2017-08-15T09:37:32+08:00 ] 127.0.0.1 /index.php/Home/index/tbsp.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004244s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0062s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `taobao` WHERE `type` LIKE '%%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `taobao` WHERE `type` LIKE '%%' LIMIT 0,6   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026616s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002757s ]
+
+[ 2017-08-15T09:37:37+08:00 ] 127.0.0.1 /index.php/Home/index/tbsp.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002976s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `taobao` WHERE `type` LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `taobao` WHERE `type` LIKE '%%' LIMIT 0,6   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023429s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002800s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002833s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002847s ]
+
+[ 2017-08-15T09:37:40+08:00 ] 127.0.0.1 /index.php/Home/index/play/type/118/typ/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003346s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `taobao` WHERE `id` = 118  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022897s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002926s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002975s ]
+
+[ 2017-08-15T09:39:55+08:00 ] 127.0.0.1 /index.php/Home/index/tbsp.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002891s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `taobao` WHERE `type` LIKE '%%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `taobao` WHERE `type` LIKE '%%' LIMIT 0,6   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023546s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002982s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003008s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003056s ]
+
+[ 2017-08-15T09:39:58+08:00 ] 127.0.0.1 /index.php/Home/index/play/type/118/typ/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002814s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `taobao` WHERE `id` = 118  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023085s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004634s ]
+
+[ 2017-08-15T09:40:04+08:00 ] 127.0.0.1 /index.php/Home/index/jdal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003227s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0059s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 50 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `remen` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT * FROM `remen` LIMIT 0,6   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021825s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003684s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003731s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003286s ]
+
+[ 2017-08-15T09:40:12+08:00 ] 127.0.0.1 /index.php/Home/index/play/type/28/typ/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003556s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `remen` WHERE `id` = 28  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002781s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002814s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003421s ]
+
+[ 2017-08-15T09:41:12+08:00 ] 127.0.0.1 /index.php/Home/index/jdal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003008s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0047s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 50 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `remen` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT * FROM `remen` LIMIT 0,6   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002886s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002933s ]
+
+[ 2017-08-15T09:41:18+08:00 ] 127.0.0.1 /index.php/Home/index/play/type/30/typ/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003359s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `remen` WHERE `id` = 30  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003112s ]
+
+[ 2017-08-15T09:41:21+08:00 ] 127.0.0.1 /index.php/Home/index/jdal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003395s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0048s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 50 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `remen` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT * FROM `remen` LIMIT 0,6   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002835s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002882s ]
+
+[ 2017-08-15T09:41:23+08:00 ] 127.0.0.1 /index.php/Home/index/play/type/29/typ/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004340s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `remen` WHERE `id` = 29  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002885s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002919s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003210s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003283s ]
+
+[ 2017-08-15T09:41:24+08:00 ] 127.0.0.1 /index.php/Home/index/jdal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002856s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0050s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 50 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `remen` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT * FROM `remen` LIMIT 0,6   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021310s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021384s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002778s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002824s ]
+
+[ 2017-08-15T09:41:26+08:00 ] 127.0.0.1 /index.php/Home/index/play/type/28/typ/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003174s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `remen` WHERE `id` = 28  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021675s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002829s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002863s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003089s ]
+
+[ 2017-08-15T09:41:27+08:00 ] 127.0.0.1 /index.php/Home/index/jdal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004268s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0067s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 50 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `remen` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT * FROM `remen` LIMIT 0,6   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031710s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004744s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004815s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004408s ]
+
+[ 2017-08-15T09:41:29+08:00 ] 127.0.0.1 /index.php/Home/index/play/type/35/typ/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004020s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `remen` WHERE `id` = 35  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002848s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002882s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002812s ]
+
+[ 2017-08-15T09:41:31+08:00 ] 127.0.0.1 /index.php/Home/index/jdal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003317s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0052s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 50 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `remen` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT * FROM `remen` LIMIT 0,6   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021658s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002977s ]
+
+[ 2017-08-15T09:41:32+08:00 ] 127.0.0.1 /index.php/Home/index/play/type/33/typ/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003967s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `remen` WHERE `id` = 33  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002779s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002813s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003032s ]
+
+[ 2017-08-15T09:41:34+08:00 ] 127.0.0.1 /index.php/Home/index/jdal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004264s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0066s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 50 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `remen` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT * FROM `remen` LIMIT 0,6   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003834s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003891s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004228s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004309s ]
+
+[ 2017-08-15T09:41:37+08:00 ] 127.0.0.1 /index.php/Home/index/play/type/29/typ/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003642s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `remen` WHERE `id` = 29  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022605s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003101s ]
+
+[ 2017-08-15T09:41:39+08:00 ] 127.0.0.1 /index.php/Home/index/jdal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003171s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0059s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 50 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `remen` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT * FROM `remen` LIMIT 0,6   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020722s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002957s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002994s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002982s ]
+
+[ 2017-08-15T09:41:47+08:00 ] 127.0.0.1 /index.php/Home/index/jdal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002805s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0045s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 50 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `remen` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT * FROM `remen` LIMIT 0,6   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020663s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002739s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002769s ]
+
+[ 2017-08-15T09:52:58+08:00 ] 127.0.0.1 /index.php/Home/index/play/type/35/typ/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003136s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `remen` WHERE `id` = 35  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004302s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004100s ]
+
+[ 2017-08-15T09:53:00+08:00 ] 127.0.0.1 /index.php/Home/index/jdal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004745s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0050s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 50 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `remen` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT * FROM `remen` LIMIT 0,6   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023471s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023528s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002894s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002927s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003607s ]
+
+[ 2017-08-15T09:53:05+08:00 ] 127.0.0.1 /index.php/Home/index/play/type/29/typ/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003119s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `remen` WHERE `id` = 29  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002962s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003143s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003208s ]
+
+[ 2017-08-15T09:53:10+08:00 ] 127.0.0.1 /index.php/Home/index/jdal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003112s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0048s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 50 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `remen` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT * FROM `remen` LIMIT 0,6   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022262s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003478s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002925s ]
+
+[ 2017-08-15T10:10:23+08:00 ] 127.0.0.1 /index.php/Home/index/jdal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007046s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0052s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 50 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `remen` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT * FROM `remen` LIMIT 0,6   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047045s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008828s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008891s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008478s ]
+
+[ 2017-08-15T10:10:24+08:00 ] 127.0.0.1 /index.php/Home/index/meigong.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003545s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022559s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003207s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003258s ]
+
+[ 2017-08-15T10:16:27+08:00 ] 127.0.0.1 /index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008544s ]
+SQL: SHOW COLUMNS FROM `conf` [ RunTime:0.0098s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 7 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT `zrrz`,`qq`,`tel`,`ljrz`,`zrjy`,`ljrzfw`,`jrjy` FROM `conf`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0050s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 9 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `taobao` LIMIT 0,6   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0084s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 11 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `remen` LIMIT 0,6   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0048s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 13 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `news` LIMIT 0,6   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user_say` [ RunTime:0.0081s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 15 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `user_say`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] Undefined index: ljjy C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Home\98fa3081af27f25fb76692bbdf0f1034.php 第 196 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008935s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008999s ]
+
+[ 2017-08-15T10:16:30+08:00 ] 127.0.0.1 /index.php/Home/index/play/type/113/typ/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003520s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `taobao` WHERE `id` = 113  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003561s ]
+
+[ 2017-08-15T10:16:32+08:00 ] 127.0.0.1 /index.php/Home/index/tbsp.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003287s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0065s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `taobao` WHERE `type` LIKE '%%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `taobao` WHERE `type` LIKE '%%' LIMIT 0,6   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026172s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003898s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003958s ]
+
+[ 2017-08-15T10:16:35+08:00 ] 127.0.0.1 /index.php/Home/index/jdal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003692s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0052s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 50 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `remen` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT * FROM `remen` LIMIT 0,6   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024372s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003444s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003891s ]
+
+[ 2017-08-15T10:16:37+08:00 ] 127.0.0.1 /index.php/Home/index/play/type/29/typ/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003127s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `remen` WHERE `id` = 29  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003506s ]
+
+[ 2017-08-15T10:16:39+08:00 ] 127.0.0.1 /index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002813s ]
+SQL: SHOW COLUMNS FROM `conf` [ RunTime:0.0062s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 7 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT `zrrz`,`qq`,`tel`,`ljrz`,`zrjy`,`ljrzfw`,`jrjy` FROM `conf`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0057s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 9 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `taobao` LIMIT 0,6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0053s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 11 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `remen` LIMIT 0,6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 13 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `news` LIMIT 0,6   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user_say` [ RunTime:0.0044s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 15 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `user_say`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] Undefined index: ljjy C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Home\98fa3081af27f25fb76692bbdf0f1034.php 第 196 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033943s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002805s ]
+
+[ 2017-08-15T10:16:40+08:00 ] 127.0.0.1 /index.php/Home/index/jdal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007681s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0062s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 50 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `remen` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT * FROM `remen` LIMIT 0,6   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044207s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006717s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006763s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006934s ]
+
+[ 2017-08-15T10:16:58+08:00 ] 127.0.0.1 /index.php/Home/index/play/type/28/typ/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002995s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `remen` WHERE `id` = 28  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002992s ]
+
+[ 2017-08-15T10:17:02+08:00 ] 127.0.0.1 /index.php/Home/index/jdal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002807s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0047s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 50 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `remen` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT * FROM `remen` LIMIT 0,6   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002878s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002913s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002868s ]
+
+[ 2017-08-15T10:17:04+08:00 ] 127.0.0.1 /index.php/Home/index/play/type/33/typ/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002813s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `remen` WHERE `id` = 33  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002969s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003857s ]
+
+[ 2017-08-15T10:18:26+08:00 ] 127.0.0.1 /index.php/Home/index/play/type/33/typ/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002857s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `remen` WHERE `id` = 33  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002836s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003401s ]
+
+[ 2017-08-15T10:18:28+08:00 ] 127.0.0.1 /index.php/Home/index/tbsp.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004397s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `taobao` WHERE `type` LIKE '%%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `taobao` WHERE `type` LIKE '%%' LIMIT 0,6   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002774s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002808s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003611s ]
+
+[ 2017-08-15T10:18:30+08:00 ] 127.0.0.1 /index.php/Home/index/play/type/118/typ/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002824s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `taobao` WHERE `id` = 118  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002797s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003165s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003220s ]
+
+[ 2017-08-15T10:18:31+08:00 ] 127.0.0.1 /index.php/Home/index/play/type/118/typ/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004992s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `remen` WHERE `id` = 118  [ RunTime:0.0380s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003458s ]
+
+[ 2017-08-15T10:18:34+08:00 ] 127.0.0.1 /index.php/Home/index/jdal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003024s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0065s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php on line 50 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `remen` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\jwx\Home\Controller\IndexController.class.php 第 54 行.
+SQL: SELECT * FROM `remen` LIMIT 0,6   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002823s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002855s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003506s ]
+
+[ 2017-08-15T10:18:36+08:00 ] 127.0.0.1 /index.php/Home/index/play/type/29/typ/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005990s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `remen` WHERE `id` = 29  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031635s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003318s ]
+
+[ 2017-08-15T10:18:38+08:00 ] 127.0.0.1 /index.php/Home/index/tbsp.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003357s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0062s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `taobao` WHERE `type` LIKE '%%' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `taobao` WHERE `type` LIKE '%%' LIMIT 0,6   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003083s ]
+
+[ 2017-08-15T10:18:47+08:00 ] 127.0.0.1 /index.php/Home/index/play/type/118/typ/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002895s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `taobao` WHERE `id` = 118  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021567s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003114s ]
+
+[ 2017-08-15T10:18:56+08:00 ] 127.0.0.1 /index.php/Home/index/tbsp.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003052s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `taobao` WHERE `type` LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `taobao` WHERE `type` LIKE '%%' LIMIT 0,6   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022209s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002889s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002923s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003073s ]
+
+[ 2017-08-15T10:22:02+08:00 ] 127.0.0.1 /index.php/Home/index/tbsp.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002764s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `taobao` WHERE `type` LIKE '%%' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `taobao` WHERE `type` LIKE '%%' LIMIT 0,6   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025627s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003134s ]
+
+[ 2017-08-15T10:24:12+08:00 ] 127.0.0.1 /index.php/Home/index/tbsp.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004655s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `taobao` WHERE `type` LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `taobao` WHERE `type` LIKE '%%' LIMIT 0,6   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002909s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002946s ]
+
+[ 2017-08-15T10:24:14+08:00 ] 127.0.0.1 /index.php/Home/index/play/type/118/typ/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002815s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `taobao` WHERE `id` = 118  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021839s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002904s ]
+
+[ 2017-08-15T10:24:17+08:00 ] 127.0.0.1 /index.php/Home/index/tbsp.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007404s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `taobao` WHERE `type` LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `taobao` WHERE `type` LIKE '%%' LIMIT 0,6   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050092s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008034s ]
+
+[ 2017-08-15T10:24:18+08:00 ] 127.0.0.1 /index.php/Home/index/play/type/113/typ/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002889s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `taobao` WHERE `id` = 113  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000358s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022544s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002934s ]
+
+[ 2017-08-15T10:24:21+08:00 ] 127.0.0.1 /index.php/Home/index/tbsp.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `taobao` WHERE `type` LIKE '%%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `taobao` WHERE `type` LIKE '%%' LIMIT 0,6   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022807s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002925s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002959s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003120s ]
+
+[ 2017-08-15T10:24:29+08:00 ] 127.0.0.1 /index.php/Home/index/tbsp.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002747s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `taobao` WHERE `type` LIKE '%%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `taobao` WHERE `type` LIKE '%%' LIMIT 0,6   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022547s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003006s ]
+
+[ 2017-08-15T10:25:05+08:00 ] 127.0.0.1 /index.php/Home/index/tbsp.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003251s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `taobao` WHERE `type` LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `taobao` WHERE `type` LIKE '%%' LIMIT 0,6   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003591s ]
+

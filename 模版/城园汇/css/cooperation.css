@@ -1,0 +1,7 @@
+/* CSS Document */
+.show-box{width: 1200px;margin: 0 auto;}
+.show{display: none;}
+.show-box .show:first-child{display: block;}
+.show p{font-size: 18px;margin-bottom: 15px;}
+.show h1{margin-bottom: 15px;}
+.show img{margin-bottom: 15px;width: 100%;}

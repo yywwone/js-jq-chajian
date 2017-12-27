@@ -1,0 +1,36 @@
+/* CSS Document */
+body{font-size:1em;}
+*{text-decoration:none;list-style: none;outline: none;}
+a{color: #000;}
+.work_classes .col-xs-5 p{text-align: center;}
+.work_icon{margin-left: 5px;color: #E9E9E9}
+.work_hover{margin: 0;padding: 0}
+.work_show{display: none;}
+.work_hover ul{padding:0;}
+.work_hover ul li{border-bottom: 1px solid #ccc;height: 46px;line-height: 46px;padding-left:15px;}
+.work_dq_box{background: #F5F5F5;width:50%;}
+.work_hover .work_dq_box li{border-bottom:1px solid #eee;}
+.work_hover .work_dq_box li:hover{background: #fff}
+.work_dq_box1{padding:0; background: #fff;width: 50%;height: 690px;}
+.work_dq_box1 ul{display: none;}
+.work_hover .work_dq_box1 ul li{border-bottom: 1px solid #eee;height: 46px;line-height: 46px;padding-left:15px;}
+.work_con_box p{margin-bottom:5px;}
+.work_con{padding-left: 15px;}
+.work_con1{font-size: 1.5em;font-weight: bold;}
+.work_pin{width: 22px;height: 22px;background: #7ECEF4;display: inline-block;color: #fff;border-radius:22px;text-align: center;line-height: 22px;}
+.work_con1 p{ margin-top: 5px;}
+.work_con .col-xs-2 p{font-size: 0.5em;color:#9F9F9F;}
+.work_yq{color:#FBCC69}
+.work_jg{color:red;font-size: 1.5em;}
+.work_lx{padding-left: 15px;color: #A6A6A6;border-bottom: 1px solid #E7E5E2}
+.work_lx p{margin-top: 5px;}
+
+
+
+
+
+
+
+
+
+

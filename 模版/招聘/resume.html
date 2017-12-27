@@ -1,0 +1,244 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>发布招聘</title>
+<!--通用CSS-->
+<link rel="icon" href="" type="image/x-icon"/>
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/foot.css" rel="stylesheet">
+<!--本页CSS-->
+<link href="css/resume.css" rel="stylesheet">
+<link href="sj/datedropper.css" rel="stylesheet">
+<link href="sj/timedropper.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="resume_zz"></div>
+<div class="container-fluid">
+	<div class="row work_con_tit">
+		<div class="col-xs-5">
+			<a href="index.html" class="work_con_return"><img src="img/return.png"></a>
+		</div>
+		<div class="col-xs-7">
+			<h4 class="work_con_h4">发布招聘</h4>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid" style="padding: 0">
+	<form class="position_form" action="" method="">
+			<div class="row resume_con">
+				<div class="col-xs-3 resume_con_text">姓名</div>
+				<div class="col-xs-9"><input type="text" required></div>
+			</div>
+			<div class="row resume_con">
+				<div class="col-xs-3 resume_con_text">性别</div>
+				<div class="col-xs-9">
+					<input type="text" class="resume_con_ty resume_con_sex" value="男">
+					<img src="img/right.png" class="resume_icon">
+					<div class="resume_hide resume_hide_sex">
+						<p class="resume_active">男</p>
+						<p>女</p>
+					</div>
+				</div>
+			</div>
+			<div class="row resume_con">
+				<div class="col-xs-3 resume_con_text">照片</div>
+				<div class="col-xs-9">
+					<img id="pic" src="">
+					<input id="upload" name="file" accept="image/*" type="file" style="display: none"/>
+				</div>
+			</div>
+			<div class="row resume_con">
+				<div class="col-xs-3 resume_con_text">籍贯</div>
+				<div class="col-xs-9"><input type="text" required></div>
+			</div>
+			<div class="row resume_con">
+				<div class="col-xs-3 resume_con_text">出生日期</div>
+				<div class="col-xs-9">
+					<input type="text"  id="pickdate" required>
+				</div>
+			</div>
+			<div class="row resume_con">
+				<div class="col-xs-3 resume_con_text">身高</div>
+				<div class="col-xs-9">
+					<input type="text" required placeholder="厘米">
+				</div>
+			</div>
+			<div class="row resume_con">
+				<div class="col-xs-3 resume_con_text">体重</div>
+				<div class="col-xs-9">
+					<input type="text"  required placeholder="公斤">
+				</div>
+			</div>
+			<div class="row resume_con">
+				<div class="col-xs-3 resume_con_text">婚否</div>
+				<div class="col-xs-9">
+					<input type="text" class="resume_con_ty resume_con_marry" value="已婚">
+					<img src="img/right.png" class="resume_icon">
+					<div class="resume_hide resume_hide_marry">
+						<p class="resume_active">已婚</p>
+						<p>未婚</p>
+					</div>
+				</div>
+			</div>
+			<div class="row resume_con">
+				<div class="col-xs-3 resume_con_text">工作经验</div>
+				<div class="col-xs-9">
+					<input type="text" class="resume_con_ty resume_con_gzjy" value="无">
+					<img src="img/right.png" class="resume_icon">
+					<div class="resume_hide resume_hide_gzjy">
+						<p class="resume_active">无</p>
+						<p>1年</p>
+						<p>2年</p>
+						<p>3年</p>
+						<p>4年</p>
+						<p>5年</p>
+						<p>6年</p>
+						<p>7年</p>
+						<p>8年</p>
+						<p>9年</p>
+						<p>10年以上</p>
+					</div>
+				</div>
+			</div>
+			<div class="row resume_con">
+				<div class="col-xs-3 resume_con_text">学历</div>
+				<div class="col-xs-9">
+					<input type="text" class="resume_con_ty resume_con_education" value="小学">
+					<img src="img/right.png" class="resume_icon">
+					<div class="resume_hide resume_hide_education">
+						<p class="resume_active">小学</p>
+						<p>初中</p>
+						<p>高中/中专</p>
+						<p>大专</p>
+						<p>本科</p>
+						<p>硕士</p>
+						<p>博士及以上</p>
+					</div>
+				</div>
+			</div>
+			<div class="row resume_con">
+				<div class="col-xs-3 resume_con_text">毕业学校</div>
+				<div class="col-xs-9">
+					<input type="text"  required>
+				</div>
+			</div>
+			<div class="row resume_con">
+				<div class="col-xs-3 resume_con_text">专业</div>
+				<div class="col-xs-9">
+					<input type="text"  required>
+				</div>
+			</div>
+			<div class="row resume_con">
+				<div class="col-xs-3 resume_con_text">简历正文</div>
+				<div class="col-xs-9">
+					<textarea class="resume_dhwb" maxlength="500"></textarea>
+				</div>
+			</div>
+			<div class="row resume_con">
+				<div class="col-xs-3 resume_con_text">期望工作</div>
+				<div class="col-xs-9">
+					<input type="text"  required>
+				</div>
+			</div>
+			<div class="row resume_con">
+				<div class="col-xs-3 resume_con_text">期望月薪</div>
+				<div class="col-xs-9">
+					<input type="text" class="resume_con_ty resume_con_monthly" value="面议">
+					<img src="img/right.png" class="resume_icon">
+					<div class="resume_hide resume_hide_monthly">
+						<p class="resume_active">面议</p>
+						<p>1000元以下</p>
+						<p>1000-1500元</p>
+						<p>1500-2000元</p>
+						<p>2000-3000元</p>
+						<p>3000-5000元</p>
+						<p>5000-8000元</p>
+						<p>8000元以上</p>
+					</div>
+				</div>
+			</div>
+			<div class="row resume_con">
+				<div class="col-xs-3 resume_con_text">联系电话</div>
+				<div class="col-xs-9">
+					<input type="text" class="resume_tel" required>
+				</div>
+			</div>
+			<div class="row resume_con">
+				<div class="col-xs-3 resume_con_text">邮箱</div>
+				<div class="col-xs-9">
+					<input type="text" class="resume_Email" required>
+				</div>
+			</div>
+			<div class="row resume_con">
+				<div class="col-xs-3 resume_con_text">简历状态</div>
+				<div class="col-xs-9">
+					<input type="text" class="resume_con_ty resume_con_state" value="公开简历">
+					<img src="img/right.png" class="resume_icon">
+					<div class="resume_hide resume_hide_state">
+						<p class="resume_active">公开简历</p>
+						<p>私密简历</p>
+					</div>
+				</div>
+			</div>
+			<!--提交-->
+			<div class="row resume_con">
+				<div class="col-xs-12">
+					<input type="submit" class="resume_submit">
+				</div>
+			</div>
+	</form>
+</div>
+<!--提示信息-->
+<div class="resume_xxts"></div>
+<!--发布成功-->
+<!--底部固定栏-->
+<br><br><br><br><br>
+<div class="container-fluid foot">
+	<div class="row ">
+		<div class="col-xs-3">
+			<a href="index.html">
+				<p class="index_top_p1"><span class="glyphicon glyphicon-home"></span></p>
+				<p class="index_top_p_text1">首页</p>
+			</a>
+		</div>
+		<div class="col-xs-3">
+			<a href="position.html">
+				<p class="index_top_p1"><span>聘</span></p>
+				<p class="index_top_p_text1">发布职位</p>
+			</a>
+		</div>
+		<div class="col-xs-3">
+			<a href="resume.html">
+				<p class="index_top_p1"><span class="glyphicon glyphicon-edit"></span></p>
+				<p class="index_top_p_text1">登记简历</p>
+			</a>
+		</div>
+		<div class="col-xs-3">
+			<a href="me.html">
+				<p class="index_top_p1"><span class="glyphicon glyphicon-user"></span></p>
+				<p class="index_top_p_text1">我</p>
+			</a>
+		</div>
+	</div>
+</div>
+<!--通用JS-->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!--本页JS-->
+<script src="js/resume.js"></script>
+<script src="js/file.js"></script>
+<script src="sj/datedropper.min.js"></script>
+<script src="sj/timedropper.min.js"></script>
+<script>
+$("#pickdate").dateDropper({
+	animate: false,
+	format: 'Y-m-d',
+	maxYear: '2020'
+});
+</script>
+</body>
+</html>

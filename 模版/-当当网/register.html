@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>无标题文档</title>
+<link href="css/reset.css" type="text/css" rel="stylesheet">
+<link href="css/register.css" type="text/css" rel="stylesheet">
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/verify.js"></script>
+<script src="js/city.js"></script>
+</head>
+
+<body>
+<!--注册 头部-->
+<div id="register_header">
+	<!--LOGO-->
+	<img src="images/logo.gif" class="logo">
+	<ul id="register_header_ul">
+		<li><a href="index.html" hidefocus="true"  target="_self">首页</a></li>
+		<li><img src="images/line.png"></li>
+		<li><a href="show.html" hidefocus="true"  target="_self">商品展示页</a></li>
+		<li><img src="images/line.png"></li>
+		<li><a href="shopping.html" hidefocus="true"  target="_self">购物车</a></li>
+		<li><img src="images/line.png"></li>
+		<li><a href="login.html" hidefocus="true"  target="_self">登录</a></li>	
+	</ul>
+</div>
+<!--注册 主体-->
+<div id="register_body">
+	<!--注册 主体 左侧边框-->
+	<div id="register_body_left-bd"></div>
+	<!--注册 主体 中间-->
+	<div id="register_body_middle">
+		<!--注册 主体 中间 边框-->
+		<div id="register_body_middle_bd"></div>
+		<!--注册 主体 中间 上部-->
+		<div id="register_body_middle_top">
+			<p id="register_body_middle_top_img1">填写注册信息</p>
+			<p id="register_body_middle_top_img2">2.邮箱验证</p>
+			<p id="register_body_middle_top_img3">3.完成注册</p>
+		</div>
+		<div id="register_body_middle_header">
+			<img src="images/register_pic_01.gif">
+			<p>Hi，欢迎注册当当网！尽享多重优惠服务。</p><br><br>
+			<span class="register_body_middle_header_color">您所提供的资料不会做其他用途，敬请安心填写</span>
+		</div>
+		
+		
+		<form action="index.html" method="post" enctype="application/x-www-form-urlencoded" name="myform" id="myform">
+			<table border="0">
+				<tr height="20">
+					<td align="right">Email地址:</td>
+					<td>
+						<input type="text" size="25" id="txtEmail"  class="classname" name="txtEmail"  placeholder="请输入你的邮箱地址">
+						<span class="OK"><img src="images/register_write_ok.gif"></span>
+						<span class="NO">电子邮件是必填项，请输入您的Email地址</span>
+						<span class="normal">此邮箱将是您登录当当网的帐号，并将用来接受验证邮件</span>
+					</td>
+				</tr>
+				
+				<tr height="20">
+					<td align="right">设置昵称:</td>
+					<td>
+						<input type="text" size="25" id="txtName" class="classname" name="txtName" placeholder="请输入你的昵称">
+						<span class="OK"><img src="images/register_write_ok.gif"></span>
+						<span class="NO">昵称为必填项，请输入您的昵称</span>
+						<span class="normal">昵称可由大小写英文字母、数字组成。长度为4-20个字符</span>
+					</td>
+				</tr>
+				
+				<tr height="20">
+					<td align="right">设定密码:</td>
+					<td>
+						<input type="password" size="25" id="txtPass" class="classname" name="txtPass"  placeholder="请输入你的密码">
+						<span class="OK"><img src="images/register_write_ok.gif"></span>
+						<span class="NO">密码为必填项，请设置您的密码</span>
+						<span class="normal">密码可由大小写英文字母、数字组成，长度6-20个字符</span>
+					</td>
+				</tr>
+				
+				<tr height="20">
+					<td align="right">在输入一次密码:</td>
+					<td>
+						<input type="password" size="25"  id="rePass" class="classname" name="rePass"  placeholder="请再次输入你的密码">
+						<span class="OK"><img src="images/register_write_ok.gif"></span>
+						<span class="NO">请再次输入您的密码</span>
+						<span class="normal"></span>
+					</td>
+				</tr>
+				
+				
+				<tr height="20">
+					<td align="right">性别:</td>
+					<td><input type="radio" name="sex">男<input type="radio" name="sex">女</td>
+				</tr>
+				
+				<tr height="20">
+					<td align="right">所在地区:</td>
+					<td>
+						<select id="province" onChange="changeCity()">
+						<option>--选择省份--</option>
+						</select>
+						
+						<select id="city">
+						<option>--选择城市--</option>
+						</select>
+					</td>
+				</tr>
+				
+				<tr height="20">
+					<td></td>
+					<td><input type="image" src="images/register_btn_out.gif"></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+	<!--注册 主体 右侧边框-->
+	<div id="register_body_right-bd"></div>
+</div>
+
+<!--结尾-->
+<div id="foot">
+	<ul>
+		<li><a href="#" hidefocus="true"  target="_self">公司简介</a></li>
+		<li><img src="images/line.png" class="line"></li>
+		<li><a href="#" hidefocus="true"  target="_self">诚证英才</a></li>
+		<li><img src="images/line.png" class="line"></li>
+		<li><a href="#" hidefocus="true"  target="_self">网站联盟</a></li>
+		<li><img src="images/line.png" class="line"></li>
+		<li><a href="#" hidefocus="true"  target="_self">百货招商</a></li>
+		<li><img src="images/line.png" class="line"></li>
+		<li><a href="#" hidefocus="true"  target="_self">交易条款</a></li>
+		<li><img src="images/line.png" class="line"></li>
+	</ul>
+	<p>Copyright(C)当当网2004-2009,All Rights Reserved<img src="images/validate.gif">京ICP证041189号 音像制品经营许可证 景音网8号</p>	
+</div><br><br><br><br>
+</body>
+
+</html>

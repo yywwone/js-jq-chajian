@@ -1,0 +1,81 @@
+.hello-sign-box{
+	height: 2.15rem;
+	width: 100%;
+	background:url(../images/header-bg_02.png) no-repeat;
+	background-size: 100%;
+	background-position:0 0;
+}
+*{outline: none;}
+.welcoming-speech2{
+	font-size: 0.23rem;
+	color: #FFFFFF;
+	float:left;
+	width: 100%;
+	margin-top: 0.85rem;
+	text-align: center;
+}
+.tab-box{
+	margin-top: 0.08rem;
+	width: 100%;
+	height: 0.28rem;
+	border-bottom: solid #233B83 0.01rem;;
+	
+}
+.tab-nav li{
+	height: 0.28rem;
+	width: 0.86rem;
+	border-top-left-radius:0.05rem;
+	border-top-right-radius:0.05rem;
+	border: solid #233B83 0.01rem;
+	border-bottom:#FFFFFF;
+	text-align: center;
+	line-height: 0.28rem;
+	background-color: #233B83;
+	float: left;
+	color: #FFFFFF;
+}
+.tab-nav-list1{
+	margin-left: 0.2rem;
+}
+.tab-nav-list3{
+
+}
+.tab-nav-list2{
+	margin-left: 0.3rem;
+	margin-right: 0.3rem;
+}
+.tab-wirte{
+	float: left;
+}
+.all-oder{
+	width: 88%;
+	margin-left: 0.2rem;
+}
+.all-oder-item li{
+	width: 100%;
+	height: 0.65rem;
+	border-bottom: solid 0.01rem #233B83;
+}
+.oder-name{
+	height: 0.32rem;
+	font-size:0.14rem;
+	line-height:0.42rem;
+	color: #666666;
+	margin-bottom: 0.045rem;
+}
+.oder-company{
+	height: 0.2rem;
+	font-size:0.10rem;
+	line-height:0.2rem;
+	color: #666666;
+}
+
+.all-oder-con{
+	position: relative;
+}
+.oder-w{
+	position: absolute;
+	top: 0.25rem;
+	right: 0;
+	color: #666666;
+}

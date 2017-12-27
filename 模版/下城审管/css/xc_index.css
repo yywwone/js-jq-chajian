@@ -1,0 +1,44 @@
+/* CSS Document */
+a:link{text-decoration:none;color:white ;}
+a:visited {text-decoration:none;color:white;}
+a:hover{text-decoration:underline;color:white;}
+a:active{text-decoration:none;color:white;}
+.index_bg{background: url(../images/bg1.png);width: 100%;background-size: 100% 100%;margin: 0;font-family: 微软雅黑;height: 1160px;}
+.index_logo{width: 150px;margin: 0 auto;margin-top: 40px;margin-bottom:25px;}
+	.index_bg h5{text-align: center;}
+.index_form_box{width: 290px;height: 50px; margin: 0 auto;margin-top: 45px;}
+.index_form input{float: left;outline: none;width: 170px;height: 35px;padding: 15px;border-radius: 10px;background: none;margin-right: 15px;border: 1px solid #7C8084}
+.index_form .index_submit{ float: left;width: 100px;height: 35px; background: #4F9CF2;color: #fff;margin: 0;text-align: center;line-height: 35px;text-decoration: none;border-radius: 10px;}
+.index_text{clear: both;font-size:0.7em;text-align: center;margin-top:15px;}
+.index_text p{margin-bottom: 5px;}
+.index_text p:last-child{margin-bottom:10px;}
+.index_tit{font-size: 1.8em;font-weight: bold;margin-left: 15px;}
+.index_tit2{float: right;margin-right:5px;margin-top: 10px;font-weight: bold}
+.index_con_icon{margin-left: 5px;letter-spacing:3px;}
+.index_slider_box{position: relative;height: 576px;overflow: hidden;margin: 0 auto}
+.index_slider_con{position: absolute}
+
+.index_con_box{padding-left: 15px;padding-top: 15px;}
+.index_con_box img{width: 45px;height: 45px;}
+.index_con_box1{height: 150px;}
+.index_con_name{font-weight: 600;margin-left: 15px;}
+.index_con_sj{float: right;color: #8E9599;margin-top: 10px;margin-right: 15px;}
+.index_con_tit{font-weight: 600;margin-top: 15px;margin-left: 15px;font-size: 1.1em}
+.index_con_text{margin-left: 15px;margin-right: 15px;margin-bottom:0;font-size: 1em;line-height: 20px;word-break:break-all;}
+.index_con_box a{color: #000;text-decoration: none;}
+.index_sj_box{overflow:hidden;position: relative}
+.index_con_sj1{margin-left: 15px;color:#77797A;font-size:0.9em;position: absolute;bottom: 0;}
+.index_con_dwyy{color:#444141;float: right;margin-right: 15px;font-size:0.9em;}
+.index_tit5{width: 100%}
+.index_tit5 a{color: #000}
+.index_con_box_active{margin-bottom: 150px;}
+ .icon {
+       width: 1.5em; height: 1.5em;
+       vertical-align: -0.15em;
+       fill: currentColor;
+       overflow: hidden;
+	}
+@media screen and (min-width: 768px){
+	.index_bg{width: 731px;margin: 0 auto;}
+	.index_slider_box{height: 590px;}
+}

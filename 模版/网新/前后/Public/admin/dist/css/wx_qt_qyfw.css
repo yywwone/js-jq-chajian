@@ -1,0 +1,78 @@
+/* CSS Document */
+.wx_qyfw_header_img{
+	width:3.745rem;
+	height: 2.425rem;
+}
+.wx_qyfw_header_img img{
+	width:100%;
+	height:100%;
+}
+.wx_qyfw_box_tit_box{
+	border-bottom: 2px solid #1e1c7d;
+}
+.wx_qyfw_box_tit{
+	display:inline-block;
+	width: 0.73rem;
+	height: 0.23rem;
+	background: #1e1c7d;
+	color: #fff;
+	font-size: 0.14rem;
+	text-align: center;
+	line-height: 0.23rem;
+	border-radius: 0.05rem;
+	margin-left: 0.13rem;
+	margin-top: 0.18rem;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+/*主体*/
+.wx_qyfw_main{
+	width: 0.92rem;
+	height: 1rem;
+	text-align: center;
+	border: 1px solid #eee;
+	float: left;
+	border-right: none;
+}
+.wx_qyfw_main:nth-of-type(1),.wx_qyfw_main:nth-of-type(5),.wx_qyfw_main:nth-of-type(9),.wx_qyfw_main:nth-of-type(13){
+	border-left: none;
+}
+.wx_qyfw_main:nth-of-type(1),.wx_qyfw_main:nth-of-type(2),.wx_qyfw_main:nth-of-type(3),.wx_qyfw_main:nth-of-type(4){
+	border-top: none;
+}
+.wx_qyfw_main a{
+	display: block;
+	color: #666;
+	
+}
+.wx_qyfw_main1{border-right: 1px solid #eee}
+.wx_qyfw_main img{
+	width: 0.45rem;
+	height: 0.45rem;
+	margin-top: 0.14rem;
+}
+.wx_qyfw_main p{
+	font-size: 0.11rem;
+	margin-top: 0.1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

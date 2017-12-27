@@ -1,0 +1,85 @@
+/* CSS Document */
+*{padding: 0;margin: 0;text-decoration:none;list-style: none;font-family: 微软雅黑;outline: none;font-size: 12px;}
+.wx_ht_yqqyck_box{
+	margin: 30px auto;
+	width: 1390px;
+}
+.wx_ht_yqqyck_box_row{
+	overflow: hidden;
+}
+.wx_ht_yqqyck_box_row_con{
+	float: left;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #ccc;
+	border-right: none;
+}
+.wx_ht_yqqyck_box_row:not(:first-child) .wx_ht_yqqyck_box_row_con{
+	border-top: none;
+}
+.wx_ht_yqqyck_box_row_con:last-child{
+	border-right: 1px solid #ccc;
+}
+.wx_ht_yqqyck_box_row_con::-webkit-scrollbar {
+width: 0px;
+height: 1px;
+
+}
+.wx_ht_yqqyck_box_row_con_1{
+	height: 100px;
+}
+.wx_ht_yqqyck_box_row_con1{
+	width: 130px;
+}
+.wx_ht_yqqyck_box_row_con2{
+	width: 60px;
+}
+.wx_ht_yqqyck_box_row_con3{
+	width: 160px;
+	
+}
+.wx_ht_yqqyck_box_row_con3 textarea{
+	margin: 3px 0;
+	border: none;
+	resize: none;
+	height: 96%;
+	line-height: 15px;
+}
+.wx_ht_yqqyck_box_row_con3 textarea::-webkit-scrollbar{
+	width: 0px;
+	height: 1px;
+}
+.wx_ht_yqqyck_box_row_con4{
+	width: 80px;
+}
+.wx_ht_yqqyck_box_row_con4 img{
+	margin-top: 12px;
+	width: 77px;
+	height: 77px;
+}
+.wx_ht_yqqyck_box_row_con5{
+	width: 160px;
+}
+.wx_ht_yqqyck_box_row_con5 img{
+	width: 155px;
+	height: 77px;
+	margin-top: 12px;
+}
+.wx_ht_yqqyck_box_row_con6{
+	width: 100px;
+}
+.wx_ht_yqqyck_box_row_con7{
+	width: 100px;
+	line-height: 20px;
+}
+.wx_ht_yqqyck_box_row_con7 p{
+	margin:5px;
+}
+.wx_ht_yqqyck_box_row_con8{
+	width: 80px;
+}
+.wx_ht_yqqyck_box_row_con8 a{
+	display: block;
+}

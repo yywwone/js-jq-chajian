@@ -1,0 +1,112 @@
+.nav-box{
+	width: 100%;
+	height: 117px;
+}
+.nav-main{
+	width: 1200px;
+	height: 117px;
+	margin: 0 auto;
+}
+.logo-box{
+	float: left;
+	width: 300px;
+	height: 117px;
+	margin-left:100px;
+}
+.logo{
+	margin-top: 25px;
+}
+.list-nav{
+	float: right;
+}
+.list-nav-b li{
+	float: left;
+	margin-right: 45px;
+	line-height: 117px;
+}
+.list-nav-b li a{
+	color: #666666;
+}
+.content-box2{
+	width: 1200px;
+	margin: 0 auto;
+}
+.image-box{
+	height: 370px;
+}
+.gps1{
+	margin-top: 28px;
+	margin-left: 151px;
+}
+.txt1{
+	color: #747474;
+}
+.til-b{
+	width: 1000px;
+	height: 380px;
+	margin: 0 auto;
+	margin-top: 10px;
+	padding-top: 35px;
+	position: relative;
+}
+.hehed{
+	width: 824px;
+	height: 360px;
+	border: solid 1px #5e92f2;
+	margin: 0 auto;
+}
+.ho{
+	font-size: 30px;
+	width: 170px;
+	height: 50px;
+	position: absolute;
+	left:42%;
+	top: 0;
+	text-align: center;
+	background: #fff;;
+}
+.chatu{
+	margin-top: 95px;
+	padding: 0 56px;
+	float: left;
+}
+.wenzi{
+	float: left;
+	margin-top: 60px;
+	margin-left: 40px;
+}
+.didi{
+	line-height: 40px;
+}
+/*下方为底部*/
+.di-l{
+	width:100%;
+	height: 194px;
+	background-color: #2e2e3a;
+}
+.did{
+	width: 1200px;
+	margin: 0 auto;
+}
+.didis li{
+	float: left;
+	margin-left: 50px;
+	margin-top: 57px;
+	
+}
+.didis li a{
+	color: #fff;
+	font-size: 20px;
+}
+.right1{
+	float: right;
+	margin-right: 72px;
+}
+.last{
+	color: #fff;
+	margin-top: 57px;
+}
+.last span{
+	font-size: 30px;	
+}
+

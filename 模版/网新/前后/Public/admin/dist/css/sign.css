@@ -1,0 +1,115 @@
+.hello-sign-box{
+	height: 2.15rem;
+	width: 100%;
+	background:url(../images/header-bg_02.png) no-repeat;
+	background-size: 100%;
+	background-position:0 0;
+}
+*{outline: none;}
+.welcoming-speech2{
+	font-size: 0.23rem;
+	color: #FFFFFF;
+	float:left;
+	width: 100%;
+	margin-top: 0.85rem;
+	text-align: center;
+}
+.sign-content-box{
+	width: 80%;
+	margin:0 auto;
+}
+.worn-tel{
+	margin-top: 0.25rem;
+	height: 0.39rem;
+	width:2.37rem;
+	border: solid 1px #999999;
+	border-radius: 0.19rem;
+	outline: none;
+	padding-left: 0.5rem;
+	font-size: 0.12rem;
+}
+.worn-tel1{
+	margin-top: 0.05rem;
+	height: 0.39rem;
+	width:2.37rem;
+	border: solid 1px #999999;
+	border-radius: 0.19rem;
+	outline: none;
+	padding-left: 0.5rem;
+	font-size: 0.12rem;
+}
+.tel-content{
+	position: relative;
+}
+.icon-sign{
+	display: inline-block;
+	width: 0.18rem;
+	height:0.18rem;
+	background-size: cover;
+	position: absolute;
+	top: 0.37rem;
+	left: 0.20rem;
+}
+.icon-sign-1{
+	top: 0.17rem;
+	background:url(../images/icon-sign.png);
+	background-position: 0 0;
+	background-size: cover;
+	height:0.17rem;
+}
+.icon-sign-2{
+	height: 0.2rem;
+	background:url(../images/icon-sign.png);
+	background-position:0 -0.18rem;
+	background-size: cover;
+}
+.icon-sign-3{
+	height: 0.19rem;
+	background:url(../images/icon-sign.png);
+	background-position:0 -0.375rem;
+	background-size: cover;
+}
+.icon-sign-4{
+	height: 0.18rem;
+	background:url(../images/icon-sign.png);
+	background-position:0 -0.55rem;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.icon-sign-5{
+	height: 0.18rem;
+	background:url(../images/icon-sign.png);
+	background-position:0 -0.73rem;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.btn-sub{
+	height: 0.41rem;
+	width:2.87rem;
+	border: solid 1px #999999;
+	border-radius: 0.19rem;
+	background-color: #233B83;
+	color: #FFFFFF;
+	margin-top: 0.23rem;
+	font-size: 0.16rem;
+}
+.marsk-tips{
+	position: absolute;
+	width: 1.3rem;
+	height: 0.5rem;
+	text-align: center;
+	line-height: 0.5rem;
+	border-radius: 0.2rem;
+	color: #FFFFFF;
+	background-color: rgba(0,0,0,0.4);
+	top: 50%;
+	margin-top:-0.25rem;
+	left: 50%;
+	margin-left:-0.65rem;
+	z-index: 10;
+	display: none;
+}
+
+
+
+

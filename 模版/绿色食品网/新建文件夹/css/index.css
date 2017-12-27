@@ -1,0 +1,45 @@
+/* CSS Document */
+
+#content{width: 980px; background-color: #fff;margin: 10px auto 0;overflow: hidden;border-radius: 3px;}
+#contop ul{width: 980px; display: table;float: left;margin-top: 10px;margin-left: 10px;margin-bottom: 12px;}
+#contop ul li{display: table-cell;background: url(../images/li_bg.jpg) no-repeat;height: 83px;width: 240px;}
+#contop ul li img{float: left;margin-top: 10px;margin-left: 10px;}
+#contop ul li p{display:inline-block;width: 170px;font-size: 12px;margin-left: 50px;line-height: 18px;color: #9d9d9d;}
+
+#conleft{width:321px;height:211px; float: left;border-right: 1px solid #9d9d9d;border-top:1px solid #9d9d9d;position: relative;background: url(../images/conleft_bg.png)}
+.conleft_img1{position: absolute;left: 10px;top: 10px;}
+.conleft_img2{position: absolute;left: 270px;top: 18px;}
+.img_border{width: 103px;height: 89px;background: #fff;float: left;position: relative;border: 1px solid #d8d8d8;margin-left: 10px;position: absolute;left: 10px;top: 80px;}
+#conleft .conleft_img3{border: 1px solid #d8d8d8;position: absolute;left: 2px;top: 2px;}
+#conleft p{width:180px;font-size: 12px;color: #616161;position:absolute;left: 10px;top:80px;left: 130px;line-height: 18px;}
+#conleft .conleft_text_a{color: green}
+#conleft a{color: #000;}
+
+#concenter{width: 407px;height:211px;float: left;border-right:1px solid #9d9d9d;border-top:1px solid #9d9d9d;position: relative;background: url(../images/conleft_bg.png)}
+#concenter .concenter_img1{position: absolute;left: 10px;top: 10px;}
+#concenter .concenter_img2{position: absolute;left: 350px;top: 18px;}
+#concenter .cc_imgbd1,.cc_imgbd2,.cc_imgbd3{width:119px;height: 93px;background-color:#fff;position: relative;float: left;margin-top: 80px;margin-left: 10px;border: 1px solid #e0e0e0;text-align: center;}
+#concenter .concenter_img5{margin-top: 2px;}
+#concenter .concenter_a{font-size: 12px;display: inline-block;width: 119px;text-align: center;margin-left: 5px;color: #616161;}
+
+#conright{width: 249px;height:211px;float: left;border-right:1px solid #9d9d9d;border-top:1px solid #9d9d9d;background: url(../images/conleft_bg.png)}
+#conright img{margin: 10px 0 28px 10px;;}
+#conright p{font-size: 12px;margin-left: 10px;margin-bottom: 10px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

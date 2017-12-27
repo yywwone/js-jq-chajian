@@ -1,0 +1,34 @@
+/* CSS Document */
+/*顶部栏*/
+/*左侧*/
+.top{width: 100%;height: 118px;background: #396E96;position: relative;font-size: 1em}
+.logo{position: absolute;left:0;top: 52px;}
+.top-text{position: absolute;top: 60px;left: 75px;color: #fff}
+.top-text p:last-child{background: #DD2727;font-size: 12px;text-align: center;width:66px;height:16px;line-height:16px;border-radius: 5px;}
+
+/*顶部栏*/
+/*右侧*/
+.top-text1{position: absolute;top: 60px;right: 0}
+.top-text1 span{display: inline-block;width:58px;height:46px;color: #fff;text-align: center;font-size: 1em}
+.top-text1 .span1{background:#DD2727;line-height: 46px;}
+.top-text1 .span2{background:#D0021B;line-height: 23px;}
+
+/*导航栏*/
+.nav{margin-top:5px;}
+
+/*banner栏*/
+.bannei-top{margin-top: 20px;background:#EAEAE2;height:750px;}
+.row .tit{height: 40px;background:#fff;line-height:40px;font-size: 1em;border: 1px solid #ccc;margin-top: 10px;}
+.col-xs-12{margin: 0;padding: 0;}
+.bg-icon{position: relative;margin-top: 10px;}
+/*购物卷*/
+.juan-pn1{position:absolute;left:3%;top:10%;padding: 3%;}
+.juan-pn2{position:absolute;right:0;top:10%;padding: 3%;}
+.juan-pn3{position:absolute;left:3%;bottom:10%;padding: 3%;}
+.juan-pn4{position:absolute;right:0;bottom:10%;padding: 3%;}
+/*种类*/
+.classes{margin-top:5px;}
+.classes div a{color: #000}
+/*热销*/
+.rexiao{line-height: 40px;text-align: center;font-size: 1em}
+.container-fluid .rexiao-con{margin-top: 15px;margin-bottom: 15px;}

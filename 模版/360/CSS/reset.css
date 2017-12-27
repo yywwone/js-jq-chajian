@@ -1,0 +1,6 @@
+/* CSS Document */
+*{padding: 0;margin: 0;text-decoration:none;list-style: none;font-family:宋体;}
+a:focus{outline: none;-moz-outline-style: none; }
+input:focus{outline: none;}/*表单获得焦点时不显示蓝色框*/
+input{border:1px solid #a9a9a9;}
+img{border: none;}

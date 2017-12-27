@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<style>
+*{ margin:0; padding:0;}
+#div1{ width:470px; height:150px; position:relative; margin:50px; overflow:hidden;}
+#ul1{ position:absolute; left:0;}
+#ul1 li{ width:470px; height:150px; float:left; list-style:none;}
+</style>
+<script src="move.js"></script>
+<script>
+window.onload = function(){
+	var oDiv = document.getElementById('div1');
+	var oUl = document.getElementById('ul1');
+	var aLi = oUl.getElementsByTagName('li');
+	
+	var w = aLi[0].offsetWidth;
+	
+	oUl.style.width = aLi.length * w + 'px';
+	
+	document.ontouchmove = function(ev){
+		ev.preventDefault();
+	};
+	
+	var downLeft = 0;
+	var downX = 0;
+	var iNow = 0;
+	var downTime = 0;
+
+	oUl.ontouchstart = function(ev){
+		
+		var touchs = ev.changedTouches[0];
+		var bBtn = true;
+		
+		downLeft = this.offsetLeft;
+		downX = touchs.pageX;
+		downTime = Date.now();
+		
+		oUl.ontouchmove = function(ev){
+			var touchs = ev.changedTouches[0];
+			
+			if( this.offsetLeft >= 0 ){
+				
+				if(bBtn){
+					bBtn = false;
+					downX = touchs.pageX;		
+				}
+				
+				this.style.left = (touchs.pageX - downX)/3 + 'px';
+			}
+			else if(this.offsetLeft <= oDiv.offsetWidth - this.offsetWidth){
+				
+				if(bBtn){
+					bBtn = false;
+					downX = touchs.pageX;		
+				}
+				
+				this.style.left = (touchs.pageX - downX)/3 + (oDiv.offsetWidth - this.offsetWidth) + 'px';
+			}
+			else{
+				this.style.left = touchs.pageX - downX + downLeft + 'px';
+			}
+		};
+		
+		oUl.ontouchend = function(ev){
+			
+			var touchs = ev.changedTouches[0];
+			
+			this.ontouchmove = null;
+			this.ontouchend = null;
+			
+			if( downX < touchs.pageX ){  //→
+			
+				if( iNow != 0){
+					if(touchs.pageX - downX > oDiv.offsetWidth/2 || Date.now() - downTime < 300 &&  touchs.pageX - downX > 30){
+						iNow--;
+					}
+				}
+				
+				startMove(oUl,{left : -iNow*w},400,'easeOut');
+			
+			}
+			else{  //←
+				
+				if( iNow != aLi.length-1){
+					if(downX - touchs.pageX > oDiv.offsetWidth/2 || Date.now() - downTime < 300 && downX - touchs.pageX > 30){
+						iNow++;
+					}
+				}
+				
+				startMove(oUl,{left : -iNow*w},400,'easeOut');
+			
+			}
+			
+		};
+		
+	};
+	
+};
+</script>
+</head>
+
+<body>
+<div id="div1">
+	<ul id="ul1">
+    	<li><img src="img/1.jpg"></li>
+        <li><img src="img/2.jpg"></li>
+        <li><img src="img/3.jpg"></li>
+        <li><img src="img/4.jpg"></li>
+        <li><img src="img/5.jpg"></li>
+    </ul>
+</div>
+</body>
+</html>

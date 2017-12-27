@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>企业录入</title>
+		<link href="__PUBLIC__/home/dist/css/reset.css" type="text/css" rel="stylesheet" />
+		<link href="__PUBLIC__/home/dist/css/enter.css" type="text/css" rel="stylesheet" />
+	</head>	
+	<body>
+		<div class="title">
+			<p>带*为必填内容</p>
+		</div>
+		<table  border-collapse: collapse; class="mytable" border="1">
+			<form action="{:U('enter')}" method="post">
+				<tr class="fitr">
+					<td colspan="4">批次</td>
+					<td colspan="8">
+						<input type="text" name="pici" placeholder="请输入公司批次" class="use-inp " >
+					</td>
+				</tr>
+				<tr class="fitr">
+					<td colspan="4">公司名称<sup>*</sup></td>
+					<td colspan="8">
+						<input type="text" name="gs_name" placeholder="请填写您的公司名称" class="use-inp js-cpany" >
+					</td>
+				</tr>
+				<tr class="fitr">
+					<td colspan="4">法定代表人<sup>*</sup></td>
+					<td colspan="8">
+						<input type="text" name="gs_faren" placeholder="请输入法定代表人姓名" class="use-inp js-man" >
+					</td>
+				</tr>
+				<tr class="fitr">
+					<td colspan="4">公司地址<sup>*</sup></td>
+					<td colspan="8">
+						<input type="text" name="gs_add" placeholder="请输入公司地址（具体到楼层房间号）" class="use-inp js-gps" >
+					</td>
+				</tr>
+				<tr class="fitr">
+					<td colspan="4">联系电话<sup>*</sup></td>
+					<td colspan="8">
+						<input type="text" name="gs_tel" placeholder="请输入联系电话" class="use-inp js-tel1" >
+					</td>
+				</tr>
+				<tr class="fitr">
+					<td colspan="4">主营业务<sup>*</sup></td>
+					<td colspan="8">
+						<input type="text" name="gs_yw" placeholder="请输入公司主营业务" class="use-inp zhu-y" >
+					</td>
+				</tr>
+				<tr class="fitr">
+					<td colspan="4">代表产品</td>
+					<td colspan="8">
+						<input type="text" name="gs_cp" placeholder="请输入公司代表业务（产品）" class="use-inp" >
+					</td>
+				</tr>
+				<tr class="fitr">
+					<td colspan="4">新增成果</td>
+					<td colspan="8">
+						<input type="text" name="gs_cg" placeholder="请输入公司本年度新增成果" class="use-inp" >
+					</td>
+				</tr>
+				<tr class="fitr">
+					<td colspan="4">主要指标</td>
+					<td colspan="8">
+					<textarea  name="gs_zb" class="txt1 txt3"></textarea>
+					</td>
+				</tr>
+				<tr class="fitr">
+					<td colspan="4">从业人数<sup>*</sup></td>
+					<td colspan="8">
+						<input type="text" name="congy_renshu" placeholder="请输入公司人数（硕士以上/本科/专科以下）" class="use-inp js-pep" >
+					</td>
+				</tr>
+				<tr class="fitr">
+					<td colspan="4">创业人数</td>
+					<td colspan="8">
+						<textarea  name="cy_renshu" class="txt1 txt2"></textarea>
+					</td>
+				</tr>
+				<tr class="fitr">
+					<td colspan="4">技术职称</td>
+					<td colspan="8">
+						<input type="text" name="gs_js" placeholder="请请输入高中级技术职称人数" class="use-inp" >
+					</td>
+				</tr>
+				<tr class="fitr">
+					<td colspan="4">高新企业</td>
+					<td colspan="8">
+						<input type="text" name="gx_qiye" placeholder="请选择是否为高新技术企业" class="use-inp" >
+					</td>
+				</tr>
+				<tr class="fitr">
+					<td colspan="4">科技企业</td>
+					<td colspan="8">
+						<input type="text" name="kj_qiye" placeholder="请选择是否为科技型中小企业" class="use-inp" >
+					</td>
+				</tr>
+				<tr class="fitr">
+					<td colspan="4">专利数量</td>
+					<td colspan="8">
+						<input type="text" name="zl_shuliang" placeholder="请输入专利拥有量" class="use-inp" >
+					</td>
+				</tr>
+				<tr class="fitr">
+					<td colspan="4">有效专利</td>
+					<td colspan="8">
+						<input type="text" name="yx_zhuanli" placeholder="请输入期末有效发明专利数" class="use-inp" >
+					</td>
+				</tr>
+				<tr class="fitr">
+					<td colspan="4">软件著作权</td>
+					<td colspan="8">
+						<input type="text" name="gs_zzq" placeholder="请输入软件著作权" class="use-inp js-cpany" >
+					</td>
+				</tr>
+				<tr class="fitr">
+					<td colspan="4">注册地<sup>*</sup></td>
+					<td colspan="8">
+						<input type="text" name="zc_add" placeholder="请输入您的注册地" class="use-inp js-di" >
+					</td>
+				</tr>
+				<tr class="fitr">
+					<td colspan="4">缴税地<sup>*</sup></td>
+					<td colspan="8">
+						<input type="text" name="js_add" placeholder="请输入您的缴税地" class="use-inp js-dd" >
+					</td>
+				</tr>
+		</table>
+		<input type="submit" class="he-ii" value="确认提交"/>
+		<div class="marsk-tips88">用户名不能为空</div>
+		</form>
+		<script src="__PUBLIC__/home/dist/js/mobblie.js"></script>
+		<script src="__PUBLIC__/home/dist/js/jquery-1.11.0.min.js"></script>
+		<script src="__PUBLIC__/home/dist/js/enter.js"></script>
+	</body>
+</html>

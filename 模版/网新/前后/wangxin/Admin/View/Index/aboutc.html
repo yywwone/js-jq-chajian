@@ -1,0 +1,96 @@
+<extend name="public:base"/>
+<block name="link">
+<link rel="stylesheet" href="__PUBLIC__/admin/css/aboutc.css"/>   
+<link href="__PUBLIC__/admin/css/reset1.css" rel="stylesheet" /> 
+    </block>
+<block name="con">
+ 
+		<!--<div class="company-banner-box">-->
+			<!--<img src="__UPLOAD__/{$item.image}">-->
+		<!--</div>-->
+		<!--<div class="company-logo-box">-->
+			<!--<h1>{$item.name}</h1>-->
+		<!--</div>-->
+		<!--<p class="p-main">-->
+			<!--&lt;!&ndash;{$item.xiangqing}&ndash;&gt;-->
+            <!--<svg class="a11_iocn" aria-hidden="true">-->
+                <!--<use xlink:href="#icon-shouye"></use>-->
+            <!--</svg>-->
+		<!--</p>-->
+		<!--<div class="honor">-->
+			<!--<h3>企业荣誉</h3>-->
+			<!--<p class="honor-main">-->
+				<!--{$item.qy_rongyu}-->
+			<!--</p>-->
+		<!--</div>-->
+   <div class="box">
+      <volist name="con" id="v">
+            <img src="__PUBLIC__/admin/uploads/{$v[img]}" class="xq_banner_img">
+            <h2>{$v['name']}</h2>
+        <div class="xq_main">
+            <p>
+                <svg class="xq_main_icon" aria-hidden="true">
+                	<use xlink:href="#icon-fuzeren1"></use>
+                </svg>
+                <span class="xa_main_span">负责人</span>
+                <span>{$v['fuzeren']}</span>
+            </p>
+            <p>
+                <svg class="xq_main_icon" aria-hidden="true">
+                    <use xlink:href="#icon-dianhua"></use>
+                </svg>
+                <span class="xa_main_span">联系电话</span>
+                <span>{$v['tel']}</span>
+            </p>
+            <p>
+                <svg class="xq_main_icon" aria-hidden="true">
+                    <use xlink:href="#icon-gaiqiyexinxi"></use>
+                </svg>
+                <span class="xa_main_span">服务商类型</span>
+                <span>
+                    <switch name="v['biaoshi']">
+                        <case value="1">入驻企业</case>
+                        <case value="2">服务商</case>
+                    </switch>
+            </span>
+            </p>
+            <p style='height:100px;width:300px'>
+                <svg class="xq_main_icon" aria-hidden="true">
+                    <use xlink:href="#icon-dizhi"></use>
+                </svg>
+                <span class="xa_main_span" style="margin-bottom:10px;">企业地址</span><br>
+                <span style='line-height:25px'>{$v['add']}</span>
+            </p>
+           <!--  <p>
+                <svg class="xq_main_icon" aria-hidden="true">
+                    <use xlink:href="#icon-rongyu"></use>
+                </svg>
+                <span class="xa_main_span">企业荣誉</span>
+                <span>{$v['qy_rongyu']}</span>
+            </p> -->
+            <p>
+                <svg class="xq_main_icon" aria-hidden="true">
+                    <use xlink:href="#icon-fanwei"></use>
+                </svg>
+                <span class="xa_main_span xa_main_span2">服务范围</span>
+                <span>杭州市余杭区</span>
+            </p>
+            <p>
+                <svg class="xq_main_icon" aria-hidden="true">
+                    <use xlink:href="#icon-shouye"></use>
+                </svg>
+                <span class="xa_main_span xa_main_span1">企业简介</span>
+            </p>
+            <div class="xq_main_text">
+                {$v['jianjie']}
+            </div>
+        </div>
+      </volist>
+		<!-- 底部栏显示标识 -->
+	</div>
+        <block name="src">
+        <script src="__PUBLIC__/admin/js/jquery-1.11.1.min.js"></script>
+        <script src="__PUBLIC__/admin/js/font_440400_waj7qmu35o2yb9.js"></script>
+        <!-- <script src="__PUBLIC__/admin/js/rem.js"></script> -->
+        </block>
+ </block>

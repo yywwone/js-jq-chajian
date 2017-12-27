@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <title>Title</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div id="address-list-page">
+    <div class="list-header">
+        <div class="nav-head address-head">
+            <span class=" address-head-text">地址管理</span>
+        </div>
+    </div>
+    <div class="address-body">
+        <div class="address-list">
+            <!--ajax要拼接的字符串开始,静态页面先完成，完成后把要改为后台获取的数据直接复制到下面，循环拼接-->
+            <div class="address-item">
+                <p class="address-info">
+                    <span class="consignee">邵炉琴</span>
+                    <span class="phone">18268044751</span>
+                    <span class="detail">浙江省杭州市西湖区亟待解决</span>
+                </p>
+                <p class="address-action">
+                    <span class="set-default">设为默认</span>
+                    <span class="button-list">
+					    <a href="#/address/add?id={{item.id}}&{{typeLink}}" class="edit-address">编辑</a>
+					    <span class="del-address">删除</span>
+					</span>
+                </p>
+            </div>
+            <!--ajax要拼接的字符串结束-->
+        </div>
+    </div>
+    <div class="list-footer">
+        <div class="address-add">
+            <a href="#">新增地址</a>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    $.ajax({
+        url: 'tsconfig.json',
+        success: function (data) {
+            var html = ''
+            $.each(data.obj, function (index, item) {
+                console.log(item)
+                html += '<div class="address-item">' +
+                    '<p class="address-info">' +
+                    '<span class="consignee">' + item.consignee + '</span>' +
+                    '<span class="phone">' + item.mobile + '</span>' +
+                    '<span class="detail">' + item.prov + item.city + item.area + item.address + '</span>' +
+                    '</p>' +
+                    '<p class="address-action">' +
+                    '<span class="set-default">设为默认</span>' +
+                    '<span class="button-list">' +
+                    '<a href="#/address/add?id={{item.id}}&{{typeLink}}" class="edit-address">编辑</a>' +
+                    '<span class="del-address">删除</span>' +
+                    '</span>' +
+                    '</p>' +
+                    '</div>'
+            })
+            $('.address-list').append(html)
+        }
+    })
+</script>
+</body>
+</html>

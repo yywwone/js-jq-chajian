@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>游客登录</title>
+<link rel="icon" href="" type="image/x-icon"/>
+<link href="css/bootstrap.css" rel="stylesheet">
+<style>
+	*{text-decoration:none;list-style: none;}
+	input{margin-top: 15px; width: 100%;height: 30px;padding-left:5px;}
+	.search_con{padding-left: 10px;width: 100%;height: 100px;background:#fafafa;color: #ccc;display:none}
+	.search_con li{margin-top: 5px}
+</style>
+</head>
+
+<body>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-12" style="text-align: center">
+			<h3>游客登录</h3>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-3"></div>
+		<div class="col-xs-6">
+			<form class="yk_form">
+				<table>
+					<tr>
+						<td>
+							<input type="text" placeholder="请输入您的姓名" class="name" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="text" placeholder="请输入您的手机号" class="tel"  required>
+						</td>
+					</tr>
+					<tr class="search_box">
+						<td>
+							<input type="text" placeholder="请输入公司名称" class="search" required>
+							<ul class="search_con">
+								<li>111</li>
+								<li>222</li>
+								<li>333</li>
+								<li>444</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="submit" value="登录" style="width: 100%;height: 30px;">
+								
+						</td>
+					</tr>
+				</table>
+				
+				
+				
+				
+			</form>
+		</div>
+		<div class="col-xs-3"></div>
+		
+	</div>
+</div>
+
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+	$(function(){
+		
+		var number=0;
+		var tel=0;
+		/*鼠标按下弹出搜索框*/
+		$(".search").keyup(function(){
+			
+			if(number==0){
+				$(".search_con").show()
+				number=1;
+			}	
+		})
+		/*点击提示内容改变搜索栏内容*/
+		$(".search_box").on("click",".search_con li",function(){
+			var con=$(this).text();
+			$(".search").val(con);
+		})
+		/*搜索栏获取焦点显示提示栏*/
+		$(".search").focus(function(){
+			if($(".search").val()!=""){
+				$(".search_con").show()
+				number=1;
+			}
+			
+			})
+		/*搜索栏失去焦点移除提示栏*/
+		$(".search").blur(function(){
+			$(".search_con").hide()
+			number=0;
+			})
+		/*手机号检测*/
+		$(".tel").blur(function(){
+			var phone=$(this).val();
+			 if(phone.length!=11){
+				 alert("手机号长度不正确")
+				 $(".tel").val("")
+			 }else{
+			 	 if(!(/^1[3|4|5|8][0-9]\d{4,8}$/.test(phone))){
+					 alert("手机号码有误")
+					 $(".tel").val("")
+				 }
+			}
+		})
+	})
+</script>
+</body>
+</html>

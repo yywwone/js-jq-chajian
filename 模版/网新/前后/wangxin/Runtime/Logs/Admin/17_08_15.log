@@ -1,0 +1,1119 @@
+[ 2017-08-15T09:15:53+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003311s ]
+
+[ 2017-08-15T09:15:53+08:00 ] 127.0.0.1 /index.php/Admin/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029858s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002852s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002887s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002790s ]
+
+[ 2017-08-15T09:16:05+08:00 ] 127.0.0.1 /index.php/Admin/login/uplogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003640s ]
+SQL: SHOW COLUMNS FROM `conf` [ RunTime:0.0245s ]
+SQL: SELECT * FROM `conf` WHERE `name` = 'admin' AND `pwd` = 'b5c32b91bccf236e19c70af5075e20ae' LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2017-08-15T09:16:05+08:00 ] 127.0.0.1 /index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007732s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042499s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005616s ]
+
+[ 2017-08-15T09:16:08+08:00 ] 127.0.0.1 /index.php/Admin/video/taobao/li/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003298s ]
+SQL: SHOW COLUMNS FROM `taobao` [ RunTime:0.0047s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\VideoController.class.php on line 7 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `taobao` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\VideoController.class.php on line 11 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `taobao` ORDER BY state desc LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042407s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002817s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002849s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003074s ]
+
+[ 2017-08-15T09:16:12+08:00 ] 127.0.0.1 /index.php/Admin/video/remen/li/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003404s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0045s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\VideoController.class.php on line 21 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `remen` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\VideoController.class.php on line 25 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `remen` ORDER BY state desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060715s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002868s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002901s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004761s ]
+
+[ 2017-08-15T09:16:13+08:00 ] 127.0.0.1 /index.php/Admin/index/news/li/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005481s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0052s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\IndexController.class.php on line 34 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `news`  [ RunTime:0.0005s ]
+SQL: SELECT `img`,`txt` FROM `news` WHERE `create` = '' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2] unlink(.): Permission denied C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\IndexController.class.php 第 83 行.
+SQL: DELETE FROM `news` WHERE `id` = 0 [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081642s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003108s ]
+
+[ 2017-08-15T09:16:17+08:00 ] 127.0.0.1 /index.php/Admin/index/comment/li/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004243s ]
+SQL: SHOW COLUMNS FROM `user_say` [ RunTime:0.0044s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\IndexController.class.php on line 15 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `user_say`  [ RunTime:0.0003s ]
+SQL: DELETE FROM `user_say` WHERE `id` = 0 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004828s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004895s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003232s ]
+
+[ 2017-08-15T09:16:21+08:00 ] 127.0.0.1 /index.php/Admin/peizhi/index/li/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002714s ]
+SQL: SHOW COLUMNS FROM `conf` [ RunTime:0.0043s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\PeizhiController.class.php on line 7 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `conf`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002994s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002718s ]
+
+[ 2017-08-15T09:23:17+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003925s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021704s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003559s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002895s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002932s ]
+
+[ 2017-08-15T09:23:20+08:00 ] 127.0.0.1 /index.php/Admin/video/remen/li/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002816s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0041s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\VideoController.class.php on line 21 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `remen` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\VideoController.class.php on line 25 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `remen` ORDER BY state desc LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022877s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002825s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003504s ]
+
+[ 2017-08-15T09:23:22+08:00 ] 127.0.0.1 /index.php/Admin/dele/dele/type/2/name/1502420972.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003179s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0040s ]
+SQL: SELECT `img`,`video`,`create` FROM `remen` WHERE `create` = '1502420972' LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `remen` WHERE `create` = '1502420972' [ RunTime:0.0591s ]
+
+[ 2017-08-15T09:23:22+08:00 ] 127.0.0.1 /index.php/Admin/video/remen.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002851s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0041s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\VideoController.class.php on line 21 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `remen` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\VideoController.class.php on line 25 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `remen` ORDER BY state desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022327s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002933s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002971s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002831s ]
+
+[ 2017-08-15T09:23:23+08:00 ] 127.0.0.1 /index.php/Admin/dele/dele/type/2/name/1502421020.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004077s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0059s ]
+SQL: SELECT `img`,`video`,`create` FROM `remen` WHERE `create` = '1502421020' LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `remen` WHERE `create` = '1502421020' [ RunTime:0.0004s ]
+
+[ 2017-08-15T09:23:23+08:00 ] 127.0.0.1 /index.php/Admin/video/remen.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002924s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0040s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\VideoController.class.php on line 21 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `remen` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\VideoController.class.php on line 25 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `remen` ORDER BY state desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023513s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002938s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002971s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002887s ]
+
+[ 2017-08-15T09:23:24+08:00 ] 127.0.0.1 /index.php/Admin/dele/dele/type/2/name/1502420947.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003232s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0055s ]
+SQL: SELECT `img`,`video`,`create` FROM `remen` WHERE `create` = '1502420947' LIMIT 1   [ RunTime:0.0004s ]
+SQL: DELETE FROM `remen` WHERE `create` = '1502420947' [ RunTime:0.0005s ]
+
+[ 2017-08-15T09:23:24+08:00 ] 127.0.0.1 /index.php/Admin/video/remen.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004366s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0039s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\VideoController.class.php on line 21 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `remen` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\VideoController.class.php on line 25 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `remen` ORDER BY state desc LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003168s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003215s ]
+
+[ 2017-08-15T09:23:25+08:00 ] 127.0.0.1 /index.php/Admin/dele/dele/type/2/name/1502420511.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003306s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0046s ]
+SQL: SELECT `img`,`video`,`create` FROM `remen` WHERE `create` = '1502420511' LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `remen` WHERE `create` = '1502420511' [ RunTime:0.0014s ]
+
+[ 2017-08-15T09:23:25+08:00 ] 127.0.0.1 /index.php/Admin/video/remen.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003774s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0057s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\VideoController.class.php on line 21 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `remen` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\VideoController.class.php on line 25 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `remen` ORDER BY state desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027327s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002937s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002982s ]
+
+[ 2017-08-15T09:23:26+08:00 ] 127.0.0.1 /index.php/Admin/dele/dele/type/2/name/1502420917.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004586s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0056s ]
+SQL: SELECT `img`,`video`,`create` FROM `remen` WHERE `create` = '1502420917' LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `remen` WHERE `create` = '1502420917' [ RunTime:0.0004s ]
+
+[ 2017-08-15T09:23:26+08:00 ] 127.0.0.1 /index.php/Admin/video/remen.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004319s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0056s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\VideoController.class.php on line 21 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `remen` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\VideoController.class.php on line 25 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `remen` ORDER BY state desc LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034880s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004451s ]
+
+[ 2017-08-15T09:23:27+08:00 ] 127.0.0.1 /index.php/Admin/dele/dele/type/2/name/1502420441.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004129s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0068s ]
+SQL: SELECT `img`,`video`,`create` FROM `remen` WHERE `create` = '1502420441' LIMIT 1   [ RunTime:0.0004s ]
+SQL: DELETE FROM `remen` WHERE `create` = '1502420441' [ RunTime:0.0006s ]
+
+[ 2017-08-15T09:23:27+08:00 ] 127.0.0.1 /index.php/Admin/video/remen.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005245s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0063s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\VideoController.class.php on line 21 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `remen` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\VideoController.class.php on line 25 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `remen` ORDER BY state desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032351s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004567s ]
+
+[ 2017-08-15T09:23:28+08:00 ] 127.0.0.1 /index.php/Admin/dele/up/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014783s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004322s ]
+
+[ 2017-08-15T09:23:47+08:00 ] 127.0.0.1 /index.php/Admin/Dele/upimg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004242s ]
+NOTIC: [2] mkdir(): File exists C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\DeleController.class.php 第 21 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] finfo_file(C:\Users\zrkl\Desktop\upupw\UPUPW_NP5.6\temp\php2887.tmp): failed to open stream: No such file or directory C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0055s ]
+SQL: INSERT INTO `remen` (`img`,`name`,`video`,`create`,`state`,`content`) VALUES ('/Upload/Remen/1502760226/Project_pic/20170815/59924d22c78c2.jpg','5','/Upload/Remen/1502760227/Project_doc/20170815/59924d230c6a0.mp4','1502760227','4','水电费') [ RunTime:0.0004s ]
+
+[ 2017-08-15T09:23:47+08:00 ] 127.0.0.1 /index.php/Admin/video/remen.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004654s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0060s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\VideoController.class.php on line 21 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `remen` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\VideoController.class.php on line 25 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `remen` ORDER BY state desc LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002987s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003462s ]
+
+[ 2017-08-15T09:23:52+08:00 ] 127.0.0.1 /index.php/Admin/Dele/upimg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003152s ]
+NOTIC: [2] mkdir(): File exists C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\DeleController.class.php 第 21 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] finfo_file(C:\Users\zrkl\Desktop\upupw\UPUPW_NP5.6\temp\php3D05.tmp): failed to open stream: No such file or directory C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0050s ]
+SQL: INSERT INTO `remen` (`img`,`name`,`video`,`create`,`state`,`content`) VALUES ('/Upload/Remen/1502760232/Project_pic/20170815/59924d2808bcf.jpg','5','/Upload/Remen/1502760232/Project_doc/20170815/59924d2839b43.mp4','1502760232','4','水电费') [ RunTime:0.0003s ]
+
+[ 2017-08-15T09:23:52+08:00 ] 127.0.0.1 /index.php/Admin/video/remen.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005404s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0051s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\VideoController.class.php on line 21 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `remen` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\VideoController.class.php on line 25 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `remen` ORDER BY state desc LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002739s ]
+
+[ 2017-08-15T09:23:55+08:00 ] 127.0.0.1 /index.php/Admin/Dele/upimg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003136s ]
+NOTIC: [2] mkdir(): File exists C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\DeleController.class.php 第 21 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] finfo_file(C:\Users\zrkl\Desktop\upupw\UPUPW_NP5.6\temp\php49FA.tmp): failed to open stream: No such file or directory C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0173s ]
+SQL: INSERT INTO `remen` (`img`,`name`,`video`,`create`,`state`,`content`) VALUES ('/Upload/Remen/1502760235/Project_pic/20170815/59924d2b54674.jpg','5','/Upload/Remen/1502760235/Project_doc/20170815/59924d2b81d62.mp4','1502760235','4','水电费') [ RunTime:0.0003s ]
+
+[ 2017-08-15T09:23:55+08:00 ] 127.0.0.1 /index.php/Admin/video/remen.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002860s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0053s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\VideoController.class.php on line 21 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `remen` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\VideoController.class.php on line 25 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `remen` ORDER BY state desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022705s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002922s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002962s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002898s ]
+
+[ 2017-08-15T09:24:19+08:00 ] 127.0.0.1 /index.php/Admin/Dele/upimg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002758s ]
+NOTIC: [2] mkdir(): File exists C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\DeleController.class.php 第 21 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] finfo_file(C:\Users\zrkl\Desktop\upupw\UPUPW_NP5.6\temp\phpA64C.tmp): failed to open stream: No such file or directory C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0057s ]
+SQL: INSERT INTO `remen` (`img`,`name`,`video`,`create`,`state`,`content`) VALUES ('/Upload/Remen/1502760258/Project_pic/20170815/59924d4307f4e.jpg','5','/Upload/Remen/1502760259/Project_doc/20170815/59924d433c78e.mp4','1502760259','4','水电费') [ RunTime:0.0005s ]
+
+[ 2017-08-15T09:24:19+08:00 ] 127.0.0.1 /index.php/Admin/video/remen.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002755s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0052s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\VideoController.class.php on line 21 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `remen` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\VideoController.class.php on line 25 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `remen` ORDER BY state desc LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002889s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002928s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002683s ]
+
+[ 2017-08-15T09:24:22+08:00 ] 127.0.0.1 /index.php/Admin/Dele/upimg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002743s ]
+NOTIC: [2] mkdir(): File exists C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\DeleController.class.php 第 21 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] finfo_file(C:\Users\zrkl\Desktop\upupw\UPUPW_NP5.6\temp\phpB1DA.tmp): failed to open stream: No such file or directory C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0046s ]
+SQL: INSERT INTO `remen` (`img`,`name`,`video`,`create`,`state`,`content`) VALUES ('/Upload/Remen/1502760261/Project_pic/20170815/59924d45ea440.jpg','5','/Upload/Remen/1502760262/Project_doc/20170815/59924d4623698.mp4','1502760262','4','水电费') [ RunTime:0.0004s ]
+
+[ 2017-08-15T09:24:22+08:00 ] 127.0.0.1 /index.php/Admin/video/remen.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002934s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0052s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\VideoController.class.php on line 21 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `remen` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\VideoController.class.php on line 25 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `remen` ORDER BY state desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023643s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002965s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003106s ]
+
+[ 2017-08-15T09:24:24+08:00 ] 127.0.0.1 /index.php/Admin/Dele/upimg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003131s ]
+NOTIC: [2] mkdir(): File exists C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\DeleController.class.php 第 21 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] finfo_file(C:\Users\zrkl\Desktop\upupw\UPUPW_NP5.6\temp\phpBC09.tmp): failed to open stream: No such file or directory C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0054s ]
+SQL: INSERT INTO `remen` (`img`,`name`,`video`,`create`,`state`,`content`) VALUES ('/Upload/Remen/1502760264/Project_pic/20170815/59924d488b101.jpg','5','/Upload/Remen/1502760264/Project_doc/20170815/59924d48b8d2e.mp4','1502760264','4','水电费') [ RunTime:0.0004s ]
+
+[ 2017-08-15T09:24:24+08:00 ] 127.0.0.1 /index.php/Admin/video/remen.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002916s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0054s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\VideoController.class.php on line 21 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `remen` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\VideoController.class.php on line 25 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `remen` ORDER BY state desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002786s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002859s ]
+
+[ 2017-08-15T09:25:13+08:00 ] 127.0.0.1 /index.php/Admin/dele/dele/type/2/name/1502760262.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002817s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0048s ]
+SQL: SELECT `img`,`video`,`create` FROM `remen` WHERE `create` = '1502760262' LIMIT 1   [ RunTime:0.0004s ]
+SQL: DELETE FROM `remen` WHERE `create` = '1502760262' [ RunTime:0.0004s ]
+
+[ 2017-08-15T09:25:13+08:00 ] 127.0.0.1 /index.php/Admin/video/remen.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002676s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0047s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\VideoController.class.php on line 21 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `remen` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\VideoController.class.php on line 25 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `remen` ORDER BY state desc LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022653s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002978s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002745s ]
+
+[ 2017-08-15T09:25:14+08:00 ] 127.0.0.1 /index.php/Admin/dele/dele/type/2/name/1502760259.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002803s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0048s ]
+SQL: SELECT `img`,`video`,`create` FROM `remen` WHERE `create` = '1502760259' LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `remen` WHERE `create` = '1502760259' [ RunTime:0.0004s ]
+
+[ 2017-08-15T09:25:14+08:00 ] 127.0.0.1 /index.php/Admin/video/remen.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002983s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0051s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\VideoController.class.php on line 21 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `remen` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\VideoController.class.php on line 25 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `remen` ORDER BY state desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002784s ]
+
+[ 2017-08-15T09:25:17+08:00 ] 127.0.0.1 /index.php/Admin/dele/up/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003461s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003924s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003998s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003409s ]
+
+[ 2017-08-15T09:25:36+08:00 ] 127.0.0.1 /index.php/Admin/Dele/upimg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003074s ]
+NOTIC: [2] mkdir(): File exists C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\DeleController.class.php 第 21 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] finfo_file(C:\Users\zrkl\Desktop\upupw\UPUPW_NP5.6\temp\phpD2EE.tmp): failed to open stream: No such file or directory C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0051s ]
+SQL: INSERT INTO `remen` (`img`,`name`,`video`,`create`,`state`,`content`) VALUES ('/Upload/Remen/1502760335/Project_pic/20170815/59924d8fe5f77.jpg','好','/Upload/Remen/1502760335/Project_doc/20170815/59924d9008b8d.mp4','1502760336','9','电饭锅') [ RunTime:0.0003s ]
+
+[ 2017-08-15T09:25:36+08:00 ] 127.0.0.1 /index.php/Admin/video/remen.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003322s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0048s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\VideoController.class.php on line 21 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `remen` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\VideoController.class.php on line 25 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `remen` ORDER BY state desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022694s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002879s ]
+
+[ 2017-08-15T09:26:32+08:00 ] 127.0.0.1 /index.php/Admin/dele/dele/type/2/name/1502760336.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003322s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0055s ]
+SQL: SELECT `img`,`video`,`create` FROM `remen` WHERE `create` = '1502760336' LIMIT 1   [ RunTime:0.0004s ]
+SQL: DELETE FROM `remen` WHERE `create` = '1502760336' [ RunTime:0.0004s ]
+
+[ 2017-08-15T09:26:32+08:00 ] 127.0.0.1 /index.php/Admin/video/remen.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002843s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0050s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\VideoController.class.php on line 21 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `remen` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\VideoController.class.php on line 25 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `remen` ORDER BY state desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022293s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022334s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002744s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002775s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002694s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002728s ]
+
+[ 2017-08-15T09:26:34+08:00 ] 127.0.0.1 /index.php/Admin/dele/up/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002783s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002818s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002851s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003363s ]
+
+[ 2017-08-15T09:26:56+08:00 ] 127.0.0.1 /index.php/Admin/Dele/upimg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002822s ]
+NOTIC: [2] mkdir(): File exists C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\DeleController.class.php 第 21 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] finfo_file(C:\Users\zrkl\Desktop\upupw\UPUPW_NP5.6\temp\phpE96.tmp): failed to open stream: No such file or directory C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0051s ]
+SQL: INSERT INTO `remen` (`img`,`name`,`video`,`create`,`state`,`content`) VALUES ('/Upload/Remen/1502760416/Project_pic/20170815/59924de0b75cd.jpg','8','/Upload/Remen/1502760416/Project_doc/20170815/59924de0df67a.mp4','1502760416','7','虚') [ RunTime:0.0003s ]
+
+[ 2017-08-15T09:26:57+08:00 ] 127.0.0.1 /index.php/Admin/video/remen.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002900s ]
+SQL: SHOW COLUMNS FROM `remen` [ RunTime:0.0050s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\VideoController.class.php on line 21 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `remen` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\Users\zrkl\Desktop\jwx\jwx\Admin\Controller\VideoController.class.php on line 25 and defined C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\Users\zrkl\Desktop\jwx\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `remen` ORDER BY state desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+NOTIC: [8] Undefined index: type C:\Users\zrkl\Desktop\jwx\jwx\Runtime\Cache\Admin\0c5ede6f196fe2ceaf9555fd2194c062.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002935s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003005s ]
+

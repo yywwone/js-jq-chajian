@@ -1,0 +1,1947 @@
+[ 2017-11-23T17:55:03+08:00 ] 127.0.0.1 /index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `dingdan` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0068s ]
+
+[ 2017-11-23T17:55:23+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005859s ]
+SQL: SHOW COLUMNS FROM `dingdan` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0068s ]
+
+[ 2017-11-23T17:56:29+08:00 ] 127.0.0.1 /index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `dingdan` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0068s ]
+
+[ 2017-11-23T17:57:34+08:00 ] 127.0.0.1 /index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `dingdan` [ RunTime:0.0098s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0078s ]
+
+[ 2017-11-23T17:57:42+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `dingdan` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0078s ]
+
+[ 2017-11-23T17:58:10+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+
+[ 2017-11-23T17:58:28+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005859s ]
+SQL: SHOW COLUMNS FROM `dingdan` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0068s ]
+
+[ 2017-11-23T17:58:35+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `dingdan` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0068s ]
+
+[ 2017-11-23T18:01:03+08:00 ] 127.0.0.1 /ADMIN
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+ERR: 无法加载控制器:Index
+
+[ 2017-11-23T18:01:08+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005860s ]
+SQL: SHOW COLUMNS FROM `dingdan` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0068s ]
+
+[ 2017-11-23T18:06:28+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006836s ]
+SQL: SHOW COLUMNS FROM `dingdan` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0166s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0068s ]
+
+[ 2017-11-23T18:07:44+08:00 ] 127.0.0.1 /Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004882s ]
+
+[ 2017-11-23T18:07:46+08:00 ] 127.0.0.1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005859s ]
+SQL: SHOW COLUMNS FROM `dingdan` [ RunTime:0.1914s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0117s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0400s ]
+
+[ 2017-11-23T18:08:10+08:00 ] 127.0.0.1 /index.php/Admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004882s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0068s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005859s ]
+
+[ 2017-11-23T18:08:56+08:00 ] 127.0.0.1 /index.php/Admin/index/fuwu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0088s ]
+SQL: SELECT DISTINCT  `f_id` FROM `fuwu`  [ RunTime:0.0234s ]
+SQL: SELECT `name`,`id` FROM `fuwu` WHERE `id` IN ('20','21','22','23','24','25','26','27','28','31','30','32','29','33','34','35','36')  [ RunTime:0.0186s ]
+SQL: SELECT * FROM `fuwu` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: coone C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\cb63d70b41d62f99e911e54d4388e0b7.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.156250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.156250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005859s ]
+
+[ 2017-11-23T18:10:45+08:00 ] 127.0.0.1 /index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004882s ]
+SQL: SHOW COLUMNS FROM `dingdan` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0078s ]
+
+[ 2017-11-23T18:12:08+08:00 ] 127.0.0.1 /index.php/Admin/index/fuwu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0078s ]
+SQL: SELECT DISTINCT  `f_id` FROM `fuwu`  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `fuwu` WHERE `id` IN ('20','21','22','23','24','25','26','27','28','31','30','32','29','33','34','35','36')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fuwu` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: coone C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\cb63d70b41d62f99e911e54d4388e0b7.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005859s ]
+
+[ 2017-11-23T18:12:37+08:00 ] 127.0.0.1 /index.php/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0068s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027344s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004883s ]
+
+[ 2017-11-23T18:14:26+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005859s ]
+SQL: SHOW COLUMNS FROM `dingdan` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0068s ]
+
+[ 2017-11-23T18:14:32+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004882s ]
+SQL: SHOW COLUMNS FROM `dingdan` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0068s ]
+
+[ 2017-11-23T18:14:36+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005859s ]
+SQL: SHOW COLUMNS FROM `dingdan` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0068s ]
+
+[ 2017-11-23T18:17:04+08:00 ] 127.0.0.1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005859s ]
+SQL: SHOW COLUMNS FROM `dingdan` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0078s ]
+
+[ 2017-11-23T18:17:04+08:00 ] 127.0.0.1 /index.php/Admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005859s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0078s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028320s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005859s ]
+
+[ 2017-11-23T18:17:17+08:00 ] 127.0.0.1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004882s ]
+SQL: SHOW COLUMNS FROM `dingdan` [ RunTime:0.0322s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0068s ]
+
+[ 2017-11-23T18:17:43+08:00 ] 127.0.0.1 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005860s ]
+SQL: SHOW COLUMNS FROM `dingdan` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0078s ]
+
+[ 2017-11-23T18:17:43+08:00 ] 127.0.0.1 /index.php/Admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004882s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0068s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027344s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005860s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004882s ]
+
+[ 2017-11-23T18:17:53+08:00 ] 127.0.0.1 /index.php/Admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `users` WHERE `name` = 'admin' AND `pwds` = '21232f297a57a5a743894a0e4a801fc3'  [ RunTime:0.0332s ]
+
+[ 2017-11-23T18:17:53+08:00 ] 127.0.0.1 /index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004882s ]
+SQL: SHOW COLUMNS FROM `dingdan` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0078s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 16 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dingdan` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 17 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_user` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwushang` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT * FROM `dingdan` ORDER BY id desc LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045899s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004883s ]
+
+[ 2017-11-23T18:17:55+08:00 ] 127.0.0.1 /index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005859s ]
+SQL: SHOW COLUMNS FROM `dingdan` [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0068s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 16 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dingdan` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 17 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_user` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwushang` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT * FROM `dingdan` ORDER BY id desc LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004883s ]
+
+[ 2017-11-23T18:17:57+08:00 ] 127.0.0.1 /index.php/Admin/index/accout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006836s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0078s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 41 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT * FROM `users` ORDER BY id desc LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045898s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005859s ]
+
+[ 2017-11-23T18:17:58+08:00 ] 127.0.0.1 /index.php/Admin/index/tables.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005860s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0137s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 269 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_user` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 272 行.
+SQL: SELECT * FROM `wx_user` ORDER BY id desc LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\6f827b76189b7a5fcecd7832ef52cffd.php 第 163 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\6f827b76189b7a5fcecd7832ef52cffd.php 第 163 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\6f827b76189b7a5fcecd7832ef52cffd.php 第 163 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\6f827b76189b7a5fcecd7832ef52cffd.php 第 163 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\6f827b76189b7a5fcecd7832ef52cffd.php 第 163 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\6f827b76189b7a5fcecd7832ef52cffd.php 第 163 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079101s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006836s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005859s ]
+
+[ 2017-11-23T18:18:02+08:00 ] 127.0.0.1 /index.php/Admin/index/uplogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005859s ]
+
+[ 2017-11-23T18:18:02+08:00 ] 127.0.0.1 /index.php/Admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005859s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0068s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004883s ]
+
+[ 2017-11-23T18:19:51+08:00 ] 127.0.0.1 /index.php/Admin/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `users` WHERE `name` = 'admin' AND `pwds` = '21232f297a57a5a743894a0e4a801fc3'  [ RunTime:0.0010s ]
+
+[ 2017-11-23T18:19:52+08:00 ] 127.0.0.1 /index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `dingdan` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0068s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 16 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dingdan` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 17 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_user` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwushang` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT * FROM `dingdan` ORDER BY id desc LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004883s ]
+
+[ 2017-11-23T18:22:50+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `dingdan` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0078s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 16 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dingdan` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 17 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_user` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwushang` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT * FROM `dingdan` ORDER BY id desc LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005859s ]
+
+[ 2017-11-23T18:22:53+08:00 ] 127.0.0.1 /index.php/Admin/index/facilitator.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0078s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 316 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwushang` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 321 行.
+SQL: SELECT * FROM `fuwushang` ORDER BY id asc LIMIT 0,8   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: s C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 342 行.
+NOTIC: [8] Undefined variable: w C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 342 行.
+NOTIC: [2] array_combine() expects parameter 1 to be array, null given C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 342 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\27606d6fdcd443905fb7970b3478e4b7.php 第 167 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\27606d6fdcd443905fb7970b3478e4b7.php 第 168 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\27606d6fdcd443905fb7970b3478e4b7.php 第 167 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\27606d6fdcd443905fb7970b3478e4b7.php 第 168 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\27606d6fdcd443905fb7970b3478e4b7.php 第 167 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\27606d6fdcd443905fb7970b3478e4b7.php 第 168 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\27606d6fdcd443905fb7970b3478e4b7.php 第 167 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\27606d6fdcd443905fb7970b3478e4b7.php 第 168 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\27606d6fdcd443905fb7970b3478e4b7.php 第 167 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\27606d6fdcd443905fb7970b3478e4b7.php 第 168 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\27606d6fdcd443905fb7970b3478e4b7.php 第 167 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\27606d6fdcd443905fb7970b3478e4b7.php 第 168 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\27606d6fdcd443905fb7970b3478e4b7.php 第 167 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\27606d6fdcd443905fb7970b3478e4b7.php 第 168 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\27606d6fdcd443905fb7970b3478e4b7.php 第 167 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\27606d6fdcd443905fb7970b3478e4b7.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053711s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004883s ]
+
+[ 2017-11-23T18:23:08+08:00 ] 127.0.0.1 /index.php/Admin/index/facilitator.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0068s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwushang` WHERE ( `name` LIKE '%汇时%' OR `fuzeren` LIKE '%汇时%' ) LIMIT 1   [ RunTime:0.0313s ]
+SQL: SELECT * FROM `fuwushang` WHERE ( `name` LIKE '%汇时%' OR `fuzeren` LIKE '%汇时%' ) ORDER BY id asc LIMIT 0,8   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: s C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 342 行.
+NOTIC: [8] Undefined variable: w C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 342 行.
+NOTIC: [2] array_combine() expects parameter 1 to be array, null given C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 342 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\27606d6fdcd443905fb7970b3478e4b7.php 第 167 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\27606d6fdcd443905fb7970b3478e4b7.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004882s ]
+
+[ 2017-11-23T18:23:13+08:00 ] 127.0.0.1 /index.php/Admin/index/upfacilitator/id/33.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `fuwushang` WHERE `id` = 33 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044921s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004883s ]
+
+[ 2017-11-23T18:23:35+08:00 ] 127.0.0.1 /index.php/Admin/index/upfacilitator/state/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0078s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT * FROM `fuwushang` WHERE `id` = 33 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `fuwushang` SET `name`='浙江汇时律师事务所',`fuzeren`='姚佳燕',`jianjie`='                                  阿斯蒂芬                ',`tel`='15805780618',`xiangqing`='                                     啥地方             ',`add`='浙江省丽水市体育中心东门',`qy_rongyu`='暂时没有',`biaoshi`='2',`img`='20171123/5a16a1a7839b6.png',`image`='20171123/5a16a1a79357b.png' WHERE `id` = 33 [ RunTime:0.0361s ]
+
+[ 2017-11-23T18:23:36+08:00 ] 127.0.0.1 /index.php/Admin/index/facilitator.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `fuwushang` [ RunTime:0.0088s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 316 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwushang` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 321 行.
+SQL: SELECT * FROM `fuwushang` ORDER BY id asc LIMIT 0,8   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: s C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 342 行.
+NOTIC: [8] Undefined variable: w C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 342 行.
+NOTIC: [2] array_combine() expects parameter 1 to be array, null given C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 342 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\27606d6fdcd443905fb7970b3478e4b7.php 第 167 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\27606d6fdcd443905fb7970b3478e4b7.php 第 168 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\27606d6fdcd443905fb7970b3478e4b7.php 第 167 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\27606d6fdcd443905fb7970b3478e4b7.php 第 168 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\27606d6fdcd443905fb7970b3478e4b7.php 第 167 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\27606d6fdcd443905fb7970b3478e4b7.php 第 168 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\27606d6fdcd443905fb7970b3478e4b7.php 第 167 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\27606d6fdcd443905fb7970b3478e4b7.php 第 168 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\27606d6fdcd443905fb7970b3478e4b7.php 第 167 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\27606d6fdcd443905fb7970b3478e4b7.php 第 168 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\27606d6fdcd443905fb7970b3478e4b7.php 第 167 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\27606d6fdcd443905fb7970b3478e4b7.php 第 168 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\27606d6fdcd443905fb7970b3478e4b7.php 第 167 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\27606d6fdcd443905fb7970b3478e4b7.php 第 168 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\27606d6fdcd443905fb7970b3478e4b7.php 第 167 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\27606d6fdcd443905fb7970b3478e4b7.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039062s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005859s ]
+
+[ 2017-11-23T18:23:51+08:00 ] 127.0.0.1 /index.php/Admin/index/grid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0068s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 108 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwu` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 113 行.
+SQL: SELECT * FROM `fuwu` ORDER BY id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  `f_id` FROM `fuwu`  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `fuwu` WHERE `id` IN ('20','21','22','23','24','25','26','27','28','31','30','32','29','33','34','35','36')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049805s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005859s ]
+
+[ 2017-11-23T18:23:54+08:00 ] 127.0.0.1 /index.php/Admin/index/fuwu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0078s ]
+SQL: SELECT DISTINCT  `f_id` FROM `fuwu`  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `fuwu` WHERE `id` IN ('20','21','22','23','24','25','26','27','28','31','30','32','29','33','34','35','36')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fuwu` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: coone C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\cb63d70b41d62f99e911e54d4388e0b7.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005859s ]
+
+[ 2017-11-23T18:24:13+08:00 ] 127.0.0.1 /index.php/Admin/index/addsfuwu/state/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005859s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `fuwu` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./PUBLIC/admin/uploads/images/): No such file or directory C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: deele C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 190 行.
+NOTIC: [2] unlink(./PUBLIC/admin/uploads/images/): No such file or directory C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 190 行.
+SQL: DELETE FROM `fuwu` WHERE `id` = 0 [ RunTime:0.0332s ]
+
+[ 2017-11-23T18:24:13+08:00 ] 127.0.0.1 /index.php/Admin/index/grid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0078s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 108 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwu` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 113 行.
+SQL: SELECT * FROM `fuwu` ORDER BY id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  `f_id` FROM `fuwu`  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `fuwu` WHERE `id` IN ('20','21','22','23','24','25','26','27','28','31','30','32','29','33','34','35','36')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037109s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005860s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005860s ]
+
+[ 2017-11-23T18:25:14+08:00 ] 127.0.0.1 /index.php/Admin/index/fuwu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004882s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0068s ]
+SQL: SELECT DISTINCT  `f_id` FROM `fuwu`  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `fuwu` WHERE `id` IN ('20','21','22','23','24','25','26','27','28','31','30','32','29','33','34','35','36')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `fuwu` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: coone C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\cb63d70b41d62f99e911e54d4388e0b7.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006836s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006836s ]
+
+[ 2017-11-23T18:26:27+08:00 ] 127.0.0.1 /index.php/Admin/index/addsfuwu/state/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `fuwu` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./PUBLIC/admin/uploads/images/): No such file or directory C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: deele C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 190 行.
+NOTIC: [2] unlink(./PUBLIC/admin/uploads/images/): No such file or directory C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 190 行.
+SQL: DELETE FROM `fuwu` WHERE `id` = 0 [ RunTime:0.0000s ]
+
+[ 2017-11-23T18:26:27+08:00 ] 127.0.0.1 /index.php/Admin/index/grid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005859s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0068s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 108 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwu` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 113 行.
+SQL: SELECT * FROM `fuwu` ORDER BY id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  `f_id` FROM `fuwu`  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `fuwu` WHERE `id` IN ('20','21','22','23','24','25','26','27','28','31','30','32','29','33','34','35','36')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004883s ]
+
+[ 2017-11-23T18:29:21+08:00 ] 127.0.0.1 /index.php/Admin/index/fuwu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0098s ]
+SQL: SELECT DISTINCT  `f_id` FROM `fuwu`  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `fuwu` WHERE `id` IN ('20','21','22','23','24','25','26','27','28','31','30','32','29','33','34','35','36')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fuwu` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: coone C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\cb63d70b41d62f99e911e54d4388e0b7.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005860s ]
+
+[ 2017-11-23T18:29:37+08:00 ] 127.0.0.1 /index.php/Admin/index/addsfuwu/state/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `fuwu` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./PUBLIC/admin/uploads/images/): No such file or directory C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: deele C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 190 行.
+NOTIC: [2] unlink(./PUBLIC/admin/uploads/images/): No such file or directory C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 190 行.
+SQL: DELETE FROM `fuwu` WHERE `id` = 0 [ RunTime:0.0000s ]
+
+[ 2017-11-23T18:29:37+08:00 ] 127.0.0.1 /index.php/Admin/index/grid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005860s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0078s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 108 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwu` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 113 行.
+SQL: SELECT * FROM `fuwu` ORDER BY id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  `f_id` FROM `fuwu`  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `fuwu` WHERE `id` IN ('20','21','22','23','24','25','26','27','28','31','30','32','29','33','34','35','36')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004883s ]
+
+[ 2017-11-23T18:29:49+08:00 ] 127.0.0.1 /index.php/Admin/index/fuwu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0078s ]
+SQL: SELECT DISTINCT  `f_id` FROM `fuwu`  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `fuwu` WHERE `id` IN ('20','21','22','23','24','25','26','27','28','31','30','32','29','33','34','35','36')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `fuwu` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: coone C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\cb63d70b41d62f99e911e54d4388e0b7.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004882s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004882s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004883s ]
+
+[ 2017-11-23T18:29:59+08:00 ] 127.0.0.1 /index.php/Admin/index/addsfuwu/state/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0078s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: img C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 229 行.
+NOTIC: [8] Undefined index: img C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 229 行.
+ERR: 不存在的图像文件
+
+[ 2017-11-23T18:30:50+08:00 ] 127.0.0.1 /index.php/Admin/index/fuwu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005859s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0088s ]
+SQL: SELECT DISTINCT  `f_id` FROM `fuwu`  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `fuwu` WHERE `id` IN ('20','21','22','23','24','25','26','27','28','31','30','32','29','33','34','35','36')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fuwu` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000977s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined variable: coone C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\cb63d70b41d62f99e911e54d4388e0b7.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004883s ]
+
+[ 2017-11-23T18:31:12+08:00 ] 127.0.0.1 /index.php/Admin/index/addsfuwu/state/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0078s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: img C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 229 行.
+NOTIC: [8] Undefined index: img C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 229 行.
+ERR: 不存在的图像文件
+
+[ 2017-11-23T18:31:45+08:00 ] 127.0.0.1 /index.php/Admin/index/fuwu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0078s ]
+SQL: SELECT DISTINCT  `f_id` FROM `fuwu`  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `fuwu` WHERE `id` IN ('20','21','22','23','24','25','26','27','28','31','30','32','29','33','34','35','36')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fuwu` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: coone C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\cb63d70b41d62f99e911e54d4388e0b7.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004882s ]
+
+[ 2017-11-23T18:31:57+08:00 ] 127.0.0.1 /index.php/Admin/index/addsfuwu/state/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+
+[ 2017-11-23T18:32:15+08:00 ] 127.0.0.1 /index.php/Admin/index/addsfuwu/state/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005859s ]
+
+[ 2017-11-23T18:33:20+08:00 ] 127.0.0.1 /index.php/Admin/index/addsfuwu/state/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005859s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `fuwu` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./PUBLIC/admin/uploads/images/): No such file or directory C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: deele C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 190 行.
+NOTIC: [2] unlink(./PUBLIC/admin/uploads/images/): No such file or directory C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 190 行.
+SQL: DELETE FROM `fuwu` WHERE `id` = 0 [ RunTime:0.0010s ]
+
+[ 2017-11-23T18:33:20+08:00 ] 127.0.0.1 /index.php/Admin/index/grid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004882s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0078s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 108 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwu` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 113 行.
+SQL: SELECT * FROM `fuwu` ORDER BY id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  `f_id` FROM `fuwu`  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `fuwu` WHERE `id` IN ('20','21','22','23','24','25','26','27','28','31','30','32','29','33','34','35','36')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005860s ]
+
+[ 2017-11-23T18:34:43+08:00 ] 127.0.0.1 /index.php/Admin/index/grid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005859s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0254s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 108 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwu` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 113 行.
+SQL: SELECT * FROM `fuwu` ORDER BY id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  `f_id` FROM `fuwu`  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `fuwu` WHERE `id` IN ('20','21','22','23','24','25','26','27','28','31','30','32','29','33','34','35','36')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037109s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004883s ]
+
+[ 2017-11-23T18:34:48+08:00 ] 127.0.0.1 /index.php/Admin/index/fuwu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004882s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0078s ]
+SQL: SELECT DISTINCT  `f_id` FROM `fuwu`  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `fuwu` WHERE `id` IN ('20','21','22','23','24','25','26','27','28','31','30','32','29','33','34','35','36')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fuwu` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: coone C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\cb63d70b41d62f99e911e54d4388e0b7.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004883s ]
+
+[ 2017-11-23T18:34:52+08:00 ] 127.0.0.1 /index.php/Admin/index/fuwu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004882s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0068s ]
+SQL: SELECT DISTINCT  `f_id` FROM `fuwu`  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `fuwu` WHERE `id` IN ('20','21','22','23','24','25','26','27','28','31','30','32','29','33','34','35','36')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `fuwu` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: coone C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\cb63d70b41d62f99e911e54d4388e0b7.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004882s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004882s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005859s ]
+
+[ 2017-11-23T18:35:30+08:00 ] 127.0.0.1 /index.php/Admin/index/addsfuwu/state/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005859s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0068s ]
+
+[ 2017-11-23T18:36:01+08:00 ] 127.0.0.1 /index.php/Admin/index/addsfuwu/state/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005860s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0078s ]
+NOTIC: [8] Undefined index: img C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 206 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004883s ]
+
+[ 2017-11-23T18:36:09+08:00 ] 127.0.0.1 /index.php/Admin/index/fuwu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0078s ]
+SQL: SELECT DISTINCT  `f_id` FROM `fuwu`  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `fuwu` WHERE `id` IN ('20','21','22','23','24','25','26','27','28','31','30','32','29','33','34','35','36')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fuwu` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: coone C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\cb63d70b41d62f99e911e54d4388e0b7.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005859s ]
+
+[ 2017-11-23T18:36:23+08:00 ] 127.0.0.1 /index.php/Admin/index/addsfuwu/state/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0078s ]
+NOTIC: [8] Undefined index: img C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 206 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005859s ]
+
+[ 2017-11-23T18:37:18+08:00 ] 127.0.0.1 /index.php/Admin/index/addsfuwu/state/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0068s ]
+NOTIC: [8] Undefined index: img C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 206 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004882s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004882s ]
+
+[ 2017-11-23T18:37:21+08:00 ] 127.0.0.1 /index.php/Admin/index/fuwu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0078s ]
+SQL: SELECT DISTINCT  `f_id` FROM `fuwu`  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `fuwu` WHERE `id` IN ('20','21','22','23','24','25','26','27','28','31','30','32','29','33','34','35','36')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `fuwu` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: coone C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\cb63d70b41d62f99e911e54d4388e0b7.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005860s ]
+
+[ 2017-11-23T18:37:46+08:00 ] 127.0.0.1 /index.php/Admin/index/addsfuwu/state/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005859s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0078s ]
+ERR: 不存在的图像文件
+
+[ 2017-11-23T18:39:56+08:00 ] 127.0.0.1 /index.php/Admin/index/addsfuwu/state/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0098s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: img C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 230 行.
+NOTIC: [8] Undefined index: img C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 230 行.
+ERR: 不存在的图像文件
+
+[ 2017-11-23T18:41:52+08:00 ] 127.0.0.1 /index.php/Admin/index/fuwu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005860s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0078s ]
+SQL: SELECT DISTINCT  `f_id` FROM `fuwu`  [ RunTime:0.0020s ]
+SQL: SELECT `name`,`id` FROM `fuwu` WHERE `id` IN ('20','21','22','23','24','25','26','27','28','31','30','32','29','33','34','35','36')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fuwu` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: coone C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\cb63d70b41d62f99e911e54d4388e0b7.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039063s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004883s ]
+
+[ 2017-11-23T18:42:05+08:00 ] 127.0.0.1 /index.php/Admin/index/addsfuwu/state/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0068s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: img C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 230 行.
+NOTIC: [8] Undefined index: img C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 230 行.
+ERR: 不存在的图像文件
+
+[ 2017-11-23T18:44:10+08:00 ] 127.0.0.1 /index.php/Admin/index/fuwu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005860s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0186s ]
+SQL: SELECT DISTINCT  `f_id` FROM `fuwu`  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `fuwu` WHERE `id` IN ('20','21','22','23','24','25','26','27','28','31','30','32','29','33','34','35','36')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fuwu` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: coone C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\cb63d70b41d62f99e911e54d4388e0b7.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037109s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005859s ]
+
+[ 2017-11-23T18:44:26+08:00 ] 127.0.0.1 /index.php/Admin/index/addsfuwu/state/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005859s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0205s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-11-23T18:45:37+08:00 ] 127.0.0.1 /index.php/Admin/index/addsfuwu/state/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005859s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0107s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: img C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 230 行.
+NOTIC: [8] Undefined index: img C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 230 行.
+
+[ 2017-11-23T18:45:42+08:00 ] 127.0.0.1 /index.php/Admin/index/addsfuwu/state/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0068s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: img C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 230 行.
+NOTIC: [8] Undefined index: img C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 230 行.
+
+[ 2017-11-23T18:45:47+08:00 ] 127.0.0.1 /index.php/Admin/index/addsfuwu/state/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0078s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: img C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 230 行.
+NOTIC: [8] Undefined index: img C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 230 行.
+
+[ 2017-11-23T18:46:13+08:00 ] 127.0.0.1 /index.php/Admin/index/addsfuwu/state/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0264s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: img C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 230 行.
+NOTIC: [8] Undefined index: img C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 230 行.
+
+[ 2017-11-23T18:46:58+08:00 ] 127.0.0.1 /index.php/Admin/index/addsfuwu/state/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005860s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0078s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: img C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 230 行.
+NOTIC: [8] Undefined index: img C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 230 行.
+NOTIC: [8] Undefined index: img C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 231 行.
+
+[ 2017-11-23T18:47:25+08:00 ] 127.0.0.1 /index.php/Admin/index/addsfuwu/state/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005859s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0068s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: img C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 227 行.
+
+[ 2017-11-23T18:47:47+08:00 ] 127.0.0.1 /index.php/Admin/index/addsfuwu/state/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0078s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-11-23T18:48:41+08:00 ] 127.0.0.1 /index.php/Admin/index/fuwu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0078s ]
+SQL: SELECT DISTINCT  `f_id` FROM `fuwu`  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `fuwu` WHERE `id` IN ('20','21','22','23','24','25','26','27','28','31','30','32','29','33','34','35','36')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fuwu` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: coone C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\cb63d70b41d62f99e911e54d4388e0b7.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005859s ]
+
+[ 2017-11-23T18:48:49+08:00 ] 127.0.0.1 /index.php/Admin/index/addsfuwu/state/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0078s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-11-23T18:49:25+08:00 ] 127.0.0.1 /index.php/Admin/index/addsfuwu/state/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005860s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0068s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `fuwu` (`name`,`fw_js`,`fw_lc`,`f_id`,`img`,`image`) VALUES ('阿斯蒂芬','','','0','20171123/5a16a7b5a3140.png','20171123/5a16a7b5a946f.png') [ RunTime:0.0010s ]
+
+[ 2017-11-23T18:49:49+08:00 ] 127.0.0.1 /index.php/Admin/index/grid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005859s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0068s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 108 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwu` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 113 行.
+SQL: SELECT * FROM `fuwu` ORDER BY id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  `f_id` FROM `fuwu`  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `fuwu` WHERE `id` IN ('20','21','22','23','24','25','26','27','28','31','30','32','29','33','34','35','36')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004883s ]
+
+[ 2017-11-23T18:49:58+08:00 ] 127.0.0.1 /index.php/Admin/index/grid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005859s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0166s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 108 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwu` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 113 行.
+SQL: SELECT * FROM `fuwu` ORDER BY id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  `f_id` FROM `fuwu`  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `fuwu` WHERE `id` IN ('20','21','22','23','24','25','26','27','28','31','30','32','29','33','34','35','36')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039062s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004882s ]
+
+[ 2017-11-23T18:50:02+08:00 ] 127.0.0.1 /index.php/Admin/index/fuwu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006836s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0068s ]
+SQL: SELECT DISTINCT  `f_id` FROM `fuwu`  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `fuwu` WHERE `id` IN ('20','21','22','23','24','25','26','27','28','31','30','32','29','33','34','35','36')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fuwu` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: coone C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\cb63d70b41d62f99e911e54d4388e0b7.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005860s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004883s ]
+
+[ 2017-11-23T18:50:27+08:00 ] 127.0.0.1 /index.php/Admin/index/addsfuwu/state/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005859s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0078s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: img C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 230 行.
+NOTIC: [8] Undefined index: img C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 230 行.
+ERR: 不存在的图像文件
+
+[ 2017-11-23T18:52:59+08:00 ] 127.0.0.1 /index.php/Admin/index/fuwu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0078s ]
+SQL: SELECT DISTINCT  `f_id` FROM `fuwu`  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `fuwu` WHERE `id` IN ('20','21','22','23','24','25','26','27','28','31','30','32','29','33','34','35','36')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fuwu` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: coone C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\cb63d70b41d62f99e911e54d4388e0b7.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037109s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005859s ]
+
+[ 2017-11-23T18:53:14+08:00 ] 127.0.0.1 /index.php/Admin/index/addsfuwu/state/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0068s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `fuwu` (`name`,`fw_js`,`fw_lc`,`f_id`,`img`,`image`) VALUES ('阿斯蒂芬','			阿斯蒂芬			                         						                        ','阿斯蒂芬','36','20171123/5a16a89ac380d.png','20171123/5a16a89ac9b3b.png') [ RunTime:0.0020s ]
+
+[ 2017-11-23T18:53:15+08:00 ] 127.0.0.1 /index.php/Admin/index/grid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005859s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0078s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 108 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwu` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 113 行.
+SQL: SELECT * FROM `fuwu` ORDER BY id desc LIMIT 0,8   [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  `f_id` FROM `fuwu`  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `fuwu` WHERE `id` IN ('20','21','22','23','24','25','26','27','28','31','30','32','29','33','34','35','36')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004883s ]
+
+[ 2017-11-23T18:53:34+08:00 ] 127.0.0.1 /index.php/Admin/index/fuwu/id/99.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0068s ]
+SQL: SELECT DISTINCT  `f_id` FROM `fuwu`  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `fuwu` WHERE `id` IN ('20','21','22','23','24','25','26','27','28','31','30','32','29','33','34','35','36')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fuwu` WHERE `id` = 99 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: coone C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\cb63d70b41d62f99e911e54d4388e0b7.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004883s ]
+
+[ 2017-11-23T19:03:51+08:00 ] 127.0.0.1 /index.php/Admin/index/addsfuwu/state/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005859s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0107s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: img C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 230 行.
+NOTIC: [8] Undefined index: img C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 230 行.
+ERR: 不存在的图像文件
+
+[ 2017-11-23T19:03:57+08:00 ] 127.0.0.1 /index.php/Admin/index/fuwu/id/99.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0078s ]
+SQL: SELECT DISTINCT  `f_id` FROM `fuwu`  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `fuwu` WHERE `id` IN ('20','21','22','23','24','25','26','27','28','31','30','32','29','33','34','35','36')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fuwu` WHERE `id` = 99 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: coone C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\cb63d70b41d62f99e911e54d4388e0b7.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005859s ]
+
+[ 2017-11-23T19:04:05+08:00 ] 127.0.0.1 /index.php/Admin/index/addsfuwu/state/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0078s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\Administrator\Desktop\wangxin\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT * FROM `fuwu` WHERE `id` = 99  [ RunTime:0.0010s ]
+SQL: UPDATE `fuwu` SET `name`='阿斯蒂芬',`fw_js`='',`fw_lc`='',`f_id`='0',`img`='20171123/5a16ab25a9fe1.png',`image`='20171123/5a16ab25af3cd.png' WHERE `id` = 99 [ RunTime:0.0020s ]
+
+[ 2017-11-23T19:04:06+08:00 ] 127.0.0.1 /index.php/Admin/index/grid.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+SQL: SHOW COLUMNS FROM `fuwu` [ RunTime:0.0078s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 108 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fuwu` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where C:\Users\Administrator\Desktop\wangxin\wangxin\Admin\Controller\IndexController.class.php 第 113 行.
+SQL: SELECT * FROM `fuwu` ORDER BY id desc LIMIT 0,8   [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  `f_id` FROM `fuwu`  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `fuwu` WHERE `id` IN ('20','21','22','23','24','25','26','27','28','31','30','32','29','33','34','35','36')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 163 行.
+NOTIC: [8] Use of undefined constant image - assumed 'image' C:\Users\Administrator\Desktop\wangxin\wangxin\Runtime\Cache\Admin\4fcf460e37905d33a6bf319b1a196864.php 第 164 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005859s ]
+

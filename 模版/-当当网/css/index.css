@@ -1,0 +1,111 @@
+/* CSS Document */
+body{position: relative;}
+#banner {width: 960px;margin: 0 auto;}
+
+/*主体*/
+#main{width: 960px;margin: 0 auto;overflow: hidden}
+
+/*主体 左侧*/
+#main_left{width: 180px;height: 953px; margin-top: 5px;margin-right: 10px; float: left;}
+/*主体 左侧 上部*/
+#main_left_top{border: 1px solid #999;width: 178px;height: 50px;}
+#main_left_top h3{color: #882d00;background: #fff0d9;height: 25px;padding-left:10px;line-height: 25px;font-size: 14px;}
+#main_left_top ul{margin-left: 10px;}
+#main_left_top ul li{float: left;font-size: 12px;line-height: 25px;margin-right: 4px;}
+#main_left_top ul li a{color: #000;}
+#main_left_top ul li a:hover{color: blue}
+#main_left_top ul li img{margin-top: 7px;}
+/*主体 左侧 底部*/
+#main_left_bottom{height: 889px;border: 1px solid #999;margin-top: 10px;}
+#main_left_bottom h4{color: #882d00;background: #fff0d9;height: 25px;padding-left:10px;line-height: 25px;font-size: 13px;}
+#main_left_bottom h4 img{margin-right: 5px;}
+#main_left_bottom a{color: #000;}
+#main_left_bottom a:hover{color: blue}
+#main_left_bottom_nav{margin-left: 10px;margin-top: 13px;}
+#main_left_bottom_nav div{margin-bottom: 11px;width: 160px;float: left}
+#main_left_bottom_nav p{font-weight: bold;font-size: 12px;}
+#main_left_bottom_nav ul{float: left;width: 160px;}
+#main_left_bottom_nav ul li{float: left;font-size: 12px;margin-top: 11px;}
+#main_left_bottom_nav ul li img{margin-top: 2px;margin-left: 4px;margin-right: 3px;}
+
+/*主体 中间*/
+#main_center{width: 540px;height: 939px; margin-top: 5px;margin-right: 10px;float: left;}
+/*主体 中间 上部 轮播 头部*/
+#main_center_scroll_top{width: 540px;height: 51px;background: url(../images/dd_scroll_top.gif) no-repeat;}
+/*主体 中间 上部 轮播 主体*/
+#main_center_scroll_center{padding-top: 5px;padding-left: 5px; width: 533px;height:180px;background: #f2f2f3;border: 1px solid #d6d5d6;border-top: none;border-bottom: none;position: relative; }
+#main_center_scroll_center_view{width: 500px;height: 180px;position: relative;overflow: hidden;}
+#main_center_scroll_show{width: 500px;height: 1200px;position: absolute;}
+#main_center_scroll_show li{width: 500px;height: 180px;}
+#main_center_scroll_show img{width:500px;height:180px;}
+#main_center_scroll_number{position: absolute;right: 10px;top: 25px;}
+#main_center_scroll_number li{width: 13px;height: 13px;border: 1px solid #999;margin-left: 8px;margin-top: 8px;text-align: center;font-size: 12px;text-align: center;cursor:pointer;}
+#main_center_scroll_center .on{background: #ff9966}
+/*主体 中间 上部 轮播 脚部*/
+#main_center_scroll_foot{width: 540px;height: 8px;background: url(../images/dd_scroll_end.gif)}
+/*主体 中间 选项卡*/
+#main_center_tab{width: 538px;height: 275px;border: 1px solid #999;margin-top: 10px;}
+/*主体 中间 选项卡 头部*/
+#main_center_tab_header{width: 538px;height: 24px;background:url(../images/dd_book_bg.jpg);font-size:  12px;}
+#main_center_tab_header a{color: #000;}
+#main_center_tab_header a:hover{color: blue;}
+#main_center_tab_header h3{color: #882d00;line-height: 24px;margin-left: 10px;float: left;margin-right: 54px;}
+#main_center_tab_header p{float: right;line-height: 24px;margin-right: 5px;}
+#main_center_tab_header ul li{float: left;width: 40px;height: 23px; background: url(../images/dd_book_bg1.jpg);margin-right: 3px;margin-top: 1px;text-align: center;line-height: 23px;cursor: pointer}
+#main_center_tab_header ul .active{background: url(../images/dd_book_bg2.jpg);color: #882d00}
+/*主体 中间 选项卡 主体*/
+.main_center_tab_body{width: 538px;height: 240px;margin-top: 5px;margin-left: 14px;font-size:12px;}
+.shijian{color: red;}
+.main_center_tab_body_box{width: 260px;height: 115px;margin-bottom: 9px;float: left;}
+.main_center_tab_body_box img{float: left;margin-right: 10px;}
+.main_center_tab_body_box ul{width: 180px;height: 115px;float: left;}
+.main_center_tab_body_box ul li{width: 180px;float: left;line-height: 18px;}
+.main_center_tab_body_box a{color: blue;}
+/*主体 中间 结尾 */
+#main_center_foot{width: 538;height: 410px;margin-top: 10px;border: 1px solid #999;}
+#main_center_foot_title{width: 538px;height:25px;background: url(../images/dd_book_bg.jpg)}
+#main_center_foot_title h3{color: #882d00;line-height: 25px;margin-left: 10px;}
+#main_center_foot_body div{width: 126px;height: 183px;margin-left: 8px;margin-top: 5px;font-size:  12px;text-align: center;float:left;}
+#main_center_foot_body div p{width: 126px;height: 32px;}
+#main_center_foot_body div a{color: blue}
+/*主体 右侧*/
+#main_right{width: 220px;height: 953px; margin-top: 5px;float: left;}
+/*主体 右侧 上部*/
+#main_right_top{width: 218px;height: 519px;border: 1px solid #999;}
+#main_right_top_header{background: #fff0d9;height: 25px;width: 218px;}
+#main_right_top_header img{float: left;margin-left: 10px;}
+#main_right_top_header h3{float: left;color: #882d00;line-height: 25px;margin-left: 4px;}
+/*主体 右侧 上部 文字轮播*/
+#dome{position: relative;height: 250px;width: 250px;padding: 5px;overflow:hidden;font-size: 12px;}
+#dome a{color: #000;}
+#dome a:hover{color: blue;}
+#dome ul li{width: 188px;height: 25px;border-top: 1px dashed #999;border-bottom:1px dashed #999;line-height: 25px; }
+.main_right_top_img{float: left;margin-top: 10px;}
+/*主体 右侧 下部*/
+#main_right_bottom{width: 218px;height: 420px;border: 1px solid #999;margin-top: 10px;}
+/*主体 右侧 下部 头部*/
+#main_right_bottom_header{width: 218px;height: 25px;background: #518700}
+#main_right_bottom_header h3{float: left;margin-left: 10px;margin-right: 5px; line-height: 25px;color: #fff;}
+/*主体 右侧 下部 主体*/
+#main_right_bottom_body{width: 210px;height: 390px;background: #f2f4df;margin: 3px;}
+/*主体 右侧 下部 主体 上部*/
+#main_right_bottom_body_top ul{float: right}
+#main_right_bottom_body_top li{float: left;width: 35px;height: 18px;background: url(../images/dd_seven_bg1.jpg);font-size: 12px;text-align: center;line-height: 18px;}
+/*主体 右侧 下部 主体 中间*/
+#main_right_bottom_body_middle{width: 208px;height: 371px;border: 1px solid #bdc1c4;float: left}
+#main_right_bottom_body_middle div{width: 208px;height: 86px;font-size: 12px;margin-top: 3px;float: left}
+#main_right_bottom_body_middle div img{float: left;margin-left: 10px;}
+#main_right_bottom_body_middle div ul{float: left}
+#main_right_bottom_body_middle div ul li{line-height: 20px;}
+#main_right_bottom_body_middle div ul li a{color: blue;}
+#main_right_bottom_body_middle p{line-height: 20px;font-size: 12px;}
+#main_right_bottom_body_middle p img{margin-left: 5px;margin-right: 11px;}
+#main_right_bottom_body_middle p a{color: blue;}
+/*尾部*/ 
+#foot{width: 960px;height: 47px; margin: 0 auto;font-size: 12px;}
+#foot ul{width: 377px;margin: 0 auto;}
+#foot ul li{float: left;line-height: 47px;}
+#foot ul li img{margin-left: 12px;margin-right: 11px;}
+#foot ul li a{color: #9b2b0f}
+#foot p{width: 600px;height: 48px;margin: 0 auto;clear: both;line-height: 48px;}
+#foot p img{vertical-align: middle}
